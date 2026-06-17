@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>Post 05 — CTA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1080px; overflow: hidden; background: #04060f; font-family: 'Inter', sans-serif; color: white; }
+
+  .canvas {
+    width: 1080px; height: 1080px; position: relative; overflow: hidden;
+    background: #04060f;
+  }
+
+  /* Bold radial hero glow */
+  .hero-glow {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 90% 70% at 50% 40%,
+      rgba(37,99,235,0.25) 0%,
+      rgba(124,58,237,0.18) 40%,
+      transparent 70%
+    );
+  }
+
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px);
+    background-size: 72px 72px;
+  }
+
+  .orb { position: absolute; border-radius: 50%; filter: blur(100px); }
+
+  /* Corner decorations */
+  .corner-tl { position:absolute; top:60px; left:60px; width:80px; height:80px; border-top:2px solid rgba(212,160,23,0.35); border-left:2px solid rgba(212,160,23,0.35); }
+  .corner-br { position:absolute; bottom:60px; right:60px; width:80px; height:80px; border-bottom:2px solid rgba(212,160,23,0.35); border-right:2px solid rgba(212,160,23,0.35); }
+  .corner-tr { position:absolute; top:60px; right:60px; width:50px; height:50px; border-top:1px solid rgba(99,102,241,0.2); border-right:1px solid rgba(99,102,241,0.2); }
+  .corner-bl { position:absolute; bottom:60px; left:60px; width:50px; height:50px; border-bottom:1px solid rgba(99,102,241,0.2); border-left:1px solid rgba(99,102,241,0.2); }
+
+  /* Sparkle stars scattered */
+  .star {
+    position: absolute;
+    color: rgba(212,160,23,0.5);
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 80px;
+  }
+
+  /* Live badge */
+  .badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 12px 28px; border-radius: 999px;
+    background: rgba(59,130,246,0.1);
+    border: 1px solid rgba(59,130,246,0.25);
+    font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    color: #93c5fd; margin-bottom: 52px;
+  }
+  .pulse-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 12px #22d3ee, 0 0 28px rgba(34,211,238,0.6);
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px; font-weight: 700; line-height: 1.0;
+    letter-spacing: -0.02em; margin-bottom: 32px;
+  }
+  h1 .line1 { display:block; color:white; }
+  h1 .line2 {
+    display:block; font-style:italic;
+    background: linear-gradient(135deg, #c8850a 0%, #e9a820 40%, #f0c040 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+
+  .sub {
+    font-size: 20px; color: rgba(255,255,255,0.5); line-height: 1.7;
+    max-width: 600px; margin-bottom: 56px;
+    font-weight: 400;
+  }
+
+  /* CTA button */
+  .cta-btn {
+    display: inline-flex; align-items: center; gap: 14px;
+    padding: 22px 52px; border-radius: 14px;
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    font-size: 18px; font-weight: 700; color: white;
+    letter-spacing: 0.01em;
+    box-shadow: 0 0 60px rgba(59,130,246,0.4), 0 20px 60px rgba(0,0,0,0.4);
+    margin-bottom: 28px;
+  }
+  .cta-arrow {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
+
+  .sub-note {
+    font-size: 13px; color: rgba(255,255,255,0.3);
+    display: flex; align-items: center; gap: 8px; margin-bottom: 64px;
+  }
+  .check { color: #34d399; }
+
+  /* Divider */
+  .divider {
+    width: 60px; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.5), transparent);
+    margin: 0 auto 24px;
+  }
+
+  .logo-mark {
+    font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 600;
+    background: linear-gradient(135deg, #c8850a, #e9a820, #d4a017);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    letter-spacing: -0.01em;
+  }
+  .logo-tag {
+    font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: rgba(255,255,255,0.25); font-weight: 500; margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="hero-glow"></div>
+  <div class="grid-bg"></div>
+
+  <div class="orb" style="width:500px;height:500px;top:-200px;left:-100px;background:radial-gradient(circle,rgba(37,99,235,0.3) 0%,transparent 70%);"></div>
+  <div class="orb" style="width:500px;height:500px;bottom:-200px;right:-100px;background:radial-gradient(circle,rgba(124,58,237,0.3) 0%,transparent 70%);"></div>
+  <div class="orb" style="width:300px;height:300px;top:200px;right:50px;background:radial-gradient(circle,rgba(212,160,23,0.12) 0%,transparent 70%);"></div>
+
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <div class="corner-tr"></div>
+  <div class="corner-bl"></div>
+
+  <!-- Scattered sparkle stars -->
+  <div class="star" style="top:130px;right:200px;">✦</div>
+  <div class="star" style="top:300px;left:120px;font-size:12px;opacity:0.4;">✦</div>
+  <div class="star" style="bottom:200px;right:130px;font-size:14px;opacity:0.35;">✦</div>
+  <div class="star" style="bottom:150px;left:250px;font-size:10px;opacity:0.3;">✦</div>
+
+  <div class="content">
+    <div class="badge">
+      <div class="pulse-dot"></div>
+      Free — No Commitment Required
+    </div>
+
+    <h1>
+      <span class="line1">Ready to Grow</span>
+      <span class="line2">Your Business?</span>
+    </h1>
+
+    <p class="sub">
+      Book a free strategy call. We'll identify what's stopping your business from getting more clients — and build a plan to fix it.
+    </p>
+
+    <div class="cta-btn">
+      Book Your Free Strategy Call
+      <div class="cta-arrow">→</div>
+    </div>
+
+    <div class="sub-note">
+      <span class="check">✓</span> No contracts &nbsp;·&nbsp;
+      <span class="check">✓</span> No credit card &nbsp;·&nbsp;
+      <span class="check">✓</span> Just clarity
+    </div>
+
+    <div class="divider"></div>
+    <div class="logo-mark">valbrix</div>
+    <div class="logo-tag">digital</div>
+  </div>
+</div>
+</body>
+</html>

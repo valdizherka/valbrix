@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>Post 02 — Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1080px; overflow: hidden; background: #04060f; font-family: 'Inter', sans-serif; color: white; }
+
+  .canvas {
+    width: 1080px; height: 1080px; position: relative; overflow: hidden;
+    background: linear-gradient(160deg, #07091e 0%, #04060f 60%, #09070f 100%);
+  }
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(99,102,241,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .orb { position: absolute; border-radius: 50%; filter: blur(90px); }
+
+  .content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    padding: 72px 80px;
+  }
+
+  /* Top row */
+  .top-row {
+    display: flex; align-items: flex-start; justify-content: space-between;
+    margin-bottom: 52px;
+  }
+  .section-tag {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.2em;
+    text-transform: uppercase; color: #60a5fa;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-tag::before { content: ''; width: 24px; height: 1px; background: #60a5fa; }
+  .logo-mark {
+    font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 600;
+    background: linear-gradient(135deg, #c8850a, #e9a820);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif; font-size: 72px; font-weight: 700;
+    line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 48px;
+  }
+  h1 em { font-style: italic; color: rgba(255,255,255,0.45); }
+
+  /* Services grid */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; flex: 1; }
+
+  .card {
+    display: flex; align-items: flex-start; gap: 16px;
+    padding: 24px 26px; border-radius: 16px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    transition: none;
+  }
+
+  .icon-box {
+    width: 44px; height: 44px; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; flex-shrink: 0;
+  }
+
+  .card-text h3 {
+    font-size: 15px; font-weight: 700; margin-bottom: 4px;
+    color: rgba(255,255,255,0.9);
+  }
+  .card-text p { font-size: 12px; color: rgba(255,255,255,0.4); line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="grid-bg"></div>
+  <div class="orb" style="width:500px;height:500px;top:-150px;right:-100px;background:radial-gradient(circle,rgba(124,58,237,0.3) 0%,transparent 70%);"></div>
+  <div class="orb" style="width:400px;height:400px;bottom:-100px;left:-50px;background:radial-gradient(circle,rgba(37,99,235,0.3) 0%,transparent 70%);"></div>
+  <div class="orb" style="width:300px;height:300px;bottom:100px;right:100px;background:radial-gradient(circle,rgba(212,160,23,0.15) 0%,transparent 70%);"></div>
+
+  <div class="content">
+    <div class="top-row">
+      <div class="section-tag">Our Services</div>
+      <div class="logo-mark">valbrix digital</div>
+    </div>
+
+    <h1>Everything You Need<br/><em>to Grow Online</em></h1>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon-box" style="background:rgba(244,63,94,0.15);">📱</div>
+        <div class="card-text">
+          <h3>Social Media Management</h3>
+          <p>Consistent content, community growth, and platform strategy.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon-box" style="background:rgba(59,130,246,0.15);">📊</div>
+        <div class="card-text">
+          <h3>Paid Ads — Meta & Google</h3>
+          <p>Data-driven campaigns built to maximize your ROI.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon-box" style="background:rgba(168,85,247,0.15);">🎨</div>
+        <div class="card-text">
+          <h3>Brand Strategy</h3>
+          <p>Define your identity, voice, and market positioning.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon-box" style="background:rgba(251,191,36,0.15);">✍️</div>
+        <div class="card-text">
+          <h3>Content Creation</h3>
+          <p>Video, copy, and graphics that stop the scroll.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon-box" style="background:rgba(52,211,153,0.15);">🎯</div>
+        <div class="card-text">
+          <h3>Lead Generation</h3>
+          <p>Funnels and campaigns that bring qualified prospects.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon-box" style="background:rgba(34,211,238,0.15);">🔍</div>
+        <div class="card-text">
+          <h3>SEO Optimization</h3>
+          <p>Rank higher and get found by the right audience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

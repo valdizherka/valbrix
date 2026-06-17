@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>Valbrix Digital — Profile Picture</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* The circle — this is what Instagram shows */
+  .circle {
+    width: 1080px;
+    height: 1080px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #04060f;
+  }
+
+  /* Rich layered background */
+  .bg-layer {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 80% at 50% 30%, rgba(37,99,235,0.3) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 60% at 80% 80%, rgba(124,58,237,0.25) 0%, transparent 55%),
+      radial-gradient(ellipse 50% 50% at 20% 70%, rgba(212,160,23,0.15) 0%, transparent 50%),
+      linear-gradient(160deg, #06091a 0%, #04060f 50%, #080614 100%);
+  }
+
+  /* Subtle grid */
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(99,102,241,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99,102,241,0.06) 1px, transparent 1px);
+    background-size: 72px 72px;
+    border-radius: 50%;
+  }
+
+  /* Glowing orbs */
+  .orb {
+    position: absolute; border-radius: 50%; filter: blur(80px);
+  }
+
+  /* Outer ring glow */
+  .ring-glow {
+    position: absolute; inset: 0; border-radius: 50%;
+    box-shadow: inset 0 0 120px rgba(212,160,23,0.08);
+  }
+
+  /* Content layer */
+  .content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 0;
+  }
+
+  /* Top sparkle */
+  .sparkle-top {
+    margin-bottom: 20px;
+  }
+  .sparkle-top svg {
+    filter: drop-shadow(0 0 16px rgba(212,160,23,0.7)) drop-shadow(0 0 40px rgba(212,160,23,0.3));
+  }
+
+  /* The big V */
+  .letter-v {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 420px;
+    font-weight: 700;
+    line-height: 0.85;
+    letter-spacing: -0.05em;
+    background: linear-gradient(160deg,
+      #c8850a 0%,
+      #e9a820 25%,
+      #f5d060 50%,
+      #e9a820 75%,
+      #c8850a 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 60px rgba(212,160,23,0.25));
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  /* Thin separator line */
+  .separator {
+    display: flex; align-items: center; gap: 18px;
+    margin-bottom: 22px;
+    width: 380px;
+  }
+  .sep-line {
+    flex: 1; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.45), transparent);
+  }
+  .sep-star {
+    color: rgba(212,160,23,0.7);
+    font-size: 14px;
+    filter: drop-shadow(0 0 6px rgba(212,160,23,0.6));
+  }
+
+  /* Brand name */
+  .brand-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 68px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+    background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.7) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+  }
+
+  /* Tagline */
+  .tagline {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.28);
+  }
+
+  /* Bottom dots */
+  .dots {
+    display: flex; gap: 6px; margin-top: 36px;
+  }
+  .dot {
+    width: 5px; height: 5px; border-radius: 50%;
+  }
+</style>
+</head>
+<body>
+  <div class="circle">
+    <div class="bg-layer"></div>
+    <div class="grid-bg"></div>
+
+    <!-- Orbs -->
+    <div class="orb" style="width:600px;height:600px;top:-150px;left:-100px;background:radial-gradient(circle,rgba(37,99,235,0.3) 0%,transparent 70%);"></div>
+    <div class="orb" style="width:500px;height:500px;bottom:-100px;right:-100px;background:radial-gradient(circle,rgba(124,58,237,0.25) 0%,transparent 70%);"></div>
+    <div class="orb" style="width:350px;height:350px;bottom:80px;left:80px;background:radial-gradient(circle,rgba(212,160,23,0.12) 0%,transparent 70%);"></div>
+
+    <div class="ring-glow"></div>
+
+    <div class="content">
+      <!-- Top sparkle star -->
+      <div class="sparkle-top">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 2 L26.5 20.5 L45 24 L26.5 27.5 L24 46 L21.5 27.5 L3 24 L21.5 20.5 Z"
+            fill="url(#sg)" />
+          <defs>
+            <linearGradient id="sg" x1="3" y1="2" x2="45" y2="46" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#60a5fa" />
+              <stop offset="50%" stop-color="#f5d060" />
+              <stop offset="100%" stop-color="#d4a017" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Big V -->
+      <div class="letter-v">V</div>
+
+      <!-- Separator -->
+      <div class="separator">
+        <div class="sep-line"></div>
+        <div class="sep-star">✦</div>
+        <div class="sep-line"></div>
+      </div>
+
+      <!-- Brand name -->
+      <div class="brand-name">valbrix</div>
+
+      <!-- Tagline -->
+      <div class="tagline">Digital</div>
+
+      <!-- Bottom accent dots -->
+      <div class="dots">
+        <div class="dot" style="background:#3b82f6;box-shadow:0 0 6px #3b82f6;"></div>
+        <div class="dot" style="background:rgba(212,160,23,0.7);box-shadow:0 0 6px rgba(212,160,23,0.7);"></div>
+        <div class="dot" style="background:#7c3aed;box-shadow:0 0 6px #7c3aed;"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>Post 03 — Stats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1080px; overflow: hidden; background: #04060f; font-family: 'Inter', sans-serif; color: white; }
+
+  .canvas {
+    width: 1080px; height: 1080px; position: relative; overflow: hidden;
+    background: #04060f;
+  }
+
+  /* Big diagonal split bg */
+  .bg-split {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(160deg,
+      rgba(37,99,235,0.12) 0%,
+      transparent 40%,
+      rgba(124,58,237,0.1) 70%,
+      transparent 100%
+    );
+  }
+
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+
+  .orb { position: absolute; border-radius: 50%; filter: blur(110px); }
+
+  /* Horizontal accent line */
+  .accent-line {
+    position: absolute;
+    top: 50%; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(99,102,241,0.2) 20%, rgba(99,102,241,0.2) 80%, transparent 100%);
+  }
+
+  .content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 80px;
+    text-align: center;
+  }
+
+  .eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #60a5fa; margin-bottom: 30px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .eyebrow::before, .eyebrow::after { content: ''; width: 30px; height: 1px; background: #60a5fa; }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 68px; font-weight: 700; line-height: 1.1;
+    letter-spacing: -0.02em; margin-bottom: 72px;
+  }
+  h1 span {
+    background: linear-gradient(135deg, #c8850a 0%, #e9a820 50%, #d4a017 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+
+  /* Stats grid — 2x2 */
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 100%; margin-bottom: 60px; }
+
+  .stat-card {
+    padding: 40px 36px; border-radius: 20px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .stat-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  }
+  .stat-card:nth-child(1)::before { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
+  .stat-card:nth-child(2)::before { background: linear-gradient(90deg, #a855f7, #ec4899); }
+  .stat-card:nth-child(3)::before { background: linear-gradient(90deg, #10b981, #14b8a6); }
+  .stat-card:nth-child(4)::before { background: linear-gradient(90deg, #f59e0b, #d97706); }
+
+  .stat-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 74px; font-weight: 900; line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+  }
+  .stat-card:nth-child(1) .stat-number { background: linear-gradient(135deg,#60a5fa,#22d3ee); -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+  .stat-card:nth-child(2) .stat-number { background: linear-gradient(135deg,#a855f7,#f472b6); -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+  .stat-card:nth-child(3) .stat-number { background: linear-gradient(135deg,#34d399,#14b8a6); -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+  .stat-card:nth-child(4) .stat-number { background: linear-gradient(135deg,#fbbf24,#d97706); -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+
+  .stat-label { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.6); margin-bottom: 6px; }
+  .stat-desc  { font-size: 11px; color: rgba(255,255,255,0.3); line-height: 1.5; }
+
+  /* Logo */
+  .logo-row { display:flex;align-items:center;gap:12px; }
+  .logo-name { font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;background:linear-gradient(135deg,#c8850a,#e9a820);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+  .logo-dot  { width:4px;height:4px;border-radius:50%;background:#60a5fa; }
+  .logo-tag  { font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.3);font-weight:500; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="bg-split"></div>
+  <div class="grid-bg"></div>
+  <div class="orb" style="width:500px;height:500px;top:-150px;left:-100px;background:radial-gradient(circle,rgba(37,99,235,0.35) 0%,transparent 70%);"></div>
+  <div class="orb" style="width:450px;height:450px;bottom:-100px;right:-80px;background:radial-gradient(circle,rgba(124,58,237,0.3) 0%,transparent 70%);"></div>
+
+  <div class="content">
+    <div class="eyebrow">The Numbers</div>
+
+    <h1>Real Results.<br/><span>Not Just Promises.</span></h1>
+
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-number">+250%</div>
+        <div class="stat-label">Average Campaign Reach</div>
+        <div class="stat-desc">Across all client campaigns vs. before</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3x</div>
+        <div class="stat-label">More Qualified Leads</div>
+        <div class="stat-desc">Average increase within 90 days</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">-40%</div>
+        <div class="stat-label">Ad Waste Reduced</div>
+        <div class="stat-desc">Through precise targeting & optimization</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">90</div>
+        <div class="stat-label">Day Growth Roadmap</div>
+        <div class="stat-desc">Every client gets a clear action plan</div>
+      </div>
+    </div>
+
+    <div class="logo-row">
+      <div class="logo-name">valbrix</div>
+      <div class="logo-dot"></div>
+      <div class="logo-tag">digital</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

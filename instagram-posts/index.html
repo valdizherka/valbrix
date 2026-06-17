@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Valbrix Instagram Posts</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #08090f; font-family: 'Inter', sans-serif; color: white; padding: 60px 40px; }
+  h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+  .sub { color: rgba(255,255,255,0.4); font-size: 14px; margin-bottom: 48px; line-height: 1.6; }
+  .sub strong { color: #60a5fa; }
+
+  .instructions {
+    display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px;
+  }
+  .step {
+    padding: 12px 20px; border-radius: 10px;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+    font-size: 13px; color: rgba(255,255,255,0.6); display:flex;align-items:center;gap:8px;
+  }
+  .step-num { color:#60a5fa;font-weight:700; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 32px; }
+
+  .post-wrap { display:flex;flex-direction:column;gap:14px; }
+
+  .post-label {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .post-title { font-size: 15px; font-weight: 600; }
+  .post-num { font-size: 11px; color: rgba(255,255,255,0.3); font-family: monospace; }
+
+  .preview-frame {
+    width: 100%; aspect-ratio: 1;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.07);
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .preview-frame:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .preview-frame iframe {
+    width: 1080px; height: 1080px;
+    transform-origin: top left;
+    border: none; display: block;
+    pointer-events: none;
+  }
+
+  .open-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 12px 24px; border-radius: 10px; font-size: 13px; font-weight: 600;
+    background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.25);
+    color: #93c5fd; text-decoration: none; cursor: pointer;
+    transition: all 0.2s;
+  }
+  .open-btn:hover { background:rgba(59,130,246,0.2); }
+</style>
+<script>
+  function setScale() {
+    const frames = document.querySelectorAll('.preview-frame');
+    frames.forEach(frame => {
+      const w = frame.offsetWidth;
+      const scale = w / 1080;
+      frame.querySelector('iframe').style.transform = `scale(${scale})`;
+      frame.style.height = w + 'px';
+    });
+  }
+  window.addEventListener('load', setScale);
+  window.addEventListener('resize', setScale);
+</script>
+</head>
+<body>
+  <h1>Valbrix Digital — Instagram Posts</h1>
+  <p class="sub">
+    5 branded post templates ready to screenshot. <br/>
+    <strong>To export:</strong> Open each post → right-click the page → Inspect → set device size to 1080×1080 → screenshot. Or just open the file and use a browser screenshot extension at 100%.
+  </p>
+
+  <div class="instructions">
+    <div class="step"><span class="step-num">1</span> Click "Open Full Size" on any post</div>
+    <div class="step"><span class="step-num">2</span> In Chrome: ⌘+Shift+P → "Capture screenshot"</div>
+    <div class="step"><span class="step-num">3</span> Or use the Awesome Screenshot extension</div>
+    <div class="step"><span class="step-num">4</span> Save as PNG and post to Instagram</div>
+  </div>
+
+  <div class="grid">
+
+    <div class="post-wrap">
+      <div class="post-label">
+        <div class="post-title">Brand Introduction</div>
+        <div class="post-num">POST 01</div>
+      </div>
+      <div class="preview-frame">
+        <iframe src="01-brand-intro.html" scrolling="no"></iframe>
+      </div>
+      <a class="open-btn" href="01-brand-intro.html" target="_blank">Open Full Size ↗</a>
+    </div>
+
+    <div class="post-wrap">
+      <div class="post-label">
+        <div class="post-title">Our Services</div>
+        <div class="post-num">POST 02</div>
+      </div>
+      <div class="preview-frame">
+        <iframe src="02-services.html" scrolling="no"></iframe>
+      </div>
+      <a class="open-btn" href="02-services.html" target="_blank">Open Full Size ↗</a>
+    </div>
+
+    <div class="post-wrap">
+      <div class="post-label">
+        <div class="post-title">Stats & Results</div>
+        <div class="post-num">POST 03</div>
+      </div>
+      <div class="preview-frame">
+        <iframe src="03-stats.html" scrolling="no"></iframe>
+      </div>
+      <a class="open-btn" href="03-stats.html" target="_blank">Open Full Size ↗</a>
+    </div>
+
+    <div class="post-wrap">
+      <div class="post-label">
+        <div class="post-title">Why Choose Us</div>
+        <div class="post-num">POST 04</div>
+      </div>
+      <div class="preview-frame">
+        <iframe src="04-why-us.html" scrolling="no"></iframe>
+      </div>
+      <a class="open-btn" href="04-why-us.html" target="_blank">Open Full Size ↗</a>
+    </div>
+
+    <div class="post-wrap">
+      <div class="post-label">
+        <div class="post-title">Call to Action</div>
+        <div class="post-num">POST 05</div>
+      </div>
+      <div class="preview-frame">
+        <iframe src="05-cta.html" scrolling="no"></iframe>
+      </div>
+      <a class="open-btn" href="05-cta.html" target="_blank">Open Full Size ↗</a>
+    </div>
+
+  </div>
+</body>
+</html>
