@@ -60,18 +60,15 @@ export default function Process() {
 
   return (
     <section id="process" className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#060914]" />
-      <div className="absolute inset-0 bg-grid opacity-40" />
-      <div className="glow-orb glow-orb-purple w-[500px] h-[500px] bottom-0 right-0 opacity-20" />
-      <div className="glow-orb glow-orb-cyan w-[400px] h-[400px] top-0 left-0 opacity-15" />
+      <div className="absolute inset-0 bg-white" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-20">
           <div className="section-label mb-6">{p.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {p.heading} <span className="gradient-text">{p.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{p.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{p.subheading}</p>
         </div>
 
         <div className="relative">
@@ -91,7 +88,7 @@ export default function Process() {
                   <div className={`${isLeft ? 'lg:col-start-1' : 'lg:col-start-2'} order-1`}>
                     <div
                       className="group rounded-2xl p-7 transition-all duration-500 hover:-translate-y-1 relative overflow-hidden"
-                      style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)' }}
+                      style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
                     >
                       <div
                         className={`absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r ${meta.gradient}`}
@@ -111,12 +108,12 @@ export default function Process() {
                             <span className={`text-xs font-bold font-mono bg-gradient-to-r ${meta.gradient} bg-clip-text text-transparent`}>
                               {p.stepLabel} {meta.number}
                             </span>
-                            <span className="text-white/20 text-xs">·</span>
-                            <span className="text-white/30 text-xs">{meta.duration}</span>
+                            <span className="text-gray-300 text-xs">·</span>
+                            <span className="text-gray-400 text-xs">{meta.duration}</span>
                           </div>
-                          <h3 className="font-display font-black text-xl text-white mb-0.5 leading-tight">{step.title}</h3>
-                          <p className="text-white/40 text-xs mb-3">{step.subtitle}</p>
-                          <p className="text-white/55 text-sm leading-relaxed">{step.description}</p>
+                          <h3 className="font-display font-black text-xl text-gray-900 mb-0.5 leading-tight">{step.title}</h3>
+                          <p className="text-gray-400 text-xs mb-3">{step.subtitle}</p>
+                          <p className="text-gray-500 text-sm leading-relaxed">{step.description}</p>
 
                           <div
                             className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium"

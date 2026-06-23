@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="section-divider" />
       <div
         className="relative py-6"
-        style={{ background: '#04060f', borderTop: '1px solid rgba(255,255,255,0.05)' }}
+        style={{ background: '#ffffff', borderTop: '1px solid #e2e8f0' }}
       >
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <Logo size="sm" />
-          <p className="text-white/25 text-xs">
+          <p className="text-gray-400 text-xs">
             © {new Date().getFullYear()} Valbrix Digital. All rights reserved.
           </p>
         </div>

@@ -24,17 +24,16 @@ export default function Testimonials() {
 
   return (
     <section className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#060914]" />
+      <div className="absolute inset-0 bg-white" />
       <div className="absolute inset-0 bg-dots opacity-20" />
-      <div className="glow-orb glow-orb-blue w-[500px] h-[500px] top-0 left-1/2 -translate-x-1/2 opacity-15" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{tm.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {tm.heading} <span className="gradient-text">{tm.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{tm.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{tm.subheading}</p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-6">
@@ -44,7 +43,7 @@ export default function Testimonials() {
               <div
                 key={i}
                 className="group relative rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 cursor-default"
-                style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
               >
                 <div className="absolute top-5 right-5 opacity-[0.07]">
                   <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
@@ -57,13 +56,13 @@ export default function Testimonials() {
                 </div>
 
                 <div
-                  className="px-3 py-2.5 rounded-lg mb-4 text-sm font-semibold text-white/80 italic"
-                  style={{ background: 'rgba(255,255,255,0.05)', borderLeft: '2px solid rgba(99,102,241,0.5)' }}
+                  className="px-3 py-2.5 rounded-lg mb-4 text-sm font-semibold text-gray-700 italic"
+                  style={{ background: '#eff6ff', borderLeft: '2px solid #3b82f6' }}
                 >
                   "{item.highlight}"
                 </div>
 
-                <p className="text-white/50 text-sm leading-relaxed mb-6">"{item.text}"</p>
+                <p className="text-gray-500 text-sm leading-relaxed mb-6">"{item.text}"</p>
 
                 <div className="h-px bg-white/[0.06] mb-5" />
 
@@ -75,16 +74,16 @@ export default function Testimonials() {
                       {meta.avatar}
                     </div>
                     <div>
-                      <p className="text-white font-semibold text-sm">{meta.name}</p>
-                      <p className="text-white/40 text-xs">{meta.role} · {meta.company}</p>
+                      <p className="text-gray-900 font-semibold text-sm">{meta.name}</p>
+                      <p className="text-gray-400 text-xs">{meta.role} · {meta.company}</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-3">
                   <span
-                    className="text-[10px] font-medium text-white/30 px-2 py-1 rounded"
-                    style={{ background: 'rgba(255,255,255,0.04)' }}
+                    className="text-[10px] font-medium text-gray-400 px-2 py-1 rounded"
+                    style={{ background: '#f1f5f9' }}
                   >
                     {meta.service}
                   </span>
@@ -97,8 +96,8 @@ export default function Testimonials() {
         <div className="mt-14 flex flex-wrap items-center justify-center gap-8">
           {tm.socialProof.map((item) => (
             <div key={item.label} className="text-center">
-              <p className="font-display font-black text-2xl text-white mb-0.5">{item.value}</p>
-              <p className="text-white/35 text-xs">{item.label}</p>
+              <p className="font-display font-black text-2xl text-gray-900 mb-0.5">{item.value}</p>
+              <p className="text-gray-400 text-xs">{item.label}</p>
             </div>
           ))}
         </div>

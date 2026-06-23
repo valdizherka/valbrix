@@ -9,14 +9,14 @@ export default {
     cta: 'Book a Free Strategy Call',
   },
   hero: {
-    badge: 'Digital Marketing That Delivers Real Results',
+    badge: 'More Clients. Guaranteed.',
     headline1: 'More Growth.',
     headline2: 'More Sales.',
     headline3: 'More Clients.',
     subheadline:
-      'We help businesses get more clients online — through targeted ads, strategic content, and marketing that actually converts.',
-    ctaPrimary: 'Book a Free Strategy Call',
-    ctaSecondary: 'View Our Services',
+      'We run your marketing. You get more clients. Simple.',
+    ctaPrimary: 'Book a Free Call',
+    ctaSecondary: 'See What We Do',
     trustBadges: ['Performance-driven', 'Local & accessible', 'Strategy-first', 'No generic marketing'],
     scroll: 'Scroll',
     dashboard: {
@@ -35,8 +35,8 @@ export default {
   },
   problem: {
     sectionLabel: 'The Problem',
-    heading: 'Marketing Should Grow Your Business,',
-    headingGradient: 'Not Drain Your Time',
+    heading: 'Marketing Should Grow Your Business.',
+    headingGradient: 'Not Drain Your Time.',
     subheading:
       'Most businesses waste money on marketing that never converts. Here is why.',
     bridge: 'There is a better way — and that is what we built Valbrix Digital for.',
@@ -60,8 +60,8 @@ export default {
   },
   why: {
     sectionLabel: 'Why Valbrix',
-    heading: 'What Makes Us',
-    headingGradient: 'Different?',
+    heading: 'Why Businesses',
+    headingGradient: 'Choose Us.',
     subheading:
       'Here is what working with us actually looks like.',
     items: [
@@ -85,8 +85,8 @@ export default {
   },
   services: {
     sectionLabel: 'What We Do',
-    heading: 'Services Built to Bring You',
-    headingGradient: 'More Clients',
+    heading: 'Everything You Need.',
+    headingGradient: 'Done For You.',
     subheading:
       'Everything you need to grow online — done for you.',
     learnMore: 'Learn more',
@@ -137,8 +137,8 @@ export default {
   },
   results: {
     sectionLabel: 'The Numbers',
-    heading: 'Results That',
-    headingGradient: 'Speak for Themselves',
+    heading: 'Numbers That',
+    headingGradient: 'Speak for Themselves.',
     subheading:
       'Real outcomes from our campaigns.',
     disclaimer: '',
@@ -166,8 +166,8 @@ export default {
   },
   process: {
     sectionLabel: 'How It Works',
-    heading: 'Our',
-    headingGradient: 'Growth Process',
+    heading: 'How It',
+    headingGradient: 'Works.',
     subheading:
       'From your first call to consistent growth — here is exactly how it works.',
     stepLabel: 'Step',
@@ -259,7 +259,7 @@ export default {
   testimonials: {
     sectionLabel: 'Client Stories',
     heading: 'What Our Clients',
-    headingGradient: 'Say About Us',
+    headingGradient: 'Say.',
     subheading:
       'What business owners say after working with us.',
     socialProof: [
@@ -309,8 +309,8 @@ export default {
   },
   cta: {
     badge: 'Free Strategy Call — No Commitment',
-    heading1: 'Ready to Grow Your',
-    headingGradient: 'Business Online?',
+    heading1: 'Ready to Get',
+    headingGradient: 'More Clients?',
     body: "Book a free strategy call and let's identify exactly what's stopping your business from getting more clients — and build a clear plan to fix it.",
     ctaButton: 'Book a Free Strategy Call',
     noCreditCard: 'No credit card. No contracts. Just clarity.',

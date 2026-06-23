@@ -40,7 +40,7 @@ const contactInfoValues = ['hello@valbrixdigital.com', null, null]
 function InputField({ label, name, type = 'text', placeholder, required, value, onChange }) {
   return (
     <div className="group">
-      <label className="block text-xs font-semibold text-white/50 mb-2 uppercase tracking-wider">
+      <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
         {label} {required && <span className="text-blue-400">*</span>}
       </label>
       <input
@@ -50,15 +50,15 @@ function InputField({ label, name, type = 'text', placeholder, required, value, 
         onChange={onChange}
         placeholder={placeholder}
         required={required}
-        className="w-full rounded-xl px-4 py-3.5 text-sm text-white placeholder-white/25 outline-none transition-all duration-300 focus:ring-2 focus:ring-blue-500/50"
-        style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
+        className="w-full rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300 focus:ring-2 focus:ring-blue-500/30"
+        style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
         onFocus={(e) => {
-          e.target.style.border = '1px solid rgba(59,130,246,0.5)'
-          e.target.style.background = 'rgba(59,130,246,0.05)'
+          e.target.style.border = '1px solid #3b82f6'
+          e.target.style.background = '#ffffff'
         }}
         onBlur={(e) => {
-          e.target.style.border = '1px solid rgba(255,255,255,0.08)'
-          e.target.style.background = 'rgba(255,255,255,0.04)'
+          e.target.style.border = '1px solid #e2e8f0'
+          e.target.style.background = '#f8fafc'
         }}
       />
     </div>
@@ -114,18 +114,15 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#04060f]" />
-      <div className="absolute inset-0 bg-grid opacity-40" />
-      <div className="glow-orb glow-orb-blue w-[500px] h-[500px] top-0 left-0 opacity-15" />
-      <div className="glow-orb glow-orb-purple w-[400px] h-[400px] bottom-0 right-0 opacity-15" />
+      <div className="absolute inset-0 bg-white" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{c.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {c.heading} <span className="gradient-text">{c.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{c.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{c.subheading}</p>
         </div>
 
         <div className="grid lg:grid-cols-5 gap-8 xl:gap-12">
@@ -135,23 +132,23 @@ export default function Contact() {
               <div
                 key={i}
                 className="rounded-2xl p-5 flex items-center gap-4"
-                style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
               >
                 <div className={`w-11 h-11 rounded-xl flex items-center justify-center text-white shrink-0 bg-gradient-to-br ${contactInfoMeta[i].gradient}`}>
                   {contactInfoMeta[i].icon}
                 </div>
                 <div>
-                  <p className="text-white/40 text-xs font-medium mb-0.5">{label}</p>
-                  <p className="text-white font-semibold text-sm">{c.infoValues[i]}</p>
+                  <p className="text-gray-400 text-xs font-medium mb-0.5">{label}</p>
+                  <p className="text-gray-900 font-semibold text-sm">{c.infoValues[i]}</p>
                 </div>
               </div>
             ))}
 
             <div
               className="rounded-2xl p-6 mt-4"
-              style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+              style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
             >
-              <h3 className="font-display font-bold text-white text-sm mb-4">{c.whatNext}</h3>
+              <h3 className="font-display font-bold text-gray-900 text-sm mb-4">{c.whatNext}</h3>
               <div className="space-y-3">
                 {c.nextSteps.map((text, i) => (
                   <div key={i} className="flex items-start gap-3">
@@ -161,7 +158,7 @@ export default function Contact() {
                     >
                       {i + 1}
                     </div>
-                    <p className="text-white/50 text-xs leading-relaxed">{text}</p>
+                    <p className="text-gray-500 text-xs leading-relaxed">{text}</p>
                   </div>
                 ))}
               </div>
@@ -172,7 +169,7 @@ export default function Contact() {
           <div className="lg:col-span-3">
             <div
               className="rounded-2xl p-7 md:p-9 relative overflow-hidden"
-              style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+              style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
             >
               {submitted ? (
                 <div className="flex flex-col items-center justify-center py-16 text-center">
@@ -184,8 +181,8 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <h3 className="font-display font-black text-2xl text-white mb-3">{c.success.heading}</h3>
-                  <p className="text-white/50 text-base max-w-sm">{c.success.body}</p>
+                  <h3 className="font-display font-black text-2xl text-gray-900 mb-3">{c.success.heading}</h3>
+                  <p className="text-gray-500 text-base max-w-sm">{c.success.body}</p>
                   <button onClick={handleReset} className="mt-8 btn-outline text-sm px-5 py-2.5">
                     {c.success.reset}
                   </button>
@@ -222,7 +219,7 @@ export default function Contact() {
                   />
 
                   <div>
-                    <label className="block text-xs font-semibold text-white/50 mb-2 uppercase tracking-wider">
+                    <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
                       {f.serviceLabel} <span className="text-blue-400">*</span>
                     </label>
                     <select
@@ -232,8 +229,8 @@ export default function Contact() {
                       required
                       className="w-full rounded-xl px-4 py-3.5 text-sm text-white outline-none transition-all duration-300 appearance-none cursor-pointer"
                       style={{
-                        background: 'rgba(255,255,255,0.04)',
-                        border: '1px solid rgba(255,255,255,0.08)',
+                        background: '#f1f5f9',
+                        border: '1px solid #e2e8f0',
                         color: formData.service ? 'white' : 'rgba(255,255,255,0.25)',
                       }}
                       onFocus={(e) => {
@@ -241,8 +238,8 @@ export default function Contact() {
                         e.target.style.background = 'rgba(10,15,30,0.95)'
                       }}
                       onBlur={(e) => {
-                        e.target.style.border = '1px solid rgba(255,255,255,0.08)'
-                        e.target.style.background = 'rgba(255,255,255,0.04)'
+                        e.target.style.border = '1px solid #e2e8f0'
+                        e.target.style.background = '#f8fafc'
                       }}
                     >
                       <option value="" disabled style={{ background: '#0a0f1e' }}>{f.selectService}</option>
@@ -253,7 +250,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-white/50 mb-2 uppercase tracking-wider">
+                    <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
                       {f.businessDesc}
                     </label>
                     <textarea
@@ -263,14 +260,14 @@ export default function Contact() {
                       placeholder={f.placeholderMessage}
                       rows={5}
                       className="w-full rounded-xl px-4 py-3.5 text-sm text-white placeholder-white/25 outline-none transition-all duration-300 resize-none"
-                      style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
+                      style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
                       onFocus={(e) => {
                         e.target.style.border = '1px solid rgba(59,130,246,0.5)'
                         e.target.style.background = 'rgba(59,130,246,0.05)'
                       }}
                       onBlur={(e) => {
-                        e.target.style.border = '1px solid rgba(255,255,255,0.08)'
-                        e.target.style.background = 'rgba(255,255,255,0.04)'
+                        e.target.style.border = '1px solid #e2e8f0'
+                        e.target.style.background = '#f8fafc'
                       }}
                     />
                   </div>
@@ -310,7 +307,7 @@ export default function Contact() {
                     )}
                   </button>
 
-                  <p className="text-center text-white/25 text-xs">{f.privacyNote}</p>
+                  <p className="text-center text-gray-400 text-xs">{f.privacyNote}</p>
                 </form>
               )}
             </div>

@@ -89,20 +89,16 @@ export default function Services() {
 
   return (
     <section id="services" className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#060914]" />
-      <div className="absolute inset-0 bg-grid opacity-60" />
-      <div className="glow-orb glow-orb-cyan w-[400px] h-[400px] top-20 right-0 opacity-20" />
-      <div className="glow-orb glow-orb-blue w-[400px] h-[400px] bottom-20 left-0 opacity-20" />
+      <div className="absolute inset-0 bg-white" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
-          <div className="section-label mb-6">{s.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {s.heading}
             <br />
             <span className="gradient-text">{s.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{s.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{s.subheading}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -113,8 +109,8 @@ export default function Services() {
                 key={i}
                 className="group relative rounded-2xl p-6 overflow-hidden cursor-default transition-all duration-500 hover:-translate-y-1"
                 style={{
-                  background: 'rgba(255,255,255,0.025)',
-                  border: '1px solid rgba(255,255,255,0.06)',
+                  background: '#f8fafc',
+                  border: '1px solid #e2e8f0',
                 }}
               >
                 <div
@@ -124,21 +120,21 @@ export default function Services() {
 
                 <div className="relative">
                   <div
-                    className={`w-11 h-11 rounded-xl flex items-center justify-center text-white mb-5 bg-gradient-to-br ${meta.gradient} transition-all duration-300 group-hover:scale-110`}
+                    className={`w-11 h-11 rounded-xl flex items-center justify-center text-gray-900 mb-5 bg-gradient-to-br ${meta.gradient} transition-all duration-300 group-hover:scale-110`}
                     style={{ boxShadow: `0 4px 20px ${meta.glow}` }}
                   >
                     {meta.icon}
                   </div>
 
-                  <h3 className="font-display font-bold text-white text-base mb-2.5 leading-tight">{service.title}</h3>
-                  <p className="text-white/45 text-xs leading-relaxed mb-4">{service.description}</p>
+                  <h3 className="font-display font-bold text-gray-900 text-base mb-2.5 leading-tight">{service.title}</h3>
+                  <p className="text-gray-400 text-xs leading-relaxed mb-4">{service.description}</p>
 
                   <div className="flex flex-wrap gap-1.5">
                     {meta.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2 py-0.5 rounded text-[10px] font-medium text-white/50"
-                        style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}
+                        className="px-2 py-0.5 rounded text-[10px] font-medium text-gray-500"
+                        style={{ background: '#f1f5f9', border: '1px solid #e2e8f0' }}
                       >
                         {tag}
                       </span>
@@ -161,7 +157,7 @@ export default function Services() {
         </div>
 
         <div className="mt-14 text-center">
-          <p className="text-white/40 text-sm mb-5">{s.notSure}</p>
+          <p className="text-gray-400 text-sm mb-5">{s.notSure}</p>
           <a
             href="#contact"
             onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }) }}

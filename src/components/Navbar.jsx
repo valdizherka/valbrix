@@ -4,7 +4,6 @@ import { useLanguage } from '../context/LanguageContext'
 
 const navHrefs = [
   { key: 'home', href: '#home' },
-  { key: 'services', href: '#services' },
   { key: 'results', href: '#results' },
   { key: 'process', href: '#process' },
   { key: 'contact', href: '#contact' },
@@ -16,7 +15,7 @@ function LanguageSwitcher({ compact = false }) {
   return (
     <div
       className="flex items-center rounded-lg overflow-hidden"
-      style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)' }}
+      style={{ background: '#f1f5f9', border: '1px solid #e2e8f0' }}
     >
       {['en', 'de'].map((code) => (
         <button
@@ -24,8 +23,8 @@ function LanguageSwitcher({ compact = false }) {
           onClick={() => switchLanguage(code)}
           className={`px-2.5 py-1.5 text-xs font-bold tracking-wider transition-all duration-200 ${
             lang === code
-              ? 'text-white bg-white/[0.12]'
-              : 'text-white/40 hover:text-white/70'
+              ? 'text-gray-900 bg-white'
+              : 'text-gray-400 hover:text-gray-600'
           } ${compact ? 'px-2 py-1' : ''}`}
           aria-label={code === 'en' ? 'Switch to English' : 'Auf Deutsch wechseln'}
         >
@@ -67,7 +66,7 @@ export default function Navbar() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
-            ? 'py-3 bg-[#04060f]/80 backdrop-blur-xl border-b border-white/[0.06]'
+            ? 'py-3 bg-white/95 backdrop-blur-xl border-b border-gray-200'
             : 'py-5 bg-transparent'
         }`}
       >
@@ -90,8 +89,8 @@ export default function Navbar() {
                 onClick={(e) => { e.preventDefault(); handleLinkClick(link.href) }}
                 className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                   activeLink === link.href
-                    ? 'text-white'
-                    : 'text-white/60 hover:text-white'
+                    ? 'text-blue-600'
+                    : 'text-gray-500 hover:text-gray-900'
                 }`}
               >
                 {activeLink === link.href && (
@@ -142,7 +141,7 @@ export default function Navbar() {
         }`}
       >
         <div
-          className="absolute inset-0 bg-[#04060f]/95 backdrop-blur-2xl"
+          className="absolute inset-0 bg-white/95 backdrop-blur-2xl"
           onClick={() => setMenuOpen(false)}
         />
         <div
@@ -156,7 +155,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => { e.preventDefault(); handleLinkClick(link.href) }}
-                className="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:text-white hover:bg-white/[0.05] transition-all duration-200 font-medium"
+                className="flex items-center gap-3 px-4 py-3 rounded-xl text-gray-600 hover:text-white hover:bg-white/[0.05] transition-all duration-200 font-medium"
                 style={{ transitionDelay: menuOpen ? `${i * 40}ms` : '0ms' }}
               >
                 <span className="text-blue-400 text-xs font-mono">0{i + 1}</span>

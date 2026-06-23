@@ -42,18 +42,16 @@ export default function CaseStudies() {
 
   return (
     <section className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#04060f]" />
-      <div className="glow-orb glow-orb-blue w-[400px] h-[400px] top-0 right-0 opacity-15" />
-      <div className="glow-orb glow-orb-purple w-[400px] h-[400px] bottom-0 left-0 opacity-15" />
+      <div className="absolute inset-0 bg-white" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{c.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {c.heading} <span className="gradient-text">{c.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{c.subheading}</p>
-          <p className="text-white/20 text-xs mt-2 italic">{c.disclaimer}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{c.subheading}</p>
+          <p className="text-gray-300 text-xs mt-2 italic">{c.disclaimer}</p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-6">
@@ -63,7 +61,7 @@ export default function CaseStudies() {
               <div
                 key={i}
                 className="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-2 cursor-default"
-                style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
               >
                 <div className={`h-1 bg-gradient-to-r ${meta.gradient}`} />
 
@@ -76,19 +74,19 @@ export default function CaseStudies() {
                   <div className="flex items-center gap-2 mb-5">
                     <span className="text-2xl">{meta.emoji}</span>
                     <div>
-                      <p className="text-white/30 text-[10px] font-medium uppercase tracking-widest">{cs.category}</p>
-                      <p className="text-white/50 text-xs">{cs.industry}</p>
+                      <p className="text-gray-400 text-[10px] font-medium uppercase tracking-widest">{cs.category}</p>
+                      <p className="text-gray-500 text-xs">{cs.industry}</p>
                     </div>
                   </div>
 
-                  <h3 className="font-display font-bold text-white text-lg leading-tight mb-5">{cs.title}</h3>
+                  <h3 className="font-display font-bold text-gray-900 text-lg leading-tight mb-5">{cs.title}</h3>
 
                   <div className="mb-4">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="w-1 h-1 rounded-full bg-red-400" />
                       <p className="text-red-400 text-[10px] font-bold uppercase tracking-wider">{c.challengeLabel}</p>
                     </div>
-                    <p className="text-white/45 text-xs leading-relaxed">{cs.challenge}</p>
+                    <p className="text-gray-400 text-xs leading-relaxed">{cs.challenge}</p>
                   </div>
 
                   <div className="mb-6">
@@ -96,28 +94,28 @@ export default function CaseStudies() {
                       <div className="w-1 h-1 rounded-full bg-blue-400" />
                       <p className="text-blue-400 text-[10px] font-bold uppercase tracking-wider">{c.solutionLabel}</p>
                     </div>
-                    <p className="text-white/45 text-xs leading-relaxed">{cs.solution}</p>
+                    <p className="text-gray-400 text-xs leading-relaxed">{cs.solution}</p>
                   </div>
 
                   <div
                     className="rounded-xl p-4"
-                    style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.07)' }}
+                    style={{ background: '#f1f5f9', border: '1px solid #e2e8f0' }}
                   >
-                    <p className="text-white/30 text-[10px] font-bold uppercase tracking-wider mb-3">{c.resultsLabel}</p>
+                    <p className="text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-3">{c.resultsLabel}</p>
                     <div className="grid grid-cols-3 gap-3">
                       {meta.results.map((r, j) => (
                         <div key={j} className="text-center">
                           <p className={`font-display font-black text-base leading-none mb-1 bg-gradient-to-br ${meta.gradient} bg-clip-text text-transparent`}>
                             {r.metric}
                           </p>
-                          <p className="text-white/35 text-[9px] leading-tight">{cs.resultLabels[j]}</p>
+                          <p className="text-gray-400 text-[9px] leading-tight">{cs.resultLabels[j]}</p>
                         </div>
                       ))}
                     </div>
                   </div>
 
                   <div className="mt-4">
-                    <p className="text-white/25 text-[10px]">{cs.tag}</p>
+                    <p className="text-gray-400 text-[10px]">{cs.tag}</p>
                   </div>
                 </div>
               </div>

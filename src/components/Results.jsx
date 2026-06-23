@@ -44,7 +44,7 @@ function StatCard({ meta, label, description }) {
     <div
       ref={ref}
       className="group relative rounded-2xl p-8 overflow-hidden cursor-default transition-all duration-500 hover:-translate-y-2"
-      style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+      style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
     >
       <div
         className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -71,8 +71,8 @@ function StatCard({ meta, label, description }) {
           </span>
         </div>
 
-        <h3 className="font-display font-bold text-white text-base mb-2">{label}</h3>
-        <p className="text-white/40 text-xs leading-relaxed max-w-[180px] mx-auto">{description}</p>
+        <h3 className="font-display font-bold text-gray-900 text-base mb-2">{label}</h3>
+        <p className="text-gray-400 text-xs leading-relaxed max-w-[180px] mx-auto">{description}</p>
       </div>
     </div>
   )
@@ -84,19 +84,18 @@ export default function Results() {
 
   return (
     <section id="results" className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#04060f]" />
+      <div className="absolute inset-0 bg-white" />
       <div className="absolute inset-0 overflow-hidden">
-        <div className="glow-orb glow-orb-blue w-[600px] h-[600px] top-0 left-1/2 -translate-x-1/2 opacity-15" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{r.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {r.heading} <span className="gradient-text">{r.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-base leading-relaxed">{r.subheading}</p>
-          <p className="text-white/25 text-xs mt-2 italic">{r.disclaimer}</p>
+          <p className="text-gray-500 text-base leading-relaxed">{r.subheading}</p>
+          <p className="text-gray-400 text-xs mt-2 italic">{r.disclaimer}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -107,14 +106,13 @@ export default function Results() {
 
         <div
           className="mt-16 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden relative"
-          style={{ background: 'rgba(255,255,255,0.025)', border: '1px solid rgba(255,255,255,0.07)' }}
+          style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
         >
           <div className="absolute inset-0 overflow-hidden">
-            <div className="glow-orb glow-orb-purple w-80 h-80 -right-20 -top-20 opacity-30" />
           </div>
           <div className="relative text-center md:text-left">
-            <h3 className="font-display font-bold text-xl text-white mb-1">{r.bottomHeading}</h3>
-            <p className="text-white/50 text-sm">{r.bottomSubheading}</p>
+            <h3 className="font-display font-bold text-xl text-gray-900 mb-1">{r.bottomHeading}</h3>
+            <p className="text-gray-500 text-sm">{r.bottomSubheading}</p>
           </div>
           <a
             href="#contact"

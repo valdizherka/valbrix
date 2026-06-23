@@ -49,17 +49,16 @@ export default function WhyChooseUs() {
 
   return (
     <section className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #04060f 0%, #060914 50%, #04060f 100%)' }} />
+      <div className="absolute inset-0" style={{ background: '#ffffff' }} />
       <div className="absolute inset-0 bg-dots opacity-30" />
-      <div className="glow-orb glow-orb-blue w-[500px] h-[500px] -bottom-20 -left-20 opacity-25" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{w.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
             {w.heading} <span className="gradient-text">{w.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{w.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{w.subheading}</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-5">
@@ -71,7 +70,7 @@ export default function WhyChooseUs() {
                 className="group relative rounded-2xl p-8 overflow-hidden cursor-default transition-all duration-500"
                 style={{
                   background: 'rgba(255,255,255,0.02)',
-                  border: '1px solid rgba(255,255,255,0.06)',
+                  border: '1px solid #e2e8f0',
                 }}
               >
                 <div
@@ -88,14 +87,14 @@ export default function WhyChooseUs() {
                     </div>
                     <span
                       className="font-display font-black text-5xl leading-none"
-                      style={{ color: 'rgba(255,255,255,0.05)' }}
+                      style={{ color: 'rgba(0,0,0,0.04)' }}
                     >
                       {meta.number}
                     </span>
                   </div>
 
-                  <h3 className="font-display font-bold text-xl text-white mb-3 leading-tight">{item.title}</h3>
-                  <p className="text-white/50 text-sm leading-relaxed">{item.body}</p>
+                  <h3 className="font-display font-bold text-xl text-gray-900 mb-3 leading-tight">{item.title}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">{item.body}</p>
 
                   <div
                     className={`mt-6 h-0.5 w-0 group-hover:w-full rounded-full transition-all duration-700 bg-gradient-to-r ${meta.gradient}`}

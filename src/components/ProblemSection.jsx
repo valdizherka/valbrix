@@ -26,18 +26,17 @@ export default function ProblemSection() {
 
   return (
     <section className="relative py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-[#04060f]" />
-      <div className="glow-orb glow-orb-purple w-[500px] h-[500px] top-0 right-0 opacity-20" />
+      <div className="absolute inset-0 bg-white" />
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{p.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-white leading-tight tracking-tight mb-6">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 leading-tight tracking-tight mb-6">
             {p.heading}
             <br />
             <span className="gradient-text">{p.headingGradient}</span>
           </h2>
-          <p className="text-white/50 text-lg leading-relaxed">{p.subheading}</p>
+          <p className="text-gray-500 text-lg leading-relaxed">{p.subheading}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -57,8 +56,8 @@ export default function ProblemSection() {
                 {prob.tag}
               </div>
 
-              <h3 className="font-display font-bold text-lg text-white mb-3 leading-tight">{prob.title}</h3>
-              <p className="text-white/50 text-sm leading-relaxed">{prob.body}</p>
+              <h3 className="font-display font-bold text-lg text-gray-900 mb-3 leading-tight">{prob.title}</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">{prob.body}</p>
 
               <div
                 className="mt-6 h-0.5 w-0 group-hover:w-full rounded-full transition-all duration-500"
@@ -71,7 +70,7 @@ export default function ProblemSection() {
         <div className="mt-20 flex flex-col items-center gap-4">
           <div className="w-px h-12 bg-gradient-to-b from-transparent via-blue-500/50 to-transparent" />
           <div
-            className="inline-flex items-center gap-3 px-5 py-3 rounded-xl text-sm font-semibold text-white/80"
+            className="inline-flex items-center gap-3 px-5 py-3 rounded-xl text-sm font-semibold text-gray-700"
             style={{ background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.2)' }}
           >
             <svg className="w-4 h-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
