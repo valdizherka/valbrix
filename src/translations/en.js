@@ -327,8 +327,8 @@ export default {
     headingGradient: 'Free Strategy Call',
     subheading:
       "Fill in the form below and we'll get back to you within 24 hours to schedule your free strategy session.",
-    infoLabels: ['Email Us', 'Response Time', 'Location'],
-    infoValues: ['hello@valbrixdigital.com', 'Within 24–48 hours', 'Remote — Worldwide'],
+    infoLabels: ['Email Us'],
+    infoValues: ['team@valbrixdigital.com'],
     whatNext: 'What happens next?',
     nextSteps: [
       'We review your submission within 24h',

@@ -35,7 +35,7 @@ const contactInfoMeta = [
   },
 ]
 
-const contactInfoValues = ['hello@valbrixdigital.com', null, null]
+const contactInfoValues = ['team@valbrixdigital.com']
 
 function InputField({ label, name, type = 'text', placeholder, required, value, onChange }) {
   return (
@@ -218,36 +218,6 @@ export default function Contact() {
                     onChange={handleChange}
                   />
 
-                  <div>
-                    <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
-                      {f.serviceLabel} <span className="text-blue-400">*</span>
-                    </label>
-                    <select
-                      name="service"
-                      value={formData.service}
-                      onChange={handleChange}
-                      required
-                      className="w-full rounded-xl px-4 py-3.5 text-sm text-white outline-none transition-all duration-300 appearance-none cursor-pointer"
-                      style={{
-                        background: '#f1f5f9',
-                        border: '1px solid #e2e8f0',
-                        color: formData.service ? 'white' : 'rgba(255,255,255,0.25)',
-                      }}
-                      onFocus={(e) => {
-                        e.target.style.border = '1px solid rgba(59,130,246,0.5)'
-                        e.target.style.background = 'rgba(10,15,30,0.95)'
-                      }}
-                      onBlur={(e) => {
-                        e.target.style.border = '1px solid #e2e8f0'
-                        e.target.style.background = '#f8fafc'
-                      }}
-                    >
-                      <option value="" disabled style={{ background: '#0a0f1e' }}>{f.selectService}</option>
-                      {c.services.map((s) => (
-                        <option key={s} value={s} style={{ background: '#0a0f1e', color: 'white' }}>{s}</option>
-                      ))}
-                    </select>
-                  </div>
 
                   <div>
                     <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
@@ -259,11 +229,11 @@ export default function Contact() {
                       onChange={handleChange}
                       placeholder={f.placeholderMessage}
                       rows={5}
-                      className="w-full rounded-xl px-4 py-3.5 text-sm text-white placeholder-white/25 outline-none transition-all duration-300 resize-none"
+                      className="w-full rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300 resize-none"
                       style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
                       onFocus={(e) => {
-                        e.target.style.border = '1px solid rgba(59,130,246,0.5)'
-                        e.target.style.background = 'rgba(59,130,246,0.05)'
+                        e.target.style.border = '1px solid #3b82f6'
+                        e.target.style.background = '#ffffff'
                       }}
                       onBlur={(e) => {
                         e.target.style.border = '1px solid #e2e8f0'
