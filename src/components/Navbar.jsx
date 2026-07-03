@@ -4,7 +4,6 @@ import { useLanguage } from '../context/LanguageContext'
 
 const navHrefs = [
   { key: 'home', href: '#home' },
-  { key: 'results', href: '#results' },
   { key: 'process', href: '#process' },
   { key: 'contact', href: '#contact' },
 ]

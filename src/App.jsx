@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ProblemSection from './components/ProblemSection'
 import WhyChooseUs from './components/WhyChooseUs'
-import Results from './components/Results'
 import Process from './components/Process'
 import CTASection from './components/CTASection'
 import Contact from './components/Contact'
@@ -18,7 +17,6 @@ function App() {
           <Hero />
           <ProblemSection />
           <WhyChooseUs />
-          <Results />
           <Process />
           <CTASection />
           <Contact />
