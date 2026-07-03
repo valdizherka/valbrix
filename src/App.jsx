@@ -5,8 +5,6 @@ import ProblemSection from './components/ProblemSection'
 import WhyChooseUs from './components/WhyChooseUs'
 import Results from './components/Results'
 import Process from './components/Process'
-import CaseStudies from './components/CaseStudies'
-import Testimonials from './components/Testimonials'
 import CTASection from './components/CTASection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -22,9 +20,7 @@ function App() {
           <WhyChooseUs />
           <Results />
           <Process />
-          <CaseStudies />
-          <Testimonials />
-<CTASection />
+          <CTASection />
           <Contact />
         </main>
         <Footer />
