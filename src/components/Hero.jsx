@@ -93,40 +93,30 @@ export default function Hero() {
   const h = t.hero
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-40 pb-32">
       <div className="absolute inset-0 hero-gradient" />
 
-
       <div className="relative max-w-7xl mx-auto px-6 w-full">
-        <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
 
-          <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-wide"
-              style={{
-                background: 'rgba(59,130,246,0.08)',
-                border: '1px solid rgba(59,130,246,0.2)',
-                color: '#93c5fd'
-              }}
-            >
-              <div className="glow-dot" />
+          <div className="space-y-10">
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-blue-400">
               {h.badge}
-            </div>
+            </span>
 
-            <div className="space-y-2">
-              <h1 className="font-display font-black leading-[1.05] text-5xl sm:text-6xl xl:text-7xl text-gray-900 tracking-tight">
-                {h.headline1}
-                <br />
-                {h.headline2}
-                <br />
-                <span className="gradient-text">{h.headline3}</span>
-              </h1>
-            </div>
+            <h1 className="font-display font-black leading-[1.08] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
+              {h.headline1}
+              <br />
+              {h.headline2}
+              <br />
+              <span className="gradient-text">{h.headline3}</span>
+            </h1>
 
-            <p className="text-gray-500 text-lg leading-relaxed max-w-lg">
+            <p className="text-gray-500 text-lg leading-relaxed max-w-md">
               {h.subheadline}
             </p>
 
-            <div className="flex flex-wrap gap-4 items-center">
+            <div className="flex flex-wrap gap-4 items-center pt-2">
               <a
                 href="#contact"
                 onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }) }}
@@ -146,24 +136,12 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-3 pt-2">
-              {[
-                { icon: '⚡', label: h.trustBadges[0] },
-                { icon: '📍', label: h.trustBadges[1] },
-                { icon: '🧭', label: h.trustBadges[2] },
-                { icon: '🚫', label: h.trustBadges[3] },
-              ].map((badge) => (
-                <div
-                  key={badge.label}
-                  className="flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-medium text-gray-600"
-                  style={{
-                    background: '#f8fafc',
-                    border: '1px solid #e2e8f0',
-                  }}
-                >
-                  <span>{badge.icon}</span>
-                  {badge.label}
-                </div>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 pt-6 text-xs text-gray-400">
+              {h.trustBadges.map((label, i) => (
+                <span key={label} className="flex items-center gap-3">
+                  {i > 0 && <span className="text-gray-300">·</span>}
+                  {label}
+                </span>
               ))}
             </div>
           </div>
@@ -171,11 +149,6 @@ export default function Hero() {
           <div className="relative lg:block">
             <PhoneMockup p={h.phone} />
           </div>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2">
-          <span className="text-gray-400 text-xs tracking-widest uppercase">{h.scroll}</span>
-          <div className="w-px h-12 bg-gradient-to-b from-white/30 to-transparent" />
         </div>
       </div>
     </section>
