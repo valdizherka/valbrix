@@ -180,8 +180,8 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="#services"
-                onClick={(e) => { e.preventDefault(); document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' }) }}
+                href="#process"
+                onClick={(e) => { e.preventDefault(); document.querySelector('#process')?.scrollIntoView({ behavior: 'smooth' }) }}
                 className="btn-outline px-7 py-4 text-base"
               >
                 {h.ctaSecondary}

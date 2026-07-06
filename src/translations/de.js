@@ -329,8 +329,8 @@ export default {
     headingGradient: 'kostenloses Strategiegespräch',
     subheading:
       'Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden, um Ihre kostenlose Strategiesitzung zu planen.',
-    infoLabels: ['E-Mail', 'Antwortzeit', 'Standort'],
-    infoValues: ['hello@valbrixdigital.com', 'Innerhalb von 24–48 Stunden', 'Remote – Weltweit'],
+    infoLabels: ['E-Mail'],
+    infoValues: ['team@valbrixdigital.com'],
     whatNext: 'Was passiert als nächstes?',
     nextSteps: [
       'Wir prüfen Ihre Anfrage innerhalb von 24 Stunden',
