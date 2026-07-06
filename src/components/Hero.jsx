@@ -1,98 +1,74 @@
 import { useEffect, useRef } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
-function DashboardMockup({ d }) {
+function PhoneMockup({ p }) {
   return (
-    <div className="relative w-full max-w-[520px] mx-auto">
+    <div className="relative w-full max-w-[300px] mx-auto">
+      <div
+        className="relative rounded-[2.75rem] p-3 animate-float"
+        style={{ background: '#111827', boxShadow: '0 30px 60px -15px rgba(15,23,42,0.35)' }}
+      >
+        <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-5 rounded-full bg-black z-10" />
 
-      <div className="relative rounded-2xl overflow-hidden border-glow animate-float">
-        <div
-          className="rounded-2xl p-5"
-          style={{
-            background: '#ffffff',
-            border: '1px solid #e2e8f0',
-            backdropFilter: 'blur(20px)',
-          }}
-        >
-          <div className="flex items-center justify-between mb-5">
+        <div className="relative rounded-[2.1rem] overflow-hidden bg-white" style={{ aspectRatio: '9 / 19.5' }}>
+          <div className="flex items-center justify-between px-5 pt-3 pb-1 text-[10px] font-semibold text-gray-900">
+            <span>9:41</span>
+            <div className="flex items-center gap-1">
+              <div className="w-3 h-2 rounded-[1px] border border-gray-900" />
+              <div className="w-3.5 h-2 rounded-[2px] border border-gray-900 relative">
+                <div className="absolute inset-0.5 bg-gray-900 rounded-[1px]" />
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4 pt-2 pb-3">
+            <div
+              className="flex items-center gap-2 rounded-full px-4 py-2.5"
+              style={{ background: '#f1f3f4' }}
+            >
+              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="#5f6368" strokeWidth="2" />
+                <path d="M21 21l-4.35-4.35" stroke="#5f6368" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+              <span className="text-[11px] text-gray-700 truncate">{p.searchQuery}</span>
+              <span className="w-px h-3 bg-blue-500 animate-pulse ml-0.5" />
+            </div>
+          </div>
+
+          <div className="px-4 pb-4 space-y-4">
             <div>
-              <p className="text-gray-400 text-xs font-medium mb-0.5">{d.overview}</p>
-              <p className="text-gray-900 font-bold text-sm">{d.performance}</p>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              <span className="text-green-400 text-xs font-medium">{d.live}</span>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-3 gap-3 mb-5">
-            {[
-              { label: d.totalReach, value: '284K', change: '+47%', up: true },
-              { label: d.conversions, value: '1,842', change: '+31%', up: true },
-              { label: d.costPerLead, value: '$4.20', change: '-38%', up: false },
-            ].map((stat) => (
-              <div
-                key={stat.label}
-                className="rounded-xl p-3"
-                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
-              >
-                <p className="text-gray-400 text-[10px] mb-1">{stat.label}</p>
-                <p className="text-gray-900 font-bold text-base leading-none mb-1">{stat.value}</p>
-                <span className="text-[10px] font-semibold text-emerald-400">{stat.change}</span>
-              </div>
-            ))}
-          </div>
-
-          <div
-            className="relative rounded-xl p-4 mb-4 overflow-hidden"
-            style={{ background: '#f8fafc', border: '1px solid #e2e8f0', height: '100px' }}
-          >
-            <p className="text-gray-400 text-[10px] mb-3">{d.revenueGrowth}</p>
-            <svg viewBox="0 0 300 60" className="w-full h-10" preserveAspectRatio="none">
-              <defs>
-                <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.4" />
-                  <stop offset="100%" stopColor="#3b82f6" stopOpacity="0" />
-                </linearGradient>
-              </defs>
-              <path
-                d="M0 55 L20 48 L40 45 L60 40 L80 38 L100 32 L120 28 L140 24 L160 20 L180 16 L200 14 L220 10 L240 8 L260 5 L280 4 L300 2 L300 60 L0 60 Z"
-                fill="url(#chartGrad)"
-              />
-              <path
-                d="M0 55 L20 48 L40 45 L60 40 L80 38 L100 32 L120 28 L140 24 L160 20 L180 16 L200 14 L220 10 L240 8 L260 5 L280 4 L300 2"
-                fill="none"
-                stroke="#3b82f6"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
-            </svg>
-          </div>
-
-          <div className="space-y-2">
-            {[
-              { name: 'Meta Ads — Lead Gen', status: 'Active', roas: '4.2x', bar: 84, color: '#3b82f6' },
-              { name: 'Google Search — Brand', status: 'Active', roas: '6.1x', bar: 92, color: '#a855f7' },
-              { name: 'Instagram Retargeting', status: 'Optimizing', roas: '3.8x', bar: 71, color: '#22d3ee' },
-            ].map((c) => (
-              <div key={c.name} className="flex items-center gap-3">
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center justify-between mb-1">
-                    <p className="text-gray-600 text-[11px] font-medium truncate">{c.name}</p>
-                    <span className="text-gray-900 font-bold text-[11px] ml-2 shrink-0">{c.roas}</span>
-                  </div>
-                  <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
-                    <div className="h-full rounded-full" style={{ width: `${c.bar}%`, background: c.color }} />
-                  </div>
+              <div className="flex items-center gap-1.5 mb-1">
+                <div className="w-4 h-4 rounded-full flex items-center justify-center shrink-0" style={{ background: '#e8f0fe' }}>
+                  <span className="text-[8px] font-bold" style={{ color: '#1a73e8' }}>V</span>
                 </div>
+                <span className="text-[10px] text-gray-700">{p.resultUrl}</span>
               </div>
-            ))}
+              <p className="text-[13px] leading-snug mb-1" style={{ color: '#1a0dab' }}>{p.resultTitle}</p>
+              <div className="flex items-center gap-1 mb-1">
+                <span className="text-[10px]" style={{ color: '#f9ab00' }}>★★★★★</span>
+                <span className="text-[10px] text-gray-500">5.0 · {p.reviews}</span>
+              </div>
+              <p className="text-[11px] text-gray-600 leading-snug">{p.resultDesc}</p>
+            </div>
+
+            <div className="space-y-2 opacity-40">
+              <div className="h-2 w-1/3 rounded bg-gray-200" />
+              <div className="h-2.5 w-4/5 rounded bg-gray-300" />
+              <div className="h-2 w-2/3 rounded bg-gray-200" />
+            </div>
+            <div className="space-y-2 opacity-30">
+              <div className="h-2 w-1/4 rounded bg-gray-200" />
+              <div className="h-2.5 w-3/4 rounded bg-gray-300" />
+              <div className="h-2 w-1/2 rounded bg-gray-200" />
+            </div>
           </div>
+
+          <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-28 h-1 rounded-full bg-gray-900/80" />
         </div>
       </div>
 
       <div
-        className="absolute -top-6 -left-8 rounded-xl px-3.5 py-2.5 animate-float-reverse hidden md:flex items-center gap-2.5"
+        className="absolute -top-10 -left-16 rounded-xl px-3.5 py-2.5 animate-float-reverse hidden md:flex items-center gap-2.5"
         style={{
           background: '#ffffff',
           border: '1px solid rgba(34, 197, 94, 0.3)',
@@ -101,29 +77,11 @@ function DashboardMockup({ d }) {
         }}
       >
         <div className="w-7 h-7 rounded-lg bg-emerald-500/20 flex items-center justify-center shrink-0">
-          <span className="text-sm">🎯</span>
+          <span className="text-sm">🔍</span>
         </div>
         <div>
-          <p className="text-white text-[11px] font-semibold">{d.newLead}</p>
-          <p className="text-gray-500 text-[10px]">{d.fromGoogleAds}</p>
-        </div>
-      </div>
-
-      <div
-        className="absolute -bottom-4 -right-6 rounded-xl px-3.5 py-2.5 animate-float-slow hidden md:flex items-center gap-2.5"
-        style={{
-          background: '#ffffff',
-          border: '1px solid rgba(168, 85, 247, 0.3)',
-          backdropFilter: 'blur(16px)',
-          boxShadow: '0 0 20px rgba(168, 85, 247, 0.15)',
-        }}
-      >
-        <div className="w-7 h-7 rounded-lg bg-purple-500/20 flex items-center justify-center shrink-0">
-          <span className="text-sm">📈</span>
-        </div>
-        <div>
-          <p className="text-white text-[11px] font-semibold">{d.reach}</p>
-          <p className="text-gray-500 text-[10px]">{d.thisMonth}</p>
+          <p className="text-gray-900 text-[11px] font-semibold">{p.rankBadge}</p>
+          <p className="text-gray-500 text-[10px]">{p.foundVia}</p>
         </div>
       </div>
     </div>
@@ -211,7 +169,7 @@ export default function Hero() {
           </div>
 
           <div className="relative lg:block">
-            <DashboardMockup d={h.dashboard} />
+            <PhoneMockup p={h.phone} />
           </div>
         </div>
 

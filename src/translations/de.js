@@ -32,6 +32,15 @@ export default {
       reach: '+312% Reichweite',
       thisMonth: 'Diesen Monat vs. letzten',
     },
+    phone: {
+      searchQuery: 'marketing agentur kaufbeuren',
+      resultTitle: 'Valbrix Digital - Digital Marketing Agency',
+      resultUrl: 'valbrixdigital.com',
+      resultDesc: 'Wir übernehmen Social Media, Ads und Content – damit Sie es nicht müssen.',
+      reviews: '12 Bewertungen',
+      rankBadge: 'Platz 1',
+      foundVia: 'Gefunden über Google-Suche',
+    },
   },
   problem: {
     sectionLabel: 'Das Problem',
