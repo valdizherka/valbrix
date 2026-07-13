@@ -1,6 +1,6 @@
 import { useLanguage } from '../context/LanguageContext'
 
-const tagColors = ['#f87171', '#fbbf24', '#a78bfa']
+const accentColor = '#b8860a'
 
 export default function ProblemSection() {
   const { t } = useLanguage()
@@ -26,14 +26,14 @@ export default function ProblemSection() {
             <div key={i} className="flex gap-6 md:gap-10 py-10 border-t border-gray-100 first:border-t-0">
               <span
                 className="font-display font-black text-4xl md:text-5xl shrink-0 w-16 md:w-20"
-                style={{ color: tagColors[i] }}
+                style={{ color: accentColor }}
               >
                 0{i + 1}
               </span>
               <div>
                 <div
                   className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold mb-3"
-                  style={{ background: `${tagColors[i]}15`, color: tagColors[i], border: `1px solid ${tagColors[i]}30` }}
+                  style={{ background: `${accentColor}15`, color: accentColor, border: `1px solid ${accentColor}30` }}
                 >
                   {prob.tag}
                 </div>
