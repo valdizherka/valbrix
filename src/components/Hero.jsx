@@ -31,15 +31,15 @@ function PhoneMockup({ p }) {
                 <path d="M21 21l-4.35-4.35" stroke="#5f6368" strokeWidth="2" strokeLinecap="round" />
               </svg>
               <span className="text-[11px] text-gray-700 truncate">{p.searchQuery}</span>
-              <span className="w-px h-3 bg-blue-500 animate-pulse ml-0.5" />
+              <span className="w-px h-3 animate-pulse ml-0.5" style={{ background: '#b8860a' }} />
             </div>
           </div>
 
           <div className="px-4 pb-4 space-y-4">
             <div>
               <div className="flex items-center gap-1.5 mb-1">
-                <div className="w-4 h-4 rounded-full flex items-center justify-center shrink-0" style={{ background: '#e8f0fe' }}>
-                  <span className="text-[8px] font-bold" style={{ color: '#1a73e8' }}>V</span>
+                <div className="w-4 h-4 rounded-full flex items-center justify-center shrink-0" style={{ background: '#faf0d9' }}>
+                  <span className="text-[8px] font-bold" style={{ color: '#b8860a' }}>V</span>
                 </div>
                 <span className="text-[10px] text-gray-700">{p.resultUrl}</span>
               </div>
@@ -100,7 +100,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
 
           <div className="space-y-10">
-            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-blue-400">
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase" style={{ color: '#b8860a' }}>
               {h.badge}
             </span>
 
@@ -109,7 +109,7 @@ export default function Hero() {
               <br />
               {h.headline2}
               <br />
-              <span className="text-blue-600">{h.headline3}</span>
+              <span style={{ color: '#b8860a' }}>{h.headline3}</span>
             </h1>
 
             <p className="text-gray-500 text-lg leading-relaxed max-w-md">

@@ -14,7 +14,7 @@ const contactInfoMeta = [
       </svg>
     ),
     value: 'hello@valbrixdigital.com',
-    gradient: 'from-blue-500 to-cyan-400',
+    gradient: 'from-amber-500 to-yellow-400',
   },
   {
     icon: (
@@ -41,7 +41,7 @@ function InputField({ label, name, type = 'text', placeholder, required, value, 
   return (
     <div className="group">
       <label className="block text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">
-        {label} {required && <span className="text-blue-400">*</span>}
+        {label} {required && <span style={{ color: '#c8850a' }}>*</span>}
       </label>
       <input
         type={type}
@@ -50,10 +50,10 @@ function InputField({ label, name, type = 'text', placeholder, required, value, 
         onChange={onChange}
         placeholder={placeholder}
         required={required}
-        className="w-full rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300 focus:ring-2 focus:ring-blue-500/30"
+        className="w-full rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300"
         style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
         onFocus={(e) => {
-          e.target.style.border = '1px solid #3b82f6'
+          e.target.style.border = '1px solid #b8860a'
           e.target.style.background = '#ffffff'
         }}
         onBlur={(e) => {
@@ -119,9 +119,6 @@ export default function Contact() {
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{c.sectionLabel}</div>
-          <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-tight mb-5">
-            {c.heading} <span className="gradient-text">{c.headingGradient}</span>
-          </h2>
           <p className="text-gray-500 text-lg leading-relaxed">{c.subheading}</p>
         </div>
 
@@ -154,7 +151,7 @@ export default function Contact() {
                   <div key={i} className="flex items-start gap-3">
                     <div
                       className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-0.5"
-                      style={{ background: 'linear-gradient(135deg, #3b82f6, #7c3aed)' }}
+                      style={{ background: 'linear-gradient(135deg, #c8850a, #e9a820)' }}
                     >
                       {i + 1}
                     </div>
@@ -232,7 +229,7 @@ export default function Contact() {
                       className="w-full rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300 resize-none"
                       style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
                       onFocus={(e) => {
-                        e.target.style.border = '1px solid #3b82f6'
+                        e.target.style.border = '1px solid #b8860a'
                         e.target.style.background = '#ffffff'
                       }}
                       onBlur={(e) => {

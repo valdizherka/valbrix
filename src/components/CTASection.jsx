@@ -47,9 +47,9 @@ export default function CTASection() {
         <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold mb-8"
           style={{
-            background: 'rgba(59,130,246,0.1)',
-            border: '1px solid rgba(59,130,246,0.25)',
-            color: '#3b82f6',
+            background: 'rgba(184,134,10,0.1)',
+            border: '1px solid rgba(184,134,10,0.25)',
+            color: '#b8860a',
           }}
         >
           <div className="glow-dot" />
@@ -57,7 +57,7 @@ export default function CTASection() {
         </div>
 
         <h2 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight leading-[1.15] mb-6">
-          {c.heading1} <span className="text-blue-600">{c.headingGradient}</span>
+          {c.heading1} <span style={{ color: '#b8860a' }}>{c.headingGradient}</span>
         </h2>
 
         <p className="text-gray-500 text-lg leading-relaxed max-w-xl mx-auto mb-10">
@@ -77,8 +77,10 @@ export default function CTASection() {
               value={email}
               onChange={(e) => { setEmail(e.target.value); if (error) setError('') }}
               placeholder={c.form.placeholder}
-              className="flex-1 rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300 focus:ring-2 focus:ring-blue-500/30"
+              className="flex-1 rounded-xl px-4 py-3.5 text-sm text-gray-900 placeholder-gray-400 outline-none transition-all duration-300"
               style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+              onFocus={(e) => { e.target.style.border = '1px solid #b8860a' }}
+              onBlur={(e) => { e.target.style.border = '1px solid #e2e8f0' }}
             />
             <button
               type="submit"

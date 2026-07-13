@@ -88,7 +88,7 @@ export default function Navbar() {
                 onClick={(e) => { e.preventDefault(); handleLinkClick(link.href) }}
                 className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                   activeLink === link.href
-                    ? 'text-blue-600'
+                    ? 'text-[#b8860a]'
                     : 'text-gray-500 hover:text-gray-900'
                 }`}
               >
@@ -157,7 +157,7 @@ export default function Navbar() {
                 className="flex items-center gap-3 px-4 py-3 rounded-xl text-gray-600 hover:text-white hover:bg-white/[0.05] transition-all duration-200 font-medium"
                 style={{ transitionDelay: menuOpen ? `${i * 40}ms` : '0ms' }}
               >
-                <span className="text-blue-400 text-xs font-mono">0{i + 1}</span>
+                <span className="text-xs font-mono" style={{ color: '#c8850a' }}>0{i + 1}</span>
                 {link.label}
               </a>
             ))}
