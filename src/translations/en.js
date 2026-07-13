@@ -1,10 +1,7 @@
 export default {
   nav: {
     home: 'Home',
-    services: 'Services',
-    results: 'Results',
-    process: 'Process',
-    about: 'About',
+    freeVideo: 'Free Video',
     contact: 'Contact',
     cta: 'Book a Free Strategy Call',
   },
@@ -16,7 +13,7 @@ export default {
     subheadline:
       'We run your marketing. You get more clients. Simple.',
     ctaPrimary: 'Book a Free Call',
-    ctaSecondary: 'See What We Do',
+    ctaSecondary: 'Get the Free Video',
     trustBadges: ['Performance-driven', 'Local & accessible', 'Strategy-first', 'No generic marketing'],
     scroll: 'Scroll',
     dashboard: {
@@ -34,9 +31,9 @@ export default {
     },
     phone: {
       searchQuery: 'digital marketing agency kaufbeuren',
-      resultTitle: 'Valbrix Digital - Digital Marketing Agency',
-      resultUrl: 'valbrixdigital.com',
-      resultDesc: 'We run your social media, ads, and content so you don’t have to.',
+      resultTitle: 'Your Business Name',
+      resultUrl: 'yourbusiness.com',
+      resultDesc: 'The kind of listing your business could have — real reviews, a clear description, ranking #1.',
       reviews: '12 reviews',
       rankBadge: 'Ranking #1',
       foundVia: 'Found via Google Search',
@@ -45,7 +42,7 @@ export default {
   problem: {
     sectionLabel: 'The Problem',
     heading: 'Marketing Should Grow Your Business.',
-    headingGradient: 'Not Drain Your Time.',
+    headingGradient: 'Not Become a Second Job.',
     subheading:
       'Most businesses waste money on marketing that never converts. Here is why.',
     bridge: 'There is a better way — and that is what we built Valbrix Digital for.',
@@ -64,31 +61,6 @@ export default {
         tag: 'Low Attention',
         title: 'Big Agencies Give Small Businesses Generic Plans',
         body: 'Large agencies give you a cookie-cutter plan and a junior account manager. Small businesses get low priority — and results that never materialize.',
-      },
-    ],
-  },
-  why: {
-    sectionLabel: 'Why Valbrix',
-    heading: 'Why Businesses',
-    headingGradient: 'Choose Us.',
-    subheading:
-      'Here is what working with us actually looks like.',
-    items: [
-      {
-        title: 'We Only Win When You Win',
-        body: 'Every strategy, every campaign, and every piece of content is built with your bottom line in mind. We are invested in your results — not just your retainer.',
-      },
-      {
-        title: 'Every Action Tied to Revenue',
-        body: "Vanity metrics don't pay bills. Every move we make is tied to a measurable outcome — more leads, more sales, better ROI. No fluff, no guesswork.",
-      },
-      {
-        title: 'Always Reach a Real Person',
-        body: "You will always talk to someone who knows your account. No ticket systems, no waiting weeks for a response. Fast, clear communication — always.",
-      },
-      {
-        title: 'Built for Your Business Specifically',
-        body: "We study your industry, your competitors, and your customers before building anything. No templates, no copy-paste strategies.",
       },
     ],
   },
@@ -194,52 +166,6 @@ export default {
       },
     ],
   },
-  process: {
-    sectionLabel: 'How It Works',
-    heading: 'How It',
-    headingGradient: 'Works.',
-    subheading:
-      'From your first call to consistent growth — here is exactly how it works.',
-    stepLabel: 'Step',
-    deliverableLabel: 'Deliverable:',
-    steps: [
-      {
-        title: 'Discover',
-        subtitle: 'Understand the Foundation',
-        description:
-          "We learn about your business, your audience, your competitors, and your goals. No assumptions, no templates — just an honest look at where you are and where you need to go.",
-        deliverable: 'Business & Market Audit',
-      },
-      {
-        title: 'Strategy',
-        subtitle: 'Build the Roadmap',
-        description:
-          'We build a custom marketing roadmap for your goals and budget — channel selection, content plan, and clear 90-day milestones.',
-        deliverable: '90-Day Growth Roadmap',
-      },
-      {
-        title: 'Launch',
-        subtitle: 'Build and Execute',
-        description:
-          'We build your campaigns, create content, set up tracking, and launch. Every asset is reviewed before it goes live.',
-        deliverable: 'Live Campaigns & Content',
-      },
-      {
-        title: 'Optimize',
-        subtitle: 'Track & Improve',
-        description:
-          'We monitor performance daily, cut what is not working, and keep improving. Clear monthly reports — no jargon, no spin.',
-        deliverable: 'Monthly Performance Reports',
-      },
-      {
-        title: 'Scale',
-        subtitle: 'Grow Without Limits',
-        description:
-          'Once we find what works, we scale it. More budget to winning campaigns, expanded channels — always focused on ROI.',
-        deliverable: 'Sustainable Business Growth',
-      },
-    ],
-  },
   caseStudies: {
     sectionLabel: 'Case Studies',
     heading: 'Real Problems.',
@@ -338,18 +264,19 @@ export default {
     ],
   },
   cta: {
-    badge: 'Free Strategy Call — No Commitment',
-    heading1: 'Ready to Get',
-    headingGradient: 'More Clients?',
-    body: "Book a free strategy call and let's identify exactly what's stopping your business from getting more clients — and build a clear plan to fix it.",
-    ctaButton: 'Book a Free Strategy Call',
-    noCreditCard: 'No credit card. No contracts. Just clarity.',
-    trustItems: [
-      { icon: '🔒', text: 'Confidential' },
-      { icon: '⚡', text: '48h Response' },
-      { icon: '🎯', text: 'Custom Strategy' },
-      { icon: '💬', text: 'Real Conversation' },
-    ],
+    badge: 'Free Video — No Commitment',
+    heading1: 'Get a free video showing you',
+    headingGradient: 'how to show up in the Top 3 on Google.',
+    body: "See exactly what's holding your business back from ranking on Google — free, no strings attached.",
+    form: {
+      placeholder: 'you@business.com',
+      submitButton: 'Send Me the Video',
+      sending: 'Sending...',
+      noSpam: 'No spam. Unsubscribe anytime.',
+      successHeading: "You're in.",
+      successBody: "We'll send the video to your inbox shortly.",
+      error: 'Something went wrong — please try again.',
+    },
   },
   contact: {
     sectionLabel: 'Get In Touch',

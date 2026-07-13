@@ -1,10 +1,7 @@
 export default {
   nav: {
     home: 'Startseite',
-    services: 'Leistungen',
-    results: 'Ergebnisse',
-    process: 'Prozess',
-    about: 'Über uns',
+    freeVideo: 'Gratis-Video',
     contact: 'Kontakt',
     cta: 'Kostenloses Strategiegespräch',
   },
@@ -16,7 +13,7 @@ export default {
     subheadline:
       'Wir helfen ambitionierten Unternehmen, online zu wachsen – durch strategisches digitales Marketing, Social-Media-Management, bezahlte Werbung und konversionsfokussierten Content.',
     ctaPrimary: 'Kostenloses Strategiegespräch',
-    ctaSecondary: 'Unsere Leistungen ansehen',
+    ctaSecondary: 'Gratis-Video anfordern',
     trustBadges: ['Leistungsorientiert', 'Lokal & erreichbar', 'Strategie zuerst', 'Kein Einheitsmarketing'],
     scroll: 'Scrollen',
     dashboard: {
@@ -34,9 +31,9 @@ export default {
     },
     phone: {
       searchQuery: 'marketing agentur kaufbeuren',
-      resultTitle: 'Valbrix Digital - Digital Marketing Agency',
-      resultUrl: 'valbrixdigital.com',
-      resultDesc: 'Wir übernehmen Social Media, Ads und Content – damit Sie es nicht müssen.',
+      resultTitle: 'Ihr Unternehmensname',
+      resultUrl: 'ihrunternehmen.de',
+      resultDesc: 'So könnte Ihr Eintrag aussehen — echte Bewertungen, klare Beschreibung, Platz 1.',
       reviews: '12 Bewertungen',
       rankBadge: 'Platz 1',
       foundVia: 'Gefunden über Google-Suche',
@@ -45,7 +42,7 @@ export default {
   problem: {
     sectionLabel: 'Das Problem',
     heading: 'Marketing soll Ihr Unternehmen wachsen lassen,',
-    headingGradient: 'nicht Ihre Zeit fressen',
+    headingGradient: 'nicht zu einem zweiten Job werden',
     subheading:
       'Die meisten Unternehmer wissen, dass sie besseres Marketing brauchen – doch der Weg dorthin ist gepflastert mit teuren Fehlern und verschwendeten Ressourcen.',
     bridge: 'Es gibt einen besseren Weg – und genau dafür haben wir Valbrix Digital gegründet.',
@@ -64,31 +61,6 @@ export default {
         tag: 'Wenig Aufmerksamkeit',
         title: 'Große Agenturen bieten kleinen Unternehmen Standardlösungen',
         body: 'Große Agenturen betreuen Dutzende von Kunden und behandeln kleine Unternehmen oft als Nebensache. Sie erhalten vorgefertigte Pläne, unerfahrene Ansprechpartner und Ergebnisse, die auf sich warten lassen.',
-      },
-    ],
-  },
-  why: {
-    sectionLabel: 'Warum Valbrix',
-    heading: 'Was unterscheidet',
-    headingGradient: 'uns?',
-    subheading:
-      'Wir haben Valbrix Digital als die Agentur gegründet, die wir uns selbst gewünscht hätten – eine, die jeden Kunden als Partner betrachtet und jede Kampagne als persönliche Investition.',
-    items: [
-      {
-        title: 'Die Erfolgsgarantie-Mentalität',
-        body: 'Wir behandeln Ihr Unternehmen wie unser eigenes. Wir gewinnen nur, wenn Sie gewinnen – deshalb ist jede Strategie, jede Kampagne und jeder Content auf Ihren Geschäftserfolg ausgerichtet.',
-      },
-      {
-        title: 'Ergebnisse zuerst, immer',
-        body: 'Eitelkeitskennzahlen zahlen Ihre Rechnungen nicht. Jede Maßnahme ist an ein messbares Ergebnis geknüpft – mehr Leads, mehr Umsatz, besserer ROI. Wir tracken alles und berichten klar und transparent.',
-      },
-      {
-        title: 'Lokal & wirklich erreichbar',
-        body: 'Sie sprechen immer mit einer echten Person, die Ihr Konto in- und auswendig kennt. Kein Ticket-System, kein wochenlanger Wartezustand. Wir kommunizieren klar, antworten schnell und halten Sie stets auf dem Laufenden.',
-      },
-      {
-        title: 'Maßgeschneiderte Strategie für Ihr Unternehmen',
-        body: 'Wir arbeiten nicht mit Vorlagen. Wir analysieren Ihre Branche, Ihre Mitbewerber und Ihre Kunden, bevor wir eine individuelle Marketing-Roadmap erstellen. Denn Ihr Unternehmen ist einzigartig – Ihr Marketing sollte es auch sein.',
       },
     ],
   },
@@ -196,52 +168,6 @@ export default {
       },
     ],
   },
-  process: {
-    sectionLabel: 'So funktioniert es',
-    heading: 'Unser',
-    headingGradient: 'Wachstumsprozess',
-    subheading:
-      'Ein bewährtes 5-Schritte-Framework, das Sie von null Klarheit zu konstantem, skalierbarem Wachstum führt – ohne Rätselraten.',
-    stepLabel: 'Schritt',
-    deliverableLabel: 'Lieferergebnis:',
-    steps: [
-      {
-        title: 'Entdecken',
-        subtitle: 'Das Fundament verstehen',
-        description:
-          'Wir beginnen mit einer intensiven Strategiesitzung. Wir lernen Ihr Unternehmen, Ihre Zielgruppe, Ihre Mitbewerber und Ihre Ziele kennen – und was bisher funktioniert hat oder nicht. Keine Annahmen, keine Vorlagen.',
-        deliverable: 'Unternehmens- & Marktanalyse',
-      },
-      {
-        title: 'Strategie',
-        subtitle: 'Die Roadmap entwickeln',
-        description:
-          'Auf Basis unserer Analyse erstellen wir eine maßgeschneiderte Marketing-Roadmap, die auf Ihre Ziele und Ihr Budget abgestimmt ist. Dazu gehören Kanalauswahl, Kampagnenstruktur, Contentplan und 90-Tage-Meilensteine.',
-        deliverable: '90-Tage-Wachstums-Roadmap',
-      },
-      {
-        title: 'Launch',
-        subtitle: 'Aufbauen und umsetzen',
-        description:
-          'Wir erstellen Ihre Kampagnen, produzieren Ihren Content, richten das Tracking ein und launchen alles mit Präzision. Keine überstürzte Umsetzung – jedes Asset wird überprüft und optimiert, bevor es live geht.',
-        deliverable: 'Live-Kampagnen & Content',
-      },
-      {
-        title: 'Optimieren',
-        subtitle: 'Tracken & verbessern',
-        description:
-          'Wir überwachen die Performance täglich, identifizieren was funktioniert, eliminieren was nicht funktioniert und testen kontinuierlich neue Ansätze. Sie erhalten klare monatliche Berichte mit transparenten Kennzahlen.',
-        deliverable: 'Monatliche Performance-Berichte',
-      },
-      {
-        title: 'Skalieren',
-        subtitle: 'Grenzenlos wachsen',
-        description:
-          'Sobald wir wissen, was funktioniert, verdoppeln wir den Einsatz. Mehr Budget für erfolgreiche Kampagnen, mehr Content, erweiterte Kanäle – alles mit der gleichen Präzision und dem Fokus auf ROI.',
-        deliverable: 'Nachhaltiges Unternehmenswachstum',
-      },
-    ],
-  },
   caseStudies: {
     sectionLabel: 'Fallstudien',
     heading: 'Echte Probleme.',
@@ -340,18 +266,19 @@ export default {
     ],
   },
   cta: {
-    badge: 'Kostenloses Strategiegespräch – Keine Verpflichtung',
-    heading1: 'Bereit, Ihr Unternehmen',
-    headingGradient: 'online wachsen zu lassen?',
-    body: 'Buchen Sie ein kostenloses Strategiegespräch und lassen Sie uns gemeinsam herausfinden, was Ihr Unternehmen davon abhält, mehr Kunden zu gewinnen – und erstellen Sie einen klaren Plan, um das zu ändern.',
-    ctaButton: 'Kostenloses Strategiegespräch buchen',
-    noCreditCard: 'Keine Kreditkarte. Keine Verträge. Nur Klarheit.',
-    trustItems: [
-      { icon: '🔒', text: 'Vertraulich' },
-      { icon: '⚡', text: '48h Antwortzeit' },
-      { icon: '🎯', text: 'Individuelle Strategie' },
-      { icon: '💬', text: 'Echtes Gespräch' },
-    ],
+    badge: 'Gratis-Video – Keine Verpflichtung',
+    heading1: 'Holen Sie sich ein gratis Video, das zeigt,',
+    headingGradient: 'wie Sie bei Google in die Top 3 kommen.',
+    body: 'Erfahren Sie genau, was Ihr Unternehmen aktuell davon abhält, bei Google zu ranken – kostenlos und unverbindlich.',
+    form: {
+      placeholder: 'sie@unternehmen.de',
+      submitButton: 'Video zusenden',
+      sending: 'Wird gesendet...',
+      noSpam: 'Kein Spam. Jederzeit abbestellbar.',
+      successHeading: 'Geschafft.',
+      successBody: 'Wir senden Ihnen das Video in Kürze per E-Mail zu.',
+      error: 'Etwas ist schiefgelaufen – bitte versuchen Sie es erneut.',
+    },
   },
   contact: {
     sectionLabel: 'Kontakt aufnehmen',

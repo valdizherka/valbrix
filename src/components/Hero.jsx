@@ -109,7 +109,7 @@ export default function Hero() {
               <br />
               {h.headline2}
               <br />
-              <span className="gradient-text">{h.headline3}</span>
+              <span className="text-blue-600">{h.headline3}</span>
             </h1>
 
             <p className="text-gray-500 text-lg leading-relaxed max-w-md">
@@ -128,21 +128,12 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="#process"
-                onClick={(e) => { e.preventDefault(); document.querySelector('#process')?.scrollIntoView({ behavior: 'smooth' }) }}
+                href="#free-video"
+                onClick={(e) => { e.preventDefault(); document.querySelector('#free-video')?.scrollIntoView({ behavior: 'smooth' }) }}
                 className="btn-outline px-7 py-4 text-base"
               >
                 {h.ctaSecondary}
               </a>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 pt-6 text-xs text-gray-400">
-              {h.trustBadges.map((label, i) => (
-                <span key={label} className="flex items-center gap-3">
-                  {i > 0 && <span className="text-gray-300">·</span>}
-                  {label}
-                </span>
-              ))}
             </div>
           </div>
 
