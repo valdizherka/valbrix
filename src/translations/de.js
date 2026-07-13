@@ -144,6 +144,27 @@ export default {
       },
     ],
   },
+  servicePages: {
+    backLink: 'Zurück zur Startseite',
+    includesLabel: 'Was ist enthalten',
+    whyLabel: 'Warum das wichtig ist',
+    ctaHeading: 'Bereit zu sprechen über',
+    ctaButton: 'Kostenloses Strategiegespräch buchen',
+    items: {
+      'seo-optimization': {
+        title: 'SEO-Optimierung',
+        metaDescription: 'Technisches und strategisches SEO, damit Ihr Unternehmen von Menschen gefunden wird, die aktiv nach Ihrem Angebot suchen.',
+        intro: 'Menschen, die bei Google nach Ihren Leistungen suchen, wollen bereits kaufen — SEO sorgt dafür, dass sie Sie finden und nicht die Konkurrenz. Wir übernehmen die technische und strategische Arbeit hinter langfristigem organischen Wachstum.',
+        includes: [
+          'Technisches SEO-Audit und Fehlerbehebung',
+          'On-Page-Optimierung (Titel, Meta-Beschreibungen, Inhaltsstruktur)',
+          'Einrichtung und Optimierung des Google Unternehmensprofils',
+          'Lokale und organische Keyword-Ausrichtung',
+        ],
+        whyItMatters: 'Bezahlte Anzeigen wirken nur, solange Sie zahlen. SEO baut Sichtbarkeit auf, die dauerhaft im Hintergrund weiterarbeitet — Monat für Monat.',
+      },
+    },
+  },
   results: {
     sectionLabel: 'Die Zahlen',
     heading: 'Ergebnisse, die',

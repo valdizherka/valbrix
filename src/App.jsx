@@ -1,28 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
 import { LanguageProvider } from './context/LanguageContext'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import ProblemSection from './components/ProblemSection'
-import WhyChooseUs from './components/WhyChooseUs'
-import Process from './components/Process'
-import CTASection from './components/CTASection'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Layout from './components/Layout'
+import HomePage from './pages/HomePage'
+import ServicePage from './pages/ServicePage'
 
 function App() {
   return (
     <LanguageProvider>
-      <div className="relative min-h-screen bg-white overflow-x-hidden">
-        <Navbar />
-        <main>
-          <Hero />
-          <ProblemSection />
-          <WhyChooseUs />
-          <Process />
-          <CTASection />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="leistungen/:slug" element={<ServicePage />} />
+        </Route>
+      </Routes>
     </LanguageProvider>
   )
 }

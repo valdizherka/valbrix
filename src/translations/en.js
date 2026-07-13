@@ -144,6 +144,27 @@ export default {
       },
     ],
   },
+  servicePages: {
+    backLink: 'Back to home',
+    includesLabel: "What's included",
+    whyLabel: 'Why it matters',
+    ctaHeading: 'Ready to talk about',
+    ctaButton: 'Book a Free Strategy Call',
+    items: {
+      'seo-optimization': {
+        title: 'SEO Optimization',
+        metaDescription: 'Technical and strategic SEO to help your business get found by people actively searching for what you offer.',
+        intro: 'People searching for your services on Google are already looking to buy — SEO is about making sure they find you instead of a competitor. We handle the technical and strategic work behind long-term organic growth.',
+        includes: [
+          'Technical SEO audit and fixes',
+          'On-page optimization (titles, descriptions, content structure)',
+          'Google Business Profile setup and optimization',
+          'Local and organic keyword targeting',
+        ],
+        whyItMatters: 'Paid ads stop the moment you stop paying. SEO builds visibility that keeps working in the background, month after month.',
+      },
+    },
+  },
   results: {
     sectionLabel: 'The Numbers',
     heading: 'Numbers That',
