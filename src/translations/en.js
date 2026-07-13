@@ -31,7 +31,7 @@ export default {
       thisMonth: 'This month vs last',
     },
     phone: {
-      searchQuery: 'digital marketing agency kaufbeuren',
+      searchQuery: 'best plumber near me',
       resultTitle: 'Your Business Name',
       resultUrl: 'yourbusiness.com',
       resultDesc: 'The kind of listing your business could have - real reviews, a clear description, ranking #1.',

@@ -30,7 +30,7 @@ export default {
       thisMonth: 'Diesen Monat vs. letzten',
     },
     phone: {
-      searchQuery: 'marketing agentur kaufbeuren',
+      searchQuery: 'bester handwerker in meiner nähe',
       resultTitle: 'Ihr Unternehmensname',
       resultUrl: 'ihrunternehmen.de',
       resultDesc: 'So könnte Ihr Eintrag aussehen - echte Bewertungen, klare Beschreibung, Platz 1.',
