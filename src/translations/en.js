@@ -2,6 +2,7 @@ export default {
   nav: {
     home: 'Home',
     freeVideo: 'Free Video',
+    faq: 'FAQ',
     contact: 'Contact',
     cta: 'Book a Free Strategy Call',
   },
@@ -136,6 +137,50 @@ export default {
         whyItMatters: 'Paid ads stop the moment you stop paying. SEO builds visibility that keeps working in the background, month after month.',
       },
     },
+  },
+  faqPage: {
+    sectionLabel: 'Frequently Asked Questions',
+    heading: 'Questions You Might',
+    headingGradient: 'Have Before Reaching Out.',
+    subheading: "Straight answers to what people usually ask before booking a call.",
+    backLink: 'Back to home',
+    ctaHeading: 'Still have a question?',
+    ctaBody: "Get a free video showing you how to show up in the Top 3 on Google, or just ask us directly.",
+    ctaButton: 'Book a Free Strategy Call',
+    items: [
+      {
+        question: 'What exactly do you do?',
+        answer: 'We run your digital marketing so you don’t have to — social media, paid ads, SEO, content, and everything in between. You get more clients; we handle the work behind it.',
+      },
+      {
+        question: 'How much does it cost?',
+        answer: 'It depends on which services you need and the scope of the work. We start every relationship with a free strategy call to understand your business first, then give you a clear, specific price — no generic packages, no surprise fees.',
+      },
+      {
+        question: 'How long until I see results?',
+        answer: 'It varies by channel. Paid ads can bring in leads within days. SEO and organic growth typically take a few months to build momentum, but the results last much longer once they do. We’ll be upfront with you about realistic timelines for your specific situation.',
+      },
+      {
+        question: 'Do I have to sign a long-term contract?',
+        answer: 'No. We work month-to-month. If we’re not delivering value, you shouldn’t be locked into paying us anyway.',
+      },
+      {
+        question: 'Do you only work with businesses in Kaufbeuren and Munich?',
+        answer: 'No — we’re based in Kaufbeuren and know the Bavaria market well, but we work with clients remotely wherever they are. Location isn’t a barrier to working together.',
+      },
+      {
+        question: 'What makes you different from other agencies?',
+        answer: 'No junior account manager passing your account around, no copy-paste strategy used on every client, and no vague monthly report full of vanity metrics. You get a strategist who actually knows your business and ties every action to a measurable outcome.',
+      },
+      {
+        question: 'What do I need to get started?',
+        answer: 'Just book a free strategy call. We’ll ask about your business, your goals, and your current situation — no prep work required on your end.',
+      },
+      {
+        question: 'Can you guarantee results?',
+        answer: 'No one honest can guarantee specific numbers — anyone who does is overpromising. What we can guarantee is a clear strategy, transparent reporting, and work that’s always tied to your actual business goals, not vanity metrics.',
+      },
+    ],
   },
   results: {
     sectionLabel: 'The Numbers',

@@ -137,6 +137,50 @@ export default {
       },
     },
   },
+  faqPage: {
+    sectionLabel: 'Häufig gestellte Fragen',
+    heading: 'Fragen, die Sie vielleicht',
+    headingGradient: 'vor der Kontaktaufnahme haben.',
+    subheading: 'Klare Antworten auf das, was uns am häufigsten gefragt wird, bevor jemand einen Termin bucht.',
+    backLink: 'Zurück zur Startseite',
+    ctaHeading: 'Noch eine Frage offen?',
+    ctaBody: 'Holen Sie sich ein gratis Video, das zeigt, wie Sie bei Google in die Top 3 kommen — oder fragen Sie uns direkt.',
+    ctaButton: 'Kostenloses Strategiegespräch buchen',
+    items: [
+      {
+        question: 'Was genau macht ihr?',
+        answer: 'Wir übernehmen Ihr digitales Marketing, damit Sie es nicht müssen — Social Media, bezahlte Werbung, SEO, Content und alles dazwischen. Sie bekommen mehr Kunden, wir übernehmen die Arbeit dahinter.',
+      },
+      {
+        question: 'Was kostet das?',
+        answer: 'Das hängt davon ab, welche Leistungen Sie brauchen und wie umfangreich die Arbeit ist. Wir starten jede Zusammenarbeit mit einem kostenlosen Strategiegespräch, um Ihr Unternehmen kennenzulernen, und nennen Ihnen dann einen klaren, konkreten Preis — keine Pauschalpakete, keine versteckten Kosten.',
+      },
+      {
+        question: 'Wie lange dauert es, bis ich Ergebnisse sehe?',
+        answer: 'Das ist je nach Kanal unterschiedlich. Bezahlte Anzeigen können schon innerhalb weniger Tage Anfragen bringen. SEO und organisches Wachstum brauchen in der Regel einige Monate, um an Fahrt zu gewinnen — halten dafür aber deutlich länger an. Wir sind ehrlich zu Ihnen, was realistische Zeitrahmen für Ihre Situation angeht.',
+      },
+      {
+        question: 'Muss ich einen langfristigen Vertrag unterschreiben?',
+        answer: 'Nein. Wir arbeiten monatlich kündbar. Wenn wir keinen Mehrwert liefern, sollten Sie auch nicht daran gebunden sein, uns weiter zu bezahlen.',
+      },
+      {
+        question: 'Arbeitet ihr nur mit Unternehmen in Kaufbeuren und München?',
+        answer: 'Nein — wir sitzen in Kaufbeuren und kennen den bayerischen Markt gut, arbeiten aber remote mit Kunden überall. Der Standort ist kein Hindernis für eine Zusammenarbeit.',
+      },
+      {
+        question: 'Was unterscheidet euch von anderen Agenturen?',
+        answer: 'Kein junior Account Manager, der ständig wechselt, keine Copy-Paste-Strategie, die bei jedem Kunden gleich aussieht, und kein vager Monatsbericht voller Eitelkeitskennzahlen. Sie bekommen einen Strategen, der Ihr Unternehmen wirklich kennt und jede Maßnahme an ein messbares Ergebnis knüpft.',
+      },
+      {
+        question: 'Was brauche ich, um loszulegen?',
+        answer: 'Buchen Sie einfach ein kostenloses Strategiegespräch. Wir fragen nach Ihrem Unternehmen, Ihren Zielen und Ihrer aktuellen Situation — Sie müssen sich nicht vorbereiten.',
+      },
+      {
+        question: 'Könnt ihr Ergebnisse garantieren?',
+        answer: 'Niemand kann seriös konkrete Zahlen garantieren — wer das tut, verspricht zu viel. Was wir garantieren können, ist eine klare Strategie, transparente Berichte und Arbeit, die immer an Ihre tatsächlichen Unternehmensziele geknüpft ist, nicht an Eitelkeitskennzahlen.',
+      },
+    ],
+  },
   results: {
     sectionLabel: 'Die Zahlen',
     heading: 'Ergebnisse, die',

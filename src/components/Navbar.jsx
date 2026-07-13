@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
+import { useNavigate, useLocation } from 'react-router-dom'
 import Logo from './Logo'
 import { useLanguage } from '../context/LanguageContext'
 
 const navHrefs = [
   { key: 'home', href: '#home' },
   { key: 'freeVideo', href: '#free-video' },
+  { key: 'faq', href: '/faq' },
   { key: 'contact', href: '#contact' },
 ]
 
@@ -35,7 +37,9 @@ function LanguageSwitcher({ compact = false }) {
 }
 
 export default function Navbar() {
-  const { t, lang } = useLanguage()
+  const { t } = useLanguage()
+  const navigate = useNavigate()
+  const location = useLocation()
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeLink, setActiveLink] = useState('#home')
@@ -56,6 +60,17 @@ export default function Navbar() {
   const handleLinkClick = (href) => {
     setActiveLink(href)
     setMenuOpen(false)
+
+    if (href.startsWith('/')) {
+      navigate(href)
+      return
+    }
+
+    if (location.pathname !== '/') {
+      navigate('/' + href)
+      return
+    }
+
     const el = document.querySelector(href)
     if (el) el.scrollIntoView({ behavior: 'smooth' })
   }
