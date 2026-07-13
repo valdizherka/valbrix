@@ -43,10 +43,6 @@ export default function ProblemSection() {
             </div>
           ))}
         </div>
-
-        <div className="mt-4 pt-10 border-t border-gray-100">
-          <p className="text-gray-600 font-medium">{p.bridge}</p>
-        </div>
       </div>
     </section>
   )
