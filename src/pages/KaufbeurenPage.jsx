@@ -31,81 +31,144 @@ function FAQItem({ item, isOpen, onToggle }) {
   )
 }
 
-const heatmapGrid = [
-  [14, 11, 9, 7, 9, 12, 16],
-  [12, 8, 5, 4, 6, 9, 13],
-  [9, 6, 3, 2, 3, 7, 10],
-  [7, 4, 2, 'PIN', 2, 4, 8],
-  [9, 5, 3, 2, 3, 6, 9],
-  [11, 8, 6, 4, 6, 8, 12],
-  [15, 12, 9, 8, 9, 12, 15],
-]
+const heatmapStats = {
+  before: { rank: 86, share: '1%', clicks: 5, clients: '1–2' },
+  after: { rank: 2, share: '82%', clicks: 80, clients: '15+' },
+}
 
-function rankColor(rank) {
-  if (rank <= 3) return { bg: '#dcfce7', text: '#15803d' }
-  if (rank <= 10) return { bg: `${accentColor}20`, text: accentColor }
-  return { bg: '#fee2e2', text: '#b91c1c' }
+const heatmapCols = 11
+const heatmapRows = 13
+
+function buildHeatmapGrid(mode) {
+  const isAfter = mode === 'after'
+  return Array.from({ length: heatmapRows }, (_, r) =>
+    Array.from({ length: heatmapCols }, (_, c) => {
+      const dx = c - (heatmapCols - 1) / 2
+      const dy = r - (heatmapRows - 1) / 2
+      const dist = Math.sqrt(dx * dx + dy * dy)
+      if (isAfter) return dist < 4 ? 1 : dist < 5.5 ? 2 : 3
+      return dist < 2 ? 12 : dist < 3.5 ? 17 : 20
+    })
+  )
+}
+
+function heatmapCellColor(value) {
+  if (value <= 3) return '#22c55e'
+  if (value <= 10) return accentColor
+  return '#dc2626'
 }
 
 function LocalHeatmap() {
+  const [mode, setMode] = useState('after')
+  const stats = heatmapStats[mode]
+  const isAfter = mode === 'after'
+  const grid = buildHeatmapGrid(mode)
+
   return (
-    <div className="rounded-2xl p-8 md:p-12" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
-      <div className="text-center mb-10">
-        <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">
-          So sieht gute lokale Sichtbarkeit aus
-        </h2>
+    <div className="rounded-2xl overflow-hidden" style={{ background: '#ffffff', border: '1px solid #e2e8f0' }}>
+      <div className="text-center pt-10 px-6 pb-8">
+        <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">Der Unterschied</h2>
         <p className="text-gray-500 max-w-lg mx-auto">
-          Beispielhafte Positions-Heatmap: Jeder Punkt zeigt, auf welchem Platz ein Unternehmen bei Google Maps für eine Suche aus der jeweiligen Umgebung erscheinen könnte.
+          Beispielhafte Darstellung, wie sich die lokale Sichtbarkeit eines Unternehmens in Kaufbeuren entwickeln kann.
         </p>
       </div>
 
-      <div
-        className="grid gap-2 mx-auto mb-8"
-        style={{ gridTemplateColumns: `repeat(${heatmapGrid[0].length}, minmax(0, 1fr))`, maxWidth: '420px' }}
-      >
-        {heatmapGrid.map((row, ri) =>
-          row.map((cell, ci) => {
-            if (cell === 'PIN') {
-              return (
-                <div key={`${ri}-${ci}`} className="aspect-square flex items-center justify-center">
-                  <div
-                    className="w-full h-full rounded-full flex items-center justify-center"
-                    style={{ background: '#0f172a' }}
-                  >
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" />
-                    </svg>
-                  </div>
-                </div>
-              )
-            }
-            const { bg, text } = rankColor(cell)
-            return (
-              <div
-                key={`${ri}-${ci}`}
-                className="aspect-square rounded-full flex items-center justify-center text-xs font-bold"
-                style={{ background: bg, color: text }}
-              >
-                {cell}
-              </div>
-            )
-          })
-        )}
-      </div>
+      <div className="grid md:grid-cols-[300px_1fr]">
+        {/* Stats panel */}
+        <div className="p-6 md:p-8 md:border-r border-t border-gray-100">
+          <div className="inline-flex rounded-lg p-1 mb-6" style={{ background: '#f1f5f9' }}>
+            <button
+              onClick={() => setMode('before')}
+              className="px-4 py-2 rounded-md text-sm font-semibold transition-all duration-200"
+              style={mode === 'before' ? { background: '#ffffff', color: '#0f172a', boxShadow: '0 1px 2px rgba(0,0,0,0.06)' } : { color: '#94a3b8' }}
+            >
+              Vorher
+            </button>
+            <button
+              onClick={() => setMode('after')}
+              className="px-4 py-2 rounded-md text-sm font-semibold transition-all duration-200"
+              style={mode === 'after' ? { background: '#ffffff', color: '#0f172a', boxShadow: '0 1px 2px rgba(0,0,0,0.06)' } : { color: '#94a3b8' }}
+            >
+              Nachher
+            </button>
+          </div>
 
-      <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-gray-500">
-        <span className="inline-flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full" style={{ background: '#dcfce7', border: '1px solid #86efac' }} />
-          Top 3
-        </span>
-        <span className="inline-flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full" style={{ background: `${accentColor}20`, border: `1px solid ${accentColor}60` }} />
-          Platz 4–10
-        </span>
-        <span className="inline-flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full" style={{ background: '#fee2e2', border: '1px solid #fca5a5' }} />
-          Platz 11+
-        </span>
+          <div className="rounded-xl p-4 flex items-center gap-3 mb-6" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
+            <div
+              className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+              style={{ background: accentColor }}
+            >
+              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" />
+              </svg>
+            </div>
+            <div>
+              <div className="font-display font-bold text-gray-900 text-sm">Dein Unternehmen</div>
+              <div className="text-gray-400 text-xs">Musterstraße 1, 87600 Kaufbeuren</div>
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            {[
+              ['Durchschnittlicher Rang', stats.rank],
+              ['Marktanteil', stats.share],
+              ['Klicks pro Monat', stats.clicks],
+              ['Kunden pro Monat', stats.clients],
+            ].map(([label, val]) => (
+              <div
+                key={label}
+                className="flex items-center justify-between rounded-xl px-4 py-3"
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+              >
+                <span className="text-sm text-gray-600">{label}</span>
+                <span
+                  className="text-sm font-bold px-2.5 py-1 rounded-md"
+                  style={{ background: isAfter ? '#dcfce7' : '#fee2e2', color: isAfter ? '#15803d' : '#b91c1c' }}
+                >
+                  {val}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Map grid */}
+        <div className="relative overflow-hidden border-t border-gray-100" style={{ minHeight: '380px' }}>
+          <div className="absolute inset-0" style={{ background: '#e9eef1' }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                'radial-gradient(circle at 12% 18%, #d9e8d0 0%, transparent 32%), radial-gradient(circle at 88% 78%, #d9e8d0 0%, transparent 28%), radial-gradient(circle at 75% 12%, #dbe6f3 0%, transparent 24%)',
+            }}
+          />
+          <div
+            className="absolute inset-0 opacity-70"
+            style={{
+              backgroundImage:
+                'linear-gradient(0deg, transparent 48%, #ffffff 49%, #ffffff 51%, transparent 52%), linear-gradient(90deg, transparent 48%, #ffffff 49%, #ffffff 51%, transparent 52%)',
+              backgroundSize: '64px 64px',
+            }}
+          />
+          <span className="absolute top-3 left-4 text-[10px] font-semibold tracking-wider text-gray-400 uppercase">Neugablonz</span>
+          <span className="absolute top-3 right-4 text-[10px] font-semibold tracking-wider text-gray-400 uppercase">Hafenberg</span>
+          <span className="absolute bottom-3 left-4 text-[10px] font-semibold tracking-wider text-gray-400 uppercase">Oberbeuren</span>
+          <span className="absolute bottom-3 right-4 text-[10px] font-semibold tracking-wider text-gray-400 uppercase">Ostend</span>
+
+          <div className="relative grid gap-1 p-6 md:p-8" style={{ gridTemplateColumns: `repeat(${heatmapCols}, 1fr)` }}>
+            {grid.map((row, ri) =>
+              row.map((value, ci) => (
+                <div
+                  key={`${ri}-${ci}`}
+                  className="aspect-square rounded-full flex items-center justify-center text-[9px] md:text-[10px] font-bold text-white"
+                  style={{ background: heatmapCellColor(value) }}
+                >
+                  {value}
+                </div>
+              ))
+            )}
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -211,7 +274,7 @@ export default function KaufbeurenPage() {
 
       {/* Local heatmap */}
       <section className="relative py-4 pb-20 overflow-hidden">
-        <div className="relative max-w-3xl mx-auto px-6">
+        <div className="relative max-w-5xl mx-auto px-6">
           <LocalHeatmap />
         </div>
       </section>
@@ -237,38 +300,6 @@ export default function KaufbeurenPage() {
                 <p className="text-gray-500 leading-relaxed">{v.body}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Before / after */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="relative max-w-4xl mx-auto px-6">
-          <div className="rounded-2xl p-8 md:p-12 text-center" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
-            <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">
-              So kann deine Entwicklung aussehen
-            </h2>
-            <p className="text-gray-500 mb-10 max-w-lg mx-auto">
-              Ein typischer Verlauf für lokale Unternehmen, die mit uns zusammenarbeiten – dein Ergebnis hängt von deinem Ausgangspunkt ab.
-            </p>
-            <div className="grid sm:grid-cols-3 gap-6 text-left">
-              {[
-                { label: 'Google-Ranking', before: 'Nicht auf Seite 1', after: 'Top 3 auf Google Maps' },
-                { label: 'Sichtbarkeit', before: 'Kaum vorhanden', after: 'Deutlich erhöht' },
-                { label: 'Anfragen', before: 'Vereinzelt', after: 'Regelmäßig' },
-              ].map((row, i) => (
-                <div key={i} className="rounded-xl p-5" style={{ background: '#ffffff', border: '1px solid #e2e8f0' }}>
-                  <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">{row.label}</div>
-                  <div className="flex items-center gap-2 text-sm">
-                    <span className="text-gray-400 line-through">{row.before}</span>
-                    <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke={accentColor} strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                    <span className="font-bold text-gray-900">{row.after}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
