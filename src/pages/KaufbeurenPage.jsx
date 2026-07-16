@@ -31,6 +31,86 @@ function FAQItem({ item, isOpen, onToggle }) {
   )
 }
 
+const heatmapGrid = [
+  [14, 11, 9, 7, 9, 12, 16],
+  [12, 8, 5, 4, 6, 9, 13],
+  [9, 6, 3, 2, 3, 7, 10],
+  [7, 4, 2, 'PIN', 2, 4, 8],
+  [9, 5, 3, 2, 3, 6, 9],
+  [11, 8, 6, 4, 6, 8, 12],
+  [15, 12, 9, 8, 9, 12, 15],
+]
+
+function rankColor(rank) {
+  if (rank <= 3) return { bg: '#dcfce7', text: '#15803d' }
+  if (rank <= 10) return { bg: `${accentColor}20`, text: accentColor }
+  return { bg: '#fee2e2', text: '#b91c1c' }
+}
+
+function LocalHeatmap() {
+  return (
+    <div className="rounded-2xl p-8 md:p-12" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
+      <div className="text-center mb-10">
+        <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">
+          So sieht gute lokale Sichtbarkeit aus
+        </h2>
+        <p className="text-gray-500 max-w-lg mx-auto">
+          Beispielhafte Positions-Heatmap: Jeder Punkt zeigt, auf welchem Platz ein Unternehmen bei Google Maps für eine Suche aus der jeweiligen Umgebung erscheinen könnte.
+        </p>
+      </div>
+
+      <div
+        className="grid gap-2 mx-auto mb-8"
+        style={{ gridTemplateColumns: `repeat(${heatmapGrid[0].length}, minmax(0, 1fr))`, maxWidth: '420px' }}
+      >
+        {heatmapGrid.map((row, ri) =>
+          row.map((cell, ci) => {
+            if (cell === 'PIN') {
+              return (
+                <div key={`${ri}-${ci}`} className="aspect-square flex items-center justify-center">
+                  <div
+                    className="w-full h-full rounded-full flex items-center justify-center"
+                    style={{ background: '#0f172a' }}
+                  >
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" />
+                    </svg>
+                  </div>
+                </div>
+              )
+            }
+            const { bg, text } = rankColor(cell)
+            return (
+              <div
+                key={`${ri}-${ci}`}
+                className="aspect-square rounded-full flex items-center justify-center text-xs font-bold"
+                style={{ background: bg, color: text }}
+              >
+                {cell}
+              </div>
+            )
+          })
+        )}
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-gray-500">
+        <span className="inline-flex items-center gap-2">
+          <span className="w-3 h-3 rounded-full" style={{ background: '#dcfce7', border: '1px solid #86efac' }} />
+          Top 3
+        </span>
+        <span className="inline-flex items-center gap-2">
+          <span className="w-3 h-3 rounded-full" style={{ background: `${accentColor}20`, border: `1px solid ${accentColor}60` }} />
+          Platz 4–10
+        </span>
+        <span className="inline-flex items-center gap-2">
+          <span className="w-3 h-3 rounded-full" style={{ background: '#fee2e2', border: '1px solid #fca5a5' }} />
+          Platz 11+
+        </span>
+      </div>
+    </div>
+  )
+}
+
 const valueProps = [
   {
     title: 'Sichtbarkeit',
@@ -126,6 +206,13 @@ export default function KaufbeurenPage() {
               Kostenloses Video ansehen
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Local heatmap */}
+      <section className="relative py-4 pb-20 overflow-hidden">
+        <div className="relative max-w-3xl mx-auto px-6">
+          <LocalHeatmap />
         </div>
       </section>
 
