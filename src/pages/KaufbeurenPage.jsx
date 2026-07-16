@@ -229,6 +229,10 @@ const faqItems = [
     question: 'Für welche Branchen eignet sich das?',
     answer: 'Vor allem für lokale Dienstleister und Betriebe in und um Kaufbeuren, die von mehr lokalen Anfragen profitieren – zum Beispiel Handwerk, Gesundheit, Beratung oder Gastronomie.',
   },
+  {
+    question: 'Kann ich nicht einfach mit Google Ads Kunden bekommen?',
+    answer: 'Ja, aber nur solange du dafür bezahlst. Sobald das Budget pausiert, verschwindet deine Sichtbarkeit sofort wieder. Eine starke organische Position auf Google Maps bleibt dagegen bestehen – auch ohne laufende Kosten.',
+  },
 ]
 
 export default function KaufbeurenPage() {
