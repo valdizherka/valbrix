@@ -4,6 +4,7 @@ import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
 import ServicePage from './pages/ServicePage'
 import FAQPage from './pages/FAQPage'
+import KaufbeurenPage from './pages/KaufbeurenPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="leistungen/:slug" element={<ServicePage />} />
           <Route path="faq" element={<FAQPage />} />
+          <Route path="marketing-agentur-kaufbeuren" element={<KaufbeurenPage />} />
         </Route>
       </Routes>
     </LanguageProvider>
