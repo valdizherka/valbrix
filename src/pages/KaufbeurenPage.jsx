@@ -218,10 +218,6 @@ const faqItems = [
     answer: 'Das hängt von deinem Ausgangspunkt ab. Erste Verbesserungen bei Sichtbarkeit und Anfragen zeigen sich häufig innerhalb der ersten Wochen, spürbare Ergebnisse meist nach ein bis zwei Monaten.',
   },
   {
-    question: 'Was kostet die Zusammenarbeit?',
-    answer: 'Das besprechen wir im kostenlosen Erstgespräch, abgestimmt auf dein Unternehmen und deine Ziele. Es gibt kein pauschales Paket von der Stange.',
-  },
-  {
     question: 'Muss ich mich langfristig binden?',
     answer: 'Nein. Wir arbeiten monatlich kündbar. Wir sind überzeugt, dass die Ergebnisse dich überzeugen – nicht ein Vertrag.',
   },
