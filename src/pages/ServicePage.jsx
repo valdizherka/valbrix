@@ -1,4 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
+import { useEffect } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
 export default function ServicePage() {
@@ -6,6 +7,12 @@ export default function ServicePage() {
   const { t } = useLanguage()
   const sp = t.servicePages
   const service = sp.items[slug]
+
+  useEffect(() => {
+    if (service) {
+      document.title = `${service.title} - Valbrix Digital`
+    }
+  }, [service])
 
   if (!service) return <Navigate to="/" replace />
 
