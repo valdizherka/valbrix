@@ -10,9 +10,24 @@ export default function Footer() {
       >
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <Logo size="sm" />
-          <p className="text-gray-400 text-xs">
-            © {new Date().getFullYear()} Valbrix Digital. All rights reserved.
-          </p>
+          <div className="flex items-center gap-5">
+            <p className="text-gray-400 text-xs">
+              © {new Date().getFullYear()} Valbrix Digital. All rights reserved.
+            </p>
+            <a
+              href="https://instagram.com/valbrix.digital"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Valbrix Digital on Instagram"
+              className="text-gray-400 hover:text-gray-900 transition-colors duration-200"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="1.8" />
+                <circle cx="12" cy="12" r="4.2" stroke="currentColor" strokeWidth="1.8" />
+                <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
