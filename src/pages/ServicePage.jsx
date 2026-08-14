@@ -11,6 +11,13 @@ export default function ServicePage() {
   useEffect(() => {
     if (service) {
       document.title = `${service.title} - Valbrix Digital`
+      let tag = document.querySelector('meta[name="description"]')
+      if (!tag) {
+        tag = document.createElement('meta')
+        tag.setAttribute('name', 'description')
+        document.head.appendChild(tag)
+      }
+      tag.setAttribute('content', service.metaDescription)
     }
   }, [service])
 

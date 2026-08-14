@@ -123,6 +123,18 @@ export default {
     ctaHeading: 'Ready to talk about',
     ctaButton: 'Book a Free Strategy Call',
     items: {
+      'social-media-management': {
+        title: 'Social Media Management',
+        metaDescription: 'Strategic social media management for Instagram, Facebook, TikTok & LinkedIn - content, scheduling, and community management, handled for you.',
+        intro: "Your audience spends hours a day on social media - but just showing up isn't enough. We handle strategy, content, and community management so your channels actually bring in customers, not just likes.",
+        includes: [
+          'Content strategy and editorial calendar across all platforms',
+          'Creation and scheduling of posts, reels, and stories',
+          'Community management - responding to comments and messages',
+          'Monthly performance review and strategy adjustments',
+        ],
+        whyItMatters: 'Inconsistent posting looks unprofessional and costs you trust. A well-run social presence turns followers into paying customers - consistently, not just when you find the time.',
+      },
       'seo-optimization': {
         title: 'SEO Optimization',
         metaDescription: 'Technical and strategic SEO to help your business get found by people actively searching for what you offer.',

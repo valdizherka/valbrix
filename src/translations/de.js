@@ -123,6 +123,18 @@ export default {
     ctaHeading: 'Bereit zu sprechen über',
     ctaButton: 'Kostenloses Strategiegespräch buchen',
     items: {
+      'social-media-management': {
+        title: 'Social-Media-Management',
+        metaDescription: 'Strategisches Social-Media-Management für Instagram, Facebook, TikTok & LinkedIn - Content, Planung und Community-Management aus einer Hand.',
+        intro: 'Ihre Zielgruppe verbringt Stunden täglich auf Social Media - aber Präsenz allein reicht nicht. Wir übernehmen Strategie, Content und Community-Management, damit Ihre Kanäle wirklich neue Kunden bringen, statt nur gut auszusehen.',
+        includes: [
+          'Content-Strategie und redaktioneller Kalender für alle Plattformen',
+          'Erstellung und Planung von Posts, Reels und Stories',
+          'Community-Management und Reaktion auf Kommentare und Nachrichten',
+          'Monatliche Performance-Auswertung und Anpassung der Strategie',
+        ],
+        whyItMatters: 'Inkonsistentes Posten wirkt unprofessionell und kostet Vertrauen. Eine durchdachte Social-Media-Präsenz macht aus Followern echte Kunden - kontinuierlich, nicht nur wenn gerade Zeit dafür ist.',
+      },
       'seo-optimization': {
         title: 'SEO-Optimierung',
         metaDescription: 'Technisches und strategisches SEO, damit Ihr Unternehmen von Menschen gefunden wird, die aktiv nach Ihrem Angebot suchen.',

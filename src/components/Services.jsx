@@ -1,4 +1,16 @@
+import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
+
+const serviceSlugs = [
+  'social-media-management',
+  'paid-advertising',
+  'brand-strategy',
+  'content-creation',
+  'lead-generation',
+  'seo-optimization',
+  'website-landing-page-strategy',
+  'analytics-reporting',
+]
 
 const serviceMeta = [
   {
@@ -83,6 +95,8 @@ const serviceMeta = [
   },
 ]
 
+const liveSlugs = new Set(['seo-optimization', 'social-media-management'])
+
 export default function Services() {
   const { t } = useLanguage()
   const s = t.services
@@ -104,10 +118,15 @@ export default function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {s.items.map((service, i) => {
             const meta = serviceMeta[i]
+            const slug = serviceSlugs[i]
+            const isLive = liveSlugs.has(slug)
+            const Wrapper = isLive ? Link : 'div'
+            const wrapperProps = isLive ? { to: `/leistungen/${slug}` } : {}
             return (
-              <div
+              <Wrapper
                 key={i}
-                className="group relative rounded-2xl p-6 overflow-hidden cursor-default transition-all duration-500 hover:-translate-y-1"
+                {...wrapperProps}
+                className={`group relative rounded-2xl p-6 overflow-hidden transition-all duration-500 hover:-translate-y-1 ${isLive ? 'cursor-pointer' : 'cursor-default'}`}
                 style={{
                   background: '#f8fafc',
                   border: '1px solid #e2e8f0',
@@ -141,17 +160,19 @@ export default function Services() {
                     ))}
                   </div>
 
-                  <div
-                    className="mt-5 flex items-center gap-1.5 text-xs font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-1 group-hover:translate-y-0"
-                    style={{ color: '#60a5fa' }}
-                  >
-                    {s.learnMore}
-                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </div>
+                  {isLive && (
+                    <div
+                      className="mt-5 flex items-center gap-1.5 text-xs font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-1 group-hover:translate-y-0"
+                      style={{ color: '#60a5fa' }}
+                    >
+                      {s.learnMore}
+                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </div>
+                  )}
                 </div>
-              </div>
+              </Wrapper>
             )
           })}
         </div>
