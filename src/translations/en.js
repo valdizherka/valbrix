@@ -2,6 +2,7 @@ export default {
   nav: {
     home: 'Home',
     freeVideo: 'Free Video',
+    services: 'Services',
     faq: 'FAQ',
     contact: 'Contact',
     cta: 'Book a Free Strategy Call',

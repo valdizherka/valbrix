@@ -2,6 +2,8 @@ export default {
   nav: {
     home: 'Startseite',
     freeVideo: 'Gratis-Video',
+    services: 'Leistungen',
+    faq: 'FAQ',
     contact: 'Kontakt',
     cta: 'Kostenloses Strategiegespräch',
   },
