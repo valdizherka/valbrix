@@ -89,6 +89,12 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="section-label mb-6">{c.sectionLabel}</div>
           <p className="text-gray-500 text-lg leading-relaxed">{c.subheading}</p>
+          <p className="text-gray-400 text-sm mt-4">
+            Valbrix Digital · Merowingerstraße 2, 87600 Kaufbeuren ·{' '}
+            <a href="tel:+4917660154700" className="hover:text-gray-900 transition-colors duration-200">
+              0176 60154700
+            </a>
+          </p>
         </div>
 
         <div className="max-w-2xl mx-auto">

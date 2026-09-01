@@ -7,9 +7,8 @@ export default {
   },
   hero: {
     badge: 'Digitales Marketing, das echte Ergebnisse liefert',
-    headline1: 'Mehr Wachstum.',
-    headline2: 'Mehr Umsatz.',
-    headline3: 'Mehr Kunden.',
+    headline1: 'Marketing-Agentur',
+    headline2: 'Kaufbeuren',
     subheadline:
       'Wir helfen ambitionierten Unternehmen, online zu wachsen – durch strategisches digitales Marketing, Social-Media-Management, bezahlte Werbung und konversionsfokussierten Content.',
     ctaPrimary: 'Kostenloses Strategiegespräch',
@@ -41,8 +40,8 @@ export default {
   },
   problem: {
     sectionLabel: 'Das Problem',
-    heading: 'Marketing soll Ihr Unternehmen wachsen lassen,',
-    headingGradient: 'nicht zu einem zweiten Job werden',
+    heading: 'SEO, Social-Media-Management & Google Ads',
+    headingGradient: 'für Unternehmen in Kaufbeuren',
     subheading:
       'Die meisten Unternehmer wissen, dass sie besseres Marketing brauchen – doch der Weg dorthin ist gepflastert mit teuren Fehlern und verschwendeten Ressourcen.',
     bridge: 'Es gibt einen besseren Weg – und genau dafür haben wir Valbrix Digital gegründet.',

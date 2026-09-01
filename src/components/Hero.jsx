@@ -89,7 +89,7 @@ function PhoneMockup({ p }) {
 }
 
 export default function Hero() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const h = t.hero
 
   return (
@@ -105,11 +105,21 @@ export default function Hero() {
             </span>
 
             <h1 className="font-display font-black leading-[1.08] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
-              {h.headline1}
-              <br />
-              {h.headline2}
-              <br />
-              <span style={{ color: '#b8860a' }}>{h.headline3}</span>
+              {lang === 'de' ? (
+                <>
+                  {h.headline1}
+                  <br />
+                  <span style={{ color: '#b8860a' }}>{h.headline2}</span>
+                </>
+              ) : (
+                <>
+                  {h.headline1}
+                  <br />
+                  {h.headline2}
+                  <br />
+                  <span style={{ color: '#b8860a' }}>{h.headline3}</span>
+                </>
+              )}
             </h1>
 
             <p className="text-gray-500 text-lg leading-relaxed max-w-md">
