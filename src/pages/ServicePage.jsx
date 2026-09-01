@@ -23,6 +23,8 @@ export default function ServicePage() {
 
   if (!service) return <Navigate to="/" replace />
 
+  const otherServices = Object.entries(sp.items).filter(([itemSlug]) => itemSlug !== slug)
+
   return (
     <section className="relative py-28 overflow-hidden">
       <div className="max-w-3xl mx-auto px-6">
@@ -60,13 +62,29 @@ export default function ServicePage() {
           <p className="text-gray-500 leading-relaxed">{service.whyItMatters}</p>
         </div>
 
-        <div className="rounded-2xl p-8 text-center" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
+        <div className="rounded-2xl p-8 text-center mb-12" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
           <h2 className="font-display font-bold text-gray-900 text-xl mb-5">
             {sp.ctaHeading} {service.title}?
           </h2>
           <Link to="/#contact" className="btn-primary inline-flex px-7 py-4 text-base">
             <span>{sp.ctaButton}</span>
           </Link>
+        </div>
+
+        <div>
+          <h2 className="font-display font-bold text-gray-900 text-lg mb-4">{sp.relatedLabel}</h2>
+          <div className="flex flex-wrap gap-3">
+            {otherServices.map(([itemSlug, item]) => (
+              <Link
+                key={itemSlug}
+                to={`/leistungen/${itemSlug}`}
+                className="text-sm text-gray-600 hover:text-gray-900 px-4 py-2 rounded-full transition-colors duration-200"
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+              >
+                {item.title}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </section>
