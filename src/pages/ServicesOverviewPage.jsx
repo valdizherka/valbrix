@@ -39,7 +39,8 @@ const optionComparison = [
 
 const servicesTable = [
   { slug: 'seo-optimization', title: 'SEO-Optimierung', fit: 'Langfristige, kostenlose Sichtbarkeit bei Google', speed: 'Mehrere Monate' },
-  { slug: 'paid-advertising', title: 'Bezahlte Werbung', fit: 'Schnelle Sichtbarkeit und Anfragen', speed: 'Wenige Tage' },
+  { slug: 'google-ads', title: 'Google Ads', fit: 'Sofortige Sichtbarkeit bei aktiver Kaufabsicht', speed: 'Wenige Tage' },
+  { slug: 'meta-ads', title: 'Meta Ads', fit: 'Reichweite und Sichtbarkeit auf Facebook & Instagram', speed: 'Wenige Tage' },
   { slug: 'social-media-management', title: 'Social-Media-Management', fit: 'Vertrauen aufbauen, Community pflegen', speed: 'Laufend' },
   { slug: 'brand-strategy', title: 'Markenstrategie', fit: 'Klare Positionierung als Basis für alles andere', speed: 'Einmalig, wirkt danach überall' },
   { slug: 'content-creation', title: 'Content-Erstellung', fit: 'Material für Website, Ads und Social Media', speed: 'Laufend' },
@@ -56,10 +57,9 @@ const detailSections = [
     body: 'SEO ist für die meisten lokalen Unternehmen in Kaufbeuren der wichtigste einzelne Hebel, weil er langfristig kostenlosen Traffic bringt. Dazu gehört weit mehr als nur ein paar Keywords in die Website zu schreiben: ein vollständig optimiertes Google Unternehmensprofil, konsistente Kontaktdaten über alle Verzeichnisse hinweg, technisch saubere Seitenstruktur und Inhalte, die tatsächlich beantworten, wonach lokal gesucht wird.',
   },
   {
-    heading: 'Sofort sichtbar: Bezahlte Werbung',
-    slug: 'paid-advertising',
-    linkLabel: 'Bezahlte Werbung',
-    body: 'Während SEO Zeit braucht, bringt bezahlte Werbung auf Google und Meta innerhalb weniger Tage Anfragen. Der Haken: Sobald das Budget pausiert, verschwindet die Sichtbarkeit sofort wieder. Deshalb funktioniert Werbung am besten als Ergänzung zu SEO, nicht als Ersatz dafür.',
+    heading: 'Sofort sichtbar: Google Ads & Meta Ads',
+    slug: 'google-ads',
+    body: null,
   },
   {
     heading: 'Community & Reichweite: Social-Media-Management',
@@ -257,6 +257,18 @@ export default function ServicesOverviewPage() {
                     {section.linkLabel}
                   </Link>
                   -Seite.
+                </p>
+              ) : section.slug === 'google-ads' ? (
+                <p className="text-gray-500 leading-relaxed">
+                  Während SEO Zeit braucht, bringen{' '}
+                  <Link to="/leistungen/google-ads" className="font-semibold hover:underline" style={{ color: accentColor }}>
+                    Google Ads
+                  </Link>{' '}
+                  und{' '}
+                  <Link to="/leistungen/meta-ads" className="font-semibold hover:underline" style={{ color: accentColor }}>
+                    Meta Ads
+                  </Link>{' '}
+                  innerhalb weniger Tage Anfragen. Google Ads erreicht Menschen mit aktiver Kaufabsicht, Meta Ads baut Sichtbarkeit auf Facebook und Instagram auf, bevor der Bedarf akut wird. Der Haken bei beiden: Sobald das Budget pausiert, verschwindet die Sichtbarkeit sofort wieder. Deshalb funktioniert bezahlte Werbung am besten als Ergänzung zu SEO, nicht als Ersatz dafür.
                 </p>
               ) : (
                 <p className="text-gray-500 leading-relaxed">

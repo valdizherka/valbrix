@@ -81,9 +81,14 @@ export default {
           'Consistent, on-brand content across all platforms. Strategy, creation, scheduling, and community management - handled.',
       },
       {
-        title: 'Paid Advertising',
+        title: 'Google Ads',
         description:
-          'Ad campaigns on Meta and Google built to maximize conversions. We manage targeting, creatives, budgets, and optimization.',
+          'Targeted Google Ads campaigns for people actively searching for what you offer. We handle keyword research, ad copy, budget, and ongoing optimization.',
+      },
+      {
+        title: 'Meta Ads',
+        description:
+          'Audience-precise ad campaigns on Facebook and Instagram. We manage targeting, creatives, budgets, and optimization for the best possible ROI.',
       },
       {
         title: 'Brand Strategy',
@@ -149,17 +154,29 @@ export default {
         ],
         whyItMatters: 'Paid ads stop the moment you stop paying. SEO builds visibility that keeps working in the background, month after month.',
       },
-      'paid-advertising': {
-        title: 'Paid Advertising',
-        metaDescription: 'Data-driven ad campaigns on Meta and Google built to maximize conversions - targeting, creatives, and optimization, handled for you.',
-        intro: 'Paid ads deliver results fast - but only when targeting, creatives, and budget are dialed in together. We manage the full campaign workflow across Meta and Google so every euro spent brings in measurable customers.',
+      'google-ads': {
+        title: 'Google Ads',
+        metaDescription: 'Google Ads campaigns built for measurable leads - precise targeting, clear budget control, no wasted spend.',
+        intro: "People actively searching for what you offer on Google are already ready to buy. Google Ads makes sure they find you - with precise targeting on search terms, location, and intent.",
         includes: [
-          'Campaign strategy and audience targeting across Meta and Google',
-          'Performance-focused ad creative and copywriting',
-          'Ongoing budget optimization and A/B testing',
-          'Transparent monthly reporting on ROAS and cost per lead',
+          'Keyword research and campaign structure for local search intent',
+          'Ad copywriting and ongoing optimization',
+          'Location targeting for your service area',
+          'Transparent reporting on cost per click and cost per lead',
         ],
-        whyItMatters: 'Without the right strategy, paid ads burn through budget without bringing in real customers. We make sure every campaign is built around measurable growth, not vanity metrics.',
+        whyItMatters: "Google Ads brings in inquiries from people actively searching for your service - not random scrollers. Set up correctly, it's one of the fastest paths to new customers.",
+      },
+      'meta-ads': {
+        title: 'Meta Ads',
+        metaDescription: 'Meta Ads on Facebook and Instagram - audience-precise campaigns that build visibility and bring in inquiries.',
+        intro: "Facebook and Instagram reach people before they're even actively searching for you. We build Meta Ads campaigns that target exactly the right audience, with creative that actually earns the click.",
+        includes: [
+          'Audience targeting by location, interests, and behavior',
+          'Performance-focused ad creative',
+          "Retargeting website visitors who haven't inquired yet",
+          'Ongoing budget optimization and A/B testing',
+        ],
+        whyItMatters: "Meta Ads build visibility before demand becomes urgent - so you're top of mind when people actually search. Especially strong paired with Google Ads.",
       },
       'brand-strategy': {
         title: 'Brand Strategy',
@@ -445,7 +462,8 @@ export default {
     },
     services: [
       'Social Media Management',
-      'Paid Advertising (Meta / Google)',
+      'Google Ads',
+      'Meta Ads',
       'Brand Strategy',
       'Content Creation',
       'Lead Generation',
@@ -471,7 +489,8 @@ export default {
     legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy'],
     serviceLinks: [
       'Social Media Management',
-      'Paid Advertising',
+      'Google Ads',
+      'Meta Ads',
       'Brand Strategy',
       'Content Creation',
       'Lead Generation',

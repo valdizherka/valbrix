@@ -26,7 +26,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://valbrixdigital.com/leistungen/paid-advertising</loc>
+    <loc>https://valbrixdigital.com/leistungen/google-ads</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://valbrixdigital.com/leistungen/meta-ads</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

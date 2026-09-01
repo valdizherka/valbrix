@@ -81,9 +81,14 @@ export default {
           'Konsistenter, markenkonfomer Content auf allen Plattformen. Wir übernehmen Strategie, Erstellung, Planung und Community-Engagement, damit Ihre sozialen Medien wirklich funktionieren.',
       },
       {
-        title: 'Bezahlte Werbung',
+        title: 'Google Ads',
         description:
-          'Datengetriebene Werbekampagnen auf Meta und Google, die auf maximale Konversionen ausgerichtet sind. Wir verwalten Targeting, Creatives, Budgets und Optimierung für den bestmöglichen ROI.',
+          'Gezielte Google-Ads-Kampagnen für Menschen, die aktiv nach Ihrem Angebot suchen. Wir übernehmen Keyword-Recherche, Anzeigentexte, Budget und laufende Optimierung.',
+      },
+      {
+        title: 'Meta Ads',
+        description:
+          'Zielgruppengenaue Werbekampagnen auf Facebook und Instagram. Wir verwalten Targeting, Creatives, Budgets und Optimierung für den bestmöglichen ROI.',
       },
       {
         title: 'Markenstrategie',
@@ -149,17 +154,29 @@ export default {
         ],
         whyItMatters: 'Bezahlte Anzeigen wirken nur, solange Sie zahlen. SEO baut Sichtbarkeit auf, die dauerhaft im Hintergrund weiterarbeitet - Monat für Monat.',
       },
-      'paid-advertising': {
-        title: 'Bezahlte Werbung',
-        metaDescription: 'Datengetriebene Werbekampagnen auf Meta und Google für maximale Konversionen - Targeting, Creatives und Optimierung aus einer Hand.',
-        intro: 'Bezahlte Anzeigen bringen sofort sichtbare Ergebnisse - aber nur, wenn Targeting, Creatives und Budget richtig aufeinander abgestimmt sind. Wir übernehmen die komplette Kampagnenarbeit auf Meta und Google, damit jeder investierte Euro messbare Kunden bringt.',
+      'google-ads': {
+        title: 'Google Ads',
+        metaDescription: 'Google Ads Kampagnen für Unternehmen in Kaufbeuren - gezieltes Targeting, klare Budgetkontrolle und messbare Anfragen statt Streuverlust.',
+        intro: 'Wer bei Google aktiv nach Ihrem Angebot sucht, ist bereits kaufbereit. Google Ads sorgt dafür, dass genau diese Menschen Sie finden - mit präzisem Targeting auf Suchbegriffe, Standort und Kaufabsicht.',
         includes: [
-          'Kampagnenstrategie und Zielgruppen-Targeting auf Meta und Google',
-          'Erstellung performanceorientierter Creatives und Anzeigentexte',
-          'Laufende Budgetoptimierung und A/B-Tests',
-          'Transparentes monatliches Reporting zu ROAS und Kosten pro Lead',
+          'Keyword-Recherche und Kampagnenstruktur für lokale Suchanfragen',
+          'Erstellung und laufende Optimierung von Anzeigentexten',
+          'Standort-Targeting für Kaufbeuren und Umgebung',
+          'Transparentes Reporting zu Kosten pro Klick und Kosten pro Lead',
         ],
-        whyItMatters: 'Ohne die richtige Strategie verbrennen bezahlte Anzeigen schnell Budget, ohne echte Kunden zu bringen. Wir sorgen dafür, dass jede Kampagne auf messbares Wachstum ausgerichtet ist - nicht auf Eitelkeitskennzahlen.',
+        whyItMatters: 'Google Ads bringt Anfragen von Menschen, die aktiv nach Ihrer Leistung suchen - nicht von zufälligen Scrollern. Richtig aufgesetzt ist es einer der schnellsten Wege zu neuen Kunden.',
+      },
+      'meta-ads': {
+        title: 'Meta Ads',
+        metaDescription: 'Meta Ads auf Facebook und Instagram für Unternehmen in Kaufbeuren - zielgruppengenaue Kampagnen, die Sichtbarkeit und Anfragen bringen.',
+        intro: 'Facebook und Instagram erreichen Menschen, bevor sie überhaupt aktiv nach Ihnen suchen. Wir bauen Meta-Ads-Kampagnen, die genau die richtige Zielgruppe ansprechen - mit Creatives, die tatsächlich zum Klicken einladen.',
+        includes: [
+          'Zielgruppen-Targeting nach Standort, Interessen und Verhalten',
+          'Erstellung performanceorientierter Anzeigen-Creatives',
+          'Retargeting für Website-Besucher, die noch nicht angefragt haben',
+          'Laufende Budgetoptimierung und A/B-Tests',
+        ],
+        whyItMatters: 'Meta Ads bauen Sichtbarkeit auf, bevor der Bedarf akut wird - so sind Sie im Kopf der Kunden, wenn sie tatsächlich suchen. Besonders stark in Kombination mit Google Ads.',
       },
       'brand-strategy': {
         title: 'Markenstrategie',
@@ -447,7 +464,8 @@ export default {
     },
     services: [
       'Social-Media-Management',
-      'Bezahlte Werbung (Meta / Google)',
+      'Google Ads',
+      'Meta Ads',
       'Markenstrategie',
       'Content-Erstellung',
       'Lead-Generierung',
@@ -473,7 +491,8 @@ export default {
     legal: ['Datenschutzrichtlinie', 'Nutzungsbedingungen', 'Cookie-Richtlinie'],
     serviceLinks: [
       'Social-Media-Management',
-      'Bezahlte Werbung',
+      'Google Ads',
+      'Meta Ads',
       'Markenstrategie',
       'Content-Erstellung',
       'Lead-Generierung',
