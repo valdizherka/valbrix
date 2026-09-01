@@ -9,7 +9,7 @@ const LanguageContext = createContext(null)
 export function LanguageProvider({ children }) {
   const [lang, setLang] = useState(() => {
     const saved = localStorage.getItem('valbrix-lang')
-    return saved === 'de' ? 'de' : 'en'
+    return saved === 'en' ? 'en' : 'de'
   })
 
   const switchLanguage = (newLang) => {
