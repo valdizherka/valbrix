@@ -57,12 +57,12 @@ export default {
       {
         tag: 'Hohe Kosten, geringer ROI',
         title: 'Ein Mitarbeiter kann nicht alles',
-        body: 'Eine Person kann nicht gleichzeitig Anzeigen, SEO, Content, Design und Analytics meistern. Das Ergebnis sind Lücken in der Umsetzung und liegen gelassenes Geld.',
+        body: 'Einen einzelnen Marketing-Mitarbeiter einzustellen ist teuer – und eine Person kann nicht gleichzeitig Anzeigen, SEO, Content, Design, Analytics und Strategie meistern. Sie erhalten Teilergebnisse und Lücken in der Umsetzung.',
       },
       {
         tag: 'Wenig Aufmerksamkeit',
         title: 'Große Agenturen bieten kleinen Unternehmen Standardlösungen',
-        body: 'Große Agenturen geben Ihnen einen Standardplan und einen unerfahrenen Ansprechpartner. Kleine Unternehmen bekommen wenig Priorität – und Ergebnisse, die nie eintreten.',
+        body: 'Große Agenturen betreuen Dutzende von Kunden und behandeln kleine Unternehmen oft als Nebensache. Sie erhalten vorgefertigte Pläne, unerfahrene Ansprechpartner und Ergebnisse, die auf sich warten lassen.',
       },
     ],
   },
