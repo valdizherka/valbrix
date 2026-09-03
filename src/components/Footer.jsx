@@ -66,6 +66,12 @@ export default function Footer() {
               <p className="text-gray-400 text-xs">
                 © {new Date().getFullYear()} Valbrix Digital. All rights reserved.
               </p>
+              <Link to="/impressum" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
+                Impressum
+              </Link>
+              <Link to="/datenschutz" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
+                Datenschutz
+              </Link>
               <a
                 href="https://instagram.com/valbrix.digital"
                 target="_blank"
