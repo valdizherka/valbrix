@@ -120,6 +120,18 @@ export default function Contact() {
           </div>
         </div>
 
+        <div className="max-w-2xl mx-auto mb-10 rounded-2xl overflow-hidden" style={{ border: '1px solid #e2e8f0' }}>
+          <iframe
+            title="Valbrix Digital auf Google Maps - Merowingerstraße 2, 87600 Kaufbeuren"
+            src="https://www.google.com/maps?q=Merowingerstra%C3%9Fe+2,+87600+Kaufbeuren&output=embed"
+            width="100%"
+            height="280"
+            style={{ border: 0, display: 'block' }}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+
         <div className="max-w-2xl mx-auto">
           <div
             className="rounded-2xl p-7 md:p-9 relative overflow-hidden"

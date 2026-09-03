@@ -250,9 +250,20 @@ export default function EinsatzgebietePage() {
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
             Erreichbarkeit & Termine vor Ort
           </h2>
-          <p className="text-gray-500 text-lg leading-relaxed">
+          <p className="text-gray-500 text-lg leading-relaxed mb-8">
             Unser Standort ist in Kaufbeuren, Merowingerstraße 2. Da wir kein Publikumsverkehr-Geschäft sind, bitten wir um eine kurze Terminvereinbarung vorab - dann nehmen wir uns die Zeit, die ein spontaner Besuch nicht bieten würde. Für Kunden in Kaufbeuren und dem Ostallgäu sind persönliche Termine jederzeit möglich; für alle anderen läuft die Zusammenarbeit vollständig remote.
           </p>
+          <div className="rounded-2xl overflow-hidden" style={{ border: '1px solid #e2e8f0' }}>
+            <iframe
+              title="Valbrix Digital auf Google Maps - Merowingerstraße 2, 87600 Kaufbeuren"
+              src="https://www.google.com/maps?q=Merowingerstra%C3%9Fe+2,+87600+Kaufbeuren&output=embed"
+              width="100%"
+              height="320"
+              style={{ border: 0, display: 'block' }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </div>
       </section>
 
