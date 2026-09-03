@@ -3,6 +3,7 @@ export default {
     home: 'Home',
     freeVideo: 'Free Video',
     services: 'Services',
+    areas: 'Areas We Serve',
     faq: 'FAQ',
     contact: 'Contact',
     cta: 'Book a Free Strategy Call',

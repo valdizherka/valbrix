@@ -6,6 +6,7 @@ import { useLanguage } from '../context/LanguageContext'
 const navHrefs = [
   { key: 'home', href: '#home' },
   { key: 'services', href: '/leistungen' },
+  { key: 'areas', href: '/einsatzgebiete' },
   { key: 'freeVideo', href: '#free-video' },
   { key: 'faq', href: '/faq' },
   { key: 'contact', href: '#contact' },

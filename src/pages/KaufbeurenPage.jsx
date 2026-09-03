@@ -351,6 +351,13 @@ export default function KaufbeurenPage() {
               />
             ))}
           </div>
+          <p className="text-gray-500 leading-relaxed mt-10">
+            Du sitzt nicht direkt in Kaufbeuren, sondern in der Umgebung? Auf unserer Seite zu den{' '}
+            <Link to="/einsatzgebiete" className="font-semibold hover:underline" style={{ color: accentColor }}>
+              Einsatzgebieten
+            </Link>{' '}
+            findest du alle Stadtteile und Gemeinden im Ostallgäu, die wir betreuen.
+          </p>
         </div>
       </section>
 

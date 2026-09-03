@@ -3,6 +3,7 @@ export default {
     home: 'Startseite',
     freeVideo: 'Gratis-Video',
     services: 'Leistungen',
+    areas: 'Einsatzgebiete',
     faq: 'FAQ',
     contact: 'Kontakt',
     cta: 'Kostenloses Strategiegespräch',
