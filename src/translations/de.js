@@ -43,16 +43,16 @@ export default {
   },
   problem: {
     sectionLabel: 'Das Problem',
-    heading: 'SEO, Social-Media-Management & Google Ads',
-    headingGradient: 'für Unternehmen in Kaufbeuren',
+    heading: 'Marketing soll Ihr Unternehmen wachsen lassen.',
+    headingGradient: 'Nicht zu einem zweiten Job werden.',
     subheading:
-      'Die meisten Unternehmer wissen, dass sie besseres Marketing brauchen – doch der Weg dorthin ist gepflastert mit teuren Fehlern und verschwendeten Ressourcen.',
+      'Die meisten Unternehmen verschwenden Geld für Marketing, das nie konvertiert. Hier ist, warum.',
     bridge: 'Es gibt einen besseren Weg – und genau dafür haben wir Valbrix Digital gegründet.',
     problems: [
       {
         tag: 'Zeitverschwendung',
-        title: 'Selbst machen kostet Sie mehr, als Sie denken',
-        body: 'Sie verbringen Stunden pro Woche damit, Content zu erstellen, Anzeigen zu schalten und Strategien zu entwickeln – Zeit, die Sie für Ihr eigentliches Geschäft nutzen könnten. Das Ergebnis? Inkonsistente Ergebnisse, verpasste Chancen und langsames Wachstum.',
+        title: 'Es selbst zu machen kostet Sie mehr, als Sie denken',
+        body: 'Sie verbringen jede Woche Stunden mit Content, Anzeigen und Strategie – Zeit, die Ihrem eigentlichen Geschäft fehlt. Das Ergebnis: inkonsistente Ergebnisse und langsames Wachstum.',
       },
       {
         tag: 'Hohe Kosten, geringer ROI',
