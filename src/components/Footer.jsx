@@ -1,14 +1,59 @@
+import { Link } from 'react-router-dom'
 import Logo from './Logo'
+import { useLanguage } from '../context/LanguageContext'
+
+const serviceLinkSlugs = [
+  'seo-optimization',
+  'google-ads',
+  'meta-ads',
+  'social-media-management',
+  'brand-strategy',
+  'content-creation',
+  'lead-generation',
+  'website-landing-page-strategy',
+  'analytics-reporting',
+]
 
 export default function Footer() {
+  const { t } = useLanguage()
+  const services = t.servicePages.items
+
   return (
     <footer className="relative overflow-hidden">
       <div className="section-divider" />
       <div
-        className="relative py-6"
+        className="relative py-10"
         style={{ background: '#ffffff', borderTop: '1px solid #e2e8f0' }}
       >
         <div className="max-w-7xl mx-auto px-6">
+          <div className="grid sm:grid-cols-2 gap-8 pb-8 mb-6 border-b border-gray-100">
+            <div>
+              <p className="text-xs font-semibold tracking-wider uppercase text-gray-400 mb-3">{t.footer.servicesTitle}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-2">
+                {serviceLinkSlugs.map((slug) => (
+                  <Link
+                    key={slug}
+                    to={`/leistungen/${slug}`}
+                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200"
+                  >
+                    {services[slug]?.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="text-xs font-semibold tracking-wider uppercase text-gray-400 mb-3">{t.footer.areasTitle}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-2">
+                <Link to="/marketing-agentur-kaufbeuren" className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200">
+                  Kaufbeuren
+                </Link>
+                <Link to="/einsatzgebiete" className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200">
+                  {t.footer.allAreasLink}
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <p className="text-center text-gray-400 text-xs pb-4">
             Valbrix Digital · Merowingerstraße 2, 87600 Kaufbeuren ·{' '}
             <a href="tel:+4917660154700" className="hover:text-gray-900 transition-colors duration-200">

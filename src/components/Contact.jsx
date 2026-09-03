@@ -1,6 +1,9 @@
 import { useState, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { useLanguage } from '../context/LanguageContext'
+
+const mainServiceSlugs = ['seo-optimization', 'google-ads', 'social-media-management', 'brand-strategy']
 
 const SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
@@ -95,6 +98,26 @@ export default function Contact() {
               0176 60154700
             </a>
           </p>
+
+          <div className="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 mt-6 text-sm">
+            {mainServiceSlugs.map((slug, i) => (
+              <span key={slug} className="flex items-center gap-3">
+                <Link to={`/leistungen/${slug}`} className="hover:underline" style={{ color: '#b8860a' }}>
+                  {t.servicePages.items[slug]?.title}
+                </Link>
+                {i < mainServiceSlugs.length - 1 && <span className="text-gray-300">·</span>}
+              </span>
+            ))}
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 mt-2 text-sm">
+            <Link to="/marketing-agentur-kaufbeuren" className="hover:underline" style={{ color: '#b8860a' }}>
+              Kaufbeuren
+            </Link>
+            <span className="text-gray-300">·</span>
+            <Link to="/einsatzgebiete" className="hover:underline" style={{ color: '#b8860a' }}>
+              {t.footer.allAreasLink}
+            </Link>
+          </div>
         </div>
 
         <div className="max-w-2xl mx-auto">

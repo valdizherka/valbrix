@@ -36,8 +36,15 @@ export default function ServicePage() {
         <h1 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight mb-6">
           {service.title}
         </h1>
-        <p className="text-gray-500 text-lg leading-relaxed mb-12 max-w-2xl">
+        <p className="text-gray-500 text-lg leading-relaxed mb-4 max-w-2xl">
           {service.intro}
+        </p>
+        <p className="text-gray-500 leading-relaxed mb-12 max-w-2xl">
+          {sp.areaMentionPrefix}{' '}
+          <Link to="/marketing-agentur-kaufbeuren" className="font-semibold hover:underline" style={{ color: '#b8860a' }}>
+            Kaufbeuren
+          </Link>{' '}
+          {sp.areaMentionSuffix}
         </p>
 
         <div className="rounded-2xl p-7 md:p-9 mb-8" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
@@ -71,10 +78,10 @@ export default function ServicePage() {
           </Link>
         </div>
 
-        <div>
+        <div className="mb-12">
           <h2 className="font-display font-bold text-gray-900 text-lg mb-4">{sp.relatedLabel}</h2>
           <div className="flex flex-wrap gap-3">
-            {otherServices.map(([itemSlug, item]) => (
+            {otherServices.slice(0, 4).map(([itemSlug, item]) => (
               <Link
                 key={itemSlug}
                 to={`/leistungen/${itemSlug}`}
@@ -84,6 +91,26 @@ export default function ServicePage() {
                 {item.title}
               </Link>
             ))}
+          </div>
+        </div>
+
+        <div>
+          <h2 className="font-display font-bold text-gray-900 text-lg mb-4">{sp.areasLabel}</h2>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              to="/marketing-agentur-kaufbeuren"
+              className="text-sm text-gray-600 hover:text-gray-900 px-4 py-2 rounded-full transition-colors duration-200"
+              style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+            >
+              Kaufbeuren
+            </Link>
+            <Link
+              to="/einsatzgebiete"
+              className="text-sm text-gray-600 hover:text-gray-900 px-4 py-2 rounded-full transition-colors duration-200"
+              style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+            >
+              {sp.allAreasLabel}
+            </Link>
           </div>
         </div>
       </div>

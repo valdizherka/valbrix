@@ -130,6 +130,10 @@ export default {
     ctaHeading: 'Ready to talk about',
     ctaButton: 'Book a Free Strategy Call',
     relatedLabel: 'Other Services',
+    areasLabel: 'We’re also active in these areas',
+    allAreasLabel: 'All Areas We Serve',
+    areaMentionPrefix: 'We offer this service to businesses in',
+    areaMentionSuffix: 'and throughout the greater Ostallgäu region.',
     items: {
       'social-media-management': {
         title: 'Social Media Management',
@@ -479,6 +483,8 @@ export default {
       'A digital marketing agency built for ambitious businesses that want real, measurable growth.',
     quickLinks: 'Quick Links',
     servicesTitle: 'Services',
+    areasTitle: 'Areas We Serve',
+    allAreasLink: 'All Areas We Serve',
     contactTitle: 'Contact',
     emailLabel: 'Email',
     locationLabel: 'Location',

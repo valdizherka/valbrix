@@ -332,6 +332,45 @@ export default function KaufbeurenPage() {
         </div>
       </section>
 
+      {/* Services in Kaufbeuren */}
+      <section className="relative py-20 overflow-hidden">
+        <div className="relative max-w-4xl mx-auto px-6">
+          <div className="max-w-2xl mb-10">
+            <div className="section-label mb-6">Unsere Leistungen</div>
+            <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
+              Diese Leistungen bieten wir in Kaufbeuren an
+            </h2>
+            <p className="text-gray-500 leading-relaxed">
+              Egal ob du bei Google gefunden werden willst oder mehr Anfragen über bezahlte Werbung brauchst - wir übernehmen dein digitales Marketing.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {[
+              ['seo-optimization', 'SEO-Optimierung'],
+              ['google-ads', 'Google Ads'],
+              ['social-media-management', 'Social-Media-Management'],
+              ['brand-strategy', 'Markenstrategie'],
+            ].map(([slug, label]) => (
+              <Link
+                key={slug}
+                to={`/leistungen/${slug}`}
+                className="text-sm text-gray-600 hover:text-gray-900 px-4 py-2 rounded-full transition-colors duration-200"
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+              >
+                {label}
+              </Link>
+            ))}
+            <Link
+              to="/leistungen"
+              className="text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-200"
+              style={{ color: accentColor, background: `${accentColor}15`, border: `1px solid ${accentColor}30` }}
+            >
+              Alle Leistungen ansehen
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="relative py-20 overflow-hidden">
         <div className="relative max-w-3xl mx-auto px-6">

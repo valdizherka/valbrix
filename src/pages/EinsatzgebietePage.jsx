@@ -193,6 +193,35 @@ export default function EinsatzgebietePage() {
         </div>
       </section>
 
+      {/* Services offered here */}
+      <section className="relative py-16 overflow-hidden">
+        <div className="relative max-w-4xl mx-auto px-6">
+          <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
+            Leistungen in unserem Einsatzgebiet
+          </h2>
+          <p className="text-gray-500 text-lg leading-relaxed mb-8">
+            In Kaufbeuren und dem Ostallgäu bieten wir das volle Spektrum an digitalem Marketing an - von SEO bis Social-Media-Management.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {[
+              ['seo-optimization', 'SEO-Optimierung'],
+              ['google-ads', 'Google Ads'],
+              ['social-media-management', 'Social-Media-Management'],
+              ['lead-generation', 'Lead-Generierung'],
+            ].map(([slug, label]) => (
+              <Link
+                key={slug}
+                to={`/leistungen/${slug}`}
+                className="text-sm text-gray-600 hover:text-gray-900 px-4 py-2 rounded-full transition-colors duration-200"
+                style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How it works */}
       <section className="relative py-16 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">

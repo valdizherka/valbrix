@@ -130,6 +130,10 @@ export default {
     ctaHeading: 'Bereit zu sprechen über',
     ctaButton: 'Kostenloses Strategiegespräch buchen',
     relatedLabel: 'Weitere Leistungen',
+    areasLabel: 'Wir sind auch aktiv in diesen Gebieten',
+    allAreasLabel: 'Alle Einsatzgebiete',
+    areaMentionPrefix: 'Diese Leistung bieten wir für Unternehmen in',
+    areaMentionSuffix: 'und im gesamten Ostallgäu an.',
     items: {
       'social-media-management': {
         title: 'Social-Media-Management',
@@ -481,6 +485,8 @@ export default {
       'Eine digitale Marketing-Agentur für ambitionierte Unternehmen, die echtes, messbares Wachstum anstreben.',
     quickLinks: 'Schnelllinks',
     servicesTitle: 'Leistungen',
+    areasTitle: 'Einsatzgebiete',
+    allAreasLink: 'Alle Einsatzgebiete',
     contactTitle: 'Kontakt',
     emailLabel: 'E-Mail',
     locationLabel: 'Standort',
