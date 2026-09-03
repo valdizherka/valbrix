@@ -13,7 +13,7 @@ export default {
     headline1: 'Marketing-Agentur',
     headline2: 'Kaufbeuren',
     subheadline:
-      'Wir helfen ambitionierten Unternehmen, online zu wachsen – durch strategisches digitales Marketing, Social-Media-Management, bezahlte Werbung und konversionsfokussierten Content.',
+      'Wir übernehmen Ihr Marketing. Sie bekommen mehr Kunden. Einfach.',
     ctaPrimary: 'Kostenloses Strategiegespräch',
     ctaSecondary: 'Gratis-Video anfordern',
     trustBadges: ['Leistungsorientiert', 'Lokal & erreichbar', 'Strategie zuerst', 'Kein Einheitsmarketing'],
