@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import MapEmbed from '../components/MapEmbed'
 
 const accentColor = '#b8860a'
 
@@ -69,7 +68,7 @@ const steps = [
 const faqItems = [
   {
     question: 'Habt ihr ein Büro, das ich besuchen kann?',
-    answer: 'Ja, in Kaufbeuren - allerdings ohne Publikumsverkehr. Termine vor Ort vereinbaren wir gerne im Voraus.',
+    answer: 'Wir arbeiten ohne Ladengeschäft oder Publikumsverkehr. Stattdessen kommen wir zu Ihnen: Persönliche Termine in Kaufbeuren und im Ostallgäu vereinbaren wir gerne im Voraus.',
   },
   {
     question: 'Arbeitet ihr nur mit Unternehmen direkt in Kaufbeuren?',
@@ -251,10 +250,9 @@ export default function EinsatzgebietePage() {
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
             Erreichbarkeit & Termine vor Ort
           </h2>
-          <p className="text-gray-500 text-lg leading-relaxed mb-8">
-            Unser Standort ist in Kaufbeuren, Merowingerstraße 2. Da wir kein Publikumsverkehr-Geschäft sind, bitten wir um eine kurze Terminvereinbarung vorab - dann nehmen wir uns die Zeit, die ein spontaner Besuch nicht bieten würde. Für Kunden in Kaufbeuren und dem Ostallgäu sind persönliche Termine jederzeit möglich; für alle anderen läuft die Zusammenarbeit vollständig remote.
+          <p className="text-gray-500 text-lg leading-relaxed">
+            Wir sitzen in Kaufbeuren und arbeiten ohne Ladengeschäft oder Publikumsverkehr. Für Kunden in Kaufbeuren und im Ostallgäu kommen wir nach kurzer Terminvereinbarung gerne persönlich bei Ihnen vorbei; für alle anderen läuft die Zusammenarbeit vollständig remote, per Telefon oder Videocall.
           </p>
-          <MapEmbed height={320} />
         </div>
       </section>
 

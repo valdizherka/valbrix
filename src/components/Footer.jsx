@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           <p className="text-center text-gray-400 text-xs pb-4">
-            Valbrix Digital · Merowingerstraße 2, 87600 Kaufbeuren ·{' '}
+            Valbrix Digital · Kaufbeuren & Ostallgäu ·{' '}
             <a href="tel:+4917660154700" className="hover:text-gray-900 transition-colors duration-200">
               0176 60154700
             </a>

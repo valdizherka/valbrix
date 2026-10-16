@@ -2,7 +2,6 @@ import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { useLanguage } from '../context/LanguageContext'
-import MapEmbed from './MapEmbed'
 
 const mainServiceSlugs = ['seo-optimization', 'google-ads', 'social-media-management', 'brand-strategy']
 
@@ -94,7 +93,7 @@ export default function Contact() {
           <div className="section-label mb-6">{c.sectionLabel}</div>
           <p className="text-gray-500 text-lg leading-relaxed">{c.subheading}</p>
           <p className="text-gray-400 text-sm mt-4">
-            Valbrix Digital · Merowingerstraße 2, 87600 Kaufbeuren ·{' '}
+            Valbrix Digital · Kaufbeuren & Ostallgäu ·{' '}
             <a href="tel:+4917660154700" className="hover:text-gray-900 transition-colors duration-200">
               0176 60154700
             </a>
@@ -119,10 +118,6 @@ export default function Contact() {
               {t.footer.allAreasLink}
             </Link>
           </div>
-        </div>
-
-        <div className="max-w-2xl mx-auto mb-10">
-          <MapEmbed height={280} />
         </div>
 
         <div className="max-w-2xl mx-auto">

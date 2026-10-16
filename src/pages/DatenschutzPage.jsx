@@ -79,16 +79,7 @@ export default function DatenschutzPage() {
             </p>
           </Section>
 
-          <Section title="5. Google Maps">
-            <p>
-              Auf einzelnen Seiten binden wir eine Karte des Kartendienstes Google Maps ein, betrieben von Google Ireland Limited (bzw. Google LLC in den USA). Die Karte wird nicht automatisch beim Seitenaufruf geladen, sondern erst, wenn Sie aktiv auf den Button "Google Maps laden" klicken.
-            </p>
-            <p>
-              Erst mit diesem Klick wird eine Verbindung zu Servern von Google hergestellt und Ihre IP-Adresse sowie ggf. weitere Daten an Google übermittelt (Art. 6 Abs. 1 lit. a DSGVO, Einwilligung). Weitere Informationen finden Sie in der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 underline">Datenschutzerklärung von Google</a>.
-            </p>
-          </Section>
-
-          <Section title="6. Kontaktformular">
+          <Section title="5. Kontaktformular">
             <p>
               Wenn Sie uns über das Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular (Name, E-Mail-Adresse, Unternehmensname, Nachricht) zum Zweck der Bearbeitung Ihrer Anfrage sowie für eventuell anschließende Rückfragen bei uns gespeichert und verarbeitet.
             </p>
@@ -100,13 +91,13 @@ export default function DatenschutzPage() {
             </p>
           </Section>
 
-          <Section title="7. Cookies und lokale Speicherung">
+          <Section title="6. Cookies und lokale Speicherung">
             <p>
               Diese Website verwendet keine Tracking- oder Werbe-Cookies. Zur Speicherung Ihrer gewählten Sprache (Deutsch/Englisch) nutzen wir den lokalen Speicher Ihres Browsers (localStorage). Diese Speicherung ist technisch notwendig für die Funktion der Sprachumschaltung und bedarf daher keiner gesonderten Einwilligung (§ 25 Abs. 2 TDDDG). Es werden dabei keine Daten an uns oder Dritte übertragen - die Information verbleibt ausschließlich auf Ihrem Gerät.
             </p>
           </Section>
 
-          <Section title="8. Änderung dieser Datenschutzerklärung">
+          <Section title="7. Änderung dieser Datenschutzerklärung">
             <p>
               Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen umzusetzen. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
             </p>
