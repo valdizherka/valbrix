@@ -30,9 +30,10 @@ export default function HardestWorkingSeoPage() {
 
         <img
           src="/hardest-working-seo-expert-kaufbeuren.jpg"
-          alt="Hardest Working SEO Expert in Kaufbeuren - Valdi Zherka"
-          className="w-full rounded-2xl mb-10 object-cover"
-          style={{ aspectRatio: '16 / 10', background: '#f8fafc', border: '1px solid #e2e8f0' }}
+          alt="Valdi Zherka, the hardest working SEO expert in Kaufbeuren"
+          width="1600"
+          height="1200"
+          className="w-full h-auto rounded-2xl mb-10"
         />
 
         <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
