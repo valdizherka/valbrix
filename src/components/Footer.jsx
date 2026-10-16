@@ -54,6 +54,12 @@ export default function Footer() {
             </div>
           </div>
 
+          <p className="text-center text-gray-400 text-xs pb-4">
+            Valbrix Digital · Kaufbeuren & Ostallgäu ·{' '}
+            <a href="tel:+4917660154700" className="hover:text-gray-900 transition-colors duration-200">
+              0176 60154700
+            </a>
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <Logo size="sm" />
             <div className="flex items-center gap-5">
