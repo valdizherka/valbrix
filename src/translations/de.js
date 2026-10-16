@@ -42,7 +42,7 @@ export default {
     },
   },
   problem: {
-    sectionLabel: 'Das Problem',
+    sectionLabel: 'Unsere Leistungen',
     heading: 'SEO, Social-Media-Management & Google Ads',
     headingGradient: 'für Unternehmen in Kaufbeuren',
     subheading:
