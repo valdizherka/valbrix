@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
 // Set to e.g. '/hero-video.mp4' (file in public/) once the video is recorded.
@@ -51,14 +50,13 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 w-full">
         <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 xl:gap-16 items-center">
           <div className="space-y-8 flex flex-col items-center text-center lg:items-start lg:text-left">
-            <Link
-              to="/faq"
-              className="inline-flex items-start gap-2 text-lg md:text-xl font-bold hover:underline"
+            <p
+              className="inline-flex items-start gap-2 text-lg md:text-xl font-bold"
               style={{ color: '#b8860a' }}
             >
               <span aria-hidden="true">✓</span>
               <span>{h.guarantee}<br className="hidden sm:block" /> {h.guaranteeLine2}</span>
-            </Link>
+            </p>
 
             <h1 className="font-display font-black leading-[1.02] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
               {lang === 'de' ? (
