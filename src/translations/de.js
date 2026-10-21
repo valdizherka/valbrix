@@ -13,8 +13,8 @@ export default {
     headline2: 'Kaufbeuren',
     subheadline:
       'Wir übernehmen Ihr Marketing. Sie bekommen mehr Kunden. Einfach.',
-    guarantee: 'In 90 Tagen in die Top 3 bei Google. Garantiert – sonst Geld zurück.*',
-    guaranteeTerms: '*Garantiebedingungen',
+    guarantee: 'In 90 Tagen in die Top 3 bei Google.',
+    guaranteeLine2: 'Garantiert – sonst Geld zurück.',
     ctaPrimary: 'Kostenloses Strategiegespräch',
     ctaSecondary: 'Gratis-Video anfordern',
     trustBadges: ['Leistungsorientiert', 'Lokal & erreichbar', 'Strategie zuerst', 'Kein Einheitsmarketing'],

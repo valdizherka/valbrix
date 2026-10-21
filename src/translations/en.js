@@ -14,8 +14,8 @@ export default {
     headline3: 'More Clients.',
     subheadline:
       'We run your marketing. You get more clients. Simple.',
-    guarantee: 'Top 3 on Google in 90 days. Guaranteed – or your money back.*',
-    guaranteeTerms: '*Guarantee terms',
+    guarantee: 'Top 3 on Google in 90 days.',
+    guaranteeLine2: 'Guaranteed – or your money back.',
     ctaPrimary: 'Book a Free Call',
     ctaSecondary: 'Get the Free Video',
     trustBadges: ['Performance-driven', 'Local & accessible', 'Strategy-first', 'No generic marketing'],
