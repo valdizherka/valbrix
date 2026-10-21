@@ -14,6 +14,8 @@ export default {
     headline2: 'Kaufbeuren',
     subheadline:
       'Wir übernehmen Ihr Marketing. Sie bekommen mehr Kunden. Einfach.',
+    guarantee: 'In 90 Tagen in die Top 3 bei Google. Garantiert – sonst Geld zurück.*',
+    guaranteeTerms: '*Garantiebedingungen',
     ctaPrimary: 'Kostenloses Strategiegespräch',
     ctaSecondary: 'Gratis-Video anfordern',
     trustBadges: ['Leistungsorientiert', 'Lokal & erreichbar', 'Strategie zuerst', 'Kein Einheitsmarketing'],
@@ -284,8 +286,8 @@ export default {
         answer: 'Buchen Sie einfach ein kostenloses Strategiegespräch. Wir fragen nach Ihrem Unternehmen, Ihren Zielen und Ihrer aktuellen Situation - Sie müssen sich nicht vorbereiten.',
       },
       {
-        question: 'Könnt ihr Ergebnisse garantieren?',
-        answer: 'Niemand kann seriös konkrete Zahlen garantieren - wer das tut, verspricht zu viel. Was wir garantieren können, ist eine klare Strategie, transparente Berichte und Arbeit, die immer an Ihre tatsächlichen Unternehmensziele geknüpft ist, nicht an Eitelkeitskennzahlen.',
+        question: 'Gibt es eine Garantie? (Garantiebedingungen)',
+        answer: 'Ja: In 90 Tagen in die Top 3 bei Google – sonst Geld zurück. Die Bedingungen: Die Garantie gilt für ein Haupt-Keyword, das wir vor Projektstart gemeinsam schriftlich festlegen (z. B. „Friseur Kaufbeuren“), gemessen in der lokalen Google-Suche (Google Maps / Local Pack) am Standort Ihres Unternehmens. Die 90 Tage beginnen, sobald wir Zugang zu Ihrem Google-Unternehmensprofil und Ihrer Website haben. Erreicht Ihr Unternehmen nach 90 Tagen nicht die Top 3, erstatten wir die in diesem Zeitraum an Valbrix Digital gezahlten Agenturgebühren. Werbebudgets für Google Ads oder Meta Ads sowie Kosten Dritter sind von der Erstattung ausgenommen.',
       },
     ],
   },

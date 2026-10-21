@@ -15,6 +15,8 @@ export default {
     headline3: 'More Clients.',
     subheadline:
       'We run your marketing. You get more clients. Simple.',
+    guarantee: 'Top 3 on Google in 90 days. Guaranteed – or your money back.*',
+    guaranteeTerms: '*Guarantee terms',
     ctaPrimary: 'Book a Free Call',
     ctaSecondary: 'Get the Free Video',
     trustBadges: ['Performance-driven', 'Local & accessible', 'Strategy-first', 'No generic marketing'],
@@ -284,8 +286,8 @@ export default {
         answer: 'Just book a free strategy call. We’ll ask about your business, your goals, and your current situation - no prep work required on your end.',
       },
       {
-        question: 'Can you guarantee results?',
-        answer: 'No one honest can guarantee specific numbers - anyone who does is overpromising. What we can guarantee is a clear strategy, transparent reporting, and work that’s always tied to your actual business goals, not vanity metrics.',
+        question: 'Is there a guarantee? (Guarantee terms)',
+        answer: 'Yes: top 3 on Google in 90 days - or your money back. The terms: the guarantee covers one main keyword we agree on in writing before the project starts (e.g. "hairdresser Kaufbeuren"), measured in Google\'s local search results (Google Maps / Local Pack) at your business location. The 90 days start once we have access to your Google Business Profile and your website. If your business is not in the top 3 after 90 days, we refund the agency fees paid to Valbrix Digital during that period. Ad spend for Google Ads or Meta Ads and third-party costs are not refunded.',
       },
     ],
   },

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
 export default function Hero() {
@@ -37,6 +38,19 @@ export default function Hero() {
             <p className="text-gray-500 text-lg leading-relaxed max-w-md">
               {h.subheadline}
             </p>
+
+            <div className="flex flex-col items-center gap-2">
+              <p
+                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-base md:text-lg font-semibold"
+                style={{ background: '#b8860a15', color: '#8a6508', border: '1px solid #b8860a40' }}
+              >
+                <span aria-hidden="true">✓</span>
+                {h.guarantee}
+              </p>
+              <Link to="/faq" className="text-xs text-gray-400 hover:text-gray-700 underline">
+                {h.guaranteeTerms}
+              </Link>
+            </div>
 
             <div className="flex flex-wrap gap-4 items-center pt-2">
               <a
