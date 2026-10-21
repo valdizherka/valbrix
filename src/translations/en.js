@@ -9,7 +9,6 @@ export default {
     cta: 'Book a Free Strategy Call',
   },
   hero: {
-    badge: 'More Clients. Guaranteed.',
     headline1: 'More Growth.',
     headline2: 'More Sales.',
     headline3: 'More Clients.',

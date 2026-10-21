@@ -9,7 +9,6 @@ export default {
     cta: 'Kostenloses Strategiegespräch',
   },
   hero: {
-    badge: 'Digitales Marketing, das echte Ergebnisse liefert',
     headline1: 'Marketing-Agentur',
     headline2: 'Kaufbeuren',
     subheadline:
