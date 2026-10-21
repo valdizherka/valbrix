@@ -1,21 +1,59 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
+// Set to e.g. '/hero-video.mp4' (file in public/) once the video is recorded.
+const HERO_VIDEO = null
+
+function HeroVideo() {
+  if (HERO_VIDEO) {
+    return (
+      <video
+        src={HERO_VIDEO}
+        controls
+        playsInline
+        preload="metadata"
+        className="w-full rounded-3xl bg-black"
+        style={{ aspectRatio: '16 / 9', boxShadow: '0 30px 60px -20px rgba(15,23,42,0.35)' }}
+      />
+    )
+  }
+
+  return (
+    <div
+      className="w-full rounded-3xl flex flex-col items-center justify-center gap-4"
+      style={{
+        aspectRatio: '16 / 9',
+        background: 'linear-gradient(135deg, #1f2937 0%, #111827 60%, #3b2a06 100%)',
+        boxShadow: '0 30px 60px -20px rgba(15,23,42,0.35)',
+      }}
+    >
+      <div
+        className="w-20 h-20 rounded-full flex items-center justify-center"
+        style={{ background: '#b8860a', boxShadow: '0 0 0 12px rgba(184,134,10,0.18)' }}
+      >
+        <svg className="w-8 h-8 ml-1 text-white" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+      </div>
+      <p className="text-white/70 text-sm">Video folgt in Kürze</p>
+    </div>
+  )
+}
+
 export default function Hero() {
   const { t, lang } = useLanguage()
   const h = t.hero
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-40 pb-32">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-36 pb-24">
       <div className="absolute inset-0 hero-gradient" />
 
-      <div className="relative max-w-4xl mx-auto px-6 w-full">
-        <div className="text-center">
-
-          <div className="space-y-10 flex flex-col items-center">
-            <div className="flex flex-col items-center gap-2">
+      <div className="relative max-w-7xl mx-auto px-6 w-full">
+        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 xl:gap-16 items-center">
+          <div className="space-y-8 flex flex-col items-center text-center lg:items-start lg:text-left">
+            <div className="flex flex-col items-center lg:items-start gap-2">
               <p
-                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-base md:text-lg font-bold text-white"
+                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-base md:text-lg lg:text-base lg:whitespace-nowrap font-bold text-white"
                 style={{ background: '#b8860a', boxShadow: '0 8px 24px -8px rgba(184,134,10,0.55)' }}
               >
                 <span aria-hidden="true">✓</span>
@@ -26,7 +64,7 @@ export default function Hero() {
               </Link>
             </div>
 
-            <h1 className="font-display font-black leading-[1.08] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
+            <h1 className="font-display font-black leading-[1.02] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
               {lang === 'de' ? (
                 <>
                   {h.headline1}
@@ -44,11 +82,11 @@ export default function Hero() {
               )}
             </h1>
 
-            <p className="text-gray-500 text-lg leading-relaxed max-w-md">
+            <p className="text-gray-500 text-xl leading-relaxed max-w-md">
               {h.subheadline}
             </p>
 
-            <div className="flex flex-wrap gap-4 items-center pt-2">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 items-center pt-2">
               <a
                 href="#contact"
                 onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }) }}
@@ -68,6 +106,8 @@ export default function Hero() {
               </a>
             </div>
           </div>
+
+          <HeroVideo />
         </div>
       </div>
     </section>
