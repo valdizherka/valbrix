@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext'
 // Set to e.g. '/hero-video.mp4' (file in public/) once the video is recorded.
 const HERO_VIDEO = null
 
-function HeroVideo() {
+function HeroVideo({ soonLabel }) {
   if (HERO_VIDEO) {
     return (
       <video
@@ -34,7 +34,7 @@ function HeroVideo() {
           <path d="M8 5v14l11-7z" />
         </svg>
       </div>
-      <p className="text-white/70 text-sm">Video folgt in Kürze</p>
+      <p className="text-white/70 text-sm">{soonLabel}</p>
     </div>
   )
 }
@@ -101,7 +101,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <HeroVideo />
+          <HeroVideo soonLabel={h.videoSoon} />
         </div>
       </div>
     </section>

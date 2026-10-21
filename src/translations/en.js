@@ -9,13 +9,14 @@ export default {
     cta: 'Book a Free Strategy Call',
   },
   hero: {
-    headline1: 'More Growth.',
-    headline2: 'More Sales.',
-    headline3: 'More Clients.',
+    headline1: 'Are You',
+    headline2: 'Visible on',
+    headline3: 'Google?',
     subheadline:
-      'We run your marketing. You get more clients. Simple.',
+      "Find out why customers can't find you – and how to get into Google's top 3.",
     guarantee: 'Top 3 on Google in 90 days.',
     guaranteeLine2: 'Guaranteed – or your money back.',
+    videoSoon: 'Video coming soon',
     ctaPrimary: 'Book a Free Call',
     ctaSecondary: 'Get the Free Video',
     trustBadges: ['Performance-driven', 'Local & accessible', 'Strategy-first', 'No generic marketing'],
