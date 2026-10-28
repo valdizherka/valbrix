@@ -13,8 +13,8 @@ export default {
     headline2: 'Kaufbeuren',
     subheadline:
       'Ihre Kunden googeln gerade. Und landen bei der Konkurrenz. Das ändern wir.',
-    guarantee: 'In 90 Tagen in die Top 3 bei Google.',
-    guaranteeLine2: 'Garantiert – sonst Geld zurück.',
+    guarantee: 'In 90 Tagen stehen Sie in den Top 3 bei Google.',
+    guaranteeLine2: 'Sonst Geld zurück.',
     videoSoon: 'Video folgt in Kürze',
     ctaPrimary: 'Kostenloses Strategiegespräch',
     ctaSecondary: 'Gratis-Video anfordern',
@@ -287,7 +287,7 @@ export default {
       },
       {
         question: 'Gibt es eine Garantie? (Garantiebedingungen)',
-        answer: 'Ja: In 90 Tagen in die Top 3 bei Google – sonst Geld zurück. Die Bedingungen: Die Garantie gilt für ein Haupt-Keyword, das wir vor Projektstart gemeinsam schriftlich festlegen (z. B. „Friseur Kaufbeuren“), gemessen in der lokalen Google-Suche (Google Maps / Local Pack) am Standort Ihres Unternehmens. Die 90 Tage beginnen, sobald wir Zugang zu Ihrem Google-Unternehmensprofil und Ihrer Website haben. Erreicht Ihr Unternehmen nach 90 Tagen nicht die Top 3, erstatten wir die in diesem Zeitraum an Valbrix Digital gezahlten Agenturgebühren. Werbebudgets für Google Ads oder Meta Ads sowie Kosten Dritter sind von der Erstattung ausgenommen.',
+        answer: 'Ja. In 90 Tagen stehen Sie in den Top 3 bei Google. Sonst Geld zurück. Die Bedingungen: Die Garantie gilt für ein Haupt-Keyword, das wir vor Projektstart gemeinsam schriftlich festlegen (z. B. „Friseur Kaufbeuren“), gemessen in der lokalen Google-Suche (Google Maps / Local Pack) am Standort Ihres Unternehmens. Die 90 Tage beginnen, sobald wir Zugang zu Ihrem Google-Unternehmensprofil und Ihrer Website haben. Erreicht Ihr Unternehmen nach 90 Tagen nicht die Top 3, erstatten wir die in diesem Zeitraum an Valbrix Digital gezahlten Agenturgebühren. Werbebudgets für Google Ads oder Meta Ads sowie Kosten Dritter sind von der Erstattung ausgenommen.',
       },
     ],
   },

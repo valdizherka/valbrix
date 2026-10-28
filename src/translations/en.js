@@ -14,8 +14,8 @@ export default {
     headline3: 'Google?',
     subheadline:
       "Find out why customers can't find you – and how to get into Google's top 3.",
-    guarantee: 'Top 3 on Google in 90 days.',
-    guaranteeLine2: 'Guaranteed – or your money back.',
+    guarantee: "In 90 days you're in Google's top 3.",
+    guaranteeLine2: 'Or your money back.',
     videoSoon: 'Video coming soon',
     ctaPrimary: 'Book a Free Call',
     ctaSecondary: 'Get the Free Video',
@@ -287,7 +287,7 @@ export default {
       },
       {
         question: 'Is there a guarantee? (Guarantee terms)',
-        answer: 'Yes: top 3 on Google in 90 days - or your money back. The terms: the guarantee covers one main keyword we agree on in writing before the project starts (e.g. "hairdresser Kaufbeuren"), measured in Google\'s local search results (Google Maps / Local Pack) at your business location. The 90 days start once we have access to your Google Business Profile and your website. If your business is not in the top 3 after 90 days, we refund the agency fees paid to Valbrix Digital during that period. Ad spend for Google Ads or Meta Ads and third-party costs are not refunded.',
+        answer: 'Yes. In 90 days you\'re in Google\'s top 3. Or your money back. The terms: the guarantee covers one main keyword we agree on in writing before the project starts (e.g. "hairdresser Kaufbeuren"), measured in Google\'s local search results (Google Maps / Local Pack) at your business location. The 90 days start once we have access to your Google Business Profile and your website. If your business is not in the top 3 after 90 days, we refund the agency fees paid to Valbrix Digital during that period. Ad spend for Google Ads or Meta Ads and third-party costs are not refunded.',
       },
     ],
   },
