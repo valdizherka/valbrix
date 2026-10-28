@@ -54,7 +54,7 @@ export default {
       {
         tag: 'Zeitverschwendung',
         title: 'Es selbst zu machen kostet Sie mehr, als Sie denken',
-        body: 'Sonntagabend, 22 Uhr. Sie sitzen vor Canva und überlegen, was Sie morgen posten. Vier Stunden pro Woche, die Ihrem Betrieb fehlen. Und Google interessiert der Post nicht mal.',
+        body: 'Feierabend um 19 Uhr. Dann noch schnell Fotos hochladen, auf Bewertungen antworten, einen Post planen. Um 22 Uhr sitzen Sie immer noch dran. Zehn Stunden im Monat, die Ihnen keiner bezahlt.',
       },
       {
         tag: 'Hohe Kosten, geringer ROI',

@@ -54,7 +54,7 @@ export default {
       {
         tag: 'Time Drain',
         title: 'Doing It Yourself Costs You More Than You Think',
-        body: "Sunday night, 10pm. You're sitting in Canva wondering what to post tomorrow. Four hours a week your business never gets back. And Google doesn't even care about the post.",
+        body: "You finish work at 7pm. Then you quickly upload photos, reply to reviews, plan a post. At 10pm you're still at it. Ten hours a month nobody pays you for.",
       },
       {
         tag: 'High Cost, Low ROI',
