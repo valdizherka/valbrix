@@ -49,7 +49,7 @@ export default {
     heading: 'Marketing Should Grow Your Business.',
     headingGradient: 'Not Become a Second Job.',
     subheading:
-      'Most businesses waste money on marketing that never converts. Here is why.',
+      "You pay for marketing every month. And the phone still doesn't ring. Three reasons why.",
     problems: [
       {
         tag: 'Time Drain',

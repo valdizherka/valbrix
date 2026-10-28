@@ -48,7 +48,7 @@ export default {
     heading: 'SEO, Social-Media-Management & Google Ads',
     headingGradient: 'für Unternehmen in Kaufbeuren',
     subheading:
-      'Marketing soll Ihr Unternehmen wachsen lassen – nicht zu einem zweiten Job werden. Die meisten Unternehmen verschwenden Geld für Marketing, das nie konvertiert. Hier ist, warum.',
+      'Sie zahlen jeden Monat für Marketing. Und das Telefon klingelt trotzdem nicht. Drei Gründe, warum.',
     bridge: 'Es gibt einen besseren Weg – und genau dafür haben wir Valbrix Digital gegründet.',
     problems: [
       {
