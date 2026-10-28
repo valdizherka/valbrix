@@ -54,17 +54,17 @@ export default {
       {
         tag: 'Zeitverschwendung',
         title: 'Es selbst zu machen kostet Sie mehr, als Sie denken',
-        body: 'Sie verbringen jede Woche Stunden mit Content, Anzeigen und Strategie – Zeit, die Ihrem eigentlichen Geschäft fehlt. Das Ergebnis: inkonsistente Ergebnisse und langsames Wachstum.',
+        body: 'Sonntagabend, 22 Uhr. Sie sitzen vor Canva und überlegen, was Sie morgen posten. Vier Stunden pro Woche, die Ihrem Betrieb fehlen. Und Google interessiert der Post nicht mal.',
       },
       {
         tag: 'Hohe Kosten, geringer ROI',
         title: 'Ein Mitarbeiter kann nicht alles',
-        body: 'Einen einzelnen Marketing-Mitarbeiter einzustellen ist teuer – und eine Person kann nicht gleichzeitig Anzeigen, SEO, Content, Design, Analytics und Strategie meistern. Sie erhalten Teilergebnisse und Lücken in der Umsetzung.',
+        body: 'Eine Marketingkraft kostet Sie schnell €3.400 im Monat. Plus Lohnnebenkosten. Und dann soll eine Person SEO, Google Ads, Instagram und Design gleichzeitig können? Wird nix.',
       },
       {
         tag: 'Wenig Aufmerksamkeit',
-        title: 'Große Agenturen bieten kleinen Unternehmen Standardlösungen',
-        body: 'Große Agenturen betreuen Dutzende von Kunden und behandeln kleine Unternehmen oft als Nebensache. Sie erhalten vorgefertigte Pläne, unerfahrene Ansprechpartner und Ergebnisse, die auf sich warten lassen.',
+        title: 'Große Agenturen haben keine Zeit für Sie',
+        body: 'Bei der großen Agentur in München sind Sie Kunde Nummer 47. Sie bekommen eine Vorlage, einen Praktikanten als Ansprechpartner und jeden Monat ein PDF voller Fachchinesisch. Bei uns reden Sie mit dem, der die Arbeit macht.',
       },
     ],
   },

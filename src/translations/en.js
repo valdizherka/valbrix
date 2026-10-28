@@ -54,17 +54,17 @@ export default {
       {
         tag: 'Time Drain',
         title: 'Doing It Yourself Costs You More Than You Think',
-        body: 'You spend hours every week on content, ads, and strategy - time taken away from your actual business. The result is inconsistent output and slow growth.',
+        body: "Sunday night, 10pm. You're sitting in Canva wondering what to post tomorrow. Four hours a week your business never gets back. And Google doesn't even care about the post.",
       },
       {
         tag: 'High Cost, Low ROI',
         title: "One Employee Can't Do Everything",
-        body: "One person can't master ads, SEO, content, design, and analytics all at once. You end up with gaps in execution and money left on the table.",
+        body: "A marketing hire costs you €3,400 a month, easily. Plus payroll costs. And then one person is supposed to do SEO, Google Ads, Instagram and design at the same time? Not happening.",
       },
       {
         tag: 'Low Attention',
-        title: 'Big Agencies Give Small Businesses Generic Plans',
-        body: 'Large agencies give you a cookie-cutter plan and a junior account manager. Small businesses get low priority - and results that never materialize.',
+        title: "Big Agencies Don't Have Time for You",
+        body: "At the big agency in Munich you're client number 47. You get a template, an intern as your contact and a monthly PDF full of jargon. With us you talk to the person doing the work.",
       },
     ],
   },
