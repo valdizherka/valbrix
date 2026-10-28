@@ -418,10 +418,10 @@ export default {
     ],
   },
   cta: {
-    badge: 'Free Video - No Commitment',
-    heading1: 'Get a free video showing you',
-    headingGradient: 'how to show up in the Top 3 on Google.',
-    body: "See exactly what's holding your business back from ranking on Google - free, no strings attached.",
+    badge: 'Free video. No catch.',
+    heading1: 'We look at how you show up on Google.',
+    headingGradient: "And tell you honestly why you're not at the top.",
+    body: "You get a short video, 3 minutes, made just for your business. Costs nothing. And if everything looks good, we'll tell you that too.",
     form: {
       placeholder: 'you@business.com',
       submitButton: 'Send Me the Video',
@@ -462,7 +462,7 @@ export default {
       sending: 'Sending...',
       privacyBefore: 'By submitting, you agree to our ',
       privacyLink: 'Privacy Policy',
-      privacyAfter: '. No spam - ever.',
+      privacyAfter: '. No spam. Ever.',
     },
     success: {
       heading: 'Message Received!',

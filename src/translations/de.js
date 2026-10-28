@@ -420,10 +420,10 @@ export default {
     ],
   },
   cta: {
-    badge: 'Gratis-Video – Keine Verpflichtung',
-    heading1: 'Holen Sie sich ein gratis Video, das zeigt,',
-    headingGradient: 'wie Sie bei Google in die Top 3 kommen.',
-    body: 'Erfahren Sie genau, was Ihr Unternehmen aktuell davon abhält, bei Google zu ranken – kostenlos und unverbindlich.',
+    badge: 'Gratis-Video. Ohne Haken.',
+    heading1: 'Wir schauen uns Ihren Google-Auftritt an.',
+    headingGradient: 'Und sagen Ihnen ehrlich, warum Sie nicht oben stehen.',
+    body: 'Sie bekommen ein kurzes Video, 3 Minuten, nur für Ihren Betrieb. Kostet nichts. Und wenn alles passt, sagen wir Ihnen das auch.',
     form: {
       placeholder: 'sie@unternehmen.de',
       submitButton: 'Video zusenden',
@@ -464,7 +464,7 @@ export default {
       sending: 'Wird gesendet...',
       privacyBefore: 'Mit dem Absenden stimmen Sie unserer ',
       privacyLink: 'Datenschutzerklärung',
-      privacyAfter: ' zu. Kein Spam – versprochen.',
+      privacyAfter: ' zu. Kein Spam. Versprochen.',
     },
     success: {
       heading: 'Nachricht erhalten!',
