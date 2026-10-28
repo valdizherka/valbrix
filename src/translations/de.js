@@ -462,7 +462,9 @@ export default {
         'Beschreiben Sie kurz Ihr Unternehmen, Ihre aktuelle Marketingsituation und was Sie erreichen möchten...',
       submitButton: 'Kostenloses Strategiegespräch buchen',
       sending: 'Wird gesendet...',
-      privacyNote: 'Mit dem Absenden stimmen Sie unserer Datenschutzrichtlinie zu. Kein Spam – versprochen.',
+      privacyBefore: 'Mit dem Absenden stimmen Sie unserer ',
+      privacyLink: 'Datenschutzerklärung',
+      privacyAfter: ' zu. Kein Spam – versprochen.',
     },
     success: {
       heading: 'Nachricht erhalten!',

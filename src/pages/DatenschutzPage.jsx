@@ -79,9 +79,12 @@ export default function DatenschutzPage() {
             </p>
           </Section>
 
-          <Section title="5. Kontaktformular">
+          <Section title="5. Kontaktformular und Gratis-Video-Anfrage">
             <p>
               Wenn Sie uns über das Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular (Name, E-Mail-Adresse, Unternehmensname, Nachricht) zum Zweck der Bearbeitung Ihrer Anfrage sowie für eventuell anschließende Rückfragen bei uns gespeichert und verarbeitet.
+            </p>
+            <p>
+              Wenn Sie über das Formular „Gratis-Video“ ein Video anfordern, verarbeiten wir Ihre E-Mail-Adresse, um Ihnen das angeforderte Video zuzusenden und Sie gegebenenfalls im Zusammenhang mit dieser Anfrage zu kontaktieren.
             </p>
             <p>
               Zur technischen Übermittlung nutzen wir den Dienst EmailJS. Ihre Angaben werden dabei zum Zweck der Zustellung an unsere E-Mail-Adresse verarbeitet. Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung durch das Absenden des Formulars (Art. 6 Abs. 1 lit. a DSGVO) bzw. zur Anbahnung eines Vertrags (Art. 6 Abs. 1 lit. b DSGVO).

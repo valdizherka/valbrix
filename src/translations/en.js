@@ -460,7 +460,9 @@ export default {
         "Briefly describe your business, your current marketing situation, and what you're hoping to achieve...",
       submitButton: 'Book My Free Strategy Call',
       sending: 'Sending...',
-      privacyNote: 'By submitting, you agree to our Privacy Policy. No spam - ever.',
+      privacyBefore: 'By submitting, you agree to our ',
+      privacyLink: 'Privacy Policy',
+      privacyAfter: '. No spam - ever.',
     },
     success: {
       heading: 'Message Received!',

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -94,7 +95,11 @@ export default function CTASection() {
 
         {error && <p className="text-red-500 text-sm mt-3">{error}</p>}
 
-        <p className="text-gray-400 text-xs mt-4">{c.form.noSpam}</p>
+        <p className="text-gray-400 text-xs mt-4">
+          {t.contact.form.privacyBefore}
+          <Link to="/datenschutz" className="underline hover:text-gray-700">{t.contact.form.privacyLink}</Link>
+          {t.contact.form.privacyAfter}
+        </p>
       </div>
     </section>
   )

@@ -225,7 +225,11 @@ export default function Contact() {
                     )}
                   </button>
 
-                  <p className="text-center text-gray-400 text-xs">{f.privacyNote}</p>
+                  <p className="text-center text-gray-400 text-xs">
+                    {f.privacyBefore}
+                    <Link to="/datenschutz" className="underline hover:text-gray-700">{f.privacyLink}</Link>
+                    {f.privacyAfter}
+                  </p>
                 </form>
               )}
           </div>
