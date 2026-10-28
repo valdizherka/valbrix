@@ -13,7 +13,7 @@ export default {
     headline2: 'Visible on',
     headline3: 'Google?',
     subheadline:
-      "Find out why customers can't find you – and how to get into Google's top 3.",
+      'Your customers are googling right now. And finding your competitors. We fix that.',
     guarantee: "In 90 days you're in Google's top 3.",
     guaranteeLine2: 'Or your money back.',
     videoSoon: 'Video coming soon',
