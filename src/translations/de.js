@@ -439,7 +439,7 @@ export default {
     heading: 'Starten Sie Ihr',
     headingGradient: 'kostenloses Strategiegespräch',
     subheading:
-      'Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden, um Ihre kostenlose Strategiesitzung zu planen.',
+      'Vier Felder, zwei Minuten. Wir melden uns innerhalb von 24 Stunden. Persönlich.',
     infoLabels: ['E-Mail'],
     infoValues: ['team@valbrixdigital.com'],
     whatNext: 'Was passiert als nächstes?',
@@ -459,7 +459,7 @@ export default {
       placeholderEmail: 'max@unternehmen.de',
       placeholderBusiness: 'Ihr Unternehmensname',
       placeholderMessage:
-        'Beschreiben Sie kurz Ihr Unternehmen, Ihre aktuelle Marketingsituation und was Sie erreichen möchten...',
+        'Was machen Sie, und wo hakt es gerade? Ein, zwei Sätze reichen.',
       submitButton: 'Kostenloses Strategiegespräch buchen',
       sending: 'Wird gesendet...',
       privacyBefore: 'Mit dem Absenden stimmen Sie unserer ',

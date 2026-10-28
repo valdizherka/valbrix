@@ -437,7 +437,7 @@ export default {
     heading: 'Start Your',
     headingGradient: 'Free Strategy Call',
     subheading:
-      "Fill in the form below and we'll get back to you within 24 hours to schedule your free strategy session.",
+      'Four fields, two minutes. We get back to you within 24 hours. Personally.',
     infoLabels: ['Email Us'],
     infoValues: ['team@valbrixdigital.com'],
     whatNext: 'What happens next?',
@@ -457,7 +457,7 @@ export default {
       placeholderEmail: 'john@company.com',
       placeholderBusiness: 'Your Business Name',
       placeholderMessage:
-        "Briefly describe your business, your current marketing situation, and what you're hoping to achieve...",
+        "What do you do, and where are you stuck right now? A sentence or two is enough.",
       submitButton: 'Book My Free Strategy Call',
       sending: 'Sending...',
       privacyBefore: 'By submitting, you agree to our ',
