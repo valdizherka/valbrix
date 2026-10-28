@@ -94,13 +94,25 @@ export default function DatenschutzPage() {
             </p>
           </Section>
 
-          <Section title="6. Cookies und lokale Speicherung">
+          <Section title="6. Webanalyse (Vercel Web Analytics)">
+            <p>
+              Um zu verstehen, wie unsere Website genutzt wird, verwenden wir Vercel Web Analytics, einen Dienst unseres Hosting-Anbieters Vercel Inc. Dabei werden ausschließlich anonyme, zusammengefasste Statistiken erstellt: zum Beispiel welche Seiten aufgerufen werden, von welcher Website Besucher kommen (Referrer), das Land bzw. die Region, Gerätetyp, Betriebssystem und Browser sowie der Zeitpunkt des Aufrufs.
+            </p>
+            <p>
+              Vercel Web Analytics setzt keine Cookies und speichert keine Informationen auf Ihrem Gerät. Besucher werden lediglich über einen anonymen Hashwert unterschieden, der aus der Anfrage gebildet und nach 24 Stunden automatisch verworfen wird. IP-Adressen werden nicht gespeichert, und es findet keine Zusammenführung mit Daten anderer Websites statt. Eine Identifizierung einzelner Personen ist nicht möglich.
+            </p>
+            <p>
+              Rechtsgrundlage ist unser berechtigtes Interesse an der Analyse und Verbesserung unseres Angebots (Art. 6 Abs. 1 lit. f DSGVO). Soweit dabei Daten in die USA übermittelt werden, gelten die Ausführungen unter Punkt 3.
+            </p>
+          </Section>
+
+          <Section title="7. Cookies und lokale Speicherung">
             <p>
               Diese Website verwendet keine Tracking- oder Werbe-Cookies. Zur Speicherung Ihrer gewählten Sprache (Deutsch/Englisch) nutzen wir den lokalen Speicher Ihres Browsers (localStorage). Diese Speicherung ist technisch notwendig für die Funktion der Sprachumschaltung und bedarf daher keiner gesonderten Einwilligung (§ 25 Abs. 2 TDDDG). Es werden dabei keine Daten an uns oder Dritte übertragen - die Information verbleibt ausschließlich auf Ihrem Gerät.
             </p>
           </Section>
 
-          <Section title="7. Änderung dieser Datenschutzerklärung">
+          <Section title="8. Änderung dieser Datenschutzerklärung">
             <p>
               Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen umzusetzen. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
             </p>
