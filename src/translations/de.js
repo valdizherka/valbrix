@@ -12,7 +12,7 @@ export default {
     headline1: 'Marketing-Agentur',
     headline2: 'Kaufbeuren',
     subheadline:
-      'Wir übernehmen Ihr Marketing. Sie bekommen mehr Kunden. Einfach.',
+      'Ihre Kunden googeln gerade. Und landen bei der Konkurrenz. Das ändern wir.',
     guarantee: 'In 90 Tagen in die Top 3 bei Google.',
     guaranteeLine2: 'Garantiert – sonst Geld zurück.',
     videoSoon: 'Video folgt in Kürze',
