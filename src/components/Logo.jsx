@@ -37,6 +37,7 @@ export default function Logo({ size = 'md', variant = 'full' }) {
       viewBox="0 0 140 66"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
       aria-label="Valbrix Digital"
     >
       <defs>
@@ -65,29 +66,6 @@ export default function Logo({ size = 'md', variant = 'full' }) {
           <feComposite in="SourceGraphic" in2="blur" operator="over" />
         </filter>
       </defs>
-
-      {/* "digital" label — small, white/muted, top-left */}
-      <text
-        x="2"
-        y="16"
-        fontFamily="'Inter', system-ui, sans-serif"
-        fontSize="10"
-        fontWeight="400"
-        letterSpacing="0.04em"
-        fill="rgba(255,255,255,0.65)"
-      >
-        digital
-      </text>
-
-      {/* Horizontal line from "digital" to star */}
-      <line
-        x1="42"
-        y1="11"
-        x2="125"
-        y2="11"
-        stroke="rgba(255,255,255,0.3)"
-        strokeWidth="0.8"
-      />
 
       {/* 4-pointed sparkle star */}
       <g filter="url(#starGlow)">
