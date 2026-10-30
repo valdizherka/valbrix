@@ -4,6 +4,7 @@ import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
 import ServicesOverviewPage from './pages/ServicesOverviewPage'
 import ServicePage from './pages/ServicePage'
+import RatgeberPage from './pages/RatgeberPage'
 import FAQPage from './pages/FAQPage'
 import KaufbeurenPage from './pages/KaufbeurenPage'
 import EinsatzgebietePage from './pages/EinsatzgebietePage'
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="leistungen" element={<ServicesOverviewPage />} />
           <Route path="leistungen/:slug" element={<ServicePage />} />
+          <Route path="ratgeber" element={<RatgeberPage />} />
           <Route path="faq" element={<FAQPage />} />
           <Route path="marketing-agentur-kaufbeuren" element={<KaufbeurenPage />} />
           <Route path="einsatzgebiete" element={<EinsatzgebietePage />} />

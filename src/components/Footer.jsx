@@ -66,6 +66,9 @@ export default function Footer() {
               <p className="text-gray-400 text-xs">
                 © {new Date().getFullYear()} Valbrix Digital. {t.footer.copyright}
               </p>
+              <Link to="/ratgeber" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
+                Ratgeber
+              </Link>
               <Link to="/faq" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
                 FAQ
               </Link>
