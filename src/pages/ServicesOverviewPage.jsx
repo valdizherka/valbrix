@@ -148,7 +148,7 @@ export default function ServicesOverviewPage() {
             Warum in Kaufbeuren nur die Top 3 angerufen werden
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
-            Jemand in Neugablonz hat einen Rohrbruch. Er nimmt das Handy und googelt „Klempner Kaufbeuren“. Drei Betriebe stehen oben auf der Karte. Einen davon ruft er an.
+            Jemand in Neugablonz hat einen Rohrbruch. Er nimmt das Handy und googelt „Klempner Kaufbeuren“. Ganz oben zwei Anzeigen. Die scrollt er weg. Darunter die Karte mit drei Betrieben, die da ohne Werbung stehen. Einen davon ruft er an.
           </p>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
             Wer auf Seite 2 steht, bekommt den Anruf nicht. Egal, wie gut der Betrieb ist.
