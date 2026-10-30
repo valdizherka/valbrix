@@ -32,29 +32,29 @@ function FAQItem({ item, isOpen, onToggle }) {
 }
 
 const optionComparison = [
-  { option: 'Freelancer', strength: 'Günstig, oft spezialisiert auf einen Kanal', limit: 'Deckt selten SEO, Ads, Social Media und Website gleichzeitig ab' },
-  { option: 'Inhouse-Mitarbeiter', strength: 'Kennt das Unternehmen genau', limit: 'Eine Person kann kaum Ads, SEO, Content, Design und Analytics gleichzeitig meistern' },
-  { option: 'Full-Service-Agentur', strength: 'Ein Team, mehrere Disziplinen, aufeinander abgestimmte Strategie', limit: 'Erfordert mehr Vertrauen und klare Kommunikation' },
+  { option: 'Freelancer', strength: 'Günstig. Meistens richtig gut in einer Sache.', limit: 'Nur in einer Sache. Wer macht den Rest?' },
+  { option: 'Eigener Mitarbeiter', strength: 'Kennt Ihren Betrieb in- und auswendig.', limit: '€3.400 im Monat plus Lohnnebenkosten. Und kann trotzdem nicht alles.' },
+  { option: 'Agentur', strength: 'SEO, Ads, Social Media und Website aus einer Hand.', limit: 'Sie müssen jemandem vertrauen. Also nehmen Sie eine, die ans Telefon geht.' },
 ]
 
 const servicesTable = [
-  { slug: 'seo-optimization', title: 'SEO-Optimierung', fit: 'Langfristige, kostenlose Sichtbarkeit bei Google', speed: 'Mehrere Monate' },
-  { slug: 'google-ads', title: 'Google Ads', fit: 'Sofortige Sichtbarkeit bei aktiver Kaufabsicht', speed: 'Wenige Tage' },
-  { slug: 'meta-ads', title: 'Meta Ads', fit: 'Reichweite und Sichtbarkeit auf Facebook & Instagram', speed: 'Wenige Tage' },
-  { slug: 'social-media-management', title: 'Social-Media-Management', fit: 'Vertrauen aufbauen, Community pflegen', speed: 'Laufend' },
-  { slug: 'brand-strategy', title: 'Markenstrategie', fit: 'Klare Positionierung als Basis für alles andere', speed: 'Einmalig, wirkt danach überall' },
-  { slug: 'content-creation', title: 'Content-Erstellung', fit: 'Material für Website, Ads und Social Media', speed: 'Laufend' },
-  { slug: 'lead-generation', title: 'Lead-Generierung', fit: 'Kontinuierlicher Strom qualifizierter Anfragen', speed: 'Wochen bis Monate' },
-  { slug: 'website-landing-page-strategy', title: 'Website- & Landing-Page-Strategie', fit: 'Besucher tatsächlich in Anfragen verwandeln', speed: 'Sofort messbar' },
-  { slug: 'analytics-reporting', title: 'Analytics & Reporting', fit: 'Wissen, was funktioniert und was nicht', speed: 'Laufend' },
+  { slug: 'seo-optimization', title: 'SEO-Optimierung', fit: 'Anfragen über Google, ohne für jeden Klick zu zahlen.', speed: '3 bis 6 Monate' },
+  { slug: 'google-ads', title: 'Google Ads', fit: 'Anfragen von Leuten, die genau jetzt suchen.', speed: 'Ein paar Tage' },
+  { slug: 'meta-ads', title: 'Meta Ads', fit: 'Auf Facebook und Instagram gesehen werden, bevor jemand sucht.', speed: 'Ein paar Tage' },
+  { slug: 'social-media-management', title: 'Social-Media-Management', fit: 'Vertrauen, bevor der erste Anruf kommt.', speed: 'Laufend' },
+  { slug: 'brand-strategy', title: 'Markenstrategie', fit: 'Klar sagen, wofür Sie stehen.', speed: 'Einmal machen, wirkt überall' },
+  { slug: 'content-creation', title: 'Content-Erstellung', fit: 'Fotos, Videos und Texte, die nach Ihnen aussehen.', speed: 'Laufend' },
+  { slug: 'lead-generation', title: 'Lead-Generierung', fit: 'Anfragen, die nicht vom Zufall abhängen.', speed: 'Ein paar Wochen' },
+  { slug: 'website-landing-page-strategy', title: 'Website- & Landing-Page-Strategie', fit: 'Aus Besuchern werden Anrufe.', speed: 'Sofort messbar' },
+  { slug: 'analytics-reporting', title: 'Analytics & Reporting', fit: 'Wissen, wohin jeder Euro geht.', speed: 'Ab dem ersten Monat' },
 ]
 
 const detailSections = [
   {
-    heading: 'Sichtbarkeit aufbauen: SEO & Google Unternehmensprofil',
+    heading: 'Gefunden werden: SEO & Google-Unternehmensprofil',
     slug: 'seo-optimization',
     linkLabel: 'SEO-Optimierung',
-    body: 'SEO ist für die meisten lokalen Unternehmen in Kaufbeuren der wichtigste einzelne Hebel, weil er langfristig kostenlosen Traffic bringt. Dazu gehört weit mehr als nur ein paar Keywords in die Website zu schreiben: ein vollständig optimiertes Google Unternehmensprofil, konsistente Kontaktdaten über alle Verzeichnisse hinweg, technisch saubere Seitenstruktur und Inhalte, die tatsächlich beantworten, wonach lokal gesucht wird.',
+    body: 'Für fast jeden Betrieb in Kaufbeuren ist das der wichtigste Punkt. Wer bei Google Maps oben steht, bekommt Anrufe. Jeden Tag. Ohne für jeden Klick zu zahlen. Dafür braucht es mehr als ein paar Keywords auf der Website: ein vollständiges Google-Profil, überall die gleichen Kontaktdaten, eine saubere Website und Seiten, die beantworten, was die Leute hier wirklich suchen. Alles dazu auf der',
   },
   {
     heading: 'Sofort sichtbar: Google Ads & Meta Ads',
@@ -62,13 +62,13 @@ const detailSections = [
     body: null,
   },
   {
-    heading: 'Community & Reichweite: Social-Media-Management',
+    heading: 'Vertrauen aufbauen: Social-Media-Management',
     slug: 'social-media-management',
     linkLabel: 'Social-Media-Management',
-    body: 'Für viele lokale Unternehmen ist Social Media der erste Kontaktpunkt, bevor jemand überhaupt googelt. Social-Media-Management sorgt für konsistente Präsenz auf Instagram, Facebook und Co. - nicht als Selbstzweck, sondern um Vertrauen aufzubauen, bevor der potenzielle Kunde anfragt.',
+    body: 'Bevor jemand anruft, schaut er auf Instagram. Ist da seit 2022 nichts mehr passiert, ruft er den Nächsten an. Wir sorgen dafür, dass Ihr Profil lebt. Mehr dazu auf der',
   },
   {
-    heading: 'Fundament: Markenstrategie, Content & Website',
+    heading: 'Das Fundament: Markenstrategie, Content & Website',
     slug: 'brand-strategy',
     linkLabel: 'Markenstrategie',
     body: null,
@@ -76,53 +76,53 @@ const detailSections = [
 ]
 
 const localTips = [
-  'Prüfen Sie, ob Name, Adresse und Telefonnummer auf Ihrer Website exakt mit Ihrem Google Unternehmensprofil übereinstimmen.',
-  'Vervollständigen Sie Ihr Google-Profil zu 100 % - jedes leere Feld ist ein verschenkter Punkt.',
-  'Bitten Sie drei zufriedene Kunden aktiv um eine Google-Bewertung.',
-  'Prüfen Sie, ob Ihr Firmenname und Ihre Stadt im Titel-Tag Ihrer Website vorkommen.',
-  'Laden Sie aktuelle Fotos Ihres Unternehmens hoch - Profile mit aktuellen Bildern werden nachweislich öfter angeklickt.',
+  'Name, Adresse, Telefon: Steht auf Ihrer Website exakt das Gleiche wie im Google-Profil? Jeder Unterschied kostet Sie Plätze.',
+  'Füllen Sie Ihr Google-Profil zu 100 % aus. Jedes leere Feld ist ein Punkt für die Konkurrenz.',
+  'Schreiben Sie heute drei zufriedenen Kunden: „Würden Sie uns eine kurze Google-Bewertung schreiben?“ Mehr braucht es nicht.',
+  'Fahren Sie mit der Maus über den Tab Ihrer Website. Steht da Ihre Stadt und was Sie machen? Wenn da nur „Home“ steht, wissen Sie, was zu tun ist.',
+  'Laden Sie fünf neue Fotos hoch. Vom Team, von der Arbeit, vom Laden. Profile mit aktuellen Fotos werden öfter angeklickt.',
 ]
 
 const chooseChecklist = [
-  'Kennt sie den lokalen Markt tatsächlich? Oder wird dieselbe Strategie bei jedem Kunden kopiert?',
-  'Gibt es einen festen Ansprechpartner? Oder wechseln Sie ständig den Kontakt?',
-  'Sind die Berichte konkret? Klare Kennzahlen statt vager "Reichweite ist gestiegen"-Aussagen.',
-  'Müssen Sie sich langfristig binden? Monatliche Kündbarkeit zeigt, dass die Agentur von Ergebnissen lebt, nicht von Verträgen.',
-  'Deckt sie mehrere Kanäle ab? SEO, Ads und Social Media funktionieren am besten zusammen, nicht isoliert.',
+  'Fragen Sie nach einem Kunden aus der Region. Und rufen Sie den an.',
+  'Wer ist Ihr Ansprechpartner? Wenn die Antwort „das Team“ ist, wissen Sie Bescheid.',
+  'Lassen Sie sich einen Monatsbericht zeigen. Verstehen Sie ihn in zwei Minuten? Gut. Wenn nicht, ist es Fachchinesisch.',
+  'Wie lange müssen Sie unterschreiben? 12 Monate heißt: Die verlassen sich auf den Vertrag. Wir arbeiten monatlich kündbar.',
+  'Machen die SEO, Ads und Social Media? Oder nur eins davon und verkaufen es als alles?',
 ]
 
 const faqItems = [
   {
     question: 'Welche Leistung passt zu meinem Unternehmen?',
-    answer: 'Das hängt vom Ausgangspunkt ab. Wenn Sie kaum online sichtbar sind, starten wir meist mit SEO und einem optimierten Google-Profil. Brauchen Sie sofort Anfragen, ist bezahlte Werbung der schnellere Weg.',
+    answer: 'Kommt drauf an, wo Sie stehen. Bei Google kaum sichtbar? Dann zuerst SEO und Ihr Google-Profil. Sie brauchen nächste Woche Anfragen? Dann Google Ads. Im Gespräch sagen wir Ihnen ehrlich, was zuerst kommt.',
   },
   {
     question: 'Was kostet Online-Marketing für ein Unternehmen in Kaufbeuren?',
-    answer: 'Das hängt vom Umfang ab. Wir nennen Ihnen nach einem kostenlosen Strategiegespräch einen konkreten Preis - keine Pauschalpakete.',
+    answer: 'Das sagen wir Ihnen nach dem Erstgespräch. Mit einer konkreten Zahl. Keine Pakete von der Stange, keine versteckten Kosten.',
   },
   {
     question: 'Muss ich alle Leistungen gleichzeitig buchen?',
-    answer: 'Nein. Die meisten Kunden starten mit ein bis zwei Leistungen und bauen darauf auf, sobald sich Ergebnisse zeigen.',
+    answer: 'Nein. Die meisten starten mit einer oder zwei Sachen. Wenn die laufen, kommt der Rest.',
   },
   {
     question: 'Was ist der Unterschied zwischen SEO und bezahlter Werbung?',
-    answer: 'SEO baut dauerhafte, kostenlose Sichtbarkeit auf, braucht aber Zeit. Werbung bringt sofort Anfragen, kostet aber, solange sie läuft. Idealerweise ergänzen sich beide.',
+    answer: 'SEO braucht Zeit und bringt dafür dauerhaft Anfragen. Werbung bringt sofort Anfragen und hört auf, sobald Sie aufhören zu zahlen. Am besten beides.',
   },
   {
     question: 'Arbeitet ihr auch mit Handwerksbetrieben und kleinen Unternehmen?',
-    answer: 'Ja - ein großer Teil unserer Arbeit im Ostallgäu ist genau auf inhabergeführte, lokale Betriebe zugeschnitten.',
+    answer: 'Ja. Das sind sogar unsere Lieblingskunden. Inhabergeführt, gute Arbeit, nur bei Google unsichtbar.',
   },
   {
     question: 'Wie schnell sehe ich erste Ergebnisse?',
-    answer: 'Bezahlte Werbung kann innerhalb weniger Tage Anfragen bringen. SEO und organisches Wachstum brauchen in der Regel einige Monate, halten dafür aber deutlich länger an.',
+    answer: 'Bei Werbung in ein paar Tagen. Bei SEO nach ein paar Monaten. Und bei Google Maps garantieren wir Ihnen für Ihr Haupt-Keyword die Top 3 in 90 Tagen.',
   },
   {
     question: 'Arbeitet ihr nur mit Unternehmen direkt in Kaufbeuren?',
-    answer: 'Nein - wir sitzen in Kaufbeuren und kennen den bayerischen Markt gut, arbeiten aber auch remote mit Kunden in der gesamten Region.',
+    answer: 'Nein. Wir sitzen in Kaufbeuren, arbeiten aber mit Betrieben im ganzen Allgäu und darüber hinaus. Das meiste läuft sowieso über Telefon und Video.',
   },
   {
     question: 'Was, wenn ich nicht weiß, welche Leistung ich brauche?',
-    answer: 'Kein Problem - im kostenlosen Strategiegespräch schauen wir uns Ihre aktuelle Situation gemeinsam an und empfehlen den sinnvollsten Startpunkt.',
+    answer: 'Dann sind Sie wie fast alle, die uns schreiben. Im Erstgespräch schauen wir uns Ihre Situation an und sagen Ihnen, wo Sie anfangen sollten. Kostet nichts.',
   },
 ]
 
@@ -155,10 +155,10 @@ export default function ServicesOverviewPage() {
           <div className="section-label mb-6">Marketing Agentur Kaufbeuren</div>
           <h1 className="font-display font-black text-4xl md:text-6xl text-gray-900 tracking-tight leading-tight mb-6">
             Marketing-Agentur Kaufbeuren:<br />
-            <span style={{ color: accentColor }}>Alle Leistungen im Überblick</span>
+            <span style={{ color: accentColor }}>Was wir machen. Und was es bringt.</span>
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed max-w-2xl">
-            Wer bei Google "Marketing Agentur Kaufbeuren" eingibt, sucht selten die günstigste Option - sondern die Agentur, die wirklich versteht, wie ein lokales Unternehmen im Ostallgäu online sichtbar wird. Diese Seite zeigt Ihnen in klarer Sprache, welche Leistungen es gibt, wofür sie gedacht sind und wie Sie die für Ihr Unternehmen richtige Kombination finden.
+            Sie haben gerade „Marketing Agentur Kaufbeuren“ gegoogelt. Und hier sind Sie. (Funktioniert also.) Auf dieser Seite steht, was wir machen, wie lange es dauert und was es Ihnen bringt. Ohne Fachchinesisch.
           </p>
         </div>
       </section>
@@ -167,13 +167,16 @@ export default function ServicesOverviewPage() {
       <section className="relative py-16 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-6">
-            Warum lokales Marketing in Kaufbeuren heute entscheidet
+            Warum in Kaufbeuren nur die Top 3 angerufen werden
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
-            Die meisten Kaufentscheidungen für lokale Dienstleistungen beginnen heute mit einer Google-Suche, nicht mit dem Branchenbuch oder Mundpropaganda. Wenn jemand in Kaufbeuren nach einem Handwerksbetrieb, einer Praxis oder einem Ladengeschäft sucht, landet er fast immer zuerst bei den Top-3-Ergebnissen auf Google Maps. Wer dort nicht auftaucht, existiert für einen Großteil der potenziellen Kunden schlicht nicht - unabhängig davon, wie gut das eigentliche Angebot ist.
+            Jemand in Neugablonz hat einen Rohrbruch. Er nimmt das Handy und googelt „Klempner Kaufbeuren“. Drei Betriebe stehen oben auf der Karte. Einen davon ruft er an.
+          </p>
+          <p className="text-gray-500 text-lg leading-relaxed mb-4">
+            Platz 4 bekommt den Anruf nicht. Egal, wie gut der Betrieb ist.
           </p>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Das betrifft nicht nur große Unternehmen. Gerade inhabergeführte Betriebe im Ostallgäu - vom Handwerksbetrieb über die Praxis bis zum Einzelhandel - konkurrieren online zunehmend mit überregionalen Anbietern, die einfach mehr Budget in Sichtbarkeit stecken. Der Unterschied liegt selten am Angebot, sondern daran, wer online gefunden wird.
+            Genau da verlieren die meisten Betriebe im Ostallgäu ihre Kunden. Gute Arbeit, schwacher Google-Auftritt. Und oben steht die Konkurrenz aus Kempten oder Augsburg, weil die sich darum kümmert.
           </p>
         </div>
       </section>
@@ -185,15 +188,15 @@ export default function ServicesOverviewPage() {
             Was macht eine Marketing-Agentur eigentlich?
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-8">
-            Bevor wir zu den einzelnen Leistungen kommen, lohnt sich ein kurzer Realitätscheck: Was unterscheidet eine Agentur von den Alternativen?
+            Selbst machen haben Sie wahrscheinlich schon probiert. Bleiben drei Möglichkeiten. Ehrlich verglichen:
           </p>
           <div className="overflow-x-auto rounded-2xl" style={{ border: '1px solid #e2e8f0' }}>
             <table className="w-full text-left text-sm">
               <thead>
                 <tr style={{ background: '#f8fafc' }}>
-                  <th className="px-5 py-4 font-display font-bold text-gray-900">Option</th>
-                  <th className="px-5 py-4 font-display font-bold text-gray-900">Stärke</th>
-                  <th className="px-5 py-4 font-display font-bold text-gray-900">Grenze</th>
+                  <th className="px-5 py-4 font-display font-bold text-gray-900">Wer</th>
+                  <th className="px-5 py-4 font-display font-bold text-gray-900">Gut</th>
+                  <th className="px-5 py-4 font-display font-bold text-gray-900">Der Haken</th>
                 </tr>
               </thead>
               <tbody>
@@ -208,7 +211,7 @@ export default function ServicesOverviewPage() {
             </table>
           </div>
           <p className="text-gray-500 text-lg leading-relaxed mt-6">
-            Eine gute Agentur ersetzt nicht einen Mitarbeiter - sie bündelt mehrere Spezialisten, die normalerweise separat eingestellt werden müssten, und stimmt deren Arbeit aufeinander ab.
+            Wir sind die dritte Option. Aber klein genug, dass Sie immer mit dem reden, der die Arbeit macht.
           </p>
         </div>
       </section>
@@ -217,18 +220,18 @@ export default function ServicesOverviewPage() {
       <section className="relative py-16 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
-            Die wichtigsten Leistungen im Überblick
+            Unsere Leistungen, ehrlich eingeordnet
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-8">
-            Hier eine kurze Orientierung, welche Leistung wofür gedacht ist:
+            Was wofür gut ist. Und wie lange es dauert, bis Sie etwas merken.
           </p>
           <div className="overflow-x-auto rounded-2xl mb-8" style={{ border: '1px solid #e2e8f0' }}>
             <table className="w-full text-left text-sm">
               <thead>
                 <tr style={{ background: '#f8fafc' }}>
                   <th className="px-5 py-4 font-display font-bold text-gray-900">Leistung</th>
-                  <th className="px-5 py-4 font-display font-bold text-gray-900">Wofür geeignet</th>
-                  <th className="px-5 py-4 font-display font-bold text-gray-900">Zeit bis Wirkung</th>
+                  <th className="px-5 py-4 font-display font-bold text-gray-900">Wofür</th>
+                  <th className="px-5 py-4 font-display font-bold text-gray-900">Bis Sie es merken</th>
                 </tr>
               </thead>
               <tbody>
@@ -260,7 +263,7 @@ export default function ServicesOverviewPage() {
                 </p>
               ) : section.slug === 'google-ads' ? (
                 <p className="text-gray-500 leading-relaxed">
-                  Während SEO Zeit braucht, bringen{' '}
+                  SEO braucht ein paar Monate.{' '}
                   <Link to="/leistungen/google-ads" className="font-semibold hover:underline" style={{ color: accentColor }}>
                     Google Ads
                   </Link>{' '}
@@ -268,23 +271,23 @@ export default function ServicesOverviewPage() {
                   <Link to="/leistungen/meta-ads" className="font-semibold hover:underline" style={{ color: accentColor }}>
                     Meta Ads
                   </Link>{' '}
-                  innerhalb weniger Tage Anfragen. Google Ads erreicht Menschen mit aktiver Kaufabsicht, Meta Ads baut Sichtbarkeit auf Facebook und Instagram auf, bevor der Bedarf akut wird. Der Haken bei beiden: Sobald das Budget pausiert, verschwindet die Sichtbarkeit sofort wieder. Deshalb funktioniert bezahlte Werbung am besten als Ergänzung zu SEO, nicht als Ersatz dafür.
+                  bringen Anfragen in ein paar Tagen. Google Ads erwischt die Leute, die gerade suchen. Meta Ads zeigt Sie auf Facebook und Instagram, bevor überhaupt jemand sucht. Der Haken: Budget aus, Anfragen weg. Am selben Tag. Deshalb ist Werbung bei uns der Turbo. Der Motor ist SEO.
                 </p>
               ) : (
                 <p className="text-gray-500 leading-relaxed">
-                  Alles darüber steht und fällt mit einer klaren{' '}
+                  Die beste Anzeige bringt nichts, wenn die Website danach aussieht wie 2009. Deshalb gehören eine klare{' '}
                   <Link to="/leistungen/brand-strategy" className="font-semibold hover:underline" style={{ color: accentColor }}>
                     Markenstrategie
                   </Link>
-                  , durchdachtem{' '}
+                  , guter{' '}
                   <Link to="/leistungen/content-creation" className="font-semibold hover:underline" style={{ color: accentColor }}>
                     Content
                   </Link>{' '}
-                  und einer Website, die tatsächlich konvertiert (siehe{' '}
+                  und eine Website, die Anrufe bringt, dazu (siehe{' '}
                   <Link to="/leistungen/website-landing-page-strategy" className="font-semibold hover:underline" style={{ color: accentColor }}>
                     Website- & Landing-Page-Strategie
                   </Link>
-                  ). Wer hier Lücken hat, verschenkt einen Teil jeder Anzeige und jedes Google-Rankings.
+                  ). Sonst zahlen Sie für Klicks, die nirgendwo hinführen.
                 </p>
               )}
             </div>
@@ -296,21 +299,21 @@ export default function ServicesOverviewPage() {
       <section className="relative py-16 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
-            Die lokale Szene: Wie Unternehmen im Ostallgäu online gefunden werden
+            So werden Sie im Ostallgäu gefunden
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
-            Kaufbeuren liegt geografisch zwischen Kempten, Memmingen und Augsburg - und viele Unternehmen hier konkurrieren nicht nur lokal, sondern auch mit Anbietern aus diesen Nachbarstädten, sobald Kunden ihre Google-Suche etwas weiter fassen. Das bedeutet zwei Dinge für Ihre Sichtbarkeit:
+            Kaufbeuren liegt zwischen Kempten, Memmingen und Augsburg. Sobald jemand seine Suche etwas weiter fasst, konkurrieren Sie plötzlich mit Betrieben aus allen drei Städten. Dann entscheiden zwei Dinge:
           </p>
           <ol className="space-y-4 mb-4">
             <li className="text-gray-500 leading-relaxed">
-              <span className="font-semibold text-gray-900">1. Lokale Signale zählen doppelt.</span> Ein vollständiges Google Unternehmensprofil mit korrekter Adresse, passenden Kategorien und regelmäßigen Bewertungen ist oft der Unterschied zwischen Platz 1 und Seite 2.
+              <span className="font-semibold text-gray-900">1. Ihr Google-Profil.</span> Richtige Kategorie, vollständige Angaben, regelmäßig neue Bewertungen. Das trennt Platz 1 von Seite 2.
             </li>
             <li className="text-gray-500 leading-relaxed">
-              <span className="font-semibold text-gray-900">2. Nischen-Suchbegriffe sind Gold wert.</span> Statt nur um "Marketing Agentur Bayern" zu konkurrieren, lohnt es sich, gezielt um Begriffe wie "Handwerker Kaufbeuren" oder "Physiotherapie Ostallgäu" zu ranken - dort ist die Konkurrenz kleiner und die Suchintention klarer.
+              <span className="font-semibold text-gray-900">2. Die richtigen Suchbegriffe.</span> Um „Marketing Agentur Bayern“ kämpfen Hunderte. Um „Fliesenleger Kaufbeuren“ kämpfen drei. Da gewinnen Sie.
             </li>
           </ol>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Wer online in dieser Region gefunden werden will, kommt an einer sauberen lokalen Grundlage nicht vorbei - bevor überhaupt über Werbebudget nachgedacht wird. Mehr dazu auf unserer Seite zur{' '}
+            Erst die Grundlage. Dann Werbebudget. Andersrum verbrennen Sie Geld. Mehr dazu auf unserer Seite zur{' '}
             <Link to="/marketing-agentur-kaufbeuren" className="font-semibold hover:underline" style={{ color: accentColor }}>
               Marketing-Agentur in Kaufbeuren
             </Link>
@@ -323,7 +326,7 @@ export default function ServicesOverviewPage() {
       <section className="relative py-16 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-6">
-            Wie Sie die richtige Agentur in Kaufbeuren auswählen
+            Woran Sie eine gute Agentur in Kaufbeuren erkennen
           </h2>
           <div className="rounded-2xl p-7 md:p-9" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
             <div className="space-y-4">
@@ -350,7 +353,7 @@ export default function ServicesOverviewPage() {
             5 Dinge, die Sie diese Woche selbst umsetzen können
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-8">
-            Auch ohne Agentur können Sie schon jetzt etwas bewegen:
+            Kostet nichts. Dauert einen Nachmittag. Bringt mehr als so manche Agentur im ersten Monat.
           </p>
           <ol className="space-y-4">
             {localTips.map((tip, i) => (
@@ -390,12 +393,12 @@ export default function ServicesOverviewPage() {
       {/* Conclusion / CTA */}
       <section className="relative py-24 overflow-hidden">
         <div className="relative max-w-2xl mx-auto px-6 text-center">
-          <div className="section-label justify-center mb-6">Kostenlos & unverbindlich</div>
+          <div className="section-label justify-center mb-6">Kostenlos. Ohne Haken.</div>
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
             Bereit, in Kaufbeuren gefunden zu werden?
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-10">
-            Online sichtbar zu werden, ist in Kaufbeuren kein Zufall - es ist eine Kombination aus sauberer lokaler Grundlage, der richtigen Mischung aus SEO, Werbung und Content, und einem Partner, der die Region tatsächlich kennt. Buchen Sie ein kostenloses Strategiegespräch - wir zeigen Ihnen konkret, was Ihr Unternehmen aktuell davon abhält, bei Google gefunden zu werden.
+            Im kostenlosen Strategiegespräch schauen wir uns Ihren Google-Auftritt an. Sie erfahren, warum Sie gerade nicht oben stehen. Und was wir dagegen machen. 30 Minuten, dann wissen Sie Bescheid.
           </p>
           <Link to="/#contact" className="btn-primary inline-flex px-8 py-4 text-base">
             <span>Kostenloses Strategiegespräch buchen</span>
