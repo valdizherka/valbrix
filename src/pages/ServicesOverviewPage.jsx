@@ -173,7 +173,7 @@ export default function ServicesOverviewPage() {
             Jemand in Neugablonz hat einen Rohrbruch. Er nimmt das Handy und googelt „Klempner Kaufbeuren“. Drei Betriebe stehen oben auf der Karte. Einen davon ruft er an.
           </p>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
-            Platz 4 bekommt den Anruf nicht. Egal, wie gut der Betrieb ist.
+            Wer auf Seite 2 steht, bekommt den Anruf nicht. Egal, wie gut der Betrieb ist. (Wo versteckt man am besten eine Leiche? Auf Seite 2 bei Google.)
           </p>
           <p className="text-gray-500 text-lg leading-relaxed">
             Genau da verlieren die meisten Betriebe im Ostallgäu ihre Kunden. Gute Arbeit, schwacher Google-Auftritt. Und oben steht die Konkurrenz aus Kempten oder Augsburg, weil die sich darum kümmert.
