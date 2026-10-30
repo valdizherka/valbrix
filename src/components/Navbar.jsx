@@ -7,7 +7,6 @@ const navHrefs = [
   { key: 'home', href: '#home' },
   { key: 'services', href: '/leistungen' },
   { key: 'areas', href: '/einsatzgebiete' },
-  { key: 'freeVideo', href: '#free-video' },
   { key: 'faq', href: '/faq' },
   { key: 'contact', href: '#contact' },
 ]
@@ -103,7 +102,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => { e.preventDefault(); handleLinkClick(link.href) }}
-                className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
+                className={`relative px-3 xl:px-4 py-2 text-sm font-medium whitespace-nowrap rounded-lg transition-all duration-300 ${
                   activeLink === link.href
                     ? 'text-[#b8860a]'
                     : 'text-gray-500 hover:text-gray-900'
@@ -123,7 +122,7 @@ export default function Navbar() {
             <a
               href="#contact"
               onClick={(e) => { e.preventDefault(); handleLinkClick('#contact') }}
-              className="btn-primary text-sm px-5 py-2.5"
+              className="btn-primary text-sm px-5 py-2.5 whitespace-nowrap"
             >
               <span>{t.nav.cta}</span>
               <svg className="w-4 h-4 relative z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
