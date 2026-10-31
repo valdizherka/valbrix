@@ -9,7 +9,7 @@ export default {
     cta: 'Kostenloses Strategiegespräch',
   },
   hero: {
-    headline1: 'Marketing-Agentur',
+    headline1: 'Werbeagentur',
     headline2: 'Kaufbeuren',
     subheadline:
       'Ihre Kunden googeln gerade. Und landen bei der Konkurrenz. Das ändern wir.',
