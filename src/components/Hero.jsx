@@ -49,7 +49,7 @@ export default function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-6 w-full">
         <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 xl:gap-16 items-center">
-          <div className="space-y-8 flex flex-col items-center text-center lg:items-start lg:text-left">
+          <div className="min-w-0 space-y-8 flex flex-col items-center text-center lg:items-start lg:text-left">
             <p
               className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-base md:text-lg lg:text-base lg:whitespace-nowrap font-bold text-white"
               style={{ background: '#b8860a', boxShadow: '0 8px 24px -8px rgba(184,134,10,0.55)' }}
@@ -58,7 +58,7 @@ export default function Hero() {
               <span>{h.guarantee} {h.guaranteeLine2}</span>
             </p>
 
-            <h1 className="font-display font-black leading-[1.02] text-6xl sm:text-7xl xl:text-8xl text-gray-900 tracking-tight">
+            <h1 className="hero-h1 font-display font-black leading-[1.02] text-gray-900 tracking-tight">
               {lang === 'de' ? (
                 <>
                   {h.headline1}

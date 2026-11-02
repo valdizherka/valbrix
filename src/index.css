@@ -25,6 +25,12 @@
     box-sizing: border-box;
   }
 
+  /* Long German compounds (e.g. "Datenschutzerklärung") must wrap on phones instead of being clipped. */
+  h1, h2, h3 {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -290,4 +296,18 @@ input:-webkit-autofill,
 textarea:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #f8fafc inset !important;
   -webkit-text-fill-color: #0f172a !important;
+}
+
+/* Hero H1: on phones scale with the screen so the longest word ("Werbeagentur", ~7.2x the font size wide) fits on one line. */
+.hero-h1 {
+  font-size: min(3rem, calc((100vw - 3rem) / 7.2));
+}
+@media (min-width: 640px) {
+  .hero-h1 { font-size: 4.5rem; }
+}
+@media (min-width: 1024px) {
+  .hero-h1 { font-size: 4.25rem; }
+}
+@media (min-width: 1280px) {
+  .hero-h1 { font-size: 5.5rem; }
 }

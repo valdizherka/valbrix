@@ -62,7 +62,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <Logo size="sm" />
-            <div className="flex items-center gap-5">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
               <p className="text-gray-400 text-xs">
                 © {new Date().getFullYear()} Valbrix Digital. {t.footer.copyright}
               </p>

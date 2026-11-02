@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 import en from '../translations/en'
 import de from '../translations/de'
 
@@ -11,6 +11,10 @@ export function LanguageProvider({ children }) {
     const saved = localStorage.getItem('valbrix-lang')
     return saved === 'en' ? 'en' : 'de'
   })
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
 
   const switchLanguage = (newLang) => {
     setLang(newLang)
