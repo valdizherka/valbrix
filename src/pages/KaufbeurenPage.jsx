@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../context/LanguageContext'
 
 const accentColor = '#b8860a'
 
@@ -58,7 +59,7 @@ function heatmapCellColor(value) {
   return '#dc2626'
 }
 
-function LocalHeatmap() {
+function LocalHeatmap({ h }) {
   const [mode, setMode] = useState('after')
   const stats = heatmapStats[mode]
   const isAfter = mode === 'after'
@@ -67,9 +68,9 @@ function LocalHeatmap() {
   return (
     <div className="rounded-2xl overflow-hidden" style={{ background: '#ffffff', border: '1px solid #e2e8f0' }}>
       <div className="text-center pt-10 px-6 pb-8">
-        <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">Der Unterschied</h2>
+        <h2 className="font-display font-bold text-2xl md:text-3xl text-gray-900 mb-3">{h.title}</h2>
         <p className="text-gray-500 max-w-lg mx-auto">
-          Beispielhafte Darstellung, wie sich die lokale Sichtbarkeit eines Unternehmens in Kaufbeuren entwickeln kann.
+          {h.subtitle}
         </p>
       </div>
 
@@ -82,14 +83,14 @@ function LocalHeatmap() {
               className="px-4 py-2 rounded-md text-sm font-semibold transition-all duration-200"
               style={mode === 'before' ? { background: '#ffffff', color: '#0f172a', boxShadow: '0 1px 2px rgba(0,0,0,0.06)' } : { color: '#94a3b8' }}
             >
-              Vorher
+              {h.before}
             </button>
             <button
               onClick={() => setMode('after')}
               className="px-4 py-2 rounded-md text-sm font-semibold transition-all duration-200"
               style={mode === 'after' ? { background: '#ffffff', color: '#0f172a', boxShadow: '0 1px 2px rgba(0,0,0,0.06)' } : { color: '#94a3b8' }}
             >
-              Nachher
+              {h.after}
             </button>
           </div>
 
@@ -103,17 +104,17 @@ function LocalHeatmap() {
               </svg>
             </div>
             <div>
-              <div className="font-display font-bold text-gray-900 text-sm">Dein Unternehmen</div>
+              <div className="font-display font-bold text-gray-900 text-sm">{h.business}</div>
               <div className="text-gray-400 text-xs">Musterstraße 1, 87600 Kaufbeuren</div>
             </div>
           </div>
 
           <div className="space-y-3">
             {[
-              ['Durchschnittlicher Rang', stats.rank],
-              ['Marktanteil', stats.share],
-              ['Klicks pro Monat', stats.clicks],
-              ['Kunden pro Monat', stats.clients],
+              [h.stats[0], stats.rank],
+              [h.stats[1], stats.share],
+              [h.stats[2], stats.clicks],
+              [h.stats[3], stats.clients],
             ].map(([label, val]) => (
               <div
                 key={label}
@@ -174,69 +175,119 @@ function LocalHeatmap() {
   )
 }
 
-const valueProps = [
-  {
-    title: 'Sichtbarkeit',
-    body: 'Wer in Kaufbeuren lokal sucht, sieht meist nur die ersten drei Ergebnisse auf Google Maps. Wir sorgen dafür, dass dein Unternehmen dort auftaucht.',
+const copy = {
+  de: {
+    title: 'Die beste Marketing-Agentur in Kaufbeuren | Valbrix Digital',
+    heatmap: {
+      title: 'Der Unterschied',
+      subtitle: 'Beispielhafte Darstellung, wie sich die lokale Sichtbarkeit eines Unternehmens in Kaufbeuren entwickeln kann.',
+      before: 'Vorher',
+      after: 'Nachher',
+      business: 'Dein Unternehmen',
+      stats: ['Durchschnittlicher Rang', 'Marktanteil', 'Klicks pro Monat', 'Kunden pro Monat'],
+    },
+    label: 'Marketing-Agentur Kaufbeuren',
+    h1a: 'Die beste Marketing-Agentur',
+    h1b: 'in Kaufbeuren',
+    intro: <>75&nbsp;% aller Google-Suchanfragen enden bei den Top&nbsp;3-Ergebnissen auf Google Maps. Wenn dein Unternehmen dort nicht auftaucht, gehen die Anfragen an die Konkurrenz.</>,
+    trust: ['20+ zufriedene Kunden', 'Schnelle Ergebnisse', 'Lokale Expertise in Kaufbeuren'],
+    heroPrimary: 'Kostenloses Erstgespräch',
+    heroSecondary: 'Kostenloses Video ansehen',
+    valueH2: 'Lohnt sich das für dich?',
+    valueProps: [
+      { title: 'Sichtbarkeit', body: 'Wer in Kaufbeuren lokal sucht, sieht meist nur die ersten drei Ergebnisse auf Google Maps. Wir sorgen dafür, dass dein Unternehmen dort auftaucht.' },
+      { title: 'Nachhaltig', body: 'Anders als bei bezahlten Anzeigen verschwindet deine Sichtbarkeit nicht, sobald ein Budget aufgebraucht ist.' },
+      { title: 'Langfristige Strategie', body: 'Wir bauen eine Position auf, die über Monate hinweg für dich arbeitet – ohne dass du ständig nachlegen musst.' },
+    ],
+    processLabel: "So läuft's ab",
+    processH2: 'In vier Schritten zu mehr Kunden',
+    steps: [
+      { title: 'Strategiegespräch', body: 'In einem kostenlosen Gespräch lernen wir dein Unternehmen und deine Ziele kennen.' },
+      { title: 'Onboarding', body: 'Wir analysieren deinen aktuellen Auftritt und erstellen einen klaren Plan für Kaufbeuren.' },
+      { title: 'Umsetzung', body: 'Wir übernehmen dein Marketing – von deinem Google-Profil bis zu Social Media.' },
+      { title: 'Ergebnisse', body: 'Du bekommst laufende Updates und siehst genau, was funktioniert.' },
+    ],
+    servicesLabel: 'Unsere Leistungen',
+    servicesH2: 'Diese Leistungen bieten wir in Kaufbeuren an',
+    servicesIntro: 'Egal ob du bei Google gefunden werden willst oder mehr Anfragen über bezahlte Werbung brauchst - wir übernehmen dein digitales Marketing.',
+    services: [['seo-optimization', 'SEO-Optimierung'], ['google-ads', 'Google Ads'], ['social-media-management', 'Social-Media-Management'], ['brand-strategy', 'Markenstrategie']],
+    allServices: 'Alle Leistungen ansehen',
+    faqLabel: 'Häufige Fragen',
+    faqH2: 'Fragen zur Zusammenarbeit',
+    faq: [
+      { question: 'Warum eine lokale Agentur aus der Region statt eine überregionale?', answer: 'Wir kennen den Markt in Kaufbeuren und Umgebung, die lokale Konkurrenz und was Kunden hier tatsächlich suchen. Das spart Zeit und liefert schneller relevante Ergebnisse als eine generische Strategie.' },
+      { question: 'Wie schnell sehe ich erste Ergebnisse?', answer: 'Das hängt von deinem Ausgangspunkt ab. Erste Verbesserungen bei Sichtbarkeit und Anfragen zeigen sich häufig innerhalb der ersten Wochen, spürbare Ergebnisse meist nach ein bis zwei Monaten.' },
+      { question: 'Muss ich mich langfristig binden?', answer: 'Nein. Wir arbeiten monatlich kündbar. Wir sind überzeugt, dass die Ergebnisse dich überzeugen – nicht ein Vertrag.' },
+      { question: 'Für welche Branchen eignet sich das?', answer: 'Vor allem für lokale Dienstleister und Betriebe in und um Kaufbeuren, die von mehr lokalen Anfragen profitieren – zum Beispiel Handwerk, Gesundheit, Beratung oder Gastronomie.' },
+      { question: 'Kann ich nicht einfach mit Google Ads Kunden bekommen?', answer: 'Ja, aber nur solange du dafür bezahlst. Sobald das Budget pausiert, verschwindet deine Sichtbarkeit sofort wieder. Eine starke organische Position auf Google Maps bleibt dagegen bestehen – auch ohne laufende Kosten.' },
+    ],
+    areasNote: <>Du sitzt nicht direkt in Kaufbeuren, sondern in der Umgebung? Auf unserer Seite zu den <Link to="/einsatzgebiete" className="font-semibold hover:underline" style={{ color: accentColor }}>Einsatzgebieten</Link> findest du alle Stadtteile und Gemeinden im Ostallgäu, die wir betreuen.</>,
+    ctaLabel: 'Kostenlos & unverbindlich',
+    ctaH2: 'Bereit für mehr Kunden in Kaufbeuren?',
+    ctaBody: 'Lass uns in einem kurzen, kostenlosen Gespräch besprechen, wie dein Unternehmen in Kaufbeuren sichtbarer wird.',
+    ctaButton: 'Kostenloses Erstgespräch buchen',
   },
-  {
-    title: 'Nachhaltig',
-    body: 'Anders als bei bezahlten Anzeigen verschwindet deine Sichtbarkeit nicht, sobald ein Budget aufgebraucht ist.',
+  en: {
+    title: 'The Best Marketing Agency in Kaufbeuren | Valbrix Digital',
+    heatmap: {
+      title: 'The difference',
+      subtitle: "An example of how a business's local visibility in Kaufbeuren can develop.",
+      before: 'Before',
+      after: 'After',
+      business: 'Your business',
+      stats: ['Average rank', 'Market share', 'Clicks per month', 'Customers per month'],
+    },
+    label: 'Marketing Agency Kaufbeuren',
+    h1a: 'The best marketing agency',
+    h1b: 'in Kaufbeuren',
+    intro: <>75% of all Google searches end with the top 3 results on Google Maps. If your business doesn't show up there, the inquiries go to the competition.</>,
+    trust: ['20+ happy clients', 'Fast results', 'Local expertise in Kaufbeuren'],
+    heroPrimary: 'Free first call',
+    heroSecondary: 'Watch the free video',
+    valueH2: 'Is it worth it for you?',
+    valueProps: [
+      { title: 'Visibility', body: 'People searching locally in Kaufbeuren mostly see only the top three results on Google Maps. We make sure your business shows up there.' },
+      { title: 'Lasting', body: "Unlike paid ads, your visibility doesn't disappear the moment a budget runs out." },
+      { title: 'Long-term strategy', body: 'We build a position that keeps working for you for months, without you having to keep topping it up.' },
+    ],
+    processLabel: 'How it works',
+    processH2: 'Four steps to more customers',
+    steps: [
+      { title: 'Strategy call', body: 'In a free call we get to know your business and your goals.' },
+      { title: 'Onboarding', body: 'We look at how you show up today and build a clear plan for Kaufbeuren.' },
+      { title: 'Execution', body: 'We take over your marketing, from your Google profile to social media.' },
+      { title: 'Results', body: "You get regular updates and see exactly what's working." },
+    ],
+    servicesLabel: 'Our services',
+    servicesH2: 'The services we offer in Kaufbeuren',
+    servicesIntro: 'Whether you want to get found on Google or need more inquiries from paid ads, we take over your digital marketing.',
+    services: [['seo-optimization', 'SEO Optimization'], ['google-ads', 'Google Ads'], ['social-media-management', 'Social Media Management'], ['brand-strategy', 'Brand Strategy']],
+    allServices: 'See all services',
+    faqLabel: 'Common questions',
+    faqH2: 'Questions about working together',
+    faq: [
+      { question: 'Why a local agency instead of a national one?', answer: 'We know the market in and around Kaufbeuren, the local competition and what customers here actually search for. That saves time and gets relevant results faster than a generic strategy.' },
+      { question: 'How fast will I see first results?', answer: 'Depends on where you start. First improvements in visibility and inquiries often show within the first weeks, noticeable results usually after one to two months.' },
+      { question: 'Do I have to commit long-term?', answer: "No. We work month to month. We're convinced the results will keep you. Not a contract." },
+      { question: 'Which industries is this for?', answer: 'Mainly local service providers and businesses in and around Kaufbeuren that benefit from more local inquiries. Trades, health, consulting or restaurants, for example.' },
+      { question: "Can't I just get customers with Google Ads?", answer: 'Yes, but only as long as you pay for it. The moment the budget pauses, your visibility is gone. A strong organic position on Google Maps stays. Even without ongoing costs.' },
+    ],
+    areasNote: <>Not based in Kaufbeuren itself but nearby? Our <Link to="/einsatzgebiete" className="font-semibold hover:underline" style={{ color: accentColor }}>areas we serve</Link> page lists all the districts and towns in the Ostallgäu we cover.</>,
+    ctaLabel: 'Free & no obligation',
+    ctaH2: 'Ready for more customers in Kaufbeuren?',
+    ctaBody: "Let's talk in a short, free call about how your business gets more visible in Kaufbeuren.",
+    ctaButton: 'Book a free first call',
   },
-  {
-    title: 'Langfristige Strategie',
-    body: 'Wir bauen eine Position auf, die über Monate hinweg für dich arbeitet – ohne dass du ständig nachlegen musst.',
-  },
-]
-
-const steps = [
-  {
-    title: 'Strategiegespräch',
-    body: 'In einem kostenlosen Gespräch lernen wir dein Unternehmen und deine Ziele kennen.',
-  },
-  {
-    title: 'Onboarding',
-    body: 'Wir analysieren deinen aktuellen Auftritt und erstellen einen klaren Plan für Kaufbeuren.',
-  },
-  {
-    title: 'Umsetzung',
-    body: 'Wir übernehmen dein Marketing – von deinem Google-Profil bis zu Social Media.',
-  },
-  {
-    title: 'Ergebnisse',
-    body: 'Du bekommst laufende Updates und siehst genau, was funktioniert.',
-  },
-]
-
-const faqItems = [
-  {
-    question: 'Warum eine lokale Agentur aus der Region statt eine überregionale?',
-    answer: 'Wir kennen den Markt in Kaufbeuren und Umgebung, die lokale Konkurrenz und was Kunden hier tatsächlich suchen. Das spart Zeit und liefert schneller relevante Ergebnisse als eine generische Strategie.',
-  },
-  {
-    question: 'Wie schnell sehe ich erste Ergebnisse?',
-    answer: 'Das hängt von deinem Ausgangspunkt ab. Erste Verbesserungen bei Sichtbarkeit und Anfragen zeigen sich häufig innerhalb der ersten Wochen, spürbare Ergebnisse meist nach ein bis zwei Monaten.',
-  },
-  {
-    question: 'Muss ich mich langfristig binden?',
-    answer: 'Nein. Wir arbeiten monatlich kündbar. Wir sind überzeugt, dass die Ergebnisse dich überzeugen – nicht ein Vertrag.',
-  },
-  {
-    question: 'Für welche Branchen eignet sich das?',
-    answer: 'Vor allem für lokale Dienstleister und Betriebe in und um Kaufbeuren, die von mehr lokalen Anfragen profitieren – zum Beispiel Handwerk, Gesundheit, Beratung oder Gastronomie.',
-  },
-  {
-    question: 'Kann ich nicht einfach mit Google Ads Kunden bekommen?',
-    answer: 'Ja, aber nur solange du dafür bezahlst. Sobald das Budget pausiert, verschwindet deine Sichtbarkeit sofort wieder. Eine starke organische Position auf Google Maps bleibt dagegen bestehen – auch ohne laufende Kosten.',
-  },
-]
+}
 
 export default function KaufbeurenPage() {
+  const { lang } = useLanguage()
+  const c = copy[lang] || copy.de
   const [openIndex, setOpenIndex] = useState(0)
 
   useEffect(() => {
-    document.title = 'Die beste Marketing-Agentur in Kaufbeuren | Valbrix Digital'
-  }, [])
+    document.title = c.title
+  }, [c])
 
   return (
     <>
@@ -244,29 +295,30 @@ export default function KaufbeurenPage() {
       <section className="relative pt-40 pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-white" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <div className="section-label justify-center mb-6">Marketing-Agentur Kaufbeuren</div>
+          <div className="section-label justify-center mb-6">{c.label}</div>
           <h1 className="font-display font-black text-4xl md:text-6xl text-gray-900 tracking-tight leading-tight mb-6">
-            Die beste Marketing-Agentur<br />
-            <span style={{ color: accentColor }}>in Kaufbeuren</span>
+            {c.h1a}<br />
+            <span style={{ color: accentColor }}>{c.h1b}</span>
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
-            75&nbsp;% aller Google-Suchanfragen enden bei den Top&nbsp;3-Ergebnissen auf Google Maps. Wenn dein Unternehmen dort nicht auftaucht, gehen die Anfragen an die Konkurrenz.
+            {c.intro}
           </p>
 
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 mb-10 text-sm text-gray-500">
-            <span>20+ zufriedene Kunden</span>
-            <span className="text-gray-300">·</span>
-            <span>Schnelle Ergebnisse</span>
-            <span className="text-gray-300">·</span>
-            <span>Lokale Expertise in Kaufbeuren</span>
+            {c.trust.map((item, i) => (
+              <span key={item} className="flex items-center gap-x-8">
+                {i > 0 && <span className="text-gray-300">·</span>}
+                <span>{item}</span>
+              </span>
+            ))}
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/#contact" className="btn-primary px-7 py-4 text-base">
-              <span>Kostenloses Erstgespräch</span>
+              <span>{c.heroPrimary}</span>
             </Link>
             <Link to="/#free-video" className="btn-outline px-7 py-4 text-base">
-              Kostenloses Video ansehen
+              {c.heroSecondary}
             </Link>
           </div>
         </div>
@@ -275,7 +327,7 @@ export default function KaufbeurenPage() {
       {/* Local heatmap */}
       <section className="relative py-4 pb-20 overflow-hidden">
         <div className="relative max-w-5xl mx-auto px-6">
-          <LocalHeatmap />
+          <LocalHeatmap h={c.heatmap} />
         </div>
       </section>
 
@@ -284,11 +336,11 @@ export default function KaufbeurenPage() {
         <div className="relative max-w-6xl mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-16">
             <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
-              Lohnt sich das für dich?
+              {c.valueH2}
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {valueProps.map((v, i) => (
+            {c.valueProps.map((v, i) => (
               <div key={i} className="rounded-2xl p-7" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
                 <div
                   className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-black mb-5"
@@ -308,13 +360,13 @@ export default function KaufbeurenPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <div className="max-w-2xl mb-16">
-            <div className="section-label mb-6">So läuft's ab</div>
+            <div className="section-label mb-6">{c.processLabel}</div>
             <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight">
-              In vier Schritten zu mehr Kunden
+              {c.processH2}
             </h2>
           </div>
           <div>
-            {steps.map((step, i) => (
+            {c.steps.map((step, i) => (
               <div key={i} className="flex gap-6 md:gap-10 py-8 border-t border-gray-100 first:border-t-0">
                 <span
                   className="font-display font-black text-4xl md:text-5xl shrink-0 w-16 md:w-20"
@@ -336,21 +388,16 @@ export default function KaufbeurenPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-6">
           <div className="max-w-2xl mb-10">
-            <div className="section-label mb-6">Unsere Leistungen</div>
+            <div className="section-label mb-6">{c.servicesLabel}</div>
             <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
-              Diese Leistungen bieten wir in Kaufbeuren an
+              {c.servicesH2}
             </h2>
             <p className="text-gray-500 leading-relaxed">
-              Egal ob du bei Google gefunden werden willst oder mehr Anfragen über bezahlte Werbung brauchst - wir übernehmen dein digitales Marketing.
+              {c.servicesIntro}
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            {[
-              ['seo-optimization', 'SEO-Optimierung'],
-              ['google-ads', 'Google Ads'],
-              ['social-media-management', 'Social-Media-Management'],
-              ['brand-strategy', 'Markenstrategie'],
-            ].map(([slug, label]) => (
+            {c.services.map(([slug, label]) => (
               <Link
                 key={slug}
                 to={`/leistungen/${slug}`}
@@ -365,7 +412,7 @@ export default function KaufbeurenPage() {
               className="text-sm font-semibold px-4 py-2 rounded-full transition-colors duration-200"
               style={{ color: accentColor, background: `${accentColor}15`, border: `1px solid ${accentColor}30` }}
             >
-              Alle Leistungen ansehen
+              {c.allServices}
             </Link>
           </div>
         </div>
@@ -375,13 +422,13 @@ export default function KaufbeurenPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="relative max-w-3xl mx-auto px-6">
           <div className="mb-12">
-            <div className="section-label mb-6">Häufige Fragen</div>
+            <div className="section-label mb-6">{c.faqLabel}</div>
             <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight">
-              Fragen zur Zusammenarbeit
+              {c.faqH2}
             </h2>
           </div>
           <div>
-            {faqItems.map((item, i) => (
+            {c.faq.map((item, i) => (
               <FAQItem
                 key={i}
                 item={item}
@@ -390,28 +437,22 @@ export default function KaufbeurenPage() {
               />
             ))}
           </div>
-          <p className="text-gray-500 leading-relaxed mt-10">
-            Du sitzt nicht direkt in Kaufbeuren, sondern in der Umgebung? Auf unserer Seite zu den{' '}
-            <Link to="/einsatzgebiete" className="font-semibold hover:underline" style={{ color: accentColor }}>
-              Einsatzgebieten
-            </Link>{' '}
-            findest du alle Stadtteile und Gemeinden im Ostallgäu, die wir betreuen.
-          </p>
+          <p className="text-gray-500 leading-relaxed mt-10">{c.areasNote}</p>
         </div>
       </section>
 
       {/* CTA */}
       <section className="relative py-24 overflow-hidden">
         <div className="relative max-w-2xl mx-auto px-6 text-center">
-          <div className="section-label justify-center mb-6">Kostenlos & unverbindlich</div>
+          <div className="section-label justify-center mb-6">{c.ctaLabel}</div>
           <h2 className="font-display font-black text-3xl md:text-4xl text-gray-900 tracking-tight mb-4">
-            Bereit für mehr Kunden in Kaufbeuren?
+            {c.ctaH2}
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-10">
-            Lass uns in einem kurzen, kostenlosen Gespräch besprechen, wie dein Unternehmen in Kaufbeuren sichtbarer wird.
+            {c.ctaBody}
           </p>
           <Link to="/#contact" className="btn-primary inline-flex px-8 py-4 text-base">
-            <span>Kostenloses Erstgespräch buchen</span>
+            <span>{c.ctaButton}</span>
             <svg className="w-5 h-5 relative z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
