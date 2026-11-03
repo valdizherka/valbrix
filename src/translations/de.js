@@ -276,7 +276,7 @@ export default {
     ctaButton: 'Kostenloses Strategiegespräch buchen',
     items: [
       {
-        question: 'Was genau macht ihr?',
+        question: 'Was genau machen Sie?',
         answer: 'Wir übernehmen Ihr digitales Marketing, damit Sie es nicht müssen - Social Media, bezahlte Werbung, SEO, Content und alles dazwischen. Sie bekommen mehr Kunden, wir übernehmen die Arbeit dahinter.',
       },
       {
@@ -292,11 +292,11 @@ export default {
         answer: 'Nein. Wir arbeiten monatlich kündbar. Wenn wir keinen Mehrwert liefern, sollten Sie auch nicht daran gebunden sein, uns weiter zu bezahlen.',
       },
       {
-        question: 'Arbeitet ihr nur mit Unternehmen in Kaufbeuren und München?',
+        question: 'Arbeiten Sie nur mit Unternehmen in Kaufbeuren und München?',
         answer: 'Nein - wir sitzen in Kaufbeuren und kennen den bayerischen Markt gut, arbeiten aber remote mit Kunden überall. Der Standort ist kein Hindernis für eine Zusammenarbeit.',
       },
       {
-        question: 'Was unterscheidet euch von anderen Agenturen?',
+        question: 'Was unterscheidet Sie von anderen Agenturen?',
         answer: 'Kein junior Account Manager, der ständig wechselt, keine Copy-Paste-Strategie, die bei jedem Kunden gleich aussieht, und kein vager Monatsbericht voller Eitelkeitskennzahlen. Sie bekommen einen Strategen, der Ihr Unternehmen wirklich kennt und jede Maßnahme an ein messbares Ergebnis knüpft.',
       },
       {
@@ -504,7 +504,7 @@ export default {
   },
   footer: {
     description:
-      'Eine digitale Marketing-Agentur für ambitionierte Unternehmen, die echtes, messbares Wachstum anstreben.',
+      'Eine Werbeagentur aus Kaufbeuren für ambitionierte Unternehmen, die echtes, messbares Wachstum anstreben.',
     quickLinks: 'Schnelllinks',
     servicesTitle: 'Leistungen',
     areasTitle: 'Einsatzgebiete',

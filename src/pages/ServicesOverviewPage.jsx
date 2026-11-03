@@ -15,10 +15,10 @@ const slugs = ['seo-optimization', 'google-ads', 'meta-ads', 'social-media-manag
 const copy = {
   de: {
     back: '← Zurück zur Startseite',
-    label: 'Marketing Agentur Kaufbeuren',
-    h1a: 'Marketing-Agentur Kaufbeuren:',
+    label: 'Werbeagentur Kaufbeuren',
+    h1a: 'Werbeagentur Kaufbeuren:',
     h1b: 'Was wir machen. Und was es bringt.',
-    intro: 'Sie haben gerade „Marketing Agentur Kaufbeuren“ gegoogelt. Und hier sind Sie. (Funktioniert also.) Auf dieser Seite steht, was wir machen, wie lange es dauert und was es Ihnen bringt. Ohne Fachchinesisch.',
+    intro: 'Sie haben gerade „Werbeagentur Kaufbeuren“ gegoogelt. Und hier sind Sie. (Funktioniert also.) Auf dieser Seite steht, was wir machen, wie lange es dauert und was es Ihnen bringt. Ohne Fachchinesisch.',
     whyH2: 'Warum in Kaufbeuren nur die Top 3 angerufen werden',
     why: [
       'Jemand in Neugablonz hat einen Rohrbruch. Er nimmt das Handy und googelt „Klempner Kaufbeuren“. Ganz oben zwei Anzeigen. Die scrollt er weg. Darunter die Karte mit drei Betrieben, die da ohne Werbung stehen. Einen davon ruft er an.',
@@ -65,9 +65,9 @@ const copy = {
       ['Was kostet Online-Marketing für ein Unternehmen in Kaufbeuren?', 'Das sagen wir Ihnen nach dem Erstgespräch. Mit einer konkreten Zahl. Keine Pakete von der Stange, keine versteckten Kosten.'],
       ['Muss ich alle Leistungen gleichzeitig buchen?', 'Nein. Die meisten starten mit einer oder zwei Sachen. Wenn die laufen, kommt der Rest.'],
       ['Was ist der Unterschied zwischen SEO und bezahlter Werbung?', 'SEO braucht Zeit und bringt dafür dauerhaft Anfragen. Werbung bringt sofort Anfragen und hört auf, sobald Sie aufhören zu zahlen. Am besten beides.'],
-      ['Arbeitet ihr auch mit Handwerksbetrieben und kleinen Unternehmen?', 'Ja. Das sind sogar unsere Lieblingskunden. Inhabergeführt, gute Arbeit, nur bei Google unsichtbar.'],
+      ['Arbeiten Sie auch mit Handwerksbetrieben und kleinen Unternehmen?', 'Ja. Das sind sogar unsere Lieblingskunden. Inhabergeführt, gute Arbeit, nur bei Google unsichtbar.'],
       ['Wie schnell sehe ich erste Ergebnisse?', 'Bei Werbung in ein paar Tagen. Bei SEO nach ein paar Monaten. Und bei Google Maps garantieren wir Ihnen für Ihr Haupt-Keyword die Top 3 in 90 Tagen.'],
-      ['Arbeitet ihr nur mit Unternehmen direkt in Kaufbeuren?', 'Nein. Wir sitzen in Kaufbeuren, arbeiten aber mit Betrieben im ganzen Allgäu und darüber hinaus. Das meiste läuft sowieso über Telefon und Video.'],
+      ['Arbeiten Sie nur mit Unternehmen direkt in Kaufbeuren?', 'Nein. Wir sitzen in Kaufbeuren, arbeiten aber mit Betrieben im ganzen Allgäu und darüber hinaus. Das meiste läuft sowieso über Telefon und Video.'],
       ['Was, wenn ich nicht weiß, welche Leistung ich brauche?', 'Dann sind Sie wie fast alle, die uns schreiben. Im Erstgespräch schauen wir uns Ihre Situation an und sagen Ihnen, wo Sie anfangen sollten. Kostet nichts.'],
     ],
     ctaLabel: 'Kostenlos. Ohne Haken.',
