@@ -259,7 +259,7 @@ export default {
         seoTitle: 'BEST Google Ads Agency Kaufbeuren | Search Ads, Local Campaigns & Management Near You | Valbrix Digital',
         h1: 'Google Ads Agency Kaufbeuren',
         metaDescription: 'Google Ads agency in Kaufbeuren: search campaigns for people ready to buy, local targeting and clear cost per lead. Book a free strategy call.',
-        intro: "People actively searching for what you offer on Google are already ready to buy. Google Ads makes sure they find you - with precise targeting on search terms, location, and intent.",
+        intro: 'We are a Google Ads agency in Kaufbeuren. We run search ads for businesses from Kaufbeuren and the Ostallgäu that need enquiries this week, not in three months. Whoever searches "heating broken Kaufbeuren" wants to call someone today. With Google Ads you are at the very top when they search.',
         includes: [
           'Keyword research and campaign structure for local search intent',
           'Ad copywriting and ongoing optimization',
@@ -267,6 +267,99 @@ export default {
           'Transparent reporting on cost per click and cost per lead',
         ],
         whyItMatters: "Google Ads brings in inquiries from people actively searching for your service - not random scrollers. Set up correctly, it's one of the fastest paths to new customers.",
+        sections: [
+          {
+            h2: 'Google Ads in Kaufbeuren: you pay when someone clicks',
+            paragraphs: [
+              'Google Ads are the ads above the normal search results. You decide which searches your ad shows for, in which radius around Kaufbeuren and at what times. You only pay when someone clicks the ad or calls straight from it.',
+              'That\'s the big advantage over flyers, radio or the local paper. You don\'t pay for people who might see you. You pay for people actively searching for your service right now. In Kaufbeuren, not in Hamburg.',
+              'The catch: set up badly, Google Ads burns money. Clicks from people looking for a job, a do-it-yourself guide or something else entirely. That\'s where we come in.',
+            ],
+          },
+          {
+            h2: 'What we do as a Google Ads agency in Kaufbeuren',
+            paragraphs: [
+              'Every campaign runs in the same order:',
+            ],
+            list: [
+              'Tracking first. Before a single euro goes out, we set up counting for calls and website enquiries. Otherwise all you know at the end is how many clicks you paid for, not how many customers came from them.',
+              'Searches with buying intent. "Roofer Kaufbeuren emergency" is gold. "Roofer salary" is money down the drain. We find the first kind and exclude the second.',
+              'Exclusions from day one. Words like "free", "job", "apprenticeship" or "DIY" go on the block list before the campaign starts.',
+              'Ads with your real offer. What you do, where, what it costs or how fast you get there. We leave out filler like "quality at fair prices".',
+              'The right landing page. Whoever clicks on "bathroom renovation Kaufbeuren" lands on your bathroom renovation page, not your homepage. If the page doesn\'t exist yet, we build it with you. More under [Website & Landing Page Strategy](/leistungen/website-landing-page-strategy).',
+              'Reading the search terms every week. Google shows which searches your ad actually appeared for. We read the list and block what doesn\'t fit.',
+            ],
+            after: [
+              'Once a month you get a short report: what was spent, how many calls and enquiries came in, what a contact cost and what we change next.',
+            ],
+          },
+          {
+            h2: 'A worked example',
+            paragraphs: [
+              'The numbers here are assumptions, not measurements. They only show how to do the maths.',
+              'Say a click costs you €2 and one in ten visitors calls or writes. Then a contact costs you €20. If one in three contacts becomes a job, a new customer costs €60 in ads.',
+              'Whether that\'s good depends on one number: what is a customer worth to you? On a €2,000 job, €60 is a bargain. On a €30 haircut, it isn\'t. We do this maths with your real numbers in the first call, before you spend a cent.',
+            ],
+          },
+          {
+            h2: 'What Google Ads in Kaufbeuren costs',
+            paragraphs: [
+              'There are two parts. First, the ad budget. You pay it directly to Google by card, and you set the most it can spend per day. Second, our fee for setup and management. We give you that as a fixed number after the free call.',
+              'How much budget makes sense depends on how expensive clicks are in your industry and how big your radius is. Too little budget is also money down the drain, because too few clicks come in to learn what works. We tell you that straight, even if it means you are better off waiting.',
+            ],
+          },
+          {
+            h2: 'How fast does Google Ads bring enquiries?',
+            paragraphs: [
+              'After setup, Google reviews the ads, which usually doesn\'t take long. The first clicks often come the same day.',
+              'The first two to four weeks are learning time. We see which searches bring enquiries and which only cost money, and adjust. You can judge it fairly after about six weeks.',
+            ],
+          },
+          {
+            h2: 'Google Ads or SEO in Kaufbeuren?',
+            paragraphs: [
+              'Google Ads is the tap. Turn it on, enquiries come. Turn it off, they stop. [SEO](/leistungen/seo-optimization) is the well. It takes longer to dig, then it delivers without ongoing click costs.',
+              'Many businesses in Kaufbeuren do best with both: ads for enquiries now, SEO for the years ahead. Once SEO carries, the ad budget can come down.',
+            ],
+          },
+          {
+            h2: 'Who Google Ads in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'Google Ads is worth it for you if:',
+            ],
+            list: [
+              'people search Google for your service when they need it. Emergency services, trades, practices, garages, service businesses.',
+              'a new customer brings you clearly more than an enquiry costs.',
+              'you answer enquiries fast. If you don\'t call back for two days, you are paying for your competitor\'s customers.',
+            ],
+            after: [
+              'Google Ads isn\'t worth it if nobody searches for what you offer. Then you reach your customers better with [Meta Ads](/leistungen/meta-ads) on Facebook and Instagram, before they search at all.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about Google Ads in Kaufbeuren',
+        faq: [
+          {
+            question: 'How much ad budget do I need?',
+            answer: 'Enough that a month brings in enough clicks to see what works. How much that is in your industry, we work out with you in the first call. You set the daily budget and can change it any time.',
+          },
+          {
+            question: 'Can I show the ads only in Kaufbeuren?',
+            answer: 'Yes. We set a radius around your business or pick individual places, for example Kaufbeuren, Neugablonz, Buchloe and Marktoberdorf. Someone searching in Hamburg won\'t see your ad.',
+          },
+          {
+            question: 'Do I have to sign up for long?',
+            answer: 'No. We work month to month. You can pause the ad budget any time anyway.',
+          },
+          {
+            question: 'What happens when I stop the ads?',
+            answer: 'You disappear from the ads straight away. That\'s why we recommend most businesses start SEO alongside.',
+          },
+          {
+            question: 'How do I know if it pays off?',
+            answer: 'Every month you see what was spent and how many calls and enquiries came from it. How many of them became jobs, only you know. So we ask once a month.',
+          },
+        ],
       },
       'meta-ads': {
         title: 'Meta Ads',

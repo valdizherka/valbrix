@@ -259,7 +259,7 @@ export default {
         seoTitle: 'BESTE Google Ads Agentur Kaufbeuren | Suchanzeigen, lokale Kampagnen & Betreuung in Ihrer Nähe | Valbrix Digital',
         h1: 'Google Ads Agentur Kaufbeuren',
         metaDescription: 'Google Ads Kampagnen für Unternehmen in Kaufbeuren - gezieltes Targeting, klare Budgetkontrolle und messbare Anfragen statt Streuverlust.',
-        intro: 'Wer bei Google aktiv nach Ihrem Angebot sucht, ist bereits kaufbereit. Google Ads sorgt dafür, dass genau diese Menschen Sie finden - mit präzisem Targeting auf Suchbegriffe, Standort und Kaufabsicht.',
+        intro: 'Wir sind eine Google Ads Agentur in Kaufbeuren. Wir schalten Suchanzeigen für Betriebe aus Kaufbeuren und dem Ostallgäu, die diese Woche Anfragen brauchen und nicht erst in drei Monaten. Wer „Heizung kaputt Kaufbeuren“ googelt, will heute jemanden anrufen. Mit Google Ads stehen Sie ganz oben, wenn er sucht.',
         includes: [
           'Keyword-Recherche und Kampagnenstruktur für lokale Suchanfragen',
           'Erstellung und laufende Optimierung von Anzeigentexten',
@@ -267,6 +267,99 @@ export default {
           'Transparentes Reporting zu Kosten pro Klick und Kosten pro Lead',
         ],
         whyItMatters: 'Google Ads bringt Anfragen von Menschen, die aktiv nach Ihrer Leistung suchen - nicht von zufälligen Scrollern. Richtig aufgesetzt ist es einer der schnellsten Wege zu neuen Kunden.',
+        sections: [
+          {
+            h2: 'Google Ads in Kaufbeuren: Sie zahlen, wenn jemand klickt',
+            paragraphs: [
+              'Google Ads sind die Anzeigen über den normalen Suchergebnissen. Sie legen fest, bei welchen Suchbegriffen Ihre Anzeige erscheint, in welchem Umkreis um Kaufbeuren und zu welchen Uhrzeiten. Bezahlt wird nur, wenn jemand auf die Anzeige klickt oder direkt anruft.',
+              'Das ist der große Vorteil gegenüber Flyern, Radio oder dem Anzeigenblatt. Sie zahlen nicht dafür, dass Leute Sie vielleicht sehen. Sie zahlen für Leute, die gerade aktiv nach Ihrer Leistung suchen. In Kaufbeuren, nicht in Hamburg.',
+              'Der Haken: Ohne saubere Einrichtung verbrennt Google Ads Geld. Klicks von Leuten, die einen Job suchen, eine Anleitung zum Selbermachen oder etwas ganz anderes. Genau da setzen wir an.',
+            ],
+          },
+          {
+            h2: 'Was wir als Google Ads Agentur in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Jede Kampagne läuft bei uns in derselben Reihenfolge:',
+            ],
+            list: [
+              'Tracking zuerst. Bevor ein Euro fließt, richten wir ein, dass Anrufe und Anfragen über die Website gezählt werden. Sonst wissen Sie am Ende nur, wie viele Klicks Sie bezahlt haben, und nicht, wie viele Kunden daraus wurden.',
+              'Suchbegriffe mit Kaufabsicht. „Dachdecker Kaufbeuren Notdienst“ ist Gold. „Dachdecker Gehalt“ ist rausgeworfenes Geld. Wir suchen die ersten Begriffe und schließen die zweiten aus.',
+              'Ausschlüsse von Tag eins. Begriffe wie „kostenlos“, „Job“, „Ausbildung“ oder „selber machen“ kommen auf die Sperrliste, bevor die Kampagne startet.',
+              'Anzeigen mit Ihrem echten Angebot. Was Sie machen, wo, was es kostet oder wie schnell Sie da sind. Floskeln wie „Qualität zu fairen Preisen“ lassen wir weg.',
+              'Die richtige Zielseite. Wer auf „Badsanierung Kaufbeuren“ klickt, landet auf Ihrer Seite zur Badsanierung, nicht auf der Startseite. Wenn es die Seite noch nicht gibt, bauen wir sie mit Ihnen. Mehr dazu bei [Website- & Landing-Page-Strategie](/leistungen/website-landing-page-strategy).',
+              'Jede Woche die Suchbegriffe lesen. Google zeigt, bei welchen Suchen Ihre Anzeige wirklich kam. Wir lesen die Liste und sperren, was nicht passt.',
+            ],
+            after: [
+              'Einmal im Monat bekommen Sie einen kurzen Bericht: was ausgegeben wurde, wie viele Anrufe und Anfragen kamen, was ein Kontakt gekostet hat und was wir als Nächstes ändern.',
+            ],
+          },
+          {
+            h2: 'Ein Rechenbeispiel',
+            paragraphs: [
+              'Die Zahlen hier sind angenommen, keine Messwerte. Sie zeigen nur, wie man rechnet.',
+              'Angenommen, ein Klick kostet Sie €2 und jeder zehnte Besucher ruft an oder schreibt. Dann kostet Sie ein Kontakt €20. Wird jeder dritte Kontakt zum Auftrag, kostet ein neuer Kunde €60 an Werbung.',
+              'Ob das gut ist, hängt an einer Zahl: Was bringt Ihnen ein Kunde? Bei einem Auftrag über €2.000 sind €60 ein Schnäppchen. Bei einem Haarschnitt für €30 nicht. Diese Rechnung machen wir im ersten Gespräch mit Ihren echten Zahlen, bevor Sie einen Cent ausgeben.',
+            ],
+          },
+          {
+            h2: 'Was Google Ads in Kaufbeuren kostet',
+            paragraphs: [
+              'Es gibt zwei Posten. Erstens das Werbebudget. Das zahlen Sie direkt an Google, per Karte, und Sie legen fest, wie viel pro Tag höchstens ausgegeben wird. Zweitens unsere Gebühr für Einrichtung und Betreuung. Die nennen wir Ihnen nach dem kostenlosen Gespräch als feste Zahl.',
+              'Wie viel Budget sinnvoll ist, hängt davon ab, wie teuer die Klicks in Ihrer Branche sind und wie groß Ihr Umkreis ist. Zu wenig Budget ist auch rausgeworfenes Geld, weil zu wenige Klicks zusammenkommen, um zu lernen, was funktioniert. Das sagen wir Ihnen ehrlich, auch wenn es bedeutet, dass Sie lieber noch warten.',
+            ],
+          },
+          {
+            h2: 'Wie schnell bringt Google Ads Anfragen?',
+            paragraphs: [
+              'Nach der Einrichtung prüft Google die Anzeigen, das dauert meist nicht lange. Die ersten Klicks kommen oft noch am selben Tag.',
+              'Die ersten zwei bis vier Wochen sind Lernzeit. Wir sehen, welche Begriffe Anfragen bringen und welche nur Geld kosten, und stellen um. Fair urteilen können Sie nach etwa sechs Wochen.',
+            ],
+          },
+          {
+            h2: 'Google Ads oder SEO in Kaufbeuren?',
+            paragraphs: [
+              'Google Ads ist der Wasserhahn. Aufdrehen, Anfragen kommen. Zudrehen, Anfragen hören auf. [SEO](/leistungen/seo-optimization) ist der Brunnen. Dauert länger zu graben, liefert dann aber ohne laufende Klickkosten.',
+              'Viele Betriebe in Kaufbeuren fahren am besten mit beidem: Anzeigen für die Anfragen jetzt, SEO für die nächsten Jahre. Sobald SEO trägt, kann das Werbebudget sinken.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Google Ads in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Google Ads lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Leute bei Google nach Ihrer Leistung suchen, wenn sie sie brauchen. Notdienste, Handwerk, Praxen, Werkstätten, Dienstleister.',
+              'ein neuer Kunde Ihnen deutlich mehr bringt, als eine Anfrage kostet.',
+              'Sie Anfragen schnell beantworten. Wer zwei Tage nicht zurückruft, zahlt für Kunden der Konkurrenz.',
+            ],
+            after: [
+              'Google Ads lohnt sich nicht, wenn keiner nach Ihrem Angebot sucht. Dann erreichen Sie Ihre Kunden eher mit [Meta Ads](/leistungen/meta-ads) auf Facebook und Instagram, bevor sie überhaupt suchen.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Google Ads in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wie viel Werbebudget brauche ich?',
+            answer: 'Genug, dass im Monat ausreichend Klicks zusammenkommen, um zu sehen, was funktioniert. Wie viel das in Ihrer Branche ist, rechnen wir im ersten Gespräch mit Ihnen aus. Sie legen das Tagesbudget fest und können es jederzeit ändern.',
+          },
+          {
+            question: 'Kann ich die Anzeigen nur in Kaufbeuren zeigen?',
+            answer: 'Ja. Wir stellen einen Umkreis um Ihren Betrieb ein oder wählen einzelne Orte aus, zum Beispiel Kaufbeuren, Neugablonz, Buchloe und Marktoberdorf. Wer in Hamburg sucht, sieht Ihre Anzeige nicht.',
+          },
+          {
+            question: 'Muss ich mich lange binden?',
+            answer: 'Nein. Wir arbeiten monatlich kündbar. Das Werbebudget können Sie ohnehin jederzeit pausieren.',
+          },
+          {
+            question: 'Was passiert, wenn ich die Anzeigen stoppe?',
+            answer: 'Dann verschwinden Sie sofort wieder aus den Anzeigen. Deshalb empfehlen wir für die meisten Betriebe, parallel mit SEO anzufangen.',
+          },
+          {
+            question: 'Woher weiß ich, ob sich das lohnt?',
+            answer: 'Sie sehen jeden Monat, was ausgegeben wurde und wie viele Anrufe und Anfragen daraus kamen. Was daraus an Aufträgen wurde, wissen nur Sie. Deshalb fragen wir einmal im Monat nach.',
+          },
+        ],
       },
       'meta-ads': {
         title: 'Meta Ads',
