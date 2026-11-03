@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -12,8 +11,6 @@ const L = ({ to, children }) => (
 
 const copy = {
   de: {
-    title: 'Online-Marketing Kaufbeuren: Ratgeber für lokale Unternehmen | Valbrix Digital',
-    meta: 'Agentur, Freelancer oder selbst machen? So finden Sie eine gute Marketing-Agentur in Kaufbeuren. Plus 5 Dinge, die Sie diese Woche selbst erledigen.',
     back: '← Zurück zur Startseite',
     label: 'Ratgeber',
     h1a: 'Online-Marketing in Kaufbeuren:',
@@ -59,8 +56,6 @@ const copy = {
     ctaSecondary: 'Kostenloses Strategiegespräch',
   },
   en: {
-    title: 'Online Marketing Kaufbeuren: A Guide for Local Businesses | Valbrix Digital',
-    meta: 'Agency, freelancer or do it yourself? How to find a good marketing agency in Kaufbeuren. Plus 5 things you can sort out yourself this week.',
     back: '← Back to home',
     label: 'Guide',
     h1a: 'Online marketing in Kaufbeuren:',
@@ -111,16 +106,6 @@ export default function RatgeberPage() {
   const { lang } = useLanguage()
   const c = copy[lang] || copy.de
 
-  useEffect(() => {
-    document.title = c.title
-    let tag = document.querySelector('meta[name="description"]')
-    if (!tag) {
-      tag = document.createElement('meta')
-      tag.setAttribute('name', 'description')
-      document.head.appendChild(tag)
-    }
-    tag.setAttribute('content', c.meta)
-  }, [c])
 
   return (
     <>

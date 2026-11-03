@@ -1,6 +1,6 @@
-import { useParams, Link, Navigate } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useParams, Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
+import NotFoundPage from './NotFoundPage'
 
 export default function ServicePage() {
   const { slug } = useParams()
@@ -8,20 +8,8 @@ export default function ServicePage() {
   const sp = t.servicePages
   const service = sp.items[slug]
 
-  useEffect(() => {
-    if (service) {
-      document.title = service.seoTitle || `${service.title} - Valbrix Digital`
-      let tag = document.querySelector('meta[name="description"]')
-      if (!tag) {
-        tag = document.createElement('meta')
-        tag.setAttribute('name', 'description')
-        document.head.appendChild(tag)
-      }
-      tag.setAttribute('content', service.metaDescription)
-    }
-  }, [service])
 
-  if (!service) return <Navigate to="/" replace />
+  if (!service) return <NotFoundPage />
 
   const otherServices = Object.entries(sp.items).filter(([itemSlug]) => itemSlug !== slug)
 

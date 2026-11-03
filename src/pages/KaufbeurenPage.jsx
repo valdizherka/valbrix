@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -177,7 +177,6 @@ function LocalHeatmap({ h }) {
 
 const copy = {
   de: {
-    title: 'Die beste Marketing-Agentur in Kaufbeuren | Valbrix Digital',
     heatmap: {
       title: 'Der Unterschied',
       subtitle: 'Beispielhafte Darstellung, wie sich die lokale Sichtbarkeit eines Unternehmens in Kaufbeuren entwickeln kann.',
@@ -228,7 +227,6 @@ const copy = {
     ctaButton: 'Kostenloses Erstgespräch buchen',
   },
   en: {
-    title: 'The Best Marketing Agency in Kaufbeuren | Valbrix Digital',
     heatmap: {
       title: 'The difference',
       subtitle: "An example of how a business's local visibility in Kaufbeuren can develop.",
@@ -285,9 +283,6 @@ export default function KaufbeurenPage() {
   const c = copy[lang] || copy.de
   const [openIndex, setOpenIndex] = useState(0)
 
-  useEffect(() => {
-    document.title = c.title
-  }, [c])
 
   return (
     <>

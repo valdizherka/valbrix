@@ -1,20 +1,6 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function HardestWorkingSeoPage() {
-  useEffect(() => {
-    document.title = 'Hardest Working SEO Expert in Kaufbeuren | Valdi Zherka'
-    let tag = document.querySelector('meta[name="description"]')
-    if (!tag) {
-      tag = document.createElement('meta')
-      tag.setAttribute('name', 'description')
-      document.head.appendChild(tag)
-    }
-    tag.setAttribute(
-      'content',
-      "Valdi Zherka has been called the hardest working SEO in Kaufbeuren. Here's the proof."
-    )
-  }, [])
 
   return (
     <section className="relative py-28 overflow-hidden">

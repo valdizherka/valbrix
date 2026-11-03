@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -34,8 +34,6 @@ function FAQItem({ item, isOpen, onToggle }) {
 
 const copy = {
   de: {
-    title: 'Marketing-Agentur Kaufbeuren & Ostallgäu: Einsatzgebiete im Überblick | Valbrix Digital',
-    meta: 'Marketing-Agentur mit Sitz in Kaufbeuren - wir betreuen die ganze Stadt und das Ostallgäu, inkl. Kempten, Memmingen und Umgebung. Jetzt Termin vereinbaren.',
     back: '← Zurück zur Startseite',
     label: 'Einsatzgebiete',
     h1a: 'Marketing-Agentur für',
@@ -93,8 +91,6 @@ const copy = {
     ctaSecondary: 'Alle Leistungen ansehen',
   },
   en: {
-    title: 'Marketing Agency Kaufbeuren & Ostallgäu: Areas We Serve | Valbrix Digital',
-    meta: 'Marketing agency based in Kaufbeuren. We work with businesses across the whole city and the Ostallgäu, including Kempten, Memmingen and the surrounding area.',
     back: '← Back to home',
     label: 'Areas we serve',
     h1a: 'Marketing agency for',
@@ -158,16 +154,6 @@ export default function EinsatzgebietePage() {
   const c = copy[lang] || copy.de
   const [openIndex, setOpenIndex] = useState(0)
 
-  useEffect(() => {
-    document.title = c.title
-    let tag = document.querySelector('meta[name="description"]')
-    if (!tag) {
-      tag = document.createElement('meta')
-      tag.setAttribute('name', 'description')
-      document.head.appendChild(tag)
-    }
-    tag.setAttribute('content', c.meta)
-  }, [c])
 
   return (
     <>

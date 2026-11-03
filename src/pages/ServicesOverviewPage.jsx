@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -42,8 +42,6 @@ const slugs = ['seo-optimization', 'google-ads', 'meta-ads', 'social-media-manag
 
 const copy = {
   de: {
-    title: 'Marketing Agentur Kaufbeuren: Leistungen im Überblick | Valbrix Digital',
-    meta: 'Marketing Agentur in Kaufbeuren: SEO, Google Ads, Social Media & mehr im Vergleich. Finden Sie die richtige Leistung für Ihr Unternehmen im Ostallgäu.',
     back: '← Zurück zur Startseite',
     label: 'Marketing Agentur Kaufbeuren',
     h1a: 'Marketing-Agentur Kaufbeuren:',
@@ -106,8 +104,6 @@ const copy = {
     ctaButton: 'Kostenloses Strategiegespräch buchen',
   },
   en: {
-    title: 'Marketing Agency Kaufbeuren: Our Services | Valbrix Digital',
-    meta: 'Marketing agency in Kaufbeuren: SEO, Google Ads, social media and more, compared. Find the right service for your business in the Ostallgäu.',
     back: '← Back to home',
     label: 'Marketing Agency Kaufbeuren',
     h1a: 'Marketing Agency Kaufbeuren:',
@@ -176,16 +172,6 @@ export default function ServicesOverviewPage() {
   const c = copy[lang] || copy.de
   const [openIndex, setOpenIndex] = useState(0)
 
-  useEffect(() => {
-    document.title = c.title
-    let tag = document.querySelector('meta[name="description"]')
-    if (!tag) {
-      tag = document.createElement('meta')
-      tag.setAttribute('name', 'description')
-      document.head.appendChild(tag)
-    }
-    tag.setAttribute('content', c.meta)
-  }, [c])
 
   return (
     <>

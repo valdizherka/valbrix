@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -203,9 +202,6 @@ export default function DatenschutzPage() {
   const { lang } = useLanguage()
   const en = lang === 'en'
 
-  useEffect(() => {
-    document.title = en ? 'Privacy Policy | Valbrix Digital' : 'Datenschutzerklärung | Valbrix Digital'
-  }, [en])
 
   return (
     <section className="relative py-28 overflow-hidden">

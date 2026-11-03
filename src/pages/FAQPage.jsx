@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -35,9 +35,6 @@ export default function FAQPage() {
   const f = t.faqPage
   const [openIndex, setOpenIndex] = useState(0)
 
-  useEffect(() => {
-    document.title = 'Valbrix Digital - Digital Marketing Agency FAQ'
-  }, [])
 
   return (
     <section className="relative py-28 overflow-hidden">

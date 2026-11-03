@@ -1,10 +1,8 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
 const copy = {
   de: {
-    title: 'Impressum | Valbrix Digital',
     back: '← Zurück zur Startseite',
     label: 'Rechtliches',
     h1: 'Impressum',
@@ -18,7 +16,6 @@ const copy = {
     dispute: 'Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.',
   },
   en: {
-    title: 'Legal Notice | Valbrix Digital',
     back: '← Back to home',
     label: 'Legal',
     h1: 'Legal Notice (Impressum)',
@@ -37,9 +34,6 @@ export default function ImpressumPage() {
   const { lang } = useLanguage()
   const c = copy[lang] || copy.de
 
-  useEffect(() => {
-    document.title = c.title
-  }, [c])
 
   return (
     <section className="relative py-28 overflow-hidden">

@@ -11,6 +11,7 @@ import EinsatzgebietePage from './pages/EinsatzgebietePage'
 import ImpressumPage from './pages/ImpressumPage'
 import DatenschutzPage from './pages/DatenschutzPage'
 import HardestWorkingSeoPage from './pages/HardestWorkingSeoPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="impressum" element={<ImpressumPage />} />
           <Route path="datenschutz" element={<DatenschutzPage />} />
           <Route path="hardest-working-seo-expert-kaufbeuren" element={<HardestWorkingSeoPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </LanguageProvider>
