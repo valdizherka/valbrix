@@ -141,7 +141,7 @@ export default {
         title: 'Social Media Management',
         seoTitle: 'BEST Social Media Agency Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Management Near You | Valbrix Digital',
         h1: 'Social Media Agency Kaufbeuren',
-        metaDescription: 'Strategic social media management for Instagram, Facebook, TikTok & LinkedIn - content, scheduling, and community management, handled for you.',
+        metaDescription: 'Social media agency in Kaufbeuren: we post, film and reply on Instagram, Facebook, TikTok and LinkedIn for you. Book a free strategy call.',
         intro: "Your audience spends hours a day on social media - but just showing up isn't enough. We handle strategy, content, and community management so your channels actually bring in customers, not just likes.",
         includes: [
           'Content strategy and editorial calendar across all platforms',
@@ -155,7 +155,7 @@ export default {
         title: 'SEO Optimization',
         seoTitle: 'BEST SEO Agency Kaufbeuren | Local SEO, Google Business Profile & On-Page SEO Near You | Valbrix Digital',
         h1: 'SEO Agency Kaufbeuren',
-        metaDescription: 'Technical and strategic SEO to help your business get found by people actively searching for what you offer.',
+        metaDescription: 'SEO agency in Kaufbeuren: local SEO, Google Business Profile and on-page SEO. Top 3 in 90 days or your money back. Book a free strategy call.',
         intro: 'People searching for your services on Google are already looking to buy - SEO is about making sure they find you instead of a competitor. We handle the technical and strategic work behind long-term organic growth.',
         includes: [
           'Technical SEO audit and fixes',
@@ -169,7 +169,7 @@ export default {
         title: 'Google Ads',
         seoTitle: 'BEST Google Ads Agency Kaufbeuren | Search Ads, Local Campaigns & Management Near You | Valbrix Digital',
         h1: 'Google Ads Agency Kaufbeuren',
-        metaDescription: 'Google Ads campaigns built for measurable leads - precise targeting, clear budget control, no wasted spend.',
+        metaDescription: 'Google Ads agency in Kaufbeuren: search campaigns for people ready to buy, local targeting and clear cost per lead. Book a free strategy call.',
         intro: "People actively searching for what you offer on Google are already ready to buy. Google Ads makes sure they find you - with precise targeting on search terms, location, and intent.",
         includes: [
           'Keyword research and campaign structure for local search intent',
@@ -183,7 +183,7 @@ export default {
         title: 'Meta Ads',
         seoTitle: 'BEST Meta Ads Agency Kaufbeuren | Facebook & Instagram Advertising Near You | Valbrix Digital',
         h1: 'Meta Ads Agency Kaufbeuren',
-        metaDescription: 'Meta Ads on Facebook and Instagram - audience-precise campaigns that build visibility and bring in inquiries.',
+        metaDescription: 'Meta Ads agency in Kaufbeuren: Facebook and Instagram ads that reach the Ostallgäu before people start searching. Book a free strategy call.',
         intro: "Facebook and Instagram reach people before they're even actively searching for you. We build Meta Ads campaigns that target exactly the right audience, with creative that actually earns the click.",
         includes: [
           'Audience targeting by location, interests, and behavior',
@@ -197,7 +197,7 @@ export default {
         title: 'Brand Strategy',
         seoTitle: 'BEST Brand Strategy Kaufbeuren | Positioning, Brand Identity & Branding Near You | Valbrix Digital',
         h1: 'Brand Strategy Kaufbeuren',
-        metaDescription: 'A clear brand strategy that defines what your business stands for and how it speaks to customers - the foundation of every marketing decision.',
+        metaDescription: 'Brand strategy in Kaufbeuren: what you stand for, who you want to reach, how you sound. We work it out with you. Book a free strategy call.',
         intro: 'A blurry brand position makes every marketing effort harder and more expensive. We help you define what your business stands for, who it is for, and how it communicates - the foundation everything else builds on.',
         includes: [
           'Positioning against local and regional competitors',
@@ -211,7 +211,7 @@ export default {
         title: 'Content Creation',
         seoTitle: 'BEST Content Creation Kaufbeuren | Photo, Video, Copy & Graphics for Social Media Near You | Valbrix Digital',
         h1: 'Content Creation Kaufbeuren',
-        metaDescription: 'Photography, video, copywriting, and graphics built with a strategic purpose - content that grabs attention and drives action.',
+        metaDescription: 'Content creation in Kaufbeuren: photos, videos, copy and graphics for social media, ads and your website. Shot locally in the Ostallgäu. Book a call.',
         intro: "Good content isn't just visually appealing - it has a clear strategic purpose. We handle photography, video, copywriting, and graphic design so every piece of content actually works toward your growth.",
         includes: [
           'Photo and video production for social media and ads',
@@ -225,7 +225,7 @@ export default {
         title: 'Lead Generation',
         seoTitle: 'BEST Lead Generation Kaufbeuren | Landing Pages, Funnels & More Enquiries Near You | Valbrix Digital',
         h1: 'Lead Generation Kaufbeuren',
-        metaDescription: 'A consistent pipeline of qualified prospects through funnels, lead magnets, and nurture sequences.',
+        metaDescription: 'Lead generation in Kaufbeuren: landing pages, funnels and email sequences that bring enquiries every month. Book a free strategy call.',
         intro: 'Sporadic inquiries make it hard to plan ahead. We build a consistent pipeline of qualified prospects - funnels, lead magnets, and nurture sequences that turn strangers into customers.',
         includes: [
           'Landing page and lead magnet development',
@@ -239,7 +239,7 @@ export default {
         title: 'Website & Landing Page Strategy',
         seoTitle: 'BEST Website & Landing Page Agency Kaufbeuren | Web Design, Optimisation & More Enquiries Near You | Valbrix Digital',
         h1: 'Website & Landing Page Agency Kaufbeuren',
-        metaDescription: 'Your website should convert, not just look good - we audit, rebuild, and optimize for more paying customers.',
+        metaDescription: 'Website and landing page agency in Kaufbeuren: we turn visitors into enquiries. Web design, load speed, clear buttons. Book a free strategy call.',
         intro: "A website that only looks good but doesn't convert is costing you customers every day. We audit, rebuild, and optimize your website and landing pages so more visitors actually reach out.",
         includes: [
           'Conversion-focused design and user flow',
@@ -253,7 +253,7 @@ export default {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',
         h1: 'Analytics & Reporting Kaufbeuren',
-        metaDescription: 'Clear tracking, dashboards, and monthly reports - know exactly what is working and why.',
+        metaDescription: 'Analytics and reporting in Kaufbeuren: tracking, dashboards and one report a month, so you see which euro brings customers. Book a free call.',
         intro: "Without clean tracking, you don't actually know what's working. We set up analytics, build dashboards, and deliver clear monthly reports so you always have full visibility into your marketing performance.",
         includes: [
           'Tracking setup across website, ads, and forms',
