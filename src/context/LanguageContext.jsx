@@ -7,10 +7,13 @@ const translations = { en, de }
 const LanguageContext = createContext(null)
 
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState(() => {
-    const saved = localStorage.getItem('valbrix-lang')
-    return saved === 'en' ? 'en' : 'de'
-  })
+  // Starts in German to match the prerendered HTML, then switches to a saved
+  // English choice after hydration.
+  const [lang, setLang] = useState('de')
+
+  useEffect(() => {
+    if (localStorage.getItem('valbrix-lang') === 'en') setLang('en')
+  }, [])
 
   useEffect(() => {
     document.documentElement.lang = lang

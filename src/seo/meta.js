@@ -9,12 +9,12 @@ export const SITE_URL = 'https://valbrixdigital.com'
 const staticPages = {
   '/': {
     de: {
-      title: 'BESTE Werbeagentur Kaufbeuren | Websites, lokale SEO, Google Ads & Meta Ads in Ihrer Nähe | Valbrix Digital',
-      description: 'Werbeagentur in Kaufbeuren: Websites, lokale SEO, SEO, Google Ads & Meta Ads für Unternehmen im Ostallgäu. Kostenloses Strategiegespräch.',
+      title: 'Werbeagentur & Marketingagentur in Kaufbeuren | Valbrix Digital',
+      description: 'Valbrix Digital ist Ihre Werbeagentur und Marketingagentur in Kaufbeuren: Websites, lokale SEO, Google Ads & Meta Ads für Unternehmen im Ostallgäu. Kostenloses Strategiegespräch.',
     },
     en: {
-      title: 'BESTE Werbeagentur Kaufbeuren | Websites, lokale SEO, Google Ads & Meta Ads in Ihrer Nähe | Valbrix Digital',
-      description: 'Werbeagentur in Kaufbeuren: Websites, lokale SEO, SEO, Google Ads & Meta Ads für Unternehmen im Ostallgäu. Kostenloses Strategiegespräch.',
+      title: 'Marketing & Advertising Agency in Kaufbeuren | Valbrix Digital',
+      description: 'Valbrix Digital is a marketing and advertising agency in Kaufbeuren: websites, local SEO, Google Ads & Meta Ads for businesses in the Ostallgäu. Free strategy call.',
     },
   },
   '/leistungen': {
@@ -49,11 +49,11 @@ const staticPages = {
   },
   '/marketing-agentur-kaufbeuren': {
     de: {
-      title: 'Die beste Marketing-Agentur in Kaufbeuren | Valbrix Digital',
+      title: 'Marketing-Agentur Kaufbeuren: SEO, Google Ads & Social Media | Valbrix Digital',
       description: 'Marketing-Agentur in Kaufbeuren: Wir bringen Ihr Unternehmen bei Google Maps nach oben. SEO, Google Ads und Social Media aus einer Hand. Kostenloses Strategiegespräch.',
     },
     en: {
-      title: 'The Best Marketing Agency in Kaufbeuren | Valbrix Digital',
+      title: 'Marketing Agency Kaufbeuren: SEO, Google Ads & Social Media | Valbrix Digital',
       description: 'Marketing agency in Kaufbeuren: we get your business to the top of Google Maps. SEO, Google Ads and social media in one place. Book a free strategy call.',
     },
   },
