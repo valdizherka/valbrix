@@ -20,7 +20,9 @@ function withHead(template, { title, description }, { canonical, noindex }) {
 
 // Writes one HTML file per route with that route's own German title,
 // description and canonical, so Google gets the right head before any
-// JavaScript runs. Vercel serves them via cleanUrls; anything else gets 404.html.
+// JavaScript runs. Folder-style (faq/index.html) so Vercel serves /faq without
+// cleanUrls, which would also redirect the Search Console verification file.
+// Anything else gets 404.html.
 function routeHeads() {
   let outDir
   return {
@@ -32,7 +34,7 @@ function routeHeads() {
     closeBundle() {
       const template = readFileSync(resolve(outDir, 'index.html'), 'utf8')
       for (const [path, meta] of Object.entries(pageMeta)) {
-        const file = path === '/' ? 'index.html' : `${path.slice(1)}.html`
+        const file = path === '/' ? 'index.html' : `${path.slice(1)}/index.html`
         const target = resolve(outDir, file)
         mkdirSync(dirname(target), { recursive: true })
         writeFileSync(target, withHead(template, meta.de, { canonical: SITE_URL + (path === '/' ? '/' : path) }))
