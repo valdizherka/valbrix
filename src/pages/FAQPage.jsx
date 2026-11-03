@@ -1,40 +1,10 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
-
-function FAQItem({ item, isOpen, onToggle }) {
-  return (
-    <div className="border-b border-gray-100">
-      <button
-        onClick={onToggle}
-        className="w-full flex items-center justify-between gap-4 py-6 text-left"
-      >
-        <span className="font-display font-bold text-gray-900 text-lg">{item.question}</span>
-        <svg
-          className={`w-5 h-5 text-gray-400 shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
-      </button>
-      <div
-        className="overflow-hidden transition-all duration-300"
-        style={{ maxHeight: isOpen ? '400px' : '0px' }}
-      >
-        <p className="text-gray-500 leading-relaxed pb-6 pr-10">{item.answer}</p>
-      </div>
-    </div>
-  )
-}
+import FAQItem from '../components/FAQItem'
 
 export default function FAQPage() {
   const { t } = useLanguage()
   const f = t.faqPage
-  const [openIndex, setOpenIndex] = useState(0)
-
 
   return (
     <section className="relative py-28 overflow-hidden">
@@ -58,8 +28,6 @@ export default function FAQPage() {
             <FAQItem
               key={i}
               item={item}
-              isOpen={openIndex === i}
-              onToggle={() => setOpenIndex(openIndex === i ? -1 : i)}
             />
           ))}
         </div>
