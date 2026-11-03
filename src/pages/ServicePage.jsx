@@ -10,7 +10,7 @@ export default function ServicePage() {
 
   useEffect(() => {
     if (service) {
-      document.title = `${service.title} - Valbrix Digital`
+      document.title = service.seoTitle || `${service.title} - Valbrix Digital`
       let tag = document.querySelector('meta[name="description"]')
       if (!tag) {
         tag = document.createElement('meta')
@@ -34,7 +34,7 @@ export default function ServicePage() {
 
         <div className="section-label mb-5">{t.services.sectionLabel}</div>
         <h1 className="font-display font-black text-4xl md:text-5xl text-gray-900 tracking-tight mb-6">
-          {service.title}
+          {service.h1 || service.title}
         </h1>
         <p className="text-gray-500 text-lg leading-relaxed mb-4 max-w-2xl">
           {service.intro}

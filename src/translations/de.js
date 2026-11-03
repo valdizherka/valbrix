@@ -139,6 +139,8 @@ export default {
     items: {
       'social-media-management': {
         title: 'Social-Media-Management',
+        seoTitle: 'BESTE Social-Media-Agentur Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Betreuung in Ihrer Nähe | Valbrix Digital',
+        h1: 'Social-Media-Agentur Kaufbeuren',
         metaDescription: 'Strategisches Social-Media-Management für Instagram, Facebook, TikTok & LinkedIn - Content, Planung und Community-Management aus einer Hand.',
         intro: 'Ihre Zielgruppe verbringt Stunden täglich auf Social Media - aber Präsenz allein reicht nicht. Wir übernehmen Strategie, Content und Community-Management, damit Ihre Kanäle wirklich neue Kunden bringen, statt nur gut auszusehen.',
         includes: [
@@ -151,6 +153,8 @@ export default {
       },
       'seo-optimization': {
         title: 'SEO-Optimierung',
+        seoTitle: 'BESTE SEO-Agentur Kaufbeuren | Lokale SEO, Google-Unternehmensprofil & On-Page-SEO in Ihrer Nähe | Valbrix Digital',
+        h1: 'SEO-Agentur Kaufbeuren',
         metaDescription: 'Technisches und strategisches SEO, damit Ihr Unternehmen von Menschen gefunden wird, die aktiv nach Ihrem Angebot suchen.',
         intro: 'Menschen, die bei Google nach Ihren Leistungen suchen, wollen bereits kaufen - SEO sorgt dafür, dass sie Sie finden und nicht die Konkurrenz. Wir übernehmen die technische und strategische Arbeit hinter langfristigem organischen Wachstum.',
         includes: [
@@ -163,6 +167,8 @@ export default {
       },
       'google-ads': {
         title: 'Google Ads',
+        seoTitle: 'BESTE Google Ads Agentur Kaufbeuren | Suchanzeigen, lokale Kampagnen & Betreuung in Ihrer Nähe | Valbrix Digital',
+        h1: 'Google Ads Agentur Kaufbeuren',
         metaDescription: 'Google Ads Kampagnen für Unternehmen in Kaufbeuren - gezieltes Targeting, klare Budgetkontrolle und messbare Anfragen statt Streuverlust.',
         intro: 'Wer bei Google aktiv nach Ihrem Angebot sucht, ist bereits kaufbereit. Google Ads sorgt dafür, dass genau diese Menschen Sie finden - mit präzisem Targeting auf Suchbegriffe, Standort und Kaufabsicht.',
         includes: [
@@ -175,6 +181,8 @@ export default {
       },
       'meta-ads': {
         title: 'Meta Ads',
+        seoTitle: 'BESTE Meta Ads Agentur Kaufbeuren | Facebook & Instagram Werbung in Ihrer Nähe | Valbrix Digital',
+        h1: 'Meta Ads Agentur Kaufbeuren',
         metaDescription: 'Meta Ads auf Facebook und Instagram für Unternehmen in Kaufbeuren - zielgruppengenaue Kampagnen, die Sichtbarkeit und Anfragen bringen.',
         intro: 'Facebook und Instagram erreichen Menschen, bevor sie überhaupt aktiv nach Ihnen suchen. Wir bauen Meta-Ads-Kampagnen, die genau die richtige Zielgruppe ansprechen - mit Creatives, die tatsächlich zum Klicken einladen.',
         includes: [
@@ -187,6 +195,8 @@ export default {
       },
       'brand-strategy': {
         title: 'Markenstrategie',
+        seoTitle: 'BESTE Markenstrategie Kaufbeuren | Positionierung, Markenauftritt & Branding in Ihrer Nähe | Valbrix Digital',
+        h1: 'Markenstrategie Kaufbeuren',
         metaDescription: 'Klare Markenstrategie, die definiert, wofür Ihr Unternehmen steht und wie es Kunden anspricht - das Fundament jeder Marketingentscheidung.',
         intro: 'Eine unscharfe Markenpositionierung macht jede Marketingmaßnahme schwerer und teurer. Wir helfen Ihnen zu definieren, wofür Ihr Unternehmen steht, für wen es gedacht ist und wie es kommuniziert - als Grundlage für alles, was danach kommt.',
         includes: [
@@ -199,6 +209,8 @@ export default {
       },
       'content-creation': {
         title: 'Content-Erstellung',
+        seoTitle: 'BESTE Content-Erstellung Kaufbeuren | Foto, Video, Texte & Grafik für Social Media in Ihrer Nähe | Valbrix Digital',
+        h1: 'Content-Erstellung Kaufbeuren',
         metaDescription: 'Fotografie, Video, Copywriting und Grafiken mit strategischem Zweck - Content, der Aufmerksamkeit erregt und zum Handeln anregt.',
         intro: 'Guter Content sieht nicht nur gut aus - er hat einen klaren strategischen Zweck. Wir übernehmen Fotografie, Video, Copywriting und Grafikdesign, damit jeder Beitrag auf Ihr Wachstum einzahlt.',
         includes: [
@@ -211,6 +223,8 @@ export default {
       },
       'lead-generation': {
         title: 'Lead-Generierung',
+        seoTitle: 'BESTE Lead-Generierung Kaufbeuren | Landing Pages, Funnels & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
+        h1: 'Lead-Generierung Kaufbeuren',
         metaDescription: 'Kontinuierliche Pipeline qualifizierter Interessenten durch Funnels, Lead-Magneten und Nurture-Sequenzen.',
         intro: 'Sporadische Anfragen machen Planung schwer. Wir bauen eine kontinuierliche Pipeline qualifizierter Interessenten auf - mit Funnels, Lead-Magneten und Nurture-Sequenzen, die Fremde zu Kunden machen.',
         includes: [
@@ -223,6 +237,8 @@ export default {
       },
       'website-landing-page-strategy': {
         title: 'Website- & Landing-Page-Strategie',
+        seoTitle: 'BESTE Website- & Landing-Page-Agentur Kaufbeuren | Webdesign, Optimierung & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
+        h1: 'Website- & Landing-Page-Agentur Kaufbeuren',
         metaDescription: 'Ihre Website sollte konvertieren, nicht nur gut aussehen - wir prüfen, überarbeiten und optimieren für mehr zahlende Kunden.',
         intro: 'Eine Website, die nur gut aussieht, aber nicht konvertiert, kostet Sie täglich Kunden. Wir prüfen, überarbeiten und optimieren Ihre Website und Landing Pages, damit mehr Besucher tatsächlich anfragen.',
         includes: [
@@ -235,6 +251,8 @@ export default {
       },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
+        seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',
+        h1: 'Analytics & Reporting Kaufbeuren',
         metaDescription: 'Klares Tracking, Dashboards und monatliche Berichte - wissen Sie genau, was funktioniert und warum.',
         intro: 'Ohne sauberes Tracking wissen Sie nicht, was wirklich funktioniert. Wir richten Analytics ein, bauen Dashboards und liefern klare monatliche Berichte, damit Sie jederzeit vollen Einblick in Ihre Marketing-Performance haben.',
         includes: [
