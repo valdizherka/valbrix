@@ -72,6 +72,9 @@ export default function Footer() {
               <Link to="/faq" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
                 FAQ
               </Link>
+              <Link to="/hardest-working-seo-expert-kaufbeuren" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
+                {t.footer.aboutValdiLink}
+              </Link>
               <Link to="/impressum" className="text-gray-400 hover:text-gray-900 text-xs transition-colors duration-200">
                 Impressum
               </Link>

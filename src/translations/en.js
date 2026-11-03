@@ -507,6 +507,7 @@ export default {
     servicesTitle: 'Services',
     areasTitle: 'Areas We Serve',
     allAreasLink: 'All Areas We Serve',
+    aboutValdiLink: 'About Valdi',
     contactTitle: 'Contact',
     emailLabel: 'Email',
     locationLabel: 'Location',

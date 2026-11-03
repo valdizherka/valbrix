@@ -509,6 +509,7 @@ export default {
     servicesTitle: 'Leistungen',
     areasTitle: 'Einsatzgebiete',
     allAreasLink: 'Alle Einsatzgebiete',
+    aboutValdiLink: 'Über Valdi',
     contactTitle: 'Kontakt',
     emailLabel: 'E-Mail',
     locationLabel: 'Standort',
