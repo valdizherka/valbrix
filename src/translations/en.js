@@ -142,7 +142,7 @@ export default {
         seoTitle: 'BEST Social Media Agency Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Management Near You | Valbrix Digital',
         h1: 'Social Media Agency Kaufbeuren',
         metaDescription: 'Social media agency in Kaufbeuren: we post, film and reply on Instagram, Facebook, TikTok and LinkedIn for you. Book a free strategy call.',
-        intro: "Your audience spends hours a day on social media - but just showing up isn't enough. We handle strategy, content, and community management so your channels actually bring in customers, not just likes.",
+        intro: 'We are a social media agency in Kaufbeuren. We run Instagram, Facebook, TikTok and LinkedIn for businesses from Kaufbeuren and the Ostallgäu. Planning, filming, posting, replying. You do your work, we show it.',
         includes: [
           'Content strategy and editorial calendar across all platforms',
           'Creation and scheduling of posts, reels, and stories',
@@ -150,6 +150,118 @@ export default {
           'Monthly performance review and strategy adjustments',
         ],
         whyItMatters: 'Inconsistent posting looks unprofessional and costs you trust. A well-run social presence turns followers into paying customers - consistently, not just when you find the time.',
+        sections: [
+          {
+            h2: 'Social media in Kaufbeuren: people buy from people they know',
+            paragraphs: [
+              'In Kaufbeuren people know each other. Whoever needs a painter, a physiotherapist or a café asks friends first. Social media is today\'s circle of friends. Whoever sees you on Instagram every week knows you before they call you for the first time.',
+              'Most businesses know this. And then the boss posts three times in January, once in March and never again. Not because they are lazy. Because they run a business.',
+              'That\'s what we are for. We keep your channels running, even in the week you are up to your neck in work.',
+            ],
+          },
+          {
+            h2: 'What we do as a social media agency in Kaufbeuren',
+            paragraphs: [
+              'Every month runs the same way:',
+            ],
+            list: [
+              'A plan for the month. Which posts, on which day, on which platform. You get it beforehand and approve it. Nothing goes live that you haven\'t seen.',
+              'A filming day at your place. We come to your business in or around Kaufbeuren and shoot enough material for weeks in a few hours. Real jobs, real team, real shop.',
+              'Editing, captions and graphics. The material becomes reels, stories and posts. Short, with subtitles, because most people watch without sound.',
+              'Posting to plan. At fixed times, even when things are on fire at your end.',
+              'Comments and messages. We reply quickly on weekdays, friendly and in your tone. Questions about prices or appointments go to you.',
+              'A report that counts what counts. Not just likes. How many enquiries, calls and messages came through social media, and which posts brought them.',
+            ],
+          },
+          {
+            h2: 'Which platform fits your business?',
+            paragraphs: [
+              'You don\'t have to be everywhere. Two channels done properly beat four done halfway.',
+            ],
+            list: [
+              'Instagram: for everything you can show. Food, hair, furniture, renovations, before and after. For most businesses in Kaufbeuren, the main channel.',
+              'Facebook: reaches many older customers in the Ostallgäu and works well in local groups. Also important because advertising through [Meta Ads](/leistungen/meta-ads) needs a Facebook page.',
+              'TikTok: for a younger audience and for finding apprentices. Whoever is looking for trainees finds them here sooner than in the newspaper.',
+              'LinkedIn: when your customers are other companies. Usually not needed for trades and hospitality.',
+            ],
+            after: [
+              'Which two it is for you, we tell you in the first call. Free and without a package you don\'t need.',
+            ],
+          },
+          {
+            h2: 'What a month can look like',
+            paragraphs: [
+              'An example for a joinery in Kaufbeuren. The numbers are a suggestion, not a rule.',
+            ],
+            list: [
+              'Week 1: filming day in the workshop. A reel of a plank turning into a dining table.',
+              'Week 2: before and after of a kitchen in Neugablonz, plus a story with the customer if they are up for it.',
+              'Week 3: the boss explains in 30 seconds how to spot good wood.',
+              'Week 4: a look at the team. Who does what, since when, and why here.',
+            ],
+            after: [
+              'Plus two to three stories a week from everyday work. At the end of the month we look at which post brought messages and enquiries, and do more of that.',
+            ],
+          },
+          {
+            h2: 'What you contribute yourself',
+            paragraphs: [
+              'Not much, but not nothing. You approve the monthly plan, are available for a few hours on filming day and send us photos of nice jobs in between, straight from your phone.',
+              'You don\'t have to go in front of the camera. It helps though. A boss who explains in 20 seconds what matters in a bathroom renovation builds more trust than any logo.',
+            ],
+          },
+          {
+            h2: 'What social media management in Kaufbeuren costs',
+            paragraphs: [
+              'We work with a fixed monthly fee. How much depends on how many channels and how many posts you want. You get the number in black and white after the free call.',
+              'You don\'t need an ad budget for social media. To be honest, though, normal posts only reach part of your followers. If you want to grow faster, add a small budget for [Meta Ads](/leistungen/meta-ads) on top and promote the best posts.',
+            ],
+          },
+          {
+            h2: 'How fast does social media bring customers?',
+            paragraphs: [
+              'Slower than ads. We\'d rather say so up front. Social media builds trust, and trust needs repetition. The first weeks are groundwork. After about three months you see whether people recognise you, message you and recommend you.',
+              'If you need enquiries next week, start with [Google Ads](/leistungen/google-ads) and build social media alongside.',
+            ],
+          },
+          {
+            h2: 'Who social media management in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'your work can be shown and people like looking at it.',
+              'you have regulars or want them. Cafés, hairdressers, studios, shops, practices.',
+              'you are looking for staff or apprentices in the region.',
+            ],
+            after: [
+              'It\'s worth less if customers only think of you in an emergency and then google. Then [SEO](/leistungen/seo-optimization) is the better lever. Based outside Kaufbeuren? We also come to Kempten, Memmingen and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about social media in Kaufbeuren',
+        faq: [
+          {
+            question: 'Who owns the accounts?',
+            answer: 'You do. The profiles are in your name, we only get access. If you stop, you keep everything, followers and posts included.',
+          },
+          {
+            question: 'How often do you post?',
+            answer: 'We decide that together. Regularity matters more than volume. Twice a week, every week, beats ten times in January and then never again.',
+          },
+          {
+            question: 'Do I have to be on camera?',
+            answer: 'No. We can show your work, your team and your premises without you in shot. If you\'re up for it, though, it works better.',
+          },
+          {
+            question: 'What happens with a bad comment?',
+            answer: 'We don\'t delete anything just because it\'s uncomfortable. We reply calmly and factually and talk to you first if it\'s a real dispute. Spam and insults get removed.',
+          },
+          {
+            question: 'Do I have to sign up for long?',
+            answer: 'No. We work month to month. Social media does need a few months to work, though. Give it that time before you judge.',
+          },
+        ],
       },
       'seo-optimization': {
         title: 'SEO Optimization',

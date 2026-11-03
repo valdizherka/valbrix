@@ -142,7 +142,7 @@ export default {
         seoTitle: 'BESTE Social-Media-Agentur Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Betreuung in Ihrer Nähe | Valbrix Digital',
         h1: 'Social-Media-Agentur Kaufbeuren',
         metaDescription: 'Social-Media-Agentur in Kaufbeuren: Wir posten, filmen und antworten auf Instagram, Facebook, TikTok und LinkedIn für Sie. Kostenloses Strategiegespräch.',
-        intro: 'Ihre Zielgruppe verbringt Stunden täglich auf Social Media - aber Präsenz allein reicht nicht. Wir übernehmen Strategie, Content und Community-Management, damit Ihre Kanäle wirklich neue Kunden bringen, statt nur gut auszusehen.',
+        intro: 'Wir sind eine Social-Media-Agentur in Kaufbeuren. Wir übernehmen Instagram, Facebook, TikTok und LinkedIn für Betriebe aus Kaufbeuren und dem Ostallgäu. Planen, filmen, posten, antworten. Sie machen Ihre Arbeit, wir zeigen sie.',
         includes: [
           'Content-Strategie und redaktioneller Kalender für alle Plattformen',
           'Erstellung und Planung von Posts, Reels und Stories',
@@ -150,6 +150,118 @@ export default {
           'Monatliche Performance-Auswertung und Anpassung der Strategie',
         ],
         whyItMatters: 'Inkonsistentes Posten wirkt unprofessionell und kostet Vertrauen. Eine durchdachte Social-Media-Präsenz macht aus Followern echte Kunden - kontinuierlich, nicht nur wenn gerade Zeit dafür ist.',
+        sections: [
+          {
+            h2: 'Social Media in Kaufbeuren: Leute kaufen bei Leuten, die sie kennen',
+            paragraphs: [
+              'In Kaufbeuren kennt man sich. Wer einen Maler, eine Physiotherapeutin oder ein Café sucht, fragt erst im Bekanntenkreis. Social Media ist der Bekanntenkreis von heute. Wer Sie jede Woche auf Instagram sieht, kennt Sie, bevor er Sie das erste Mal anruft.',
+              'Die meisten Betriebe wissen das. Und dann postet der Chef dreimal im Januar, einmal im März und danach nie wieder. Nicht weil er faul ist. Weil er einen Betrieb führt.',
+              'Genau dafür gibt es uns. Wir sorgen dafür, dass Ihre Kanäle regelmäßig laufen, auch in der Woche, in der Sie bis zum Hals in Arbeit stecken.',
+            ],
+          },
+          {
+            h2: 'Was wir als Social-Media-Agentur in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Jeden Monat läuft es gleich ab:',
+            ],
+            list: [
+              'Ein Plan für den Monat. Welche Beiträge, an welchem Tag, auf welcher Plattform. Sie bekommen ihn vorher und geben ihn frei. Nichts geht online, was Sie nicht gesehen haben.',
+              'Ein Drehtag bei Ihnen vor Ort. Wir kommen in Ihren Betrieb in Kaufbeuren oder Umgebung und filmen in ein paar Stunden genug Material für Wochen. Echte Aufträge, echtes Team, echter Laden.',
+              'Schnitt, Texte und Grafiken. Aus dem Material werden Reels, Stories und Beiträge. Kurz, mit Untertiteln, weil die meisten Leute ohne Ton schauen.',
+              'Posten nach Plan. Zu festen Zeiten, auch wenn bei Ihnen gerade die Hütte brennt.',
+              'Kommentare und Nachrichten. Wir antworten werktags zügig, freundlich und in Ihrem Ton. Fragen zu Preisen oder Terminen geben wir an Sie weiter.',
+              'Ein Bericht, der zählt, was zählt. Nicht nur Likes. Wie viele Anfragen, Anrufe und Nachrichten kamen über Social Media, und welche Beiträge haben sie gebracht.',
+            ],
+          },
+          {
+            h2: 'Welche Plattform passt zu Ihrem Betrieb?',
+            paragraphs: [
+              'Sie müssen nicht überall sein. Lieber zwei Kanäle richtig als vier halb.',
+            ],
+            list: [
+              'Instagram: für alles, was man zeigen kann. Essen, Haare, Möbel, Umbauten, Vorher-Nachher. Für die meisten Betriebe in Kaufbeuren der Hauptkanal.',
+              'Facebook: erreicht im Ostallgäu viele ältere Kunden und läuft gut in lokalen Gruppen. Wichtig auch, weil Werbung über [Meta Ads](/leistungen/meta-ads) eine Facebook-Seite braucht.',
+              'TikTok: für ein jüngeres Publikum und für die Suche nach Azubis. Wer Lehrlinge sucht, findet sie eher hier als in der Zeitung.',
+              'LinkedIn: wenn Ihre Kunden andere Firmen sind. Für Handwerk und Gastro meistens nicht nötig.',
+            ],
+            after: [
+              'Welche zwei es bei Ihnen sind, sagen wir Ihnen im ersten Gespräch. Kostenlos und ohne Paket, das Sie nicht brauchen.',
+            ],
+          },
+          {
+            h2: 'So kann ein Monat aussehen',
+            paragraphs: [
+              'Ein Beispiel für eine Schreinerei in Kaufbeuren. Die Zahlen sind ein Vorschlag, keine Pflicht.',
+            ],
+            list: [
+              'Woche 1: Drehtag in der Werkstatt. Ein Reel, wie aus einem Brett ein Esstisch wird.',
+              'Woche 2: Vorher-Nachher von einer Küche in Neugablonz, plus eine Story mit dem Kunden, wenn er mitmacht.',
+              'Woche 3: Der Chef erklärt in 30 Sekunden, woran man gutes Holz erkennt.',
+              'Woche 4: Ein Blick ins Team. Wer macht was, seit wann, und warum hier.',
+            ],
+            after: [
+              'Dazu zwei bis drei Stories pro Woche aus dem Alltag. Am Monatsende schauen wir, welcher Beitrag Nachrichten und Anfragen gebracht hat, und machen davon mehr.',
+            ],
+          },
+          {
+            h2: 'Was Sie selbst beitragen',
+            paragraphs: [
+              'Wenig, aber nicht nichts. Sie geben den Monatsplan frei, sind am Drehtag ein paar Stunden ansprechbar und schicken uns zwischendurch Fotos von schönen Aufträgen, direkt vom Handy.',
+              'Vor die Kamera müssen Sie nicht. Es hilft aber. Ein Chef, der in 20 Sekunden erklärt, worauf er bei einer Badsanierung achtet, schafft mehr Vertrauen als jedes Logo.',
+            ],
+          },
+          {
+            h2: 'Was Social-Media-Management in Kaufbeuren kostet',
+            paragraphs: [
+              'Wir arbeiten mit einer festen Monatsgebühr. Wie hoch sie ist, hängt davon ab, wie viele Kanäle und wie viele Beiträge Sie wollen. Die Zahl bekommen Sie nach dem kostenlosen Gespräch, schwarz auf weiß.',
+              'Ein Werbebudget brauchen Sie für Social Media nicht. Ehrlich gesagt erreichen normale Beiträge aber nur einen Teil Ihrer Follower. Wer schneller wachsen will, legt ein kleines Budget für [Meta Ads](/leistungen/meta-ads) obendrauf und bewirbt die besten Beiträge.',
+            ],
+          },
+          {
+            h2: 'Wie schnell bringt Social Media Kunden?',
+            paragraphs: [
+              'Langsamer als Anzeigen. Das sagen wir lieber vorher. Social Media baut Vertrauen auf, und Vertrauen braucht Wiederholung. Die ersten Wochen sind Aufbau. Nach rund drei Monaten sehen Sie, ob Leute Sie erkennen, Ihnen schreiben und Sie empfehlen.',
+              'Wer nächste Woche Anfragen braucht, fängt besser mit [Google Ads](/leistungen/google-ads) an und baut Social Media parallel auf.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Social-Media-Management in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Ihre Arbeit sich zeigen lässt und Leute sie gern anschauen.',
+              'Sie Stammkunden haben oder haben wollen. Cafés, Friseure, Studios, Läden, Praxen.',
+              'Sie Mitarbeiter oder Azubis in der Region suchen.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn Ihre Kunden nur im Notfall an Sie denken und dann googeln. Dann ist [SEO](/leistungen/seo-optimization) der bessere Hebel. Sie sitzen außerhalb von Kaufbeuren? Wir kommen auch nach Kempten, Memmingen und ins ganze [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Social Media in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wem gehören die Konten?',
+            answer: 'Ihnen. Die Profile laufen auf Ihren Namen, wir bekommen nur Zugriff. Wenn Sie aufhören, behalten Sie alles, Follower und Beiträge inklusive.',
+          },
+          {
+            question: 'Wie oft wird gepostet?',
+            answer: 'Das legen wir gemeinsam fest. Wichtiger als die Menge ist, dass es regelmäßig passiert. Lieber jede Woche zweimal als im Januar zehnmal und dann nie wieder.',
+          },
+          {
+            question: 'Muss ich selbst vor die Kamera?',
+            answer: 'Nein. Wir können Ihre Arbeit, Ihr Team und Ihre Räume zeigen, ohne dass Sie zu sehen sind. Wenn Sie sich trauen, wirkt es aber stärker.',
+          },
+          {
+            question: 'Was passiert bei einem schlechten Kommentar?',
+            answer: 'Wir löschen nichts, nur weil es unangenehm ist. Wir antworten ruhig und sachlich und sprechen vorher mit Ihnen, wenn es um einen echten Streitfall geht. Spam und Beleidigungen fliegen raus.',
+          },
+          {
+            question: 'Muss ich mich lange binden?',
+            answer: 'Nein. Wir arbeiten monatlich kündbar. Social Media braucht aber ein paar Monate, bis es wirkt. Geben Sie ihm die Zeit, bevor Sie urteilen.',
+          },
+        ],
       },
       'seo-optimization': {
         title: 'SEO-Optimierung',
