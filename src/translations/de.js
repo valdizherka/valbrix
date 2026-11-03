@@ -584,7 +584,7 @@ export default {
         seoTitle: 'BESTE Markenstrategie Kaufbeuren | Positionierung, Markenauftritt & Branding in Ihrer Nähe | Valbrix Digital',
         h1: 'Markenstrategie Kaufbeuren',
         metaDescription: 'Markenstrategie in Kaufbeuren: Wofür stehen Sie, wen wollen Sie erreichen, wie klingen Sie? Wir klären das mit Ihnen. Kostenloses Strategiegespräch.',
-        intro: 'Eine unscharfe Markenpositionierung macht jede Marketingmaßnahme schwerer und teurer. Wir helfen Ihnen zu definieren, wofür Ihr Unternehmen steht, für wen es gedacht ist und wie es kommuniziert - als Grundlage für alles, was danach kommt.',
+        intro: 'Wir machen Markenstrategie in Kaufbeuren. Wir helfen Betrieben aus Kaufbeuren und dem Ostallgäu, in einem Satz zu sagen, wofür sie stehen und warum man zu ihnen kommen soll. Wer das nicht kann, konkurriert nur über den Preis. Und das gewinnt immer der Billigste.',
         includes: [
           'Positionierung gegenüber lokaler und überregionaler Konkurrenz',
           'Definition von Zielgruppe, Tonalität und Kernbotschaften',
@@ -592,13 +592,99 @@ export default {
           'Abstimmung der Markenstrategie mit allen Marketingkanälen',
         ],
         whyItMatters: 'Ohne klare Markenstrategie wirkt jede Kampagne beliebig und austauschbar. Eine starke Positionierung macht Ihr Unternehmen erkennbar und erleichtert jede folgende Marketingentscheidung.',
+        sections: [
+          {
+            h2: 'Markenstrategie in Kaufbeuren: warum Sie und nicht der Nächste?',
+            paragraphs: [
+              'Stellen Sie sich vor, jemand sucht in Kaufbeuren einen Elektriker und findet drei. Alle drei schreiben „Qualität, Zuverlässigkeit, faire Preise“. Wen ruft er an? Den ersten. Oder den billigsten.',
+              'Eine Marke ist kein Logo. Eine Marke ist der Grund, warum jemand Sie anruft, obwohl es andere gibt. „Der Elektriker, der auch am Samstag kommt.“ „Die Physiotherapie, die sich auf Sportler spezialisiert hat.“ „Der Maler, der nach der Arbeit sauberer hinterlässt als vorher.“',
+              'Das klingt klein. Ist es nicht. Ein klarer Satz macht jede Anzeige, jeden Beitrag und jede Seite besser, weil alle dasselbe sagen.',
+            ],
+          },
+          {
+            h2: 'Was wir bei der Markenstrategie in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Kein Workshop mit 80 Folien. Ein klarer Ablauf mit einem klaren Ergebnis:',
+            ],
+            list: [
+              'Gespräch mit Ihnen. Was machen Sie gern, was machen Sie besser als andere, welche Kunden wollen Sie mehr, welche weniger?',
+              'Blick auf die Konkurrenz in Kaufbeuren. Was sagen die anderen über sich? Wo sind alle gleich, und wo ist eine Lücke, die Sie besetzen können?',
+              'Ihre Kunden fragen. Ein paar kurze Gespräche oder Bewertungen lesen. Ihre Kunden sagen oft besser als Sie selbst, warum sie bei Ihnen sind.',
+              'Der eine Satz. Für wen Sie da sind, was Sie besser machen und warum man Ihnen glauben kann.',
+              'Ton und Auftritt. Wie Sie klingen, Sie oder du, welche Farben und Fotos zu Ihnen passen. Auf ein, zwei Seiten, damit jeder im Team es versteht.',
+              'Umsetzung. Website, Google-Profil, Social Media und Anzeigen bekommen dieselbe Botschaft.',
+            ],
+            after: [
+              'Am Ende haben Sie ein kurzes Dokument, das Sie jedem neuen Mitarbeiter, Grafiker oder Fotografen in die Hand drücken können.',
+            ],
+          },
+          {
+            h2: 'Ein Beispiel, wie ein Satz alles ändert',
+            paragraphs: [
+              'Ein ausgedachtes Beispiel, kein Kunde: Eine Schreinerei in Kaufbeuren macht Küchen, Treppen, Möbel und Reparaturen. Auf der Website steht alles gleich groß. Ergebnis: Sie wirkt wie jede andere Schreinerei.',
+              'Nach der Strategie steht oben: „Küchen aus Massivholz, gebaut im Allgäu.“ Treppen und Reparaturen gibt es weiter, aber weiter unten. Plötzlich hat die Schreinerei eine Geschichte, ein Thema für Instagram und einen Grund, warum Leute für eine Küche gern mehr zahlen.',
+              'Das ist Markenstrategie. Weglassen, damit das Wichtige gesehen wird.',
+            ],
+          },
+          {
+            h2: 'Was Markenstrategie in Kaufbeuren kostet',
+            paragraphs: [
+              'Markenstrategie ist ein einmaliges Projekt, keine Monatsgebühr. Wie groß es wird, hängt davon ab, wie viel schon da ist. Manche brauchen nur den einen Satz, andere einen kompletten neuen Auftritt.',
+              'Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Die Umsetzung auf Website und Social Media kann danach dazukommen, muss aber nicht.',
+            ],
+          },
+          {
+            h2: 'Wie lange dauert das?',
+            paragraphs: [
+              'Vom ersten Gespräch bis zum fertigen Dokument vergehen meist zwei bis vier Wochen. Die meiste Zeit geht in das Zuhören, nicht ins Schreiben.',
+              'Danach brauchen Sie keinen Relaunch an einem Tag. Wir setzen es Schritt für Schritt um, zuerst dort, wo die meisten Kunden Sie sehen.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Markenstrategie in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie oft über den Preis verhandeln müssen.',
+              'Ihre Website, Ihr Instagram und Ihre Flyer jeweils etwas anderes erzählen.',
+              'Sie wachsen, neue Mitarbeiter einstellen oder einen Betrieb übernommen haben.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn Sie diese Woche Anfragen brauchen. Dann zuerst [Google Ads](/leistungen/google-ads) und die Strategie danach. Sie sitzen außerhalb von Kaufbeuren? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Markenstrategie in Kaufbeuren',
+        faq: [
+          {
+            question: 'Brauche ich ein neues Logo?',
+            answer: 'Meistens nicht. Ein Logo ist der kleinste Teil einer Marke. Wenn Ihres nicht mehr passt, sagen wir es Ihnen. Oft reicht es, den Rest klarer zu machen.',
+          },
+          {
+            question: 'Ist das nicht nur etwas für große Firmen?',
+            answer: 'Nein. Gerade kleine Betriebe profitieren, weil sie mit kleinem Budget auffallen müssen. Ein klarer Satz kostet nichts extra, wenn er einmal gefunden ist.',
+          },
+          {
+            question: 'Was bekomme ich am Ende?',
+            answer: 'Ein kurzes Dokument mit Ihrer Positionierung, Ihrer Zielgruppe, Ihren Kernbotschaften und Ihrem Ton, dazu Vorschläge für Farben und Bildsprache. Kein dicker Ordner, der im Regal verstaubt.',
+          },
+          {
+            question: 'Muss ich dafür viel Zeit investieren?',
+            answer: 'Ein paar Stunden für Gespräche und das Feedback zum Entwurf. Den Rest machen wir.',
+          },
+          {
+            question: 'Kann ich danach selbst weitermachen?',
+            answer: 'Ja. Das Dokument ist so geschrieben, dass Sie, Ihr Team oder eine andere Agentur damit arbeiten können.',
+          },
+        ],
       },
       'content-creation': {
         title: 'Content-Erstellung',
         seoTitle: 'BESTE Content-Erstellung Kaufbeuren | Foto, Video, Texte & Grafik für Social Media in Ihrer Nähe | Valbrix Digital',
         h1: 'Content-Erstellung Kaufbeuren',
         metaDescription: 'Content-Erstellung in Kaufbeuren: Fotos, Videos, Texte und Grafiken für Social Media, Anzeigen und Website. Vor Ort im Ostallgäu. Jetzt Termin sichern.',
-        intro: 'Guter Content sieht nicht nur gut aus - er hat einen klaren strategischen Zweck. Wir übernehmen Fotografie, Video, Copywriting und Grafikdesign, damit jeder Beitrag auf Ihr Wachstum einzahlt.',
+        intro: 'Wir machen Content-Erstellung in Kaufbeuren. Fotos, Videos, Texte und Grafiken für Betriebe aus Kaufbeuren und dem Ostallgäu, für Social Media, Anzeigen und Ihre Website. Gedreht bei Ihnen vor Ort, mit Ihrem Team und Ihren echten Aufträgen. Keine Stockfotos von lächelnden Models, die nie in Ihrem Laden waren.',
         includes: [
           'Foto- und Videoproduktion für Social Media und Werbung',
           'Copywriting für Anzeigen, Website und Social-Media-Beiträge',
@@ -606,13 +692,107 @@ export default {
           'Content-Planung abgestimmt auf Kampagnenziele',
         ],
         whyItMatters: 'Content ohne Strategie ist nur Rauschen. Wir sorgen dafür, dass jedes Foto, Video und jeder Text einem klaren Zweck dient - mehr Aufmerksamkeit, mehr Vertrauen, mehr Kunden.',
+        sections: [
+          {
+            h2: 'Content-Erstellung in Kaufbeuren: echt schlägt schön',
+            paragraphs: [
+              'Jeder kennt die Website mit dem Handschlag-Foto aus der Bilddatenbank. Und jeder scrollt daran vorbei. Leute wollen sehen, wer bei ihnen klingelt, wer ihnen die Haare schneidet, wer ihr Bad umbaut.',
+              'Genau das zeigen wir. Ihre Werkstatt in Kaufbeuren, Ihr Team, Ihre Hände bei der Arbeit, das fertige Ergebnis beim Kunden in Neugablonz. Das kann kein Konkurrent kopieren, weil er es nicht hat.',
+              'Für Google gilt dasselbe. Echte Fotos mit sinnvollen Bildbeschreibungen und Texte mit echten Details helfen Ihnen in der Suche. Austauschbarer Text hilft niemandem.',
+            ],
+          },
+          {
+            h2: 'Was wir bei der Content-Erstellung in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Ein Ablauf, der für Sie wenig Aufwand bedeutet:',
+            ],
+            list: [
+              'Planung vorab. Wir klären, wofür der Content gebraucht wird: Instagram, Anzeigen, Website oder alles. Daraus entsteht eine Drehliste, damit am Drehtag keine Zeit verloren geht.',
+              'Ein Drehtag bei Ihnen. Wir kommen in Ihren Betrieb in Kaufbeuren oder Umgebung. In ein paar Stunden entstehen Fotos und Videos für Wochen.',
+              'Kurze Videos fürs Handy. Hochkant, mit Untertiteln, die ersten zwei Sekunden müssen sitzen. So funktionieren Reels, Stories und [Meta Ads](/leistungen/meta-ads).',
+              'Fotos für Website und Google. Team, Räume, Arbeit, Ergebnisse. Komprimiert, damit Ihre Seite schnell bleibt, und mit echten Bildbeschreibungen.',
+              'Texte, die nach Ihnen klingen. Für Website, Anzeigen und Beiträge. Konkret, mit Preisen, Orten und echten Beispielen statt Floskeln.',
+              'Grafiken im gleichen Look. Vorlagen für Angebote, Aktionen und Stellenanzeigen, damit alles zusammenpasst.',
+            ],
+            after: [
+              'Sie bekommen alle Dateien. Fotos und Videos gehören Ihnen und Sie können sie überall nutzen, auch wenn Sie später mit einer anderen Agentur arbeiten.',
+            ],
+          },
+          {
+            h2: 'Ein Drehtag in Kaufbeuren, Beispiel',
+            paragraphs: [
+              'So kann ein Drehtag bei einem Friseursalon in Kaufbeuren aussehen. Ein Vorschlag, kein festes Paket.',
+            ],
+            list: [
+              '9:00 Uhr: Fotos vom leeren Salon, bevor die ersten Kunden kommen. Für Website und Google-Unternehmensprofil.',
+              '10:00 Uhr: Teamfotos, jede Person einzeln und alle zusammen.',
+              '11:00 Uhr: Zwei Kundinnen, die zugestimmt haben. Vorher, Nachher, ein kurzes Video vom Färben.',
+              '13:00 Uhr: Die Chefin erklärt in 30 Sekunden, was Balayage ist und für wen es passt.',
+              '14:00 Uhr: Details. Produkte, Werkzeug, der Blick aus dem Fenster auf die Altstadt.',
+            ],
+            after: [
+              'Daraus werden in der Regel genug Bilder und Clips für ein bis zwei Monate Social Media plus neue Fotos für die Website.',
+            ],
+          },
+          {
+            h2: 'Was Content-Erstellung in Kaufbeuren kostet',
+            paragraphs: [
+              'Das hängt davon ab, ob Sie einen einzelnen Drehtag brauchen oder laufend jeden Monat neuen Content. Beides geht. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis, ohne Überraschungen bei der Rechnung.',
+              'Ein Tipp vorab: Content allein bringt keine Kunden. Er muss gesehen werden. Am meisten holen Sie raus, wenn er direkt in [Social Media](/leistungen/social-media-management), Anzeigen oder Ihre Website fließt.',
+            ],
+          },
+          {
+            h2: 'Wie schnell haben Sie den Content?',
+            paragraphs: [
+              'Vom ersten Gespräch bis zum Drehtag vergeht meist eine bis zwei Wochen, je nachdem, wann es bei Ihnen passt. Die ersten fertigen Fotos und Videos bekommen Sie ein paar Tage nach dem Dreh.',
+              'Für laufende Betreuung planen wir einen festen Drehtag pro Monat oder Quartal ein. So haben Sie immer frisches Material und müssen nicht jedes Mal neu organisieren.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Content-Erstellung in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Ihre Website noch Stockfotos oder gar keine Bilder hat.',
+              'Sie auf Instagram oder Facebook sichtbar sein wollen, aber keine Zeit zum Filmen haben.',
+              'Sie Anzeigen schalten und dafür gutes Material brauchen.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn Sie nirgendwo zeigen, was wir drehen. Dann fangen Sie besser mit Ihrer [Website](/leistungen/website-landing-page-strategy) oder Ihrem Google-Profil an. Sie sitzen außerhalb von Kaufbeuren? Wir drehen auch in Kempten, Memmingen und im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Content-Erstellung in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wem gehören die Fotos und Videos?',
+            answer: 'Ihnen. Sie bekommen alle fertigen Dateien und dürfen sie überall nutzen, für Website, Social Media, Anzeigen und Druck.',
+          },
+          {
+            question: 'Brauche ich professionelle Kameras oder ein Studio?',
+            answer: 'Nein. Wir bringen alles mit. Gedreht wird bei Ihnen im Betrieb, das wirkt echter als jedes Studio.',
+          },
+          {
+            question: 'Was ist mit Kunden und Mitarbeitern im Bild?',
+            answer: 'Wer zu sehen ist, muss zustimmen. Dafür bringen wir eine kurze Einwilligung zum Unterschreiben mit. Wer nicht ins Bild will, bleibt draußen.',
+          },
+          {
+            question: 'Schreiben Sie auch die Texte für meine Website?',
+            answer: 'Ja. Wir schreiben Texte, die nach Ihnen klingen und für Google funktionieren, mit Ort, Leistung und echten Details. Sie lesen alles, bevor es online geht.',
+          },
+          {
+            question: 'Kann ich auch nur einen einzelnen Drehtag buchen?',
+            answer: 'Ja. Starten Sie mit einem Drehtag für neue Website-Fotos und entscheiden Sie danach, ob Sie laufend Content wollen.',
+          },
+        ],
       },
       'lead-generation': {
         title: 'Lead-Generierung',
         seoTitle: 'BESTE Lead-Generierung Kaufbeuren | Landing Pages, Funnels & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
         h1: 'Lead-Generierung Kaufbeuren',
         metaDescription: 'Lead-Generierung in Kaufbeuren: Landing Pages, Funnels und E-Mail-Folgen, die jeden Monat planbar Anfragen bringen. Kostenloses Strategiegespräch.',
-        intro: 'Sporadische Anfragen machen Planung schwer. Wir bauen eine kontinuierliche Pipeline qualifizierter Interessenten auf - mit Funnels, Lead-Magneten und Nurture-Sequenzen, die Fremde zu Kunden machen.',
+        intro: 'Wir machen Lead-Generierung in Kaufbeuren. Wir bauen für Betriebe aus Kaufbeuren und dem Ostallgäu ein System, das jeden Monat Anfragen bringt. Keine Monate mehr, in denen das Telefon still ist, und dann drei Aufträge auf einmal, die Sie nicht stemmen können.',
         includes: [
           'Aufbau von Landing Pages und Lead-Magneten',
           'Automatisierte Nurture-Sequenzen per E-Mail',
@@ -620,13 +800,99 @@ export default {
           'Laufende Optimierung der Conversion-Rate im Funnel',
         ],
         whyItMatters: 'Ohne System hängt Ihr Umsatz von Zufall und Mundpropaganda ab. Ein funktionierender Lead-Funnel macht neue Kunden planbar - Monat für Monat.',
+        sections: [
+          {
+            h2: 'Lead-Generierung in Kaufbeuren: Anfragen planbar machen',
+            paragraphs: [
+              'Ein Lead ist eine Anfrage von jemandem, der Interesse hat. Ein Anruf, ein Formular, eine Nachricht. Die meisten Betriebe in Kaufbeuren leben von Empfehlungen. Das ist gut, solange es läuft. Wenn es nicht läuft, haben Sie keinen Hebel.',
+              'Lead-Generierung heißt: Sie bauen sich einen eigenen Weg zu neuen Kunden, den Sie aufdrehen können. Anzeigen oder Google bringen Besucher, eine passende Seite macht aus Besuchern Anfragen, und ein kurzer Ablauf danach sorgt dafür, dass keine Anfrage liegen bleibt.',
+              'Klingt nach Konzern. Ist es nicht. Für einen Handwerksbetrieb reicht oft eine gute Seite, ein klares Formular und eine automatische E-Mail, die sofort antwortet.',
+            ],
+          },
+          {
+            h2: 'Was wir bei der Lead-Generierung in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Wir bauen das System in dieser Reihenfolge:',
+            ],
+            list: [
+              'Das Angebot schärfen. Was genau soll jemand anfragen? „Kostenloses Aufmaß in Kaufbeuren“ bringt mehr als „Kontaktieren Sie uns“.',
+              'Eine Seite pro Angebot. Eine Landing Page, die nur ein Ziel hat: die Anfrage. Mit Preisrahmen, Fotos echter Aufträge und einem kurzen Formular. Mehr dazu bei [Website- & Landing-Page-Strategie](/leistungen/website-landing-page-strategy).',
+              'Besucher holen. Über [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) oder [SEO](/leistungen/seo-optimization), je nachdem, wo Ihre Kunden suchen.',
+              'Sofort antworten. Wer anfragt, bekommt sofort eine E-Mail mit dem, was als Nächstes passiert. Sie bekommen die Anfrage aufs Handy.',
+              'Fragen vorab stellen. Drei, vier Fragen im Formular sortieren Anfragen, die nicht passen, schon vor dem ersten Anruf aus.',
+              'Dranbleiben. Wer nicht sofort bucht, bekommt in den Tagen danach ein, zwei hilfreiche E-Mails. Nur mit Einwilligung, so wie es der Datenschutz in Deutschland verlangt.',
+            ],
+            after: [
+              'Jeden Monat sehen Sie in einem kurzen Bericht, wie viele Anfragen kamen, woher sie kamen und was eine Anfrage gekostet hat.',
+            ],
+          },
+          {
+            h2: 'Ein Lead-Magnet: wenn Leute noch nicht bereit sind',
+            paragraphs: [
+              'Nicht jeder will sofort einen Termin. Manche wollen sich erst informieren. Für die gibt es einen Lead-Magneten: etwas Nützliches, das man gegen seine E-Mail-Adresse bekommt.',
+              'Für eine Solarfirma kann das ein Rechner sein, was die Anlage auf dem eigenen Dach bringt. Für einen Fliesenleger eine Checkliste „Badsanierung in 8 Schritten“. Für eine Praxis ein kurzes Video mit drei Übungen für den Rücken.',
+              'Wer sich das holt, zeigt Interesse. Und Sie bleiben im Kopf, bis der Bedarf da ist.',
+            ],
+          },
+          {
+            h2: 'Was Lead-Generierung in Kaufbeuren kostet',
+            paragraphs: [
+              'Es gibt zwei Teile. Der Aufbau, also Seite, Formular, E-Mails und Tracking, ist eine einmalige Arbeit. Danach die laufende Betreuung und, wenn Sie Anzeigen nutzen, das Werbebudget, das Sie direkt an Google oder Meta zahlen.',
+              'Was das bei Ihnen kostet, rechnen wir nach dem kostenlosen Gespräch aus und nennen Ihnen einen festen Preis. Wichtiger als der Preis ist die Rechnung dahinter: Was darf Sie eine Anfrage kosten, damit sich ein Auftrag noch lohnt?',
+            ],
+          },
+          {
+            h2: 'Wie schnell kommen die ersten Anfragen?',
+            paragraphs: [
+              'Der Aufbau dauert meist zwei bis vier Wochen. Mit Anzeigen kommen die ersten Anfragen kurz danach. Über SEO dauert es länger, dafür ohne laufende Klickkosten.',
+              'Die ersten Wochen nutzen wir, um zu sehen, was funktioniert. Welche Überschrift, welches Angebot, welches Formular. Danach drehen wir an den Stellschrauben, die etwas bringen.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Lead-Generierung in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'ein Auftrag bei Ihnen deutlich mehr wert ist als ein paar Euro. Handwerk, Solar, Bau, Beratung, Praxen mit Selbstzahlern.',
+              'Ihre Auslastung schwankt und Sie das ändern wollen.',
+              'Sie Anfragen schnell beantworten können. Ein System voller Anfragen, die keiner zurückruft, verbrennt Geld.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn Sie schon für Monate ausgebucht sind. Dann ist [Markenstrategie](/leistungen/brand-strategy) oder ein besserer Preis vielleicht der klügere nächste Schritt. Sie sitzen außerhalb von Kaufbeuren? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Lead-Generierung in Kaufbeuren',
+        faq: [
+          {
+            question: 'Brauche ich dafür eine neue Website?',
+            answer: 'Meistens nicht. Die Landing Page kann Teil Ihrer bestehenden Website sein oder eine eigene Seite. Wir schauen uns an, was Sie haben, und sagen Ihnen ehrlich, was nötig ist.',
+          },
+          {
+            question: 'Was ist der Unterschied zu normaler Werbung?',
+            answer: 'Normale Werbung bringt Aufmerksamkeit. Lead-Generierung bringt Kontaktdaten von Leuten, die konkret Interesse haben, und sorgt dafür, dass Sie sich bei ihnen melden.',
+          },
+          {
+            question: 'Ist das mit dem Datenschutz erlaubt?',
+            answer: 'Ja, wenn es richtig gemacht ist. Formulare brauchen einen Hinweis zum Datenschutz, E-Mails nach der Anfrage eine Einwilligung. Das bauen wir von Anfang an ein.',
+          },
+          {
+            question: 'Wer kümmert sich um die Anfragen?',
+            answer: 'Sie. Wir sorgen dafür, dass die Anfragen sauber bei Ihnen ankommen, schon vorsortiert und mit den wichtigsten Infos. Den Auftrag holen Sie selbst.',
+          },
+          {
+            question: 'Muss ich mich lange binden?',
+            answer: 'Nein. Wir arbeiten monatlich kündbar. Seite, Formular und E-Mails gehören Ihnen und bleiben bei Ihnen.',
+          },
+        ],
       },
       'website-landing-page-strategy': {
         title: 'Website- & Landing-Page-Strategie',
         seoTitle: 'BESTE Website- & Landing-Page-Agentur Kaufbeuren | Webdesign, Optimierung & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
         h1: 'Website- & Landing-Page-Agentur Kaufbeuren',
         metaDescription: 'Website- und Landing-Page-Agentur in Kaufbeuren: Wir machen aus Besuchern Anfragen. Webdesign, Ladezeit, klare Buttons. Kostenloses Strategiegespräch.',
-        intro: 'Eine Website, die nur gut aussieht, aber nicht konvertiert, kostet Sie täglich Kunden. Wir prüfen, überarbeiten und optimieren Ihre Website und Landing Pages, damit mehr Besucher tatsächlich anfragen.',
+        intro: 'Wir sind eine Website- und Landing-Page-Agentur in Kaufbeuren. Wir bauen und verbessern Websites für Betriebe aus Kaufbeuren und dem Ostallgäu, damit mehr Besucher anrufen oder schreiben. Eine schöne Website, die keiner anruft, ist eine teure Visitenkarte.',
         includes: [
           'Konversionsoptimiertes Design und Nutzerführung',
           'Technisches Audit von Ladezeit, Struktur und Mobiltauglichkeit',
@@ -634,13 +900,98 @@ export default {
           'Laufende A/B-Tests zur Verbesserung der Conversion-Rate',
         ],
         whyItMatters: 'Jeder Besucher, der ohne Anfrage wieder geht, ist verlorenes Potenzial. Eine optimierte Website verwandelt mehr von Ihrem bestehenden Traffic in zahlende Kunden - ohne zusätzliches Werbebudget.',
+        sections: [
+          {
+            h2: 'Websites in Kaufbeuren: gut aussehen reicht nicht',
+            paragraphs: [
+              'Die meisten Websites sehen ordentlich aus. Logo, ein großes Bild, „Herzlich willkommen“, ein Kontaktformular ganz unten. Und dann wundert sich der Inhaber, dass über die Seite kaum Anfragen kommen.',
+              'Der Grund ist fast immer derselbe. Der Besucher findet in den ersten Sekunden nicht, was er sucht: Machen die das, was ich brauche? Hier in Kaufbeuren? Was kostet es ungefähr? Wie erreiche ich sie? Wenn er das nicht sofort sieht, ist er beim nächsten Ergebnis.',
+              'Wir bauen Seiten, die genau diese Fragen beantworten. Oben, groß, auf dem Handy. Denn dort schaut der Großteil Ihrer Kunden.',
+            ],
+          },
+          {
+            h2: 'Was wir als Website- und Landing-Page-Agentur in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Ob neue Seite oder Umbau, wir gehen immer gleich vor:',
+            ],
+            list: [
+              'Prüfung Ihrer jetzigen Seite. Ladezeit auf dem Handy, Lesbarkeit, Telefonnummer, Formular, was Google sieht. Sie bekommen das Ergebnis schriftlich und auf einer Seite zusammengefasst.',
+              'Klare erste Bildschirmseite. Was Sie machen, wo, für wen, und ein Knopf zum Anrufen. Ohne Scrollen.',
+              'Eine Seite pro Leistung. Wer „Dachsanierung Kaufbeuren“ sucht, soll auf einer Seite zur Dachsanierung landen, nicht auf der Startseite. Das hilft den Besuchern und Google.',
+              'Telefonnummer zum Antippen. Auf jeder Seite, auf dem Handy mit einem Tipp erreichbar.',
+              'Schnell laden. Bilder komprimiert, keine unnötigen Plugins. Langsame Seiten verlieren Besucher, bevor sie überhaupt etwas sehen.',
+              'Messen, was passiert. Anrufe und Formulare werden gezählt, damit Sie wissen, ob die neue Seite mehr bringt als die alte. Mehr dazu bei [Analytics & Reporting](/leistungen/analytics-reporting).',
+            ],
+            after: [
+              'Und dann testen wir. Eine andere Überschrift, ein anderer Knopf, ein kürzeres Formular. Kleine Änderungen bringen auf Landing Pages oft mehr als ein komplett neues Design.',
+            ],
+          },
+          {
+            h2: 'Website oder Landing Page?',
+            paragraphs: [
+              'Ihre Website erzählt alles über Ihren Betrieb. Eine Landing Page hat genau ein Ziel: eine bestimmte Anfrage. Zum Beispiel „Kostenloses Aufmaß für Ihr neues Bad in Kaufbeuren“. Ohne Menü, ohne Ablenkung, mit Formular.',
+              'Wenn Sie [Google Ads](/leistungen/google-ads) oder [Meta Ads](/leistungen/meta-ads) schalten, schicken Sie die Leute auf eine Landing Page, nicht auf die Startseite. Sonst bezahlen Sie für Klicks, die sich erst durchs Menü suchen müssen.',
+            ],
+          },
+          {
+            h2: 'Unsere eigene Seite als Beispiel',
+            paragraphs: [
+              'Unsere eigene Website valbrixdigital.com hat am 3. November 2026 im Google-Test PageSpeed Insights auf dem Handy 98 von 100 Punkten für die Ladezeit bekommen. Das ist kein Kundenergebnis, aber es zeigt, wie wir bauen.',
+              'Am selben Tag haben wir bei uns selbst Fehler gefunden, die wir sonst bei Kunden finden: zu kurze Leistungsseiten, Titel ohne Ort, eingeklappte Antworten. Wir haben sie behoben. Sie lesen gerade das Ergebnis.',
+            ],
+          },
+          {
+            h2: 'Was eine Website in Kaufbeuren kostet',
+            paragraphs: [
+              'Das hängt davon ab, ob wir Ihre bestehende Seite verbessern oder neu bauen, und wie viele Seiten Sie brauchen. Eine einzelne Landing Page ist schneller gemacht als eine komplette Website mit zehn Leistungsseiten.',
+              'Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Die Seite gehört danach Ihnen, mit allen Zugängen.',
+            ],
+          },
+          {
+            h2: 'Für wen sich das lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Leute Ihre Seite besuchen, aber kaum jemand anruft oder schreibt.',
+              'Ihre Seite auf dem Handy schwer zu lesen ist oder lange lädt.',
+              'Sie Anzeigen schalten und die Klicks auf der Startseite landen.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn kaum jemand Ihre Seite besucht. Dann brauchen Sie zuerst Besucher, über [SEO](/leistungen/seo-optimization) oder Anzeigen. Sie sitzen außerhalb von Kaufbeuren? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete) und remote.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Websites und Landing Pages in Kaufbeuren',
+        faq: [
+          {
+            question: 'Muss meine Website komplett neu gebaut werden?',
+            answer: 'Meistens nicht. Oft reichen eine klarere erste Seite, eigene Seiten pro Leistung und eine schnellere Ladezeit. Wir sagen Ihnen nach der Prüfung, ob sich ein Neubau lohnt.',
+          },
+          {
+            question: 'Mit welchem System arbeiten Sie?',
+            answer: 'Mit dem, was zu Ihnen passt. Wenn Sie WordPress haben und selbst Texte ändern wollen, bleiben wir bei WordPress. Wichtig ist, dass die Seite schnell ist und Sie sie pflegen können.',
+          },
+          {
+            question: 'Wem gehört die Website?',
+            answer: 'Ihnen. Domain, Inhalte und Zugänge laufen auf Ihren Namen. Wenn Sie gehen, nehmen Sie alles mit.',
+          },
+          {
+            question: 'Wie lange dauert das?',
+            answer: 'Eine Landing Page steht oft in ein bis zwei Wochen. Eine ganze Website dauert länger, je nachdem, wie schnell Texte und Fotos da sind. Den Zeitplan bekommen Sie vorher.',
+          },
+          {
+            question: 'Kümmern Sie sich auch um Impressum und Datenschutz?',
+            answer: 'Wir sorgen dafür, dass Impressum und Datenschutzerklärung auf der Seite sind und zu den eingesetzten Tools passen. Für die rechtliche Prüfung im Einzelfall ist ein Anwalt zuständig.',
+          },
+        ],
       },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',
         h1: 'Analytics & Reporting Kaufbeuren',
         metaDescription: 'Analytics und Reporting in Kaufbeuren: Tracking, Dashboards und ein Bericht pro Monat. So sehen Sie, welcher Euro Kunden bringt. Kostenloses Gespräch.',
-        intro: 'Ohne sauberes Tracking wissen Sie nicht, was wirklich funktioniert. Wir richten Analytics ein, bauen Dashboards und liefern klare monatliche Berichte, damit Sie jederzeit vollen Einblick in Ihre Marketing-Performance haben.',
+        intro: 'Wir machen Analytics und Reporting in Kaufbeuren. Wir richten für Betriebe aus Kaufbeuren und dem Ostallgäu ein, dass jede Anfrage gezählt wird, und zeigen Ihnen einmal im Monat auf einer Seite, welcher Euro Kunden gebracht hat und welcher nicht.',
         includes: [
           'Einrichtung von Tracking für Website, Anzeigen und Formulare',
           'Übersichtliche Dashboards für alle wichtigen Kennzahlen',
@@ -648,6 +999,89 @@ export default {
           'Identifikation ungenutzten Potenzials in bestehenden Kampagnen',
         ],
         whyItMatters: 'Was Sie nicht messen, können Sie nicht verbessern. Klares Reporting zeigt genau, wohin Ihr Marketingbudget fließt und was es wirklich bringt.',
+        sections: [
+          {
+            h2: 'Analytics in Kaufbeuren: ohne Messung ist alles Bauchgefühl',
+            paragraphs: [
+              'Fragen Sie einen Betrieb, ob seine Website Kunden bringt. Die Antwort ist meistens „Ich glaube schon“. Fragen Sie, wie viele im letzten Monat. Dann wird es still.',
+              'Das ist kein Vorwurf. Die meisten Websites zählen Besucher, aber nicht das, was zählt: Anrufe, Formulare, Buchungen. Ohne diese Zahlen kann Ihnen keine Agentur sagen, ob SEO oder Anzeigen wirken. Auch wir nicht.',
+              'Deshalb fangen wir bei jedem Kunden genau hier an. Erst messen, dann ändern, dann wieder messen.',
+            ],
+          },
+          {
+            h2: 'Was wir bei Analytics und Reporting in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Die Einrichtung läuft in dieser Reihenfolge:',
+            ],
+            list: [
+              'Google Search Console verbinden. Damit sehen Sie, bei welchen Suchbegriffen Ihre Seite erscheint, wie oft sie angeklickt wird und welche Seiten bei Google sind.',
+              'Anfragen zählen. Wir richten ein, dass Klicks auf die Telefonnummer, abgeschickte Formulare und Buchungen als Ziel gezählt werden. Und wir testen es, indem wir selbst eine Anfrage abschicken.',
+              'Anzeigen anbinden. Wenn Sie [Google Ads](/leistungen/google-ads) oder [Meta Ads](/leistungen/meta-ads) schalten, sehen Sie, welche Anzeige welche Anfrage gebracht hat.',
+              'Datenschutz sauber lösen. Tools, die Cookies setzen, brauchen in Deutschland eine Einwilligung. Wir richten das Banner und die Einstellungen so ein, dass es passt, oder nutzen Tools ohne Cookies, wo das reicht.',
+              'Den Startwert speichern. Besucher, Anfragen, Suchbegriffe und Ihre wichtigsten Seiten, mit Datum. Das ist die Linie, an der sich alles danach messen lassen muss.',
+              'Ein Bericht pro Monat. Eine Seite, große Zahlen, klare Worte: wo Sie stehen, was sich verändert hat, was wir als Nächstes tun.',
+            ],
+          },
+          {
+            h2: 'Wie so ein Bericht aussieht',
+            paragraphs: [
+              'Kein Dashboard mit 40 Diagrammen, das keiner versteht. Unser Bericht ist eine helle Seite, die man auch auf dem Handy lesen kann.',
+              'Oben steht in einem Satz das Wichtigste. Darunter für jeden Bereich eine Farbe: gut, teilweise, muss repariert werden, noch nicht geprüft. Dann die fünf wichtigsten nächsten Schritte, was schon funktioniert und die Zahlen als Balken, vorher und nachher.',
+              'Was wir nicht messen konnten, steht dort als „nicht geprüft“. Wir füllen keine Lücke mit einer Schätzung. Genau so einen Bericht haben wir am 3. November 2026 für unsere eigene Website gebaut.',
+            ],
+          },
+          {
+            h2: 'Was Analytics und Reporting in Kaufbeuren kostet',
+            paragraphs: [
+              'Die Einrichtung ist eine einmalige Arbeit. Der monatliche Bericht ist bei unseren laufenden Leistungen wie SEO, Anzeigen und Social Media schon dabei. Sie können die Einrichtung aber auch einzeln buchen, wenn Sie nur wissen wollen, was Ihre Seite bringt.',
+              'Den Preis bekommen Sie nach dem kostenlosen Gespräch, als feste Zahl.',
+            ],
+          },
+          {
+            h2: 'Wie schnell haben Sie Zahlen?',
+            paragraphs: [
+              'Die Einrichtung dauert meist ein paar Tage, wenn wir Zugang zu Website und Google-Konten haben. Ab dann wird gezählt.',
+              'Für einen aussagekräftigen Vergleich brauchen Sie etwas Geduld. Ein Monat ist ein erster Eindruck, drei Monate sind eine Richtung. Schwankungen von Woche zu Woche sind normal und kein Grund zur Panik.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Analytics in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie Geld für Werbung, SEO oder eine Agentur ausgeben und nicht wissen, was es bringt.',
+              'Sie entscheiden wollen, wo Sie mehr investieren und wo weniger.',
+              'Sie Ihre jetzige Agentur fragen wollen, was eigentlich passiert ist.',
+            ],
+            after: [
+              'Es lohnt sich weniger, wenn Ihre Website praktisch keine Besucher hat. Dann gibt es wenig zu messen, und [SEO](/leistungen/seo-optimization) oder eine bessere [Website](/leistungen/website-landing-page-strategy) kommen zuerst. Sie sitzen außerhalb von Kaufbeuren? Das geht komplett remote.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Analytics und Reporting in Kaufbeuren',
+        faq: [
+          {
+            question: 'Reicht nicht Google Analytics allein?',
+            answer: 'Google Analytics zählt Besucher. Ohne eingerichtete Ziele weiß es aber nicht, was eine Anfrage ist. Genau das richten wir ein und prüfen es mit einer echten Testanfrage.',
+          },
+          {
+            question: 'Brauche ich dafür ein Cookie-Banner?',
+            answer: 'Wenn Tools Cookies setzen, ja. Es gibt aber auch Lösungen ohne Cookies, die für viele kleine Betriebe reichen. Wir sagen Ihnen, was in Ihrem Fall passt.',
+          },
+          {
+            question: 'Wem gehören die Konten und Daten?',
+            answer: 'Ihnen. Search Console, Analytics und Werbekonten laufen auf Ihren Namen, wir bekommen nur Zugriff.',
+          },
+          {
+            question: 'Was ist, wenn die Zahlen schlecht sind?',
+            answer: 'Dann steht das im Bericht. Ein Bericht, der nur gute Nachrichten zeigt, ist Werbung. Wir sagen Ihnen auch, was wir dagegen tun.',
+          },
+          {
+            question: 'Kann ich den Bericht an meinen Steuerberater oder Partner weitergeben?',
+            answer: 'Ja. Er ist so geschrieben, dass ihn jemand ohne Marketingwissen versteht.',
+          },
+        ],
       },
     },
   },

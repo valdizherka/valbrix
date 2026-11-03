@@ -584,7 +584,7 @@ export default {
         seoTitle: 'BEST Brand Strategy Kaufbeuren | Positioning, Brand Identity & Branding Near You | Valbrix Digital',
         h1: 'Brand Strategy Kaufbeuren',
         metaDescription: 'Brand strategy in Kaufbeuren: what you stand for, who you want to reach, how you sound. We work it out with you. Book a free strategy call.',
-        intro: 'A blurry brand position makes every marketing effort harder and more expensive. We help you define what your business stands for, who it is for, and how it communicates - the foundation everything else builds on.',
+        intro: 'We do brand strategy in Kaufbeuren. We help businesses from Kaufbeuren and the Ostallgäu say in one sentence what they stand for and why people should come to them. Without that, you only compete on price. And the cheapest always wins that game.',
         includes: [
           'Positioning against local and regional competitors',
           'Defining target audience, tone, and core messaging',
@@ -592,13 +592,99 @@ export default {
           'Aligning brand strategy across every marketing channel',
         ],
         whyItMatters: 'Without a clear brand strategy, every campaign feels generic and interchangeable. A strong position makes your business recognizable and makes every marketing decision after it easier.',
+        sections: [
+          {
+            h2: 'Brand strategy in Kaufbeuren: why you and not the next one?',
+            paragraphs: [
+              'Imagine someone in Kaufbeuren searches for an electrician and finds three. All three write "quality, reliability, fair prices". Who do they call? The first one. Or the cheapest.',
+              'A brand isn\'t a logo. A brand is the reason someone calls you even though there are others. "The electrician who also comes on Saturday." "The physiotherapy practice that specialises in athletes." "The painter who leaves the place cleaner than before."',
+              'That sounds small. It isn\'t. One clear sentence makes every ad, every post and every page better, because they all say the same thing.',
+            ],
+          },
+          {
+            h2: 'What we do for brand strategy in Kaufbeuren',
+            paragraphs: [
+              'No workshop with 80 slides. A clear process with a clear result:',
+            ],
+            list: [
+              'A conversation with you. What do you like doing, what do you do better than others, which customers do you want more of, which fewer?',
+              'A look at the competition in Kaufbeuren. What do the others say about themselves? Where is everyone the same, and where is a gap you can own?',
+              'Asking your customers. A few short conversations or reading reviews. Your customers often say better than you why they come to you.',
+              'The one sentence. Who you are there for, what you do better and why people can believe you.',
+              'Tone and look. How you sound, formal or casual, which colours and photos suit you. On one or two pages, so everyone on the team gets it.',
+              'Rollout. Website, Google profile, social media and ads all get the same message.',
+            ],
+            after: [
+              'At the end you have a short document you can hand to every new employee, designer or photographer.',
+            ],
+          },
+          {
+            h2: 'An example of how one sentence changes everything',
+            paragraphs: [
+              'A made-up example, not a client: a joinery in Kaufbeuren does kitchens, stairs, furniture and repairs. On the website everything is the same size. Result: it looks like every other joinery.',
+              'After the strategy the top line reads: "Solid wood kitchens, built in the Allgäu." Stairs and repairs are still there, but further down. Suddenly the joinery has a story, a topic for Instagram and a reason why people happily pay more for a kitchen.',
+              'That\'s brand strategy. Leaving things out so the important part gets seen.',
+            ],
+          },
+          {
+            h2: 'What brand strategy in Kaufbeuren costs',
+            paragraphs: [
+              'Brand strategy is a one-off project, not a monthly fee. How big it gets depends on how much is already there. Some only need the one sentence, others a complete new look.',
+              'After the free call you get a fixed price. Rolling it out on your website and social media can come afterwards, but doesn\'t have to.',
+            ],
+          },
+          {
+            h2: 'How long does it take?',
+            paragraphs: [
+              'From the first conversation to the finished document usually takes two to four weeks. Most of the time goes into listening, not writing.',
+              'After that you don\'t need a relaunch in one day. We roll it out step by step, starting where most customers see you.',
+            ],
+          },
+          {
+            h2: 'Who brand strategy in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'you often have to negotiate on price.',
+              'your website, your Instagram and your flyers each tell a different story.',
+              'you are growing, hiring or have taken over a business.',
+            ],
+            after: [
+              'It\'s worth less if you need enquiries this week. Then [Google Ads](/leistungen/google-ads) first and the strategy after. Based outside Kaufbeuren? We work across the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about brand strategy in Kaufbeuren',
+        faq: [
+          {
+            question: 'Do I need a new logo?',
+            answer: 'Usually not. A logo is the smallest part of a brand. If yours doesn\'t fit any more, we\'ll tell you. Often it\'s enough to make everything else clearer.',
+          },
+          {
+            question: 'Isn\'t this only for big companies?',
+            answer: 'No. Small businesses benefit most, because they have to stand out on a small budget. A clear sentence costs nothing extra once it\'s found.',
+          },
+          {
+            question: 'What do I get at the end?',
+            answer: 'A short document with your positioning, your audience, your key messages and your tone, plus suggestions for colours and imagery. Not a thick binder gathering dust on a shelf.',
+          },
+          {
+            question: 'Do I have to invest a lot of time?',
+            answer: 'A few hours for conversations and feedback on the draft. We do the rest.',
+          },
+          {
+            question: 'Can I carry on myself afterwards?',
+            answer: 'Yes. The document is written so that you, your team or another agency can work with it.',
+          },
+        ],
       },
       'content-creation': {
         title: 'Content Creation',
         seoTitle: 'BEST Content Creation Kaufbeuren | Photo, Video, Copy & Graphics for Social Media Near You | Valbrix Digital',
         h1: 'Content Creation Kaufbeuren',
         metaDescription: 'Content creation in Kaufbeuren: photos, videos, copy and graphics for social media, ads and your website. Shot locally in the Ostallgäu. Book a call.',
-        intro: "Good content isn't just visually appealing - it has a clear strategic purpose. We handle photography, video, copywriting, and graphic design so every piece of content actually works toward your growth.",
+        intro: 'We do content creation in Kaufbeuren. Photos, videos, copy and graphics for businesses from Kaufbeuren and the Ostallgäu, for social media, ads and your website. Shot on site at your place, with your team and your real jobs. No stock photos of smiling models who have never set foot in your shop.',
         includes: [
           'Photo and video production for social media and ads',
           'Copywriting for ads, website, and social posts',
@@ -606,13 +692,107 @@ export default {
           'Content planning tied to campaign goals',
         ],
         whyItMatters: 'Content without strategy is just noise. We make sure every photo, video, and line of copy serves a clear purpose - more attention, more trust, more customers.',
+        sections: [
+          {
+            h2: 'Content creation in Kaufbeuren: real beats pretty',
+            paragraphs: [
+              'Everyone knows the website with the handshake photo from the image library. And everyone scrolls past it. People want to see who rings their doorbell, who cuts their hair, who rebuilds their bathroom.',
+              'That\'s exactly what we show. Your workshop in Kaufbeuren, your team, your hands at work, the finished result at the customer\'s in Neugablonz. No competitor can copy that, because they don\'t have it.',
+              'The same goes for Google. Real photos with sensible image descriptions and copy with real details help you in search. Interchangeable text helps nobody.',
+            ],
+          },
+          {
+            h2: 'What we do for content creation in Kaufbeuren',
+            paragraphs: [
+              'A process that means little effort for you:',
+            ],
+            list: [
+              'Planning up front. We clarify what the content is for: Instagram, ads, website or all of it. That becomes a shot list, so no time is lost on filming day.',
+              'A filming day at your place. We come to your business in or around Kaufbeuren. In a few hours we create photos and videos for weeks.',
+              'Short videos for phones. Vertical, with subtitles, and the first two seconds have to land. That\'s how reels, stories and [Meta Ads](/leistungen/meta-ads) work.',
+              'Photos for your website and Google. Team, premises, work, results. Compressed so your site stays fast, and with real image descriptions.',
+              'Copy that sounds like you. For website, ads and posts. Specific, with prices, places and real examples instead of filler.',
+              'Graphics in the same look. Templates for offers, promotions and job ads, so everything fits together.',
+            ],
+            after: [
+              'You get all the files. Photos and videos belong to you and you can use them anywhere, even if you work with another agency later.',
+            ],
+          },
+          {
+            h2: 'A filming day in Kaufbeuren, example',
+            paragraphs: [
+              'What a filming day at a hair salon in Kaufbeuren can look like. A suggestion, not a fixed package.',
+            ],
+            list: [
+              '9:00: photos of the empty salon before the first customers arrive. For the website and Google Business Profile.',
+              '10:00: team photos, each person on their own and everyone together.',
+              '11:00: two customers who agreed to it. Before, after, a short video of the colouring.',
+              '13:00: the owner explains in 30 seconds what balayage is and who it suits.',
+              '14:00: details. Products, tools, the view from the window onto the old town.',
+            ],
+            after: [
+              'That usually gives enough pictures and clips for one to two months of social media plus new photos for the website.',
+            ],
+          },
+          {
+            h2: 'What content creation in Kaufbeuren costs',
+            paragraphs: [
+              'It depends on whether you need a single filming day or new content every month. Both work. After the free call you get a fixed price, with no surprises on the invoice.',
+              'One tip up front: content alone brings no customers. It has to be seen. You get the most out of it when it goes straight into [social media](/leistungen/social-media-management), ads or your website.',
+            ],
+          },
+          {
+            h2: 'How fast do you get the content?',
+            paragraphs: [
+              'From the first call to filming day is usually one to two weeks, depending on when it suits you. You get the first finished photos and videos a few days after the shoot.',
+              'For ongoing work we plan a fixed filming day per month or quarter. That way you always have fresh material and don\'t have to organise it from scratch every time.',
+            ],
+          },
+          {
+            h2: 'Who content creation in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'your website still has stock photos or no pictures at all.',
+              'you want to be visible on Instagram or Facebook but have no time to film.',
+              'you run ads and need good material for them.',
+            ],
+            after: [
+              'It\'s worth less if you won\'t show what we shoot anywhere. Then start with your [website](/leistungen/website-landing-page-strategy) or your Google profile. Based outside Kaufbeuren? We also film in Kempten, Memmingen and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about content creation in Kaufbeuren',
+        faq: [
+          {
+            question: 'Who owns the photos and videos?',
+            answer: 'You do. You get all the finished files and can use them anywhere, for website, social media, ads and print.',
+          },
+          {
+            question: 'Do I need professional cameras or a studio?',
+            answer: 'No. We bring everything. We film at your business, which looks more real than any studio.',
+          },
+          {
+            question: 'What about customers and staff in the shot?',
+            answer: 'Anyone who is visible has to agree. We bring a short consent form to sign. Anyone who doesn\'t want to be in the picture stays out of it.',
+          },
+          {
+            question: 'Do you also write the copy for my website?',
+            answer: 'Yes. We write copy that sounds like you and works for Google, with place, service and real details. You read everything before it goes live.',
+          },
+          {
+            question: 'Can I book just a single filming day?',
+            answer: 'Yes. Start with one filming day for new website photos and decide afterwards whether you want ongoing content.',
+          },
+        ],
       },
       'lead-generation': {
         title: 'Lead Generation',
         seoTitle: 'BEST Lead Generation Kaufbeuren | Landing Pages, Funnels & More Enquiries Near You | Valbrix Digital',
         h1: 'Lead Generation Kaufbeuren',
         metaDescription: 'Lead generation in Kaufbeuren: landing pages, funnels and email sequences that bring enquiries every month. Book a free strategy call.',
-        intro: 'Sporadic inquiries make it hard to plan ahead. We build a consistent pipeline of qualified prospects - funnels, lead magnets, and nurture sequences that turn strangers into customers.',
+        intro: 'We do lead generation in Kaufbeuren. We build a system for businesses from Kaufbeuren and the Ostallgäu that brings enquiries every month. No more months where the phone is silent, followed by three jobs at once that you can\'t handle.',
         includes: [
           'Landing page and lead magnet development',
           'Automated email nurture sequences',
@@ -620,13 +800,99 @@ export default {
           'Ongoing conversion-rate optimization across the funnel',
         ],
         whyItMatters: 'Without a system, your revenue depends on luck and word of mouth. A working lead funnel makes new customers predictable, month after month.',
+        sections: [
+          {
+            h2: 'Lead generation in Kaufbeuren: making enquiries predictable',
+            paragraphs: [
+              'A lead is an enquiry from someone who is interested. A call, a form, a message. Most businesses in Kaufbeuren live on recommendations. That\'s fine while it works. When it doesn\'t, you have no lever to pull.',
+              'Lead generation means building your own route to new customers that you can turn up. Ads or Google bring visitors, a matching page turns visitors into enquiries, and a short follow-up makes sure no enquiry gets lost.',
+              'Sounds corporate. It isn\'t. For a trade business a good page, a clear form and an automatic email that replies straight away is often enough.',
+            ],
+          },
+          {
+            h2: 'What we do for lead generation in Kaufbeuren',
+            paragraphs: [
+              'We build the system in this order:',
+            ],
+            list: [
+              'Sharpen the offer. What exactly should someone ask for? "Free on-site measurement in Kaufbeuren" brings more than "Contact us".',
+              'One page per offer. A landing page with one goal only: the enquiry. With a price range, photos of real jobs and a short form. More under [Website & Landing Page Strategy](/leistungen/website-landing-page-strategy).',
+              'Bring visitors. Through [Google Ads](/leistungen/google-ads), [Meta Ads](/leistungen/meta-ads) or [SEO](/leistungen/seo-optimization), depending on where your customers look.',
+              'Reply straight away. Whoever enquires gets an email immediately saying what happens next. You get the enquiry on your phone.',
+              'Ask questions up front. Three or four questions in the form filter out enquiries that don\'t fit before the first call.',
+              'Stay in touch. Whoever doesn\'t book right away gets one or two helpful emails in the days after. Only with consent, as German data protection law requires.',
+            ],
+            after: [
+              'Every month a short report shows how many enquiries came in, where they came from and what an enquiry cost.',
+            ],
+          },
+          {
+            h2: 'A lead magnet: for people who aren\'t ready yet',
+            paragraphs: [
+              'Not everyone wants an appointment straight away. Some want to read up first. For them there is a lead magnet: something useful they get in exchange for their email address.',
+              'For a solar company that can be a calculator showing what a system on their own roof brings. For a tiler a checklist "Bathroom renovation in 8 steps". For a practice a short video with three exercises for the back.',
+              'Whoever takes it shows interest. And you stay on their mind until the need is there.',
+            ],
+          },
+          {
+            h2: 'What lead generation in Kaufbeuren costs',
+            paragraphs: [
+              'There are two parts. The build, meaning page, form, emails and tracking, is one-off work. After that, ongoing management and, if you use ads, the ad budget you pay directly to Google or Meta.',
+              'What that costs for you, we work out after the free call and give you a fixed price. More important than the price is the maths behind it: how much can an enquiry cost you so that a job still pays off?',
+            ],
+          },
+          {
+            h2: 'How fast do the first enquiries come?',
+            paragraphs: [
+              'The build usually takes two to four weeks. With ads, the first enquiries come shortly after. Through SEO it takes longer, but without ongoing click costs.',
+              'We use the first weeks to see what works. Which headline, which offer, which form. After that we turn the screws that make a difference.',
+            ],
+          },
+          {
+            h2: 'Who lead generation in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'a job is worth clearly more to you than a few euros. Trades, solar, construction, consulting, practices with private patients.',
+              'your workload goes up and down and you want to change that.',
+              'you can answer enquiries fast. A system full of enquiries nobody calls back burns money.',
+            ],
+            after: [
+              'It\'s worth less if you are already booked out for months. Then [brand strategy](/leistungen/brand-strategy) or a better price may be the smarter next step. Based outside Kaufbeuren? We work across the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about lead generation in Kaufbeuren',
+        faq: [
+          {
+            question: 'Do I need a new website for this?',
+            answer: 'Usually not. The landing page can be part of your existing website or a page of its own. We look at what you have and tell you honestly what\'s needed.',
+          },
+          {
+            question: 'What\'s the difference from normal advertising?',
+            answer: 'Normal advertising gets attention. Lead generation gets contact details from people with a specific interest and makes sure you get back to them.',
+          },
+          {
+            question: 'Is this allowed under data protection law?',
+            answer: 'Yes, if it\'s done right. Forms need a privacy notice, emails after the enquiry need consent. We build that in from the start.',
+          },
+          {
+            question: 'Who handles the enquiries?',
+            answer: 'You do. We make sure enquiries reach you cleanly, already sorted and with the key information. Winning the job is yours.',
+          },
+          {
+            question: 'Do I have to sign up for long?',
+            answer: 'No. We work month to month. The page, form and emails belong to you and stay with you.',
+          },
+        ],
       },
       'website-landing-page-strategy': {
         title: 'Website & Landing Page Strategy',
         seoTitle: 'BEST Website & Landing Page Agency Kaufbeuren | Web Design, Optimisation & More Enquiries Near You | Valbrix Digital',
         h1: 'Website & Landing Page Agency Kaufbeuren',
         metaDescription: 'Website and landing page agency in Kaufbeuren: we turn visitors into enquiries. Web design, load speed, clear buttons. Book a free strategy call.',
-        intro: "A website that only looks good but doesn't convert is costing you customers every day. We audit, rebuild, and optimize your website and landing pages so more visitors actually reach out.",
+        intro: 'We are a website and landing page agency in Kaufbeuren. We build and improve websites for businesses from Kaufbeuren and the Ostallgäu so that more visitors call or write. A pretty website that nobody calls from is an expensive business card.',
         includes: [
           'Conversion-focused design and user flow',
           'Technical audit of load speed, structure, and mobile experience',
@@ -634,13 +900,98 @@ export default {
           'Ongoing A/B testing to improve conversion rate',
         ],
         whyItMatters: "Every visitor who leaves without inquiring is lost potential. An optimized website turns more of your existing traffic into paying customers - without spending more on ads.",
+        sections: [
+          {
+            h2: 'Websites in Kaufbeuren: looking good isn\'t enough',
+            paragraphs: [
+              'Most websites look decent. Logo, a big picture, "Welcome", a contact form right at the bottom. And then the owner wonders why hardly any enquiries come through the site.',
+              'The reason is almost always the same. In the first few seconds the visitor can\'t find what they\'re looking for: Do they do what I need? Here in Kaufbeuren? Roughly what does it cost? How do I reach them? If they don\'t see that straight away, they\'re on the next result.',
+              'We build pages that answer exactly those questions. At the top, large, on the phone. Because that\'s where most of your customers look.',
+            ],
+          },
+          {
+            h2: 'What we do as a website and landing page agency in Kaufbeuren',
+            paragraphs: [
+              'New site or rebuild, we always work the same way:',
+            ],
+            list: [
+              'Audit of your current site. Loading time on mobile, readability, phone number, form, what Google sees. You get the result in writing, summed up on one page.',
+              'A clear first screen. What you do, where, for whom, and a button to call. No scrolling.',
+              'One page per service. Whoever searches "roof renovation Kaufbeuren" should land on a roof renovation page, not the homepage. That helps visitors and Google.',
+              'A tap-to-call phone number. On every page, one tap away on mobile.',
+              'Fast loading. Compressed images, no unnecessary plugins. Slow pages lose visitors before they see anything.',
+              'Measure what happens. Calls and forms are counted, so you know whether the new site brings more than the old one. More under [Analytics & Reporting](/leistungen/analytics-reporting).',
+            ],
+            after: [
+              'And then we test. A different headline, a different button, a shorter form. On landing pages, small changes often bring more than a whole new design.',
+            ],
+          },
+          {
+            h2: 'Website or landing page?',
+            paragraphs: [
+              'Your website tells the whole story of your business. A landing page has exactly one goal: one specific enquiry. For example "Free measurement for your new bathroom in Kaufbeuren". No menu, no distractions, with a form.',
+              'If you run [Google Ads](/leistungen/google-ads) or [Meta Ads](/leistungen/meta-ads), send people to a landing page, not the homepage. Otherwise you pay for clicks that first have to find their way through the menu.',
+            ],
+          },
+          {
+            h2: 'Our own site as an example',
+            paragraphs: [
+              'On 3 November 2026 our own website valbrixdigital.com scored 98 out of 100 for loading speed on mobile in Google\'s PageSpeed Insights test. That isn\'t a client result, but it shows how we build.',
+              'The same day we found mistakes on our own site that we would otherwise find at clients: service pages too short, titles without the town, folded-away answers. We fixed them. You are reading the result.',
+            ],
+          },
+          {
+            h2: 'What a website in Kaufbeuren costs',
+            paragraphs: [
+              'It depends on whether we improve your existing site or build a new one, and how many pages you need. A single landing page is done faster than a complete website with ten service pages.',
+              'After the free call you get a fixed price. The site belongs to you afterwards, with all logins.',
+            ],
+          },
+          {
+            h2: 'Who this is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'people visit your site but hardly anyone calls or writes.',
+              'your site is hard to read on a phone or slow to load.',
+              'you run ads and the clicks land on your homepage.',
+            ],
+            after: [
+              'It\'s worth less if hardly anyone visits your site. Then you need visitors first, through [SEO](/leistungen/seo-optimization) or ads. Based outside Kaufbeuren? We work across the whole [Ostallgäu](/einsatzgebiete) and remotely.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about websites and landing pages in Kaufbeuren',
+        faq: [
+          {
+            question: 'Does my website have to be rebuilt completely?',
+            answer: 'Usually not. Often a clearer first screen, separate pages per service and faster loading are enough. After the audit we tell you whether a rebuild is worth it.',
+          },
+          {
+            question: 'Which system do you work with?',
+            answer: 'Whatever suits you. If you have WordPress and want to edit text yourself, we stay with WordPress. What matters is that the site is fast and you can maintain it.',
+          },
+          {
+            question: 'Who owns the website?',
+            answer: 'You do. Domain, content and logins are in your name. If you leave, you take everything with you.',
+          },
+          {
+            question: 'How long does it take?',
+            answer: 'A landing page is often ready in one to two weeks. A whole website takes longer, depending on how fast copy and photos are ready. You get the timeline beforehand.',
+          },
+          {
+            question: 'Do you also take care of the legal notice and privacy policy?',
+            answer: 'We make sure the legal notice and privacy policy are on the site and match the tools in use. Legal review of your specific case is a job for a lawyer.',
+          },
+        ],
       },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',
         h1: 'Analytics & Reporting Kaufbeuren',
         metaDescription: 'Analytics and reporting in Kaufbeuren: tracking, dashboards and one report a month, so you see which euro brings customers. Book a free call.',
-        intro: "Without clean tracking, you don't actually know what's working. We set up analytics, build dashboards, and deliver clear monthly reports so you always have full visibility into your marketing performance.",
+        intro: 'We do analytics and reporting in Kaufbeuren. For businesses from Kaufbeuren and the Ostallgäu we set things up so every enquiry gets counted, and once a month we show you on one page which euro brought customers and which didn\'t.',
         includes: [
           'Tracking setup across website, ads, and forms',
           'Clear dashboards for every key metric',
@@ -648,6 +999,89 @@ export default {
           'Spotting untapped potential in existing campaigns',
         ],
         whyItMatters: "What you don't measure, you can't improve. Clear reporting shows exactly where your marketing budget is going and what it's actually delivering.",
+        sections: [
+          {
+            h2: 'Analytics in Kaufbeuren: without measuring, it\'s all gut feeling',
+            paragraphs: [
+              'Ask a business whether its website brings customers. The answer is usually "I think so". Ask how many last month. Then it goes quiet.',
+              'That\'s no criticism. Most websites count visitors, but not what counts: calls, forms, bookings. Without those numbers no agency can tell you whether SEO or ads work. Us included.',
+              'That\'s why we start exactly here with every client. Measure first, then change, then measure again.',
+            ],
+          },
+          {
+            h2: 'What we do for analytics and reporting in Kaufbeuren',
+            paragraphs: [
+              'Setup runs in this order:',
+            ],
+            list: [
+              'Connect Google Search Console. That shows which searches your site appears for, how often it gets clicked and which pages are in Google.',
+              'Count enquiries. We set up clicks on the phone number, submitted forms and bookings to count as goals. And we test it by sending an enquiry ourselves.',
+              'Connect the ads. If you run [Google Ads](/leistungen/google-ads) or [Meta Ads](/leistungen/meta-ads), you see which ad brought which enquiry.',
+              'Handle data protection properly. Tools that set cookies need consent in Germany. We set up the banner and settings so it fits, or use cookie-free tools where that\'s enough.',
+              'Save the baseline. Visitors, enquiries, search terms and your most important pages, with a date. That\'s the line everything afterwards gets measured against.',
+              'One report a month. One page, big numbers, plain words: where you stand, what changed, what we do next.',
+            ],
+          },
+          {
+            h2: 'What such a report looks like',
+            paragraphs: [
+              'No dashboard with 40 charts nobody understands. Our report is a light page you can read on a phone too.',
+              'At the top, the most important thing in one sentence. Below it a colour for every area: good, partly there, needs fixing, not checked yet. Then the five most important next steps, what already works, and the numbers as bars, before and after.',
+              'Whatever we couldn\'t measure says "not checked". We never fill a gap with an estimate. We built exactly this kind of report for our own website on 3 November 2026.',
+            ],
+          },
+          {
+            h2: 'What analytics and reporting in Kaufbeuren cost',
+            paragraphs: [
+              'Setup is one-off work. The monthly report is already included in our ongoing services like SEO, ads and social media. You can also book the setup on its own if you just want to know what your site brings.',
+              'You get the price after the free call, as a fixed number.',
+            ],
+          },
+          {
+            h2: 'How fast do you get numbers?',
+            paragraphs: [
+              'Setup usually takes a few days once we have access to your website and Google accounts. From then on, everything is counted.',
+              'A meaningful comparison needs some patience. One month is a first impression, three months are a direction. Week-to-week swings are normal and no reason to panic.',
+            ],
+          },
+          {
+            h2: 'Who analytics in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'you spend money on ads, SEO or an agency and don\'t know what it brings.',
+              'you want to decide where to invest more and where less.',
+              'you want to ask your current agency what has actually happened.',
+            ],
+            after: [
+              'It\'s worth less if your website has practically no visitors. Then there\'s little to measure, and [SEO](/leistungen/seo-optimization) or a better [website](/leistungen/website-landing-page-strategy) come first. Based outside Kaufbeuren? This works fully remotely.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about analytics and reporting in Kaufbeuren',
+        faq: [
+          {
+            question: 'Isn\'t Google Analytics on its own enough?',
+            answer: 'Google Analytics counts visitors. Without goals set up, though, it doesn\'t know what an enquiry is. That\'s exactly what we set up, and we check it with a real test enquiry.',
+          },
+          {
+            question: 'Do I need a cookie banner for this?',
+            answer: 'If tools set cookies, yes. But there are cookie-free solutions that are enough for many small businesses. We tell you what fits your case.',
+          },
+          {
+            question: 'Who owns the accounts and data?',
+            answer: 'You do. Search Console, Analytics and ad accounts are in your name, we only get access.',
+          },
+          {
+            question: 'What if the numbers are bad?',
+            answer: 'Then that\'s in the report. A report that only shows good news is advertising. We also tell you what we do about it.',
+          },
+          {
+            question: 'Can I pass the report on to my accountant or business partner?',
+            answer: 'Yes. It\'s written so that someone without marketing knowledge understands it.',
+          },
+        ],
       },
     },
   },
