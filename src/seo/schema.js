@@ -5,10 +5,13 @@ import { SITE_URL } from './meta.js'
 
 const BUSINESS_ID = `${SITE_URL}/#business`
 
-// Profiles that are clearly this business. Add the Google Business Profile
-// link and any other official profiles here: they tell AI search that
-// valbrixdigital.com, the listings and the socials are one company.
-const SAME_AS = ['https://instagram.com/valbrix.digital']
+// Official profiles of this business. They tell AI search that
+// valbrixdigital.com, the Google profile and the socials are one company.
+const SAME_AS = [
+  'https://maps.google.com/?cid=12527879259915254134',
+  'https://www.linkedin.com/company/112278134/',
+  'https://www.instagram.com/valbrix.digital/',
+]
 
 const business = {
   '@type': 'ProfessionalService',
