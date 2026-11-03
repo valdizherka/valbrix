@@ -1,6 +1,23 @@
 import { useParams, Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import NotFoundPage from './NotFoundPage'
+import FAQItem from '../components/FAQItem'
+
+// Service copy lives in plain .js translation files (no JSX), so internal
+// links are written as [text](/path) and turned into <Link> here.
+function withLinks(text) {
+  const parts = text.split(/\[([^\]]+)\]\((\/[^)]*)\)/g)
+  return parts.map((part, i) => {
+    if (i % 3 === 1) {
+      return (
+        <Link key={i} to={parts[i + 1]} className="font-semibold hover:underline" style={{ color: '#b8860a' }}>
+          {part}
+        </Link>
+      )
+    }
+    return i % 3 === 2 ? null : part
+  })
+}
 
 export default function ServicePage() {
   const { slug } = useParams()
@@ -56,6 +73,36 @@ export default function ServicePage() {
           <h2 className="font-display font-bold text-gray-900 text-lg mb-3">{sp.whyLabel}</h2>
           <p className="text-gray-500 leading-relaxed">{service.whyItMatters}</p>
         </div>
+
+        {service.sections?.map((section, i) => (
+          <div key={i} className="mb-12">
+            <h2 className="font-display font-bold text-gray-900 text-2xl mb-4">{section.h2}</h2>
+            <div className="space-y-4">
+              {section.paragraphs?.map((p, j) => (
+                <p key={j} className="text-gray-600 leading-relaxed">{withLinks(p)}</p>
+              ))}
+              {section.list && (
+                <ul className="space-y-3 pl-5 list-disc marker:text-gray-400">
+                  {section.list.map((item, j) => (
+                    <li key={j} className="text-gray-600 leading-relaxed">{withLinks(item)}</li>
+                  ))}
+                </ul>
+              )}
+              {section.after?.map((p, j) => (
+                <p key={j} className="text-gray-600 leading-relaxed">{withLinks(p)}</p>
+              ))}
+            </div>
+          </div>
+        ))}
+
+        {service.faq && (
+          <div className="mb-12">
+            <h2 className="font-display font-bold text-gray-900 text-2xl mb-2">{service.faqTitle}</h2>
+            {service.faq.map((item, i) => (
+              <FAQItem key={i} item={{ question: item.question, answer: withLinks(item.answer) }} />
+            ))}
+          </div>
+        )}
 
         <div className="rounded-2xl p-8 text-center mb-12" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
           <h2 className="font-display font-bold text-gray-900 text-xl mb-5">

@@ -156,7 +156,7 @@ export default {
         seoTitle: 'BEST SEO Agency Kaufbeuren | Local SEO, Google Business Profile & On-Page SEO Near You | Valbrix Digital',
         h1: 'SEO Agency Kaufbeuren',
         metaDescription: 'SEO agency in Kaufbeuren: local SEO, Google Business Profile and on-page SEO. Top 3 in 90 days or your money back. Book a free strategy call.',
-        intro: 'People searching for your services on Google are already looking to buy - SEO is about making sure they find you instead of a competitor. We handle the technical and strategic work behind long-term organic growth.',
+        intro: 'We are an SEO agency in Kaufbeuren. We get businesses from Kaufbeuren and the Ostallgäu to the top of Google, in the normal results and on Google Maps. Whoever searches "electrician Kaufbeuren" today calls one of the first three. Our job: you are one of them.',
         includes: [
           'Technical SEO audit and fixes',
           'On-page optimization (titles, descriptions, content structure)',
@@ -164,6 +164,95 @@ export default {
           'Local and organic keyword targeting',
         ],
         whyItMatters: 'Paid ads stop the moment you stop paying. SEO builds visibility that keeps working in the background, month after month.',
+        sections: [
+          {
+            h2: 'SEO in Kaufbeuren: whoever is on top gets the call',
+            paragraphs: [
+              'When someone in Kaufbeuren searches for a tradesperson, a practice or a hairdresser, Google first shows a map with three businesses. The normal results come below. Most people call from the map and never scroll further.',
+              'That also means spot 4 feels like spot 40. You are there, but nobody sees you. Local SEO has one goal. Your business gets onto the map and onto page one, for the searches your customers actually type.',
+              'And those are rarely the big terms. Hundreds fight over "SEO Bavaria". Almost nobody fights over "tiler Neugablonz" or "physiotherapy Kaufbeuren home visit". That is exactly where we start.',
+            ],
+          },
+          {
+            h2: 'What we do as an SEO agency in Kaufbeuren',
+            paragraphs: [
+              'No magic. A fixed order we work through the same way for every client:',
+            ],
+            list: [
+              'Measurement first. We connect Google Search Console and set up tracking for calls and enquiries. Then we save a dated baseline. Without that baseline nobody can tell you later whether SEO paid off.',
+              'Can Google read your site? We check how many of your pages are in Google at all, whether something is blocked by accident, and whether Google finds the text you wrote.',
+              'Every page that should make money. Title, description, headings, the first 100 words, images, speed, mobile. Every service page says clearly what you do and where.',
+              'Google Business Profile. The right categories, real photos, opening hours, services and a fixed routine for getting more reviews.',
+              'Directory listings. Name, address and phone number the same everywhere, for example on Das Örtliche, Cylex, Yelp and Bing Places.',
+              'Content only you can write. One page per service, with real prices, real jobs and real photos. If a competitor could put in their name and use your text, the text says nothing.',
+            ],
+            after: [
+              'We log every change: which page, what changed, when, why. After three months we check what worked. So you know what you are paying for.',
+            ],
+          },
+          {
+            h2: 'A real example: our own website',
+            paragraphs: [
+              'We don\'t have client results we can show you yet. So we show you the one thing we do have: our own site. On 3 November 2026 we audited valbrixdigital.com exactly the way we would audit yours.',
+              'The result was uncomfortable. 14 of 18 pages were in Google. The service pages had around 190 words and no "Kaufbeuren" in the title. Every page first sent Google the homepage title. The answers in our FAQs were folded shut. (The cobbler\'s children have no shoes.)',
+              'We fixed it the same day: new titles and headings on all service pages, each page\'s own title before any JavaScript, real 404 pages, every FAQ answer visible, one main keyword instead of two. This page is part of that.',
+              'Whether it works, we will see in Search Console over the coming weeks. We will write the result here. Even if it\'s bad.',
+            ],
+          },
+          {
+            h2: 'How long does SEO in Kaufbeuren take?',
+            paragraphs: [
+              'Week 1 to 2: audit, save the baseline, fix the biggest problems. Quick things like titles and descriptions are often live on day one.',
+              'Month 1 to 3: Google Business Profile, directories, new pages for your services, the first reviews. This is when Google sees that something is moving.',
+              'After that: one new page or one big rework per month, measure, adjust. SEO doesn\'t stop once you are on top. Your competition isn\'t asleep either.',
+              'If you need customers by next week, [Google Ads](/leistungen/google-ads) is the better fit. Many businesses do both: ads for now, SEO for the long run.',
+            ],
+          },
+          {
+            h2: 'Top 3 in 90 days or your money back',
+            paragraphs: [
+              'Before we start, we agree on one main keyword with you in writing, for example "hairdresser Kaufbeuren". We measure in the local Google results, on the map, at your location. The 90 days start once we have access to your Google Business Profile and your website.',
+              'If you are not in the top 3 after 90 days, you get back the agency fees paid for those 90 days. Ad spend for Google Ads or Meta Ads and third-party costs are excluded. All terms are in the [FAQ](/faq).',
+            ],
+          },
+          {
+            h2: 'Who SEO in Kaufbeuren is for. And who it isn\'t for.',
+            paragraphs: [
+              'SEO is worth it for you if:',
+            ],
+            list: [
+              'people in and around Kaufbeuren search Google for what you offer. Trades, practices, hairdressers, garages, service businesses.',
+              'a new customer is worth more to you than a few euros, because they come back or bring a bigger job.',
+              'you can give it three months before you judge.',
+            ],
+            after: [
+              'SEO isn\'t worth it if nobody searches for what you offer. Then we won\'t sell it to you. We tell you in the first call, free. Not based in Kaufbeuren itself? We also cover Kempten, Memmingen and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about SEO in Kaufbeuren',
+        faq: [
+          {
+            question: 'Do I need a new website for this?',
+            answer: 'Usually not. We work with the site you have, as long as Google can read it and it works on a phone. If it doesn\'t, we tell you beforehand and why.',
+          },
+          {
+            question: 'What is the difference between SEO and Google Ads?',
+            answer: 'With Google Ads you pay for every click. Stop paying and you are gone. SEO gets you into the unpaid results and onto the map. It takes longer and it stays.',
+          },
+          {
+            question: 'What do I have to do myself?',
+            answer: 'Not much. Give us access to your website and Google Business Profile, send a few real photos and ask customers for a review. We do the rest.',
+          },
+          {
+            question: 'What does SEO cost with you?',
+            answer: 'It depends on how much work your site needs and how strong your competition is. After the free call you get a fixed price. Cancel monthly, no long contract.',
+          },
+          {
+            question: 'How do I know it\'s working?',
+            answer: 'Every month you get a short one-page report: where you stand today, what we changed, what moved. Dated, so you can compare before and after.',
+          },
+        ],
       },
       'google-ads': {
         title: 'Google Ads',

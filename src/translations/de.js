@@ -156,7 +156,7 @@ export default {
         seoTitle: 'BESTE SEO-Agentur Kaufbeuren | Lokale SEO, Google-Unternehmensprofil & On-Page-SEO in Ihrer Nähe | Valbrix Digital',
         h1: 'SEO-Agentur Kaufbeuren',
         metaDescription: 'SEO-Agentur in Kaufbeuren: lokale SEO, Google-Unternehmensprofil und On-Page-SEO. Top 3 in 90 Tagen oder Geld zurück. Kostenloses Strategiegespräch.',
-        intro: 'Menschen, die bei Google nach Ihren Leistungen suchen, wollen bereits kaufen - SEO sorgt dafür, dass sie Sie finden und nicht die Konkurrenz. Wir übernehmen die technische und strategische Arbeit hinter langfristigem organischen Wachstum.',
+        intro: 'Wir sind eine SEO-Agentur in Kaufbeuren. Wir bringen Betriebe aus Kaufbeuren und dem Ostallgäu bei Google nach oben, in der normalen Suche und auf Google Maps. Wer heute „Elektriker Kaufbeuren“ googelt, ruft einen der ersten drei an. Unser Job: Sie sind einer davon.',
         includes: [
           'Technisches SEO-Audit und Fehlerbehebung',
           'On-Page-Optimierung (Titel, Meta-Beschreibungen, Inhaltsstruktur)',
@@ -164,6 +164,95 @@ export default {
           'Lokale und organische Keyword-Ausrichtung',
         ],
         whyItMatters: 'Bezahlte Anzeigen wirken nur, solange Sie zahlen. SEO baut Sichtbarkeit auf, die dauerhaft im Hintergrund weiterarbeitet - Monat für Monat.',
+        sections: [
+          {
+            h2: 'SEO in Kaufbeuren: Wer oben steht, bekommt den Anruf',
+            paragraphs: [
+              'Sucht jemand in Kaufbeuren nach einem Handwerker, einer Praxis oder einem Friseur, zeigt Google zuerst eine Karte mit drei Betrieben. Darunter kommen die normalen Ergebnisse. Die meisten Leute rufen bei der Karte an und scrollen nie weiter.',
+              'Das heißt auch: Platz 4 fühlt sich an wie Platz 40. Sie sind da, aber keiner sieht Sie. Lokale SEO hat genau ein Ziel. Ihr Betrieb kommt auf die Karte und auf die erste Seite, für die Suchbegriffe, mit denen Ihre Kunden wirklich suchen.',
+              'Und das sind selten die großen Begriffe. Um „SEO Bayern“ kämpfen Hunderte. Um „Fliesenleger Neugablonz“ oder „Physiotherapie Kaufbeuren Hausbesuch“ kämpft fast keiner. Genau dort fangen wir an.',
+            ],
+          },
+          {
+            h2: 'Was wir als SEO-Agentur in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Keine Zauberei. Eine feste Reihenfolge, die wir bei jedem Kunden gleich abarbeiten:',
+            ],
+            list: [
+              'Messung zuerst. Wir verbinden die Google Search Console und richten das Tracking für Anrufe und Anfragen ein. Dann speichern wir den Startwert mit Datum. Ohne diesen Startwert kann Ihnen später keiner sagen, ob SEO etwas gebracht hat.',
+              'Kann Google Ihre Seite lesen? Wir prüfen, wie viele Ihrer Seiten überhaupt bei Google sind, ob versehentlich etwas gesperrt ist und ob Google den Text findet, den Sie geschrieben haben.',
+              'Jede Seite, die Geld bringen soll. Titel, Beschreibung, Überschriften, die ersten 100 Wörter, Bilder, Ladezeit, Handy. Jede Leistungsseite sagt klar, was Sie machen und wo.',
+              'Google-Unternehmensprofil. Richtige Kategorien, echte Fotos, Öffnungszeiten, Leistungen und ein fester Ablauf, wie Sie zu mehr Bewertungen kommen.',
+              'Einträge in Verzeichnissen. Name, Adresse und Telefonnummer überall gleich, zum Beispiel bei Das Örtliche, Cylex, Yelp und Bing Places.',
+              'Inhalte, die nur Sie schreiben können. Eine eigene Seite pro Leistung, mit echten Preisen, echten Aufträgen und echten Fotos. Wenn ein Konkurrent seinen Namen einsetzen und Ihren Text benutzen könnte, sagt der Text nichts.',
+            ],
+            after: [
+              'Jede Änderung schreiben wir in ein Protokoll: welche Seite, was geändert, wann, warum. Nach drei Monaten schauen wir nach, was gewirkt hat. So wissen Sie, wofür Sie bezahlen.',
+            ],
+          },
+          {
+            h2: 'Ein echtes Beispiel: unsere eigene Website',
+            paragraphs: [
+              'Wir haben noch keine Kundenergebnisse, die wir Ihnen zeigen dürfen. Also zeigen wir Ihnen das Einzige, was wir haben: unsere eigene Seite. Am 3. November 2026 haben wir valbrixdigital.com genau so geprüft, wie wir es bei Ihnen machen würden.',
+              'Das Ergebnis war unangenehm. 14 von 18 Seiten waren bei Google. Die Leistungsseiten hatten rund 190 Wörter und kein „Kaufbeuren“ im Titel. Jede Seite hat Google zuerst den Titel der Startseite geschickt. Die Antworten in unseren FAQs waren zugeklappt. (Der Schuster und seine Schuhe.)',
+              'Am selben Tag haben wir es repariert: neue Titel und Überschriften auf allen Leistungsseiten, eigene Titel für jede Seite schon vor dem JavaScript, echte 404-Seiten, alle FAQ-Antworten sichtbar, ein Hauptbegriff statt zwei. Diese Seite hier ist Teil davon.',
+              'Ob es wirkt, sehen wir in den nächsten Wochen in der Search Console. Das Ergebnis schreiben wir hier rein. Auch wenn es schlecht ist.',
+            ],
+          },
+          {
+            h2: 'Wie lange dauert SEO in Kaufbeuren?',
+            paragraphs: [
+              'Woche 1 bis 2: Prüfung, Startwert speichern, die größten Fehler beheben. Die schnellen Sachen wie Titel und Beschreibungen sind oft am ersten Tag live.',
+              'Monat 1 bis 3: Google-Unternehmensprofil, Verzeichnisse, neue Seiten für Ihre Leistungen, die ersten Bewertungen. In dieser Zeit sieht Google, dass sich etwas bewegt.',
+              'Danach: eine neue Seite oder ein großer Umbau pro Monat, messen, nachschärfen. SEO hört nicht auf, sobald Sie oben stehen. Ihre Konkurrenz schläft auch nicht.',
+              'Wer Kunden bis nächste Woche braucht, ist mit [Google Ads](/leistungen/google-ads) besser bedient. Viele Betriebe machen beides: Anzeigen für sofort, SEO für dauerhaft.',
+            ],
+          },
+          {
+            h2: 'Top 3 in 90 Tagen oder Geld zurück',
+            paragraphs: [
+              'Wir legen vor dem Start schriftlich ein Haupt-Keyword mit Ihnen fest, zum Beispiel „Friseur Kaufbeuren“. Gemessen wird in der lokalen Google-Suche, also auf der Karte, an Ihrem Standort. Die 90 Tage starten, sobald wir Zugang zu Ihrem Google-Unternehmensprofil und Ihrer Website haben.',
+              'Stehen Sie nach 90 Tagen nicht in den Top 3, bekommen Sie die Agenturgebühren aus diesen 90 Tagen zurück. Werbebudget für Google Ads oder Meta Ads und Kosten Dritter sind ausgenommen. Alle Bedingungen stehen in den [FAQ](/faq).',
+            ],
+          },
+          {
+            h2: 'Für wen sich SEO in Kaufbeuren lohnt. Und für wen nicht.',
+            paragraphs: [
+              'SEO lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Leute in Kaufbeuren und Umgebung bei Google nach dem suchen, was Sie anbieten. Handwerk, Praxen, Friseure, Werkstätten, Dienstleister.',
+              'ein neuer Kunde für Sie mehr wert ist als ein paar Euro, also wiederkommt oder einen größeren Auftrag bringt.',
+              'Sie drei Monate Geduld haben, bevor Sie urteilen.',
+            ],
+            after: [
+              'SEO lohnt sich nicht, wenn keiner nach Ihrem Angebot sucht. Dann verkaufen wir es Ihnen auch nicht. Wir sagen Ihnen das im ersten Gespräch, kostenlos. Sie sitzen nicht in Kaufbeuren selbst? Wir betreuen auch Kempten, Memmingen und das ganze [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu SEO in Kaufbeuren',
+        faq: [
+          {
+            question: 'Brauche ich dafür eine neue Website?',
+            answer: 'Meistens nicht. Wir arbeiten mit der Seite, die Sie haben, solange Google sie lesen kann und sie auf dem Handy funktioniert. Wenn nicht, sagen wir Ihnen das vorher und warum.',
+          },
+          {
+            question: 'Was ist der Unterschied zwischen SEO und Google Ads?',
+            answer: 'Bei Google Ads zahlen Sie für jeden Klick. Hören Sie auf zu zahlen, sind Sie weg. SEO bringt Sie in die unbezahlten Ergebnisse und auf die Karte. Das dauert länger und bleibt dafür stehen.',
+          },
+          {
+            question: 'Was muss ich selbst machen?',
+            answer: 'Wenig. Uns Zugang zu Website und Google-Unternehmensprofil geben, ein paar echte Fotos schicken und Kunden nach einer Bewertung fragen. Den Rest machen wir.',
+          },
+          {
+            question: 'Was kostet SEO bei Ihnen?',
+            answer: 'Das hängt davon ab, wie viel an Ihrer Seite zu tun ist und wie stark Ihre Konkurrenz ist. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar, ohne lange Bindung.',
+          },
+          {
+            question: 'Woher weiß ich, ob es funktioniert?',
+            answer: 'Sie bekommen jeden Monat einen kurzen Bericht auf einer Seite: wo Sie heute stehen, was wir geändert haben, was sich bewegt hat. Mit Datum, damit Sie vorher und nachher vergleichen können.',
+          },
+        ],
       },
       'google-ads': {
         title: 'Google Ads',
