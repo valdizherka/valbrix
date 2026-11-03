@@ -366,7 +366,7 @@ export default {
         seoTitle: 'BEST Meta Ads Agency Kaufbeuren | Facebook & Instagram Advertising Near You | Valbrix Digital',
         h1: 'Meta Ads Agency Kaufbeuren',
         metaDescription: 'Meta Ads agency in Kaufbeuren: Facebook and Instagram ads that reach the Ostallgäu before people start searching. Book a free strategy call.',
-        intro: "Facebook and Instagram reach people before they're even actively searching for you. We build Meta Ads campaigns that target exactly the right audience, with creative that actually earns the click.",
+        intro: 'We are a Meta Ads agency in Kaufbeuren. We run ads on Facebook and Instagram for businesses from Kaufbeuren and the Ostallgäu. Google reaches people who are already searching. Meta reaches the ones who don\'t know yet that they need you. While they scroll on a Sunday evening, in Kaufbeuren, Neugablonz and around.',
         includes: [
           'Audience targeting by location, interests, and behavior',
           'Performance-focused ad creative',
@@ -374,6 +374,98 @@ export default {
           'Ongoing budget optimization and A/B testing',
         ],
         whyItMatters: "Meta Ads build visibility before demand becomes urgent - so you're top of mind when people actually search. Especially strong paired with Google Ads.",
+        sections: [
+          {
+            h2: 'Meta Ads in Kaufbeuren: get seen before anyone searches',
+            paragraphs: [
+              'Facebook and Instagram belong to Meta. With Meta Ads you show your ad to people in a radius around Kaufbeuren, right between their friends\' posts. You choose place, age and interests. You pay for reach, clicks or enquiries, depending on what you want.',
+              'The difference from Google: on Google the need is already there. On Meta you create it. A restaurant, a hairdresser, a gym or a new offer sells well here, because people wouldn\'t search for it, but they go for it when they see it.',
+              'The catch: on Facebook and Instagram people keep scrolling if the ad looks like an ad. You have about a second. So everything stands or falls with the picture or video.',
+            ],
+          },
+          {
+            h2: 'What we do as a Meta Ads agency in Kaufbeuren',
+            paragraphs: [
+              'Every campaign runs in the same order:',
+            ],
+            list: [
+              'Measurement first, GDPR-compliant. We set up the Meta Pixel and enquiry tracking. In Germany the Pixel needs the visitor\'s consent. We build that in, so you don\'t get into trouble over data protection.',
+              'One clear goal per campaign. Calls, form enquiries, table bookings or job applications. Not everything at once.',
+              'An audience within your radius. Kaufbeuren, Neugablonz, the Ostallgäu, as far as your customers actually travel. Someone living in Munich sees nothing.',
+              'Real photos and videos instead of stock images. You, your team, your workshop, your shop. An honest phone video does more here than a glossy picture from a database. If you need help filming, there is [Content Creation](/leistungen/content-creation).',
+              'Testing several versions at once. Three images, two texts, one video. After a few days we see what lands and switch the rest off.',
+              'Retargeting. Whoever visited your website or watched your video sees you once more afterwards. Many people don\'t buy on the first contact.',
+            ],
+            after: [
+              'Once a month you get a short report: what was spent, how many enquiries came in, which ad did best and what we test next.',
+            ],
+          },
+          {
+            h2: 'A form inside Facebook or your website?',
+            paragraphs: [
+              'Meta offers forms right inside the app. The person taps twice, their details are already filled in, done. That brings lots of enquiries, but also lots of half-hearted ones.',
+              'If we send people to your website, fewer enquiries come in, but from people who actually read up. Which is better for you depends on how much time you have for call-backs. We test both and tell you after a few weeks which brought you more jobs.',
+            ],
+          },
+          {
+            h2: 'What Meta Ads in Kaufbeuren cost',
+            paragraphs: [
+              'There are two parts. First, the ad budget. You pay it directly to Meta by card, and you set the most it can spend per day. Second, our fee for setup and management. We give you that as a fixed number after the free call.',
+              'Reach on Facebook and Instagram is often cheaper than a click on Google. In return, people are less ready to buy. So don\'t count clicks, count enquiries and jobs. That\'s exactly what our report shows you.',
+            ],
+          },
+          {
+            h2: 'How fast do Meta Ads bring results?',
+            paragraphs: [
+              'Once Meta approves them, the ads run straight away. For the first days Meta collects data and learns who to show the ad to.',
+              'After two to three weeks we see which images and texts work. You can judge it fairly after about six weeks. Images and videos wear out. Whoever sees the same ad for months scrolls past eventually. So we swap them regularly.',
+            ],
+          },
+          {
+            h2: 'Meta Ads or Google Ads in Kaufbeuren?',
+            paragraphs: [
+              '[Google Ads](/leistungen/google-ads) catches demand that already exists. Meta Ads creates new demand. An emergency service belongs on Google, because nobody searches Instagram for a burst pipe. A new lunch menu belongs on Meta, because nobody googles it.',
+              'Both together is strongest. Someone sees you on Instagram, searches Google two weeks later and finds you there again. That\'s the moment they call.',
+            ],
+          },
+          {
+            h2: 'Who Meta Ads in Kaufbeuren are for. And who they aren\'t for.',
+            paragraphs: [
+              'Meta Ads are worth it for you if:',
+            ],
+            list: [
+              'your offer looks good or can be shown well. Food, hair, furniture, renovations, fitness, events.',
+              'you have something new that nobody searches for yet.',
+              'you are hiring in the region and want to reach people who aren\'t reading job ads right now.',
+            ],
+            after: [
+              'Meta Ads are worth less if customers only think of you in an emergency. Then [Google Ads](/leistungen/google-ads) is the better start.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about Meta Ads in Kaufbeuren',
+        faq: [
+          {
+            question: 'Do I need a Facebook page and an Instagram profile?',
+            answer: 'Yes, you need a Facebook page for Meta Ads, and Instagram is strongly recommended. If either is missing, we set it up with you. You don\'t have to post every day for the ads to run.',
+          },
+          {
+            question: 'Can I use this to find staff?',
+            answer: 'Yes. Job ads are a separate category at Meta with rules, for example on how tightly you can narrow age and location. We stick to them and still reach people in your area.',
+          },
+          {
+            question: 'Who makes the photos and videos?',
+            answer: 'Either you send us photos and phone videos and we turn them into ads, or we film with you on site in Kaufbeuren. We only use stock images when there\'s no other way.',
+          },
+          {
+            question: 'Do I have to sign up for long?',
+            answer: 'No. We work month to month. You can pause the ad budget any time.',
+          },
+          {
+            question: 'Is this allowed under German data protection law?',
+            answer: 'Yes, if it\'s done right. The Meta Pixel only runs once the visitor agrees, and your privacy policy has to mention it. Both are part of our setup.',
+          },
+        ],
       },
       'brand-strategy': {
         title: 'Brand Strategy',

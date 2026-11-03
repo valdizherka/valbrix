@@ -366,7 +366,7 @@ export default {
         seoTitle: 'BESTE Meta Ads Agentur Kaufbeuren | Facebook & Instagram Werbung in Ihrer Nähe | Valbrix Digital',
         h1: 'Meta Ads Agentur Kaufbeuren',
         metaDescription: 'Meta Ads auf Facebook und Instagram für Unternehmen in Kaufbeuren - zielgruppengenaue Kampagnen, die Sichtbarkeit und Anfragen bringen.',
-        intro: 'Facebook und Instagram erreichen Menschen, bevor sie überhaupt aktiv nach Ihnen suchen. Wir bauen Meta-Ads-Kampagnen, die genau die richtige Zielgruppe ansprechen - mit Creatives, die tatsächlich zum Klicken einladen.',
+        intro: 'Wir sind eine Meta Ads Agentur in Kaufbeuren. Wir schalten Werbung auf Facebook und Instagram für Betriebe aus Kaufbeuren und dem Ostallgäu. Google erreicht Leute, die schon suchen. Meta erreicht die, die noch gar nicht wissen, dass sie Sie brauchen. Beim Scrollen am Sonntagabend, in Kaufbeuren, Neugablonz und Umgebung.',
         includes: [
           'Zielgruppen-Targeting nach Standort, Interessen und Verhalten',
           'Erstellung performanceorientierter Anzeigen-Creatives',
@@ -374,6 +374,98 @@ export default {
           'Laufende Budgetoptimierung und A/B-Tests',
         ],
         whyItMatters: 'Meta Ads bauen Sichtbarkeit auf, bevor der Bedarf akut wird - so sind Sie im Kopf der Kunden, wenn sie tatsächlich suchen. Besonders stark in Kombination mit Google Ads.',
+        sections: [
+          {
+            h2: 'Meta Ads in Kaufbeuren: gesehen werden, bevor jemand sucht',
+            paragraphs: [
+              'Facebook und Instagram gehören zu Meta. Mit Meta Ads zeigen Sie Ihre Anzeige Leuten in einem Umkreis um Kaufbeuren, mitten zwischen den Beiträgen ihrer Freunde. Sie wählen Ort, Alter und Interessen. Bezahlt wird für Reichweite, Klicks oder Anfragen, je nachdem, was Sie wollen.',
+              'Der Unterschied zu Google: Bei Google ist der Bedarf schon da. Bei Meta wecken Sie ihn. Ein Restaurant, ein Friseur, ein Fitnessstudio oder ein neues Angebot verkauft sich hier gut, weil die Leute nicht danach suchen würden, aber zugreifen, wenn sie es sehen.',
+              'Der Haken: Auf Facebook und Instagram scrollen die Leute weiter, wenn die Anzeige wie Werbung aussieht. Sie haben ungefähr eine Sekunde. Deshalb steht und fällt alles mit dem Bild oder Video.',
+            ],
+          },
+          {
+            h2: 'Was wir als Meta Ads Agentur in Kaufbeuren konkret machen',
+            paragraphs: [
+              'Jede Kampagne läuft bei uns in derselben Reihenfolge:',
+            ],
+            list: [
+              'Messung zuerst, sauber nach DSGVO. Wir richten das Meta-Pixel und das Zählen von Anfragen ein. In Deutschland braucht das Pixel die Einwilligung der Besucher. Das bauen wir mit ein, damit Sie keinen Ärger mit dem Datenschutz bekommen.',
+              'Ein klares Ziel pro Kampagne. Anrufe, Anfragen über ein Formular, Tischreservierungen oder Bewerbungen. Nicht alles auf einmal.',
+              'Zielgruppe in Ihrem Umkreis. Kaufbeuren, Neugablonz, das Ostallgäu, so weit Ihre Kunden wirklich fahren. Wer in München wohnt, sieht nichts.',
+              'Echte Bilder und Videos statt Stockfotos. Sie, Ihr Team, Ihre Werkstatt, Ihr Laden. Ein ehrliches Handyvideo wirkt hier mehr als ein Hochglanzbild aus einer Datenbank. Wenn Sie Hilfe beim Drehen brauchen, gibt es [Content-Erstellung](/leistungen/content-creation).',
+              'Mehrere Versionen gleichzeitig testen. Drei Bilder, zwei Texte, ein Video. Nach ein paar Tagen sehen wir, was ankommt, und schalten den Rest ab.',
+              'Retargeting. Wer Ihre Website besucht oder Ihr Video angeschaut hat, sieht Sie danach noch einmal. Viele kaufen nicht beim ersten Kontakt.',
+            ],
+            after: [
+              'Einmal im Monat bekommen Sie einen kurzen Bericht: was ausgegeben wurde, wie viele Anfragen kamen, welche Anzeige am besten lief und was wir als Nächstes testen.',
+            ],
+          },
+          {
+            h2: 'Anfrageformular in Facebook oder Ihre Website?',
+            paragraphs: [
+              'Meta bietet Formulare direkt in der App an. Die Person tippt zweimal, ihre Daten sind schon ausgefüllt, fertig. Das bringt viele Anfragen, aber auch viele halbherzige.',
+              'Schicken wir die Leute auf Ihre Website, kommen weniger Anfragen, dafür von Leuten, die sich wirklich informiert haben. Was für Sie besser ist, hängt davon ab, wie viel Zeit Sie für Rückrufe haben. Wir testen beides und sagen Ihnen nach ein paar Wochen, was bei Ihnen mehr Aufträge gebracht hat.',
+            ],
+          },
+          {
+            h2: 'Was Meta Ads in Kaufbeuren kostet',
+            paragraphs: [
+              'Es gibt zwei Posten. Erstens das Werbebudget. Das zahlen Sie direkt an Meta, per Karte, und Sie legen fest, wie viel pro Tag höchstens ausgegeben wird. Zweitens unsere Gebühr für Einrichtung und Betreuung. Die nennen wir Ihnen nach dem kostenlosen Gespräch als feste Zahl.',
+              'Reichweite ist auf Facebook und Instagram oft günstiger als ein Klick bei Google. Dafür sind die Leute weniger kaufbereit. Rechnen Sie also nicht in Klicks, sondern in Anfragen und Aufträgen. Genau das zeigt Ihnen unser Bericht.',
+            ],
+          },
+          {
+            h2: 'Wie schnell bringen Meta Ads Ergebnisse?',
+            paragraphs: [
+              'Nach der Freigabe durch Meta laufen die Anzeigen sofort. Die ersten Tage sammelt Meta Daten und lernt, wem es die Anzeige zeigen soll.',
+              'Nach zwei bis drei Wochen sehen wir, welche Bilder und Texte funktionieren. Fair urteilen können Sie nach etwa sechs Wochen. Bilder und Videos nutzen sich ab. Wer dieselbe Anzeige monatelang sieht, scrollt irgendwann weiter. Deshalb tauschen wir regelmäßig aus.',
+            ],
+          },
+          {
+            h2: 'Meta Ads oder Google Ads in Kaufbeuren?',
+            paragraphs: [
+              '[Google Ads](/leistungen/google-ads) fängt die Nachfrage ein, die es schon gibt. Meta Ads erzeugt neue. Ein Notdienst gehört zu Google, weil keiner auf Instagram nach einem Rohrbruch sucht. Ein neues Mittagsmenü gehört zu Meta, weil keiner danach googelt.',
+              'Am stärksten ist beides zusammen. Jemand sieht Sie auf Instagram, sucht zwei Wochen später bei Google und findet Sie dort wieder. Das ist der Moment, in dem er anruft.',
+            ],
+          },
+          {
+            h2: 'Für wen sich Meta Ads in Kaufbeuren lohnen. Und für wen nicht.',
+            paragraphs: [
+              'Meta Ads lohnen sich für Sie, wenn:',
+            ],
+            list: [
+              'Ihr Angebot gut aussieht oder sich gut zeigen lässt. Essen, Haare, Möbel, Umbauten, Fitness, Events.',
+              'Sie etwas Neues haben, nach dem noch keiner sucht.',
+              'Sie Mitarbeiter in der Region suchen und Leute erreichen wollen, die gerade keine Stellenanzeigen lesen.',
+            ],
+            after: [
+              'Meta Ads lohnen sich weniger, wenn Ihre Kunden nur im Notfall an Sie denken. Dann ist [Google Ads](/leistungen/google-ads) der bessere Start.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Meta Ads in Kaufbeuren',
+        faq: [
+          {
+            question: 'Brauche ich dafür eine Facebook-Seite und ein Instagram-Profil?',
+            answer: 'Ja, eine Facebook-Seite brauchen Sie für Meta Ads, Instagram ist sehr zu empfehlen. Wenn beides noch fehlt, richten wir es mit Ihnen ein. Sie müssen dort nicht jeden Tag posten, damit die Anzeigen laufen.',
+          },
+          {
+            question: 'Kann ich damit Mitarbeiter finden?',
+            answer: 'Ja. Stellenanzeigen sind bei Meta eine eigene Kategorie mit Regeln, zum Beispiel wie eng Sie Alter und Ort eingrenzen dürfen. Wir halten uns daran und erreichen trotzdem die Leute in Ihrer Gegend.',
+          },
+          {
+            question: 'Wer macht die Bilder und Videos?',
+            answer: 'Entweder Sie schicken uns Fotos und Handyvideos und wir machen daraus Anzeigen, oder wir drehen mit Ihnen vor Ort in Kaufbeuren. Stockfotos nehmen wir nur, wenn es gar nicht anders geht.',
+          },
+          {
+            question: 'Muss ich mich lange binden?',
+            answer: 'Nein. Wir arbeiten monatlich kündbar. Das Werbebudget können Sie jederzeit pausieren.',
+          },
+          {
+            question: 'Ist das mit dem Datenschutz in Deutschland erlaubt?',
+            answer: 'Ja, wenn es richtig gemacht ist. Das Meta-Pixel läuft erst, wenn der Besucher zustimmt, und Ihre Datenschutzerklärung muss es erwähnen. Beides gehört bei uns zur Einrichtung.',
+          },
+        ],
       },
       'brand-strategy': {
         title: 'Markenstrategie',
