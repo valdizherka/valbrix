@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { useLanguage } from '../context/LanguageContext'
+import { trackEnquiry } from '../seo/track'
 
 const SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
@@ -31,6 +32,7 @@ export default function CTASection() {
 
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      trackEnquiry('video-request')
       setSubmitted(true)
     } catch (err) {
       console.error('EmailJS error:', err)

@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { useLanguage } from '../context/LanguageContext'
+import { trackEnquiry } from '../seo/track'
 
 const mainServiceSlugs = ['seo-optimization', 'google-ads', 'social-media-management', 'brand-strategy']
 
@@ -68,6 +69,7 @@ export default function Contact() {
 
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      trackEnquiry('contact-form')
       setSubmitted(true)
     } catch (err) {
       console.error('EmailJS error:', err)

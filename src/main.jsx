@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { Analytics } from '@vercel/analytics/react'
 import './index.css'
 import App from './App.jsx'
+import { trackContactLinks } from './seo/track'
 
 const app = (
   <StrictMode>
@@ -19,3 +20,5 @@ const app = (
 const root = document.getElementById('root')
 if (root.hasChildNodes()) hydrateRoot(root, app)
 else createRoot(root).render(app)
+
+trackContactLinks()
