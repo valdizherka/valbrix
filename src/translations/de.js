@@ -139,7 +139,7 @@ export default {
     items: {
       'social-media-management': {
         title: 'Social-Media-Management',
-        seoTitle: 'Social-Media-Agentur Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Betreuung | Valbrix Digital',
+        seoTitle: 'BESTE Social-Media-Agentur Kaufbeuren | Instagram, Facebook, TikTok & LinkedIn Betreuung in Ihrer Nähe | Valbrix Digital',
         h1: 'Social-Media-Agentur Kaufbeuren',
         metaDescription: 'Social-Media-Agentur in Kaufbeuren: Wir posten, filmen und antworten auf Instagram, Facebook, TikTok und LinkedIn für Sie. Kostenloses Strategiegespräch.',
         intro: 'Wir sind eine Social-Media-Agentur in Kaufbeuren. Wir übernehmen Instagram, Facebook, TikTok und LinkedIn für Betriebe aus Kaufbeuren und dem Ostallgäu. Planen, filmen, posten, antworten. Sie machen Ihre Arbeit, wir zeigen sie.',
@@ -265,7 +265,7 @@ export default {
       },
       'seo-optimization': {
         title: 'SEO-Optimierung',
-        seoTitle: 'SEO-Agentur Kaufbeuren | Lokale SEO, Google-Unternehmensprofil & On-Page-SEO | Valbrix Digital',
+        seoTitle: 'BESTE SEO-Agentur Kaufbeuren | Lokale SEO, Google-Unternehmensprofil & On-Page-SEO in Ihrer Nähe | Valbrix Digital',
         h1: 'SEO-Agentur Kaufbeuren',
         metaDescription: 'SEO-Agentur in Kaufbeuren: lokale SEO, Google-Unternehmensprofil und On-Page-SEO. Top 3 in 90 Tagen oder Geld zurück. Kostenloses Strategiegespräch.',
         intro: 'Wir sind eine SEO-Agentur in Kaufbeuren. Wir bringen Betriebe aus Kaufbeuren und dem Ostallgäu bei Google nach oben, in der normalen Suche und auf Google Maps. Wer heute „Elektriker Kaufbeuren“ googelt, ruft einen der ersten drei an. Unser Job: Sie sind einer davon.',
@@ -368,7 +368,7 @@ export default {
       },
       'google-ads': {
         title: 'Google Ads',
-        seoTitle: 'Google Ads Agentur Kaufbeuren | Suchanzeigen, lokale Kampagnen & Betreuung | Valbrix Digital',
+        seoTitle: 'BESTE Google Ads Agentur Kaufbeuren | Suchanzeigen, lokale Kampagnen & Betreuung in Ihrer Nähe | Valbrix Digital',
         h1: 'Google Ads Agentur Kaufbeuren',
         metaDescription: 'Google Ads Kampagnen für Unternehmen in Kaufbeuren - gezieltes Targeting, klare Budgetkontrolle und messbare Anfragen statt Streuverlust.',
         intro: 'Wir sind eine Google Ads Agentur in Kaufbeuren. Wir schalten Suchanzeigen für Betriebe aus Kaufbeuren und dem Ostallgäu, die diese Woche Anfragen brauchen und nicht erst in drei Monaten. Wer „Heizung kaputt Kaufbeuren“ googelt, will heute jemanden anrufen. Mit Google Ads stehen Sie ganz oben, wenn er sucht.',
@@ -475,7 +475,7 @@ export default {
       },
       'meta-ads': {
         title: 'Meta Ads',
-        seoTitle: 'Meta Ads Agentur Kaufbeuren | Facebook & Instagram Werbung | Valbrix Digital',
+        seoTitle: 'BESTE Meta Ads Agentur Kaufbeuren | Facebook & Instagram Werbung in Ihrer Nähe | Valbrix Digital',
         h1: 'Meta Ads Agentur Kaufbeuren',
         metaDescription: 'Meta Ads auf Facebook und Instagram für Unternehmen in Kaufbeuren - zielgruppengenaue Kampagnen, die Sichtbarkeit und Anfragen bringen.',
         intro: 'Wir sind eine Meta Ads Agentur in Kaufbeuren. Wir schalten Werbung auf Facebook und Instagram für Betriebe aus Kaufbeuren und dem Ostallgäu. Google erreicht Leute, die schon suchen. Meta erreicht die, die noch gar nicht wissen, dass sie Sie brauchen. Beim Scrollen am Sonntagabend, in Kaufbeuren, Neugablonz und Umgebung.',
@@ -581,7 +581,7 @@ export default {
       },
       'brand-strategy': {
         title: 'Markenstrategie',
-        seoTitle: 'Markenstrategie Kaufbeuren | Positionierung, Markenauftritt & Branding | Valbrix Digital',
+        seoTitle: 'BESTE Markenstrategie Kaufbeuren | Positionierung, Markenauftritt & Branding in Ihrer Nähe | Valbrix Digital',
         h1: 'Markenstrategie Kaufbeuren',
         metaDescription: 'Markenstrategie in Kaufbeuren: Wofür stehen Sie, wen wollen Sie erreichen, wie klingen Sie? Wir klären das mit Ihnen. Kostenloses Strategiegespräch.',
         intro: 'Wir machen Markenstrategie in Kaufbeuren. Wir helfen Betrieben aus Kaufbeuren und dem Ostallgäu, in einem Satz zu sagen, wofür sie stehen und warum man zu ihnen kommen soll. Wer das nicht kann, konkurriert nur über den Preis. Und das gewinnt immer der Billigste.',
@@ -681,7 +681,7 @@ export default {
       },
       'content-creation': {
         title: 'Content-Erstellung',
-        seoTitle: 'Content-Erstellung Kaufbeuren | Foto, Video, Texte & Grafik für Social Media | Valbrix Digital',
+        seoTitle: 'BESTE Content-Erstellung Kaufbeuren | Foto, Video, Texte & Grafik für Social Media in Ihrer Nähe | Valbrix Digital',
         h1: 'Content-Erstellung Kaufbeuren',
         metaDescription: 'Content-Erstellung in Kaufbeuren: Fotos, Videos, Texte und Grafiken für Social Media, Anzeigen und Website. Vor Ort im Ostallgäu. Jetzt Termin sichern.',
         intro: 'Wir machen Content-Erstellung in Kaufbeuren. Fotos, Videos, Texte und Grafiken für Betriebe aus Kaufbeuren und dem Ostallgäu, für Social Media, Anzeigen und Ihre Website. Gedreht bei Ihnen vor Ort, mit Ihrem Team und Ihren echten Aufträgen. Keine Stockfotos von lächelnden Models, die nie in Ihrem Laden waren.',
@@ -789,7 +789,7 @@ export default {
       },
       'lead-generation': {
         title: 'Lead-Generierung',
-        seoTitle: 'Lead-Generierung Kaufbeuren | Landing Pages, Funnels & mehr Anfragen | Valbrix Digital',
+        seoTitle: 'BESTE Lead-Generierung Kaufbeuren | Landing Pages, Funnels & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
         h1: 'Lead-Generierung Kaufbeuren',
         metaDescription: 'Lead-Generierung in Kaufbeuren: Landing Pages, Funnels und E-Mail-Folgen, die jeden Monat planbar Anfragen bringen. Kostenloses Strategiegespräch.',
         intro: 'Wir machen Lead-Generierung in Kaufbeuren. Wir bauen für Betriebe aus Kaufbeuren und dem Ostallgäu ein System, das jeden Monat Anfragen bringt. Keine Monate mehr, in denen das Telefon still ist, und dann drei Aufträge auf einmal, die Sie nicht stemmen können.',
@@ -889,7 +889,7 @@ export default {
       },
       'website-landing-page-strategy': {
         title: 'Website- & Landing-Page-Strategie',
-        seoTitle: 'Website- & Landing-Page-Agentur Kaufbeuren | Webdesign, Optimierung & mehr Anfragen | Valbrix Digital',
+        seoTitle: 'BESTE Website- & Landing-Page-Agentur Kaufbeuren | Webdesign, Optimierung & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
         h1: 'Website- & Landing-Page-Agentur Kaufbeuren',
         metaDescription: 'Website- und Landing-Page-Agentur in Kaufbeuren: Wir machen aus Besuchern Anfragen. Webdesign, Ladezeit, klare Buttons. Kostenloses Strategiegespräch.',
         intro: 'Wir sind eine Website- und Landing-Page-Agentur in Kaufbeuren. Wir bauen und verbessern Websites für Betriebe aus Kaufbeuren und dem Ostallgäu, damit mehr Besucher anrufen oder schreiben. Eine schöne Website, die keiner anruft, ist eine teure Visitenkarte.',
@@ -988,7 +988,7 @@ export default {
       },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
-        seoTitle: 'Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics | Valbrix Digital',
+        seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',
         h1: 'Analytics & Reporting Kaufbeuren',
         metaDescription: 'Analytics und Reporting in Kaufbeuren: Tracking, Dashboards und ein Bericht pro Monat. So sehen Sie, welcher Euro Kunden bringt. Kostenloses Gespräch.',
         intro: 'Wir machen Analytics und Reporting in Kaufbeuren. Wir richten für Betriebe aus Kaufbeuren und dem Ostallgäu ein, dass jede Anfrage gezählt wird, und zeigen Ihnen einmal im Monat auf einer Seite, welcher Euro Kunden gebracht hat und welcher nicht.',

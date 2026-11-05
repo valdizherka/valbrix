@@ -9,21 +9,21 @@ export const SITE_URL = 'https://valbrixdigital.com'
 const staticPages = {
   '/': {
     de: {
-      title: 'Werbeagentur & Marketingagentur in Kaufbeuren | Valbrix Digital',
+      title: 'BESTE Werbeagentur Kaufbeuren | Websites, lokale SEO, Google Ads & Meta Ads in Ihrer Nähe | Valbrix Digital',
       description: 'Valbrix Digital ist Ihre Werbeagentur und Marketingagentur in Kaufbeuren: Websites, lokale SEO, Google Ads & Meta Ads für Unternehmen im Ostallgäu. Kostenloses Strategiegespräch.',
     },
     en: {
-      title: 'Marketing & Advertising Agency in Kaufbeuren | Valbrix Digital',
+      title: 'BEST Advertising Agency Kaufbeuren | Websites, Local SEO, Google Ads & Meta Ads Near You | Valbrix Digital',
       description: 'Valbrix Digital is a marketing and advertising agency in Kaufbeuren: websites, local SEO, Google Ads & Meta Ads for businesses in the Ostallgäu. Free strategy call.',
     },
   },
   '/leistungen': {
     de: {
-      title: 'Werbeagentur Kaufbeuren: Leistungen im Überblick | Valbrix Digital',
+      title: 'BESTE Werbeagentur Kaufbeuren: Leistungen | SEO, Google Ads, Meta Ads & Social Media in Ihrer Nähe | Valbrix Digital',
       description: 'Werbeagentur in Kaufbeuren: SEO, Google Ads, Social Media & mehr im Vergleich. Finden Sie die richtige Leistung für Ihr Unternehmen im Ostallgäu.',
     },
     en: {
-      title: 'Marketing Agency Kaufbeuren: Our Services | Valbrix Digital',
+      title: 'BEST Marketing Agency Kaufbeuren: Services | SEO, Google Ads, Meta Ads & Social Media Near You | Valbrix Digital',
       description: 'Marketing agency in Kaufbeuren: SEO, Google Ads, social media and more, compared. Find the right service for your business in the Ostallgäu.',
     },
   },
@@ -49,21 +49,21 @@ const staticPages = {
   },
   '/marketing-agentur-kaufbeuren': {
     de: {
-      title: 'Marketing-Agentur Kaufbeuren: SEO, Google Ads & Social Media | Valbrix Digital',
+      title: 'BESTE Marketing-Agentur Kaufbeuren | SEO, Google Ads & Social Media in Ihrer Nähe | Valbrix Digital',
       description: 'Marketing-Agentur in Kaufbeuren: Wir bringen Ihr Unternehmen bei Google Maps nach oben. SEO, Google Ads und Social Media aus einer Hand. Kostenloses Strategiegespräch.',
     },
     en: {
-      title: 'Marketing Agency Kaufbeuren: SEO, Google Ads & Social Media | Valbrix Digital',
+      title: 'BEST Marketing Agency Kaufbeuren | SEO, Google Ads & Social Media Near You | Valbrix Digital',
       description: 'Marketing agency in Kaufbeuren: we get your business to the top of Google Maps. SEO, Google Ads and social media in one place. Book a free strategy call.',
     },
   },
   '/einsatzgebiete': {
     de: {
-      title: 'Werbeagentur Kaufbeuren & Ostallgäu: Einsatzgebiete im Überblick | Valbrix Digital',
+      title: 'BESTE Werbeagentur Kaufbeuren & Ostallgäu | Kempten, Memmingen & Umgebung in Ihrer Nähe | Valbrix Digital',
       description: 'Werbeagentur mit Sitz in Kaufbeuren. Wir betreuen die ganze Stadt und das Ostallgäu, auch Kempten, Memmingen und Umgebung. Jetzt Termin vereinbaren.',
     },
     en: {
-      title: 'Marketing Agency Kaufbeuren & Ostallgäu: Areas We Serve | Valbrix Digital',
+      title: 'BEST Marketing Agency Kaufbeuren & Ostallgäu | Kempten, Memmingen & Areas Near You | Valbrix Digital',
       description: 'Marketing agency based in Kaufbeuren. We work with businesses across the whole city and the Ostallgäu, including Kempten, Memmingen and the surrounding area.',
     },
   },
