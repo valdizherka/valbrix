@@ -1322,6 +1322,185 @@ export default {
       'Noch nicht sicher – brauche Beratung',
     ],
   },
+  areaPages: {
+    backLink: 'Alle Einsatzgebiete',
+    ctaButton: 'Kostenloses Strategiegespräch buchen',
+    areasLabel: 'Weitere Einsatzgebiete',
+    allAreasLabel: 'Alle Einsatzgebiete',
+    items: {
+      kempten: {
+        title: 'Kempten',
+        label: 'Werbeagentur Kempten',
+        h1: 'Werbeagentur Kempten',
+        seoTitle: 'BESTE Werbeagentur Kempten | SEO, Google Ads & Social Media in Ihrer Nähe | Valbrix Digital',
+        metaDescription: 'Werbeagentur für Unternehmen in Kempten: lokale SEO, Google Ads, Meta Ads und Social Media von Valbrix Digital aus Kaufbeuren. Kostenloses Strategiegespräch.',
+        intro: 'Wir sind eine Werbeagentur für Betriebe in Kempten. Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren), gut 20 Minuten mit dem Zug entfernt. Wir bringen Unternehmen aus Kempten bei Google nach oben, in der normalen Suche und auf der Karte. Ohne Büro in der Fußgängerzone, dafür mit einem festen Ansprechpartner.',
+        sections: [
+          {
+            h2: 'Werbeagentur in Kempten: mehr Konkurrenz, gleiche Regeln',
+            paragraphs: [
+              'Kempten ist die größte Stadt im Allgäu. Das merkt man bei Google. Wer „Friseur Kempten“ oder „Steuerberater Kempten“ sucht, sieht mehr Anbieter als in Kaufbeuren, und alle wollen unter die ersten drei auf der Karte.',
+              'Die Regeln sind trotzdem dieselben. Google zeigt auf der Karte die Betriebe, die nah am Suchenden sind, ein sauberes Google-Unternehmensprofil haben und echte Bewertungen sammeln. Wer das ordentlich macht, schlägt größere Konkurrenten, die es schleifen lassen.',
+              'Was in Kempten dazukommt: Viele Suchen kommen von Leuten, die gar nicht in der Stadt wohnen. Aus dem Oberallgäu, aus dem Umland, zum Einkaufen oder zum Arzt in die Stadt. Ihre Seite muss also auch für Kunden funktionieren, die von außerhalb kommen.',
+            ],
+          },
+          {
+            h2: 'Was wir für Unternehmen in Kempten konkret machen',
+            paragraphs: [
+              'Dieselbe Reihenfolge wie bei jedem Kunden, angepasst an Kempten:',
+            ],
+            list: [
+              'Google-Unternehmensprofil in Ordnung bringen. Richtige Kategorie, echte Fotos, Leistungen, Öffnungszeiten und ein fester Ablauf für neue Bewertungen. In Kempten ist das der wichtigste Hebel für die Karte.',
+              'Eine Seite pro Leistung, mit Kempten im Titel und in der Überschrift. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+              '[Google Ads](/leistungen/google-ads) für Kempten und Umgebung, wenn Sie Anfragen schneller brauchen, als SEO wirken kann.',
+              '[Meta Ads](/leistungen/meta-ads) auf Facebook und Instagram, zum Beispiel für Gastronomie, Handel und Aktionen rund um die Allgäuer Festwoche.',
+              'Ein Bericht pro Monat, der Anfragen zählt, nicht nur Besucher.',
+            ],
+          },
+          {
+            h2: 'Ein Beispiel aus Kempten',
+            paragraphs: [
+              'Ein ausgedachtes Beispiel, kein Kunde: Eine Physiotherapie-Praxis in Kempten hat gute Bewertungen, steht bei „Physiotherapie Kempten“ aber nur auf Seite zwei. Ihre Website hat eine einzige Seite für alle Leistungen.',
+              'Wir bauen eigene Seiten für Krankengymnastik, manuelle Therapie und Hausbesuche, jede mit Kempten im Titel. Wir füllen das Google-Profil komplett aus und bitten zufriedene Patienten nach der Behandlung um eine Bewertung.',
+              'Ab dann kann die Praxis bei jeder dieser Suchen einzeln gefunden werden. Vorher gab es nur eine Seite für alles. (Und die stand auf Seite zwei.)',
+            ],
+          },
+          {
+            h2: 'So läuft die Zusammenarbeit mit Betrieben in Kempten',
+            paragraphs: [
+              'Das erste Gespräch läuft per Video oder Telefon. Kostenlos, ohne Anfahrt.',
+              'Danach arbeiten wir größtenteils remote. Für einen Drehtag oder ein Treffen kommen wir nach kurzer Absprache nach Kempten. Ein Büro haben wir dort nicht, und wir tun auch nicht so.',
+              'Sie haben einen festen Ansprechpartner. Kein Callcenter, kein wechselnder Junior.',
+            ],
+          },
+          {
+            h2: 'Für wen sich eine Werbeagentur in Kempten lohnt',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie von Kunden aus der Stadt und dem Umland leben. Praxen, Handwerk, Friseure, Werkstätten, Gastronomie.',
+              'Ihr Betrieb bei Google gut bewertet ist und trotzdem nicht oben steht.',
+              'Sie Mitarbeiter oder Azubis suchen. Mit der Hochschule Kempten leben viele junge Leute in der Stadt, die man auf Instagram und TikTok erreicht.',
+            ],
+            after: [
+              'Sie sitzen nicht in Kempten selbst? Schauen Sie bei unseren [Einsatzgebieten](/einsatzgebiete) oder bei [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Werbeagentur in Kempten',
+        faq: [
+          {
+            question: 'Warum eine Agentur aus Kaufbeuren und nicht direkt aus Kempten?',
+            answer: 'Für Ihr Ranking ist es egal, wo die Agentur sitzt. Google bewertet Ihren Betrieb, Ihren Standort und Ihre Website. Was zählt, ist, dass jemand die Arbeit macht. Und Kaufbeuren ist nah genug für jedes Treffen.',
+          },
+          {
+            question: 'Kann mein Betrieb in Kempten in die Top 3 auf Google Maps kommen?',
+            answer: 'Ja, wenn Profil, Website und Bewertungen stimmen. Wie schnell, hängt von Ihrer Branche ab. Ein Friseur in der Innenstadt hat mehr Konkurrenz als ein spezialisierter Handwerker. Das sagen wir Ihnen nach einem kurzen Blick auf Ihre Konkurrenz ehrlich.',
+          },
+          {
+            question: 'Gilt die Geld-zurück-Garantie auch in Kempten?',
+            answer: 'Ja. Sie gilt für ein Haupt-Keyword, das wir vorher schriftlich festlegen, gemessen auf der Karte an Ihrem Standort. Alle Bedingungen stehen in den [FAQ](/faq).',
+          },
+          {
+            question: 'Kommen Sie für Termine nach Kempten?',
+            answer: 'Ja, nach kurzer Absprache. Das erste Gespräch läuft meistens per Video, das spart uns beiden die Fahrt.',
+          },
+          {
+            question: 'Was kostet das?',
+            answer: 'Das hängt davon ab, was Sie brauchen. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar.',
+          },
+        ],
+        ctaHeading: 'Bereit, in Kempten gefunden zu werden?',
+      },
+      memmingen: {
+        title: 'Memmingen',
+        label: 'Werbeagentur Memmingen',
+        h1: 'Werbeagentur Memmingen',
+        seoTitle: 'BESTE Werbeagentur Memmingen | SEO, Google Ads & Social Media in Ihrer Nähe | Valbrix Digital',
+        metaDescription: 'Werbeagentur für Unternehmen in Memmingen: lokale SEO, Google Ads, Meta Ads und Social Media von Valbrix Digital aus Kaufbeuren. Kostenloses Strategiegespräch.',
+        intro: 'Wir sind eine Werbeagentur für Betriebe in Memmingen. Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren), ebenfalls im Allgäu. Wir bringen Unternehmen aus Memmingen bei Google nach oben, in der normalen Suche und auf der Karte, mit einem festen Ansprechpartner statt einer anonymen Agentur.',
+        sections: [
+          {
+            h2: 'Werbeagentur in Memmingen: Kunden von hier und von weiter weg',
+            paragraphs: [
+              'Memmingen hat etwas, das kaum eine Stadt dieser Größe hat: einen eigenen Flughafen und ein Autobahnkreuz, an dem sich A7 und A96 treffen. Dazu die Altstadt und einmal im Jahr den Fischertag.',
+              'Das heißt für Ihr Geschäft: Ein Teil der Leute, die „Restaurant Memmingen“, „Hotel Memmingen“ oder „Werkstatt Memmingen“ googeln, kennt die Stadt nicht. Sie stehen gerade am Flughafen, an der Raststätte oder im Hotelzimmer, mit dem Handy in der Hand.',
+              'Diese Leute entscheiden in Sekunden. Sie nehmen, was oben auf der Karte steht, gerade geöffnet hat und gute Bewertungen zeigt. Wer da nicht auftaucht, existiert für sie nicht.',
+            ],
+          },
+          {
+            h2: 'Was wir für Unternehmen in Memmingen konkret machen',
+            paragraphs: [
+              'Dieselbe Reihenfolge wie bei jedem Kunden, angepasst an Memmingen:',
+            ],
+            list: [
+              'Google-Unternehmensprofil, das Reisende überzeugt. Richtige Öffnungszeiten, auch an Feiertagen, echte Fotos, Speisekarte oder Leistungen, und Antworten auf Bewertungen.',
+              'Seiten auf Deutsch und Englisch, wenn ein Teil Ihrer Kunden aus dem Ausland kommt. Unsere eigene Website läuft genau so, zweisprachig.',
+              'Eine Seite pro Leistung, mit Memmingen im Titel und in der Überschrift. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+              '[Google Ads](/leistungen/google-ads) für Memmingen und das Unterallgäu, mit genau eingestelltem Umkreis.',
+              '[Meta Ads](/leistungen/meta-ads) für Aktionen und Veranstaltungen, zum Beispiel rund um den Fischertag.',
+              'Ein Bericht pro Monat, der Anfragen zählt, nicht nur Besucher.',
+            ],
+          },
+          {
+            h2: 'Ein Beispiel aus Memmingen',
+            paragraphs: [
+              'Ein ausgedachtes Beispiel, kein Kunde: Ein Restaurant in der Memminger Altstadt hat treue Stammgäste, aber online sieht es alt aus. Im Google-Profil stehen falsche Öffnungszeiten, es gibt sechs Fotos und keine Antwort auf Bewertungen.',
+              'Wir korrigieren die Öffnungszeiten, laden echte Fotos von Gerichten und Gastraum hoch, ergänzen die Speisekarte und eine kurze englische Beschreibung und beantworten jede Bewertung.',
+              'Der Reisende am Flughafen, der „Restaurant Memmingen Altstadt“ sucht, sieht jetzt ein Profil, das offen hat und lebendig aussieht. Mehr braucht es oft nicht für die Entscheidung.',
+            ],
+          },
+          {
+            h2: 'So läuft die Zusammenarbeit mit Betrieben in Memmingen',
+            paragraphs: [
+              'Wir starten mit einem kostenlosen Gespräch per Video oder Telefon. Sie zeigen uns Ihren Betrieb, wir zeigen Ihnen, wo Sie bei Google heute stehen.',
+              'Die laufende Arbeit machen wir remote. Für Fotos, Videos oder ein Treffen kommen wir nach Absprache nach Memmingen. Ein Büro in Memmingen haben wir nicht.',
+              'Monatlich kündbar, ein fester Ansprechpartner.',
+            ],
+          },
+          {
+            h2: 'Für wen sich eine Werbeagentur in Memmingen lohnt',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie Gäste oder Kunden haben, die nur kurz in der Stadt sind. Gastronomie, Hotels, Taxis, Einzelhandel in der Altstadt.',
+              'Ihr Betrieb nah an der Autobahn liegt und Durchreisende erreichen will, zum Beispiel eine Werkstatt oder ein Reifenservice.',
+              'Sie als Praxis oder Dienstleister in Memmingen bei Google gegen größere Anbieter bestehen wollen.',
+            ],
+            after: [
+              'Sie sitzen nicht in Memmingen selbst? Schauen Sie bei unseren [Einsatzgebieten](/einsatzgebiete) oder bei [Kempten](/werbeagentur-kempten).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Werbeagentur in Memmingen',
+        faq: [
+          {
+            question: 'Ich bekomme schon Gäste über den Flughafen. Brauche ich trotzdem SEO?',
+            answer: 'Wenn die Gäste von allein kommen, gut. Die Frage ist, wie viele bei der Konkurrenz landen, weil die auf der Karte weiter oben steht. Das sehen wir in Ihrem Google-Profil und sagen es Ihnen im ersten Gespräch.',
+          },
+          {
+            question: 'Lohnt sich eine englische Seite für meinen Betrieb in Memmingen?',
+            answer: 'Wenn ein Teil Ihrer Kunden aus dem Ausland kommt, ja. Für einen Handwerker mit Kunden aus der Region meistens nicht. Wir raten Ihnen nicht zu etwas, das Sie nicht brauchen.',
+          },
+          {
+            question: 'Kommen Sie für Termine nach Memmingen?',
+            answer: 'Ja, nach Absprache. Das erste Gespräch läuft per Video oder Telefon.',
+          },
+          {
+            question: 'Gilt die Geld-zurück-Garantie auch in Memmingen?',
+            answer: 'Ja. Sie gilt für ein Haupt-Keyword, das wir vorher schriftlich festlegen, gemessen auf der Karte an Ihrem Standort. Alle Bedingungen stehen in den [FAQ](/faq).',
+          },
+          {
+            question: 'Was kostet das?',
+            answer: 'Das hängt davon ab, was Sie brauchen. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar.',
+          },
+        ],
+        ctaHeading: 'Bereit, in Memmingen gefunden zu werden?',
+      },
+    },
+  },
   footer: {
     description:
       'Eine Werbeagentur aus Kaufbeuren für ambitionierte Unternehmen, die echtes, messbares Wachstum anstreben.',

@@ -23,7 +23,7 @@ const copy = {
       { name: 'Ostend', body: 'Wachsender Stadtteil mit gemischter Unternehmensstruktur.' },
     ],
     regionH3: 'Umliegende Gemeinden im Ostallgäu',
-    region: 'Kaufbeuren liegt zentral im Ostallgäu, mit Kempten, Memmingen und Augsburg in erreichbarer Nähe. Viele unserer Kunden konkurrieren nicht nur lokal, sondern auch mit Anbietern aus diesen Nachbarstädten - deshalb arbeiten wir nicht nur mit Unternehmen direkt in Kaufbeuren, sondern auch mit Betrieben in der Region, die online in diesem größeren Einzugsgebiet gefunden werden wollen.',
+    region: <>Kaufbeuren liegt zentral im Ostallgäu, mit <Link to="/werbeagentur-kempten" className="font-semibold hover:underline" style={{ color: accentColor }}>Kempten</Link>, <Link to="/werbeagentur-memmingen" className="font-semibold hover:underline" style={{ color: accentColor }}>Memmingen</Link> und Augsburg in erreichbarer Nähe. Viele Betriebe hier konkurrieren nicht nur lokal, sondern auch mit Anbietern aus diesen Nachbarstädten. Deshalb arbeiten wir nicht nur mit Unternehmen direkt in Kaufbeuren, sondern auch mit Betrieben in der Region, die online in diesem größeren Einzugsgebiet gefunden werden wollen.</>,
     reasonsH2: 'Warum lokale Unternehmen in Kaufbeuren uns wählen',
     reasons: [
       { title: 'Wir kennen die Konkurrenzsituation vor Ort', body: 'Wir wissen, wie hart umkämpft bestimmte Branchen in Kaufbeuren sind und wo tatsächlich Chancen liegen - statt einer generischen Strategie, die überall gleich aussieht.' },
@@ -49,7 +49,7 @@ const copy = {
     faqH2: 'Fragen zu unseren Einsatzgebieten',
     faq: [
       { question: 'Haben Sie ein Büro, das ich besuchen kann?', answer: 'Wir arbeiten ohne Ladengeschäft oder Publikumsverkehr. Stattdessen kommen wir zu Ihnen: Persönliche Termine in Kaufbeuren und im Ostallgäu vereinbaren wir gerne im Voraus.' },
-      { question: 'Arbeiten Sie nur mit Unternehmen direkt in Kaufbeuren?', answer: 'Nein. Wir betreuen Kaufbeuren und das gesamte Ostallgäu, inklusive Kunden in Kempten, Memmingen und der weiteren Umgebung.' },
+      { question: 'Arbeiten Sie nur mit Unternehmen direkt in Kaufbeuren?', answer: 'Nein. Wir betreuen Kaufbeuren und das gesamte Ostallgäu, auch Unternehmen in Kempten, Memmingen und der weiteren Umgebung.' },
       { question: 'Kennen Sie sich mit meiner Branche aus, auch wenn ich kein typisches Kaufbeurer Gewerbe habe?', answer: 'Ja - wir arbeiten branchenübergreifend, von Handwerk über Gesundheit bis Einzelhandel. Die lokale Marktkenntnis gilt unabhängig von der Branche.' },
       { question: 'Muss ich für ein Erstgespräch zu Ihnen kommen?', answer: 'Nein, das erste Gespräch findet in der Regel per Video oder Telefon statt - unkompliziert und ohne Anfahrt.' },
       { question: 'Was, wenn mein Unternehmen außerhalb von Kaufbeuren liegt, aber in der Nähe?', answer: 'Kein Problem - wir arbeiten mit Unternehmen im gesamten Ostallgäu, nicht nur innerhalb der Stadtgrenzen.' },
@@ -80,7 +80,7 @@ const copy = {
       { name: 'Ostend', body: 'A growing district with a mixed business structure.' },
     ],
     regionH3: 'Surrounding towns in the Ostallgäu',
-    region: "Kaufbeuren sits right in the middle of the Ostallgäu, with Kempten, Memmingen and Augsburg within easy reach. Many of our clients don't just compete locally but with businesses from those neighbouring cities too. That's why we also work with businesses across the region that want to be found online in that wider catchment area.",
+    region: <>Kaufbeuren sits right in the middle of the Ostallgäu, with <Link to="/werbeagentur-kempten" className="font-semibold hover:underline" style={{ color: accentColor }}>Kempten</Link>, <Link to="/werbeagentur-memmingen" className="font-semibold hover:underline" style={{ color: accentColor }}>Memmingen</Link> and Augsburg within easy reach. Many businesses here don't just compete locally but with businesses from those neighbouring cities too. That's why we also work with businesses across the region that want to be found online in that wider catchment area.</>,
     reasonsH2: 'Why local businesses in Kaufbeuren choose us',
     reasons: [
       { title: 'We know the local competition', body: 'We know how competitive certain industries are in Kaufbeuren and where the real opportunities are. No generic strategy that looks the same everywhere.' },

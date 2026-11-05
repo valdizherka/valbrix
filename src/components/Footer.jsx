@@ -47,6 +47,11 @@ export default function Footer() {
                 <Link to="/marketing-agentur-kaufbeuren" className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200">
                   Kaufbeuren
                 </Link>
+                {Object.entries(t.areaPages.items).map(([slug, area]) => (
+                  <Link key={slug} to={`/werbeagentur-${slug}`} className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200">
+                    {area.title}
+                  </Link>
+                ))}
                 <Link to="/einsatzgebiete" className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200">
                   {t.footer.allAreasLink}
                 </Link>

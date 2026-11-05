@@ -86,6 +86,18 @@ export function schemaFor(path, meta) {
     })
     if (item.faq) graph.push(faqPage(item.faq))
     graph.push(breadcrumbs([{ name: 'Leistungen', path: '/leistungen' }, { name: item.title, path }]))
+  } else if (path.startsWith('/werbeagentur-') && de.areaPages.items[path.slice('/werbeagentur-'.length)]) {
+    const item = de.areaPages.items[path.slice('/werbeagentur-'.length)]
+    graph.push({
+      '@type': 'Service',
+      name: item.h1,
+      description: meta.description,
+      url: SITE_URL + path,
+      provider: { '@id': BUSINESS_ID },
+      areaServed: { '@type': 'City', name: item.title },
+    })
+    graph.push(faqPage(item.faq))
+    graph.push(breadcrumbs([{ name: 'Einsatzgebiete', path: '/einsatzgebiete' }, { name: item.title, path }]))
   } else if (path === '/faq') {
     graph.push(faqPage(de.faqPage.items))
     graph.push(breadcrumbs([{ name: 'FAQ', path }]))

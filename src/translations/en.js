@@ -1320,6 +1320,185 @@ export default {
       'Not sure yet - need guidance',
     ],
   },
+  areaPages: {
+    backLink: 'All areas',
+    ctaButton: 'Book a free strategy call',
+    areasLabel: 'More areas',
+    allAreasLabel: 'All areas',
+    items: {
+      kempten: {
+        title: 'Kempten',
+        label: 'Advertising agency Kempten',
+        h1: 'Advertising Agency Kempten',
+        seoTitle: 'BEST Advertising Agency Kempten | SEO, Google Ads & Social Media Near You | Valbrix Digital',
+        metaDescription: 'Advertising agency for businesses in Kempten: local SEO, Google Ads, Meta Ads and social media from Valbrix Digital in Kaufbeuren. Book a free strategy call.',
+        intro: 'We are an advertising agency for businesses in Kempten. We are based in [Kaufbeuren](/marketing-agentur-kaufbeuren), a good 20 minutes away by train. We get businesses from Kempten to the top of Google, in the normal results and on the map. No office in the pedestrian zone, but one fixed contact person.',
+        sections: [
+          {
+            h2: 'Advertising agency in Kempten: more competition, same rules',
+            paragraphs: [
+              'Kempten is the largest town in the Allgäu. You notice that on Google. Whoever searches "hairdresser Kempten" or "tax advisor Kempten" sees more businesses than in Kaufbeuren, and all of them want a top-3 spot on the map.',
+              'The rules are still the same. On the map, Google shows the businesses that are close to the searcher, have a clean Google Business Profile and collect real reviews. Whoever does that properly beats bigger competitors who let it slide.',
+              'What Kempten adds: many searches come from people who don\'t live in town. From the Oberallgäu, from the surrounding area, coming in to shop or see a doctor. So your site has to work for customers from outside too.',
+            ],
+          },
+          {
+            h2: 'What we do for businesses in Kempten',
+            paragraphs: [
+              'The same order as for every client, adapted to Kempten:',
+            ],
+            list: [
+              'Get the Google Business Profile right. The right category, real photos, services, opening hours and a fixed routine for new reviews. In Kempten this is the biggest lever for the map.',
+              'One page per service, with Kempten in the title and heading. More under [SEO](/leistungen/seo-optimization).',
+              '[Google Ads](/leistungen/google-ads) for Kempten and the area, when you need enquiries faster than SEO can deliver.',
+              '[Meta Ads](/leistungen/meta-ads) on Facebook and Instagram, for example for restaurants, shops and promotions around the Allgäuer Festwoche.',
+              'One report a month that counts enquiries, not just visitors.',
+            ],
+          },
+          {
+            h2: 'An example from Kempten',
+            paragraphs: [
+              'A made-up example, not a client: a physiotherapy practice in Kempten has good reviews, but only shows on page two for "physiotherapy Kempten". Its website has a single page for all services.',
+              'We build separate pages for physiotherapy, manual therapy and home visits, each with Kempten in the title. We fill in the Google profile completely and ask happy patients for a review after their treatment.',
+              'From then on the practice can be found for each of those searches separately. Before, there was one page for everything. (And it was on page two.)',
+            ],
+          },
+          {
+            h2: 'How we work with businesses in Kempten',
+            paragraphs: [
+              'The first call is by video or phone. Free, no travel.',
+              'After that we mostly work remotely. For a filming day or a meeting we come to Kempten after a quick arrangement. We don\'t have an office there, and we don\'t pretend to.',
+              'You have one fixed contact person. No call centre, no rotating junior.',
+            ],
+          },
+          {
+            h2: 'Who an advertising agency in Kempten is for',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'you live on customers from town and the surrounding area. Practices, trades, hairdressers, garages, restaurants.',
+              'your business has good Google reviews and still isn\'t at the top.',
+              'you are looking for staff or apprentices. With the Hochschule Kempten, lots of young people live in town, and you reach them on Instagram and TikTok.',
+            ],
+            after: [
+              'Not based in Kempten itself? Have a look at our [areas](/einsatzgebiete) or at [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about an advertising agency in Kempten',
+        faq: [
+          {
+            question: 'Why an agency from Kaufbeuren and not one right in Kempten?',
+            answer: 'For your ranking it doesn\'t matter where the agency sits. Google judges your business, your location and your website. What counts is that someone does the work. And Kaufbeuren is close enough for any meeting.',
+          },
+          {
+            question: 'Can my business in Kempten get into the top 3 on Google Maps?',
+            answer: 'Yes, if the profile, website and reviews are right. How fast depends on your industry. A hairdresser in the town centre has more competition than a specialised tradesperson. We tell you honestly after a quick look at your competitors.',
+          },
+          {
+            question: 'Does the money-back guarantee apply in Kempten too?',
+            answer: 'Yes. It applies to one main keyword we agree on in writing beforehand, measured on the map at your location. All terms are in the [FAQ](/faq).',
+          },
+          {
+            question: 'Do you come to Kempten for meetings?',
+            answer: 'Yes, after a quick arrangement. The first call is usually by video, which saves us both the drive.',
+          },
+          {
+            question: 'What does it cost?',
+            answer: 'It depends on what you need. After the free call you get a fixed price. Cancel monthly.',
+          },
+        ],
+        ctaHeading: 'Ready to be found in Kempten?',
+      },
+      memmingen: {
+        title: 'Memmingen',
+        label: 'Advertising agency Memmingen',
+        h1: 'Advertising Agency Memmingen',
+        seoTitle: 'BEST Advertising Agency Memmingen | SEO, Google Ads & Social Media Near You | Valbrix Digital',
+        metaDescription: 'Advertising agency for businesses in Memmingen: local SEO, Google Ads, Meta Ads and social media from Valbrix Digital in Kaufbeuren. Book a free strategy call.',
+        intro: 'We are an advertising agency for businesses in Memmingen. We are based in [Kaufbeuren](/marketing-agentur-kaufbeuren), also in the Allgäu. We get businesses from Memmingen to the top of Google, in the normal results and on the map, with one fixed contact person instead of an anonymous agency.',
+        sections: [
+          {
+            h2: 'Advertising agency in Memmingen: customers from here and from further away',
+            paragraphs: [
+              'Memmingen has something few towns its size have: its own airport and a motorway junction where the A7 and A96 meet. Add the old town and, once a year, the Fischertag.',
+              'For your business that means part of the people googling "restaurant Memmingen", "hotel Memmingen" or "garage Memmingen" don\'t know the town. They are standing at the airport, at a service station or in a hotel room, phone in hand.',
+              'These people decide in seconds. They take what\'s at the top of the map, open right now and well reviewed. If you don\'t show up there, you don\'t exist for them.',
+            ],
+          },
+          {
+            h2: 'What we do for businesses in Memmingen',
+            paragraphs: [
+              'The same order as for every client, adapted to Memmingen:',
+            ],
+            list: [
+              'A Google Business Profile that convinces travellers. Correct opening hours, holidays included, real photos, menu or services, and replies to reviews.',
+              'Pages in German and English if part of your customers come from abroad. Our own website works exactly like that, in two languages.',
+              'One page per service, with Memmingen in the title and heading. More under [SEO](/leistungen/seo-optimization).',
+              '[Google Ads](/leistungen/google-ads) for Memmingen and the Unterallgäu, with a precisely set radius.',
+              '[Meta Ads](/leistungen/meta-ads) for promotions and events, for example around the Fischertag.',
+              'One report a month that counts enquiries, not just visitors.',
+            ],
+          },
+          {
+            h2: 'An example from Memmingen',
+            paragraphs: [
+              'A made-up example, not a client: a restaurant in Memmingen\'s old town has loyal regulars, but looks dated online. The Google profile shows wrong opening hours, there are six photos and no replies to reviews.',
+              'We fix the opening hours, upload real photos of dishes and the dining room, add the menu and a short English description, and reply to every review.',
+              'The traveller at the airport searching "restaurant Memmingen old town" now sees a profile that\'s open and looks alive. Often that\'s all it takes to decide.',
+            ],
+          },
+          {
+            h2: 'How we work with businesses in Memmingen',
+            paragraphs: [
+              'We start with a free call by video or phone. You show us your business, we show you where you stand on Google today.',
+              'The ongoing work we do remotely. For photos, videos or a meeting we come to Memmingen by arrangement. We don\'t have an office in Memmingen.',
+              'Cancel monthly, one fixed contact person.',
+            ],
+          },
+          {
+            h2: 'Who an advertising agency in Memmingen is for',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'you have guests or customers who are only in town briefly. Restaurants, hotels, taxis, shops in the old town.',
+              'your business is close to the motorway and wants to reach people passing through, for example a garage or tyre service.',
+              'you run a practice or service business in Memmingen and want to hold your own on Google against bigger providers.',
+            ],
+            after: [
+              'Not based in Memmingen itself? Have a look at our [areas](/einsatzgebiete) or at [Kempten](/werbeagentur-kempten).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about an advertising agency in Memmingen',
+        faq: [
+          {
+            question: 'I already get guests through the airport. Do I still need SEO?',
+            answer: 'If guests come on their own, good. The question is how many end up at a competitor because they rank higher on the map. We see that in your Google profile and tell you in the first call.',
+          },
+          {
+            question: 'Is an English page worth it for my business in Memmingen?',
+            answer: 'If part of your customers come from abroad, yes. For a tradesperson with customers from the region, usually not. We don\'t recommend things you don\'t need.',
+          },
+          {
+            question: 'Do you come to Memmingen for meetings?',
+            answer: 'Yes, by arrangement. The first call is by video or phone.',
+          },
+          {
+            question: 'Does the money-back guarantee apply in Memmingen too?',
+            answer: 'Yes. It applies to one main keyword we agree on in writing beforehand, measured on the map at your location. All terms are in the [FAQ](/faq).',
+          },
+          {
+            question: 'What does it cost?',
+            answer: 'It depends on what you need. After the free call you get a fixed price. Cancel monthly.',
+          },
+        ],
+        ctaHeading: 'Ready to be found in Memmingen?',
+      },
+    },
+  },
   footer: {
     description:
       'A digital marketing agency built for ambitious businesses that want real, measurable growth.',

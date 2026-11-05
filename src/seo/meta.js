@@ -106,9 +106,16 @@ const servicePages = Object.fromEntries(
   })
 )
 
+const areaPages = Object.fromEntries(
+  Object.keys(de.areaPages.items).map((slug) => {
+    const pick = (item) => ({ title: item.seoTitle, description: item.metaDescription })
+    return [`/werbeagentur-${slug}`, { de: pick(de.areaPages.items[slug]), en: pick(en.areaPages.items[slug]) }]
+  })
+)
+
 export const notFoundMeta = {
   de: { title: 'Seite nicht gefunden | Valbrix Digital', description: 'Diese Seite gibt es nicht.' },
   en: { title: 'Page not found | Valbrix Digital', description: 'This page does not exist.' },
 }
 
-export const pageMeta = { ...staticPages, ...servicePages }
+export const pageMeta = { ...staticPages, ...servicePages, ...areaPages }
