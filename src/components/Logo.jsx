@@ -40,6 +40,8 @@ export default function Logo({ size = 'md', variant = 'full' }) {
       role="img"
       aria-label="Valbrix Digital"
     >
+      {/* Full brand name first, so search engines don't take the wordmark "valbrix" as the site name */}
+      <title>Valbrix Digital</title>
       <defs>
         {/* Gold gradient for "valbrix" */}
         <linearGradient id="goldGrad" x1="0" y1="0" x2="140" y2="0" gradientUnits="userSpaceOnUse">
