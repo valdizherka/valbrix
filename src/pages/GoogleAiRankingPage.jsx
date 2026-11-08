@@ -136,11 +136,11 @@ export default function GoogleAiRankingPage() {
         </div>
 
         <img
-          src="/google-ki-uebersicht-seo-agentur-kaufbeuren.jpg"
+          src="/google-suche-seo-agentur-kaufbeuren-screenshot.jpg"
           alt={c.alt}
-          width="1080"
-          height="1440"
-          className="w-full max-w-xl mx-auto h-auto rounded-2xl my-10 border border-gray-200"
+          width="2000"
+          height="1136"
+          className="w-full h-auto rounded-xl my-10 border border-gray-200"
         />
 
         <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
