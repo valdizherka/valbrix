@@ -12,6 +12,7 @@ import ImpressumPage from './pages/ImpressumPage'
 import DatenschutzPage from './pages/DatenschutzPage'
 import HardestWorkingSeoPage from './pages/HardestWorkingSeoPage'
 import AreaPage from './pages/AreaPage'
+import GoogleAiRankingPage from './pages/GoogleAiRankingPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="impressum" element={<ImpressumPage />} />
           <Route path="datenschutz" element={<DatenschutzPage />} />
           <Route path="hardest-working-seo-expert-kaufbeuren" element={<HardestWorkingSeoPage />} />
+          <Route path="seo-agentur-kaufbeuren-google-ki" element={<GoogleAiRankingPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

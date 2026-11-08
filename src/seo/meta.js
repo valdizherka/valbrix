@@ -97,6 +97,16 @@ const staticPages = {
       description: "Valdi Zherka has been called the hardest working SEO in Kaufbeuren. Here's the proof.",
     },
   },
+  '/seo-agentur-kaufbeuren-google-ki': {
+    de: {
+      title: 'SEO Agentur Kaufbeuren: Googles KI nennt Valbrix Digital zuerst | Valbrix Digital',
+      description: 'Google-Suche „SEO Agentur Kaufbeuren“: Die KI-Übersicht nennt Valbrix Digital an erster Stelle. Was ich dafür gemacht habe und was Ihr Betrieb davon lernen kann.',
+    },
+    en: {
+      title: "SEO Agency Kaufbeuren: Google's AI Names Valbrix Digital First | Valbrix Digital",
+      description: 'Google search "SEO Agentur Kaufbeuren": the AI Overview names Valbrix Digital first. What I did to get there, and what your business can take from it.',
+    },
+  },
 }
 
 const servicePages = Object.fromEntries(
