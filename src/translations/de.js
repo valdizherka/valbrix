@@ -275,7 +275,7 @@ export default {
           'Einrichtung und Optimierung des Google Unternehmensprofils',
           'Lokale und organische Keyword-Ausrichtung',
         ],
-        whyItMatters: 'Bezahlte Anzeigen wirken nur, solange Sie zahlen. SEO baut Sichtbarkeit auf, die dauerhaft im Hintergrund weiterarbeitet - Monat für Monat.',
+        whyItMatters: 'Bezahlte Anzeigen wirken nur, solange Sie zahlen. SEO baut Sichtbarkeit auf, die dauerhaft im Hintergrund weiterarbeitet. Monat für Monat.',
         sections: [
           {
             h2: 'SEO in Kaufbeuren: Wer oben steht, bekommt den Anruf',
@@ -308,7 +308,8 @@ export default {
               'Wir haben noch keine Kundenergebnisse, die wir Ihnen zeigen dürfen. Also zeigen wir Ihnen das Einzige, was wir haben: unsere eigene Seite. Am 3. November 2026 haben wir valbrixdigital.com genau so geprüft, wie wir es bei Ihnen machen würden.',
               'Das Ergebnis war unangenehm. 14 von 18 Seiten waren bei Google. Die Leistungsseiten hatten rund 190 Wörter und kein „Kaufbeuren“ im Titel. Jede Seite hat Google zuerst den Titel der Startseite geschickt. Die Antworten in unseren FAQs waren zugeklappt. (Der Schuster und seine Schuhe.)',
               'Am selben Tag haben wir es repariert: neue Titel und Überschriften auf allen Leistungsseiten, eigene Titel für jede Seite schon vor dem JavaScript, echte 404-Seiten, alle FAQ-Antworten sichtbar, ein Hauptbegriff statt zwei. Diese Seite hier ist Teil davon.',
-              'Ob es wirkt, sehen wir in den nächsten Wochen in der Search Console. Das Ergebnis schreiben wir hier rein. Auch wenn es schlecht ist.',
+              'Was sich seitdem getan hat, mit Datum: Am 4. November 2026 waren alle 18 von 18 Seiten bei Google, nach den Reparaturen und einer neu eingereichten Sitemap in der Search Console. Und im November 2026 hat die KI-Übersicht von Google bei der Suche „seo agentur kaufbeuren“ Valbrix Digital als erste von vier Agenturen genannt. Geprüft im Inkognito-Fenster, in Kaufbeuren.',
+              'Ehrlich dazu: Das ist ein Zusammenhang, kein Beweis. Google verrät nicht, warum es wen nennt. Wir wissen nur, was wir vorher gemacht haben: das Google-Profil vollständig ausgefüllt, überall derselbe Name, dieselbe Adresse und dieselbe Telefonnummer, eine eigene Seite pro Stadt und saubere strukturierte Daten. Genau das machen wir auch bei Ihnen. Wie wir bei der KI-Übersicht vorgegangen sind, steht auf der Seite [SEO-Agentur Kaufbeuren in der Google-KI](/seo-agentur-kaufbeuren-google-ki).',
             ],
           },
           {
@@ -318,6 +319,23 @@ export default {
               'Monat 1 bis 3: Google-Unternehmensprofil, Verzeichnisse, neue Seiten für Ihre Leistungen, die ersten Bewertungen. In dieser Zeit sieht Google, dass sich etwas bewegt.',
               'Danach: eine neue Seite oder ein großer Umbau pro Monat, messen, nachschärfen. SEO hört nicht auf, sobald Sie oben stehen. Ihre Konkurrenz schläft auch nicht.',
               'Wer Kunden bis nächste Woche braucht, ist mit [Google Ads](/leistungen/google-ads) besser bedient. Viele Betriebe machen beides: Anzeigen für sofort, SEO für dauerhaft.',
+            ],
+          },
+          {
+            h2: 'SEO für Kempten, Memmingen und das Ostallgäu',
+            paragraphs: [
+              'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Unsere Kunden sitzen aber nicht nur hier. Lokale SEO funktioniert überall gleich, nur die Suchbegriffe ändern sich. In Kempten sucht man „Steuerberater Kempten“, in Memmingen „Autowerkstatt Memmingen“. Google zeigt auf der Karte die Betriebe, die nah dran sind und am besten zur Suche passen.',
+              'Für Betriebe in Kempten bauen wir Seiten mit Kempten im Titel und in der Überschrift, tragen das Google-Profil sauber ein und schauen uns die Konkurrenz vor Ort an. Mehr dazu auf der Seite [Werbeagentur Kempten](/werbeagentur-kempten).',
+              'In Memmingen ist es genauso. Viele Betriebe dort haben ein Google-Profil, aber kaum Leistungen eingetragen und keine eigene Seite pro Leistung. Das ist die Lücke, die wir zuerst schließen. Alles zu Memmingen finden Sie bei der [Werbeagentur Memmingen](/werbeagentur-memmingen).',
+              'Marktoberdorf, Buchloe, Füssen oder ein Dorf dazwischen? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete). Das Erstgespräch läuft per Video oder Telefon, vor Ort kommen wir, wenn es nötig ist.',
+            ],
+          },
+          {
+            h2: 'Ist SEO noch sinnvoll, wenn Google und ChatGPT selbst antworten?',
+            paragraphs: [
+              'Diese Frage hören wir oft, und Google zeigt sie selbst bei der Suche nach einer SEO-Agentur an. Unsere Antwort: Ja. Gerade für lokale Betriebe.',
+              'Wenn jemand nach einem Elektriker in Kaufbeuren fragt, braucht die KI eine Quelle. Sie nimmt das, was sie über Ihren Betrieb findet: Ihr Google-Profil, Ihre Bewertungen, Ihre Website und Einträge in Verzeichnissen. Stimmen die Angaben überall und beantwortet Ihre Website die Fragen Ihrer Kunden, kann die KI Sie nennen. Fehlt das, nennt sie einen anderen.',
+              'Lokale SEO und gute Antworten in der KI hängen also an derselben Arbeit. Ein vollständiges Profil, echte Bewertungen, klare Seiten. Wer das heute sauber aufsetzt, hat beides.',
             ],
           },
           {
@@ -338,12 +356,24 @@ export default {
               'Sie drei Monate Geduld haben, bevor Sie urteilen.',
             ],
             after: [
-              'SEO lohnt sich nicht, wenn keiner nach Ihrem Angebot sucht. Dann verkaufen wir es Ihnen auch nicht. Wir sagen Ihnen das im ersten Gespräch, kostenlos. Sie sitzen nicht in Kaufbeuren selbst? Wir betreuen auch Kempten, Memmingen und das ganze [Ostallgäu](/einsatzgebiete).',
+              'SEO lohnt sich nicht, wenn keiner nach Ihrem Angebot sucht. Dann verkaufen wir es Ihnen auch nicht. Wir sagen Ihnen das im ersten Gespräch, kostenlos. Sie sitzen nicht in Kaufbeuren selbst? Wir betreuen auch [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und das ganze [Ostallgäu](/einsatzgebiete).',
             ],
           },
         ],
         faqTitle: 'Fragen zu SEO in Kaufbeuren',
         faq: [
+          {
+            question: 'Was genau macht eine SEO-Agentur?',
+            answer: 'Sie sorgt dafür, dass Google Ihre Website versteht und Ihren Betrieb zeigt, wenn jemand nach Ihrer Leistung sucht. Bei uns heißt das: Website prüfen und reparieren, das Google-Unternehmensprofil ausbauen, Einträge in Verzeichnissen angleichen, neue Seiten für Ihre Leistungen und Orte schreiben und jeden Monat messen, was es gebracht hat.',
+          },
+          {
+            question: 'Wie funktioniert lokale SEO?',
+            answer: 'Google zeigt bei Suchen wie „Friseur Kaufbeuren“ eine Karte mit drei Betrieben. Wer dort steht, hängt vor allem an drei Dingen: Wie gut passt Ihr Betrieb zur Suche, wie nah sind Sie dran, und wie bekannt und gut bewertet sind Sie. Lokale SEO arbeitet an allen drei, soweit es geht. Die Entfernung können wir nicht ändern, den Rest schon.',
+          },
+          {
+            question: 'Wie kann ich mein Google-Maps-Ranking verbessern?',
+            answer: 'Die wichtigsten Schritte, die Sie auch selbst machen können: die passenden Kategorien wählen, alle Leistungen mit Beschreibung eintragen, echte Fotos hochladen, jede Woche einen Beitrag posten und jeden zufriedenen Kunden um eine Bewertung bitten. Dazu Name, Adresse und Telefonnummer überall gleich, auf der Website und in Verzeichnissen. Was davon bei Ihnen fehlt, zeigen wir Ihnen im kostenlosen Gespräch.',
+          },
           {
             question: 'Brauche ich dafür eine neue Website?',
             answer: 'Meistens nicht. Wir arbeiten mit der Seite, die Sie haben, solange Google sie lesen kann und sie auf dem Handy funktioniert. Wenn nicht, sagen wir Ihnen das vorher und warum.',
@@ -357,8 +387,16 @@ export default {
             answer: 'Wenig. Uns Zugang zu Website und Google-Unternehmensprofil geben, ein paar echte Fotos schicken und Kunden nach einer Bewertung fragen. Den Rest machen wir.',
           },
           {
-            question: 'Was kostet SEO bei Ihnen?',
+            question: 'Was kostet eine SEO-Agentur im Monat?',
             answer: 'Das hängt davon ab, wie viel an Ihrer Seite zu tun ist und wie stark Ihre Konkurrenz ist. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar, ohne lange Bindung.',
+          },
+          {
+            question: 'Welche SEO-Agentur ist die beste?',
+            answer: 'Die, die Ihnen zeigen kann, was sie gemacht hat. Fragen Sie jede Agentur nach einem echten Beispiel mit Datum, nach einem Startwert vor der Arbeit und nach einem Bericht danach. Und fragen Sie, wem die Zugänge gehören. Bei uns gehören Profil, Website und Konten Ihnen.',
+          },
+          {
+            question: 'Arbeiten Sie auch für Betriebe in Kempten oder Memmingen?',
+            answer: 'Ja. Wir sitzen in Kaufbeuren und betreuen Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon.',
           },
           {
             question: 'Woher weiß ich, ob es funktioniert?',

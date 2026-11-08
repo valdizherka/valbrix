@@ -308,7 +308,8 @@ export default {
               'We don\'t have client results we can show you yet. So we show you the one thing we do have: our own site. On 3 November 2026 we audited valbrixdigital.com exactly the way we would audit yours.',
               'The result was uncomfortable. 14 of 18 pages were in Google. The service pages had around 190 words and no "Kaufbeuren" in the title. Every page first sent Google the homepage title. The answers in our FAQs were folded shut. (The cobbler\'s children have no shoes.)',
               'We fixed it the same day: new titles and headings on all service pages, each page\'s own title before any JavaScript, real 404 pages, every FAQ answer visible, one main keyword instead of two. This page is part of that.',
-              'Whether it works, we will see in Search Console over the coming weeks. We will write the result here. Even if it\'s bad.',
+              'What has happened since, with dates: on 4 November 2026 all 18 of 18 pages were on Google, after the fixes and a resubmitted sitemap in Search Console. And in November 2026, Google\'s AI Overview for the search "seo agentur kaufbeuren" named Valbrix Digital first of four agencies. Checked in an incognito window, in Kaufbeuren.',
+              'To be honest about it: that is a correlation, not proof. Google doesn\'t say why it names whom. We only know what we did before: filled in the Google profile completely, the same name, address and phone number everywhere, a page per town and clean structured data. That is exactly what we do for you too. How we approached the AI Overview is on the page [SEO agency Kaufbeuren in Google\'s AI](/seo-agentur-kaufbeuren-google-ki).',
             ],
           },
           {
@@ -318,6 +319,23 @@ export default {
               'Month 1 to 3: Google Business Profile, directories, new pages for your services, the first reviews. This is when Google sees that something is moving.',
               'After that: one new page or one big rework per month, measure, adjust. SEO doesn\'t stop once you are on top. Your competition isn\'t asleep either.',
               'If you need customers by next week, [Google Ads](/leistungen/google-ads) is the better fit. Many businesses do both: ads for now, SEO for the long run.',
+            ],
+          },
+          {
+            h2: 'SEO for Kempten, Memmingen and the Ostallgäu',
+            paragraphs: [
+              'We are based in [Kaufbeuren](/marketing-agentur-kaufbeuren). Our clients aren\'t only here. Local SEO works the same everywhere, only the search terms change. In Kempten people search "Steuerberater Kempten", in Memmingen "Autowerkstatt Memmingen". On the map, Google shows the businesses that are close and fit the search best.',
+              'For businesses in Kempten we build pages with Kempten in the title and heading, set up the Google profile properly and look at the local competition. More on the [advertising agency Kempten](/werbeagentur-kempten) page.',
+              'Memmingen is the same. Many businesses there have a Google profile but hardly any services listed and no page per service. That is the gap we close first. Everything about Memmingen is on the [advertising agency Memmingen](/werbeagentur-memmingen) page.',
+              'Marktoberdorf, Buchloe, Füssen or a village in between? We work across the whole [Ostallgäu](/einsatzgebiete). The first call is by video or phone, and we come on site when it\'s needed.',
+            ],
+          },
+          {
+            h2: 'Is SEO still worth it when Google and ChatGPT answer themselves?',
+            paragraphs: [
+              'We hear this question a lot, and Google shows it itself when you search for an SEO agency. Our answer: yes. Especially for local businesses.',
+              'When someone asks for an electrician in Kaufbeuren, the AI needs a source. It uses what it finds about your business: your Google profile, your reviews, your website and directory listings. If the details match everywhere and your website answers your customers\' questions, the AI can name you. If not, it names someone else.',
+              'So local SEO and good AI answers depend on the same work. A complete profile, real reviews, clear pages. Set that up properly today and you have both.',
             ],
           },
           {
@@ -338,12 +356,24 @@ export default {
               'you can give it three months before you judge.',
             ],
             after: [
-              'SEO isn\'t worth it if nobody searches for what you offer. Then we won\'t sell it to you. We tell you in the first call, free. Not based in Kaufbeuren itself? We also cover Kempten, Memmingen and the whole [Ostallgäu](/einsatzgebiete).',
+              'SEO isn\'t worth it if nobody searches for what you offer. Then we won\'t sell it to you. We tell you in the first call, free. Not based in Kaufbeuren itself? We also cover [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete).',
             ],
           },
         ],
         faqTitle: 'Questions about SEO in Kaufbeuren',
         faq: [
+          {
+            question: 'What exactly does an SEO agency do?',
+            answer: 'It makes sure Google understands your website and shows your business when someone searches for your service. With us that means: checking and fixing the website, building out the Google Business Profile, aligning directory listings, writing new pages for your services and towns, and measuring every month what it brought.',
+          },
+          {
+            question: 'How does local SEO work?',
+            answer: 'For searches like "hairdresser Kaufbeuren", Google shows a map with three businesses. Who is there depends mainly on three things: how well your business fits the search, how close you are, and how well known and well reviewed you are. Local SEO works on all three where it can. We can\'t change the distance, the rest we can.',
+          },
+          {
+            question: 'How can I improve my Google Maps ranking?',
+            answer: 'The main steps, which you can also do yourself: pick the right categories, list all services with a description, upload real photos, post an update every week and ask every happy customer for a review. Plus the same name, address and phone number everywhere, on your website and in directories. What is missing in your case, we show you in the free call.',
+          },
           {
             question: 'Do I need a new website for this?',
             answer: 'Usually not. We work with the site you have, as long as Google can read it and it works on a phone. If it doesn\'t, we tell you beforehand and why.',
@@ -357,8 +387,16 @@ export default {
             answer: 'Not much. Give us access to your website and Google Business Profile, send a few real photos and ask customers for a review. We do the rest.',
           },
           {
-            question: 'What does SEO cost with you?',
+            question: 'What does an SEO agency cost per month?',
             answer: 'It depends on how much work your site needs and how strong your competition is. After the free call you get a fixed price. Cancel monthly, no long contract.',
+          },
+          {
+            question: 'Which SEO agency is the best?',
+            answer: 'The one that can show you what it did. Ask every agency for a real, dated example, for a baseline before the work and a report after. And ask who owns the accounts. With us, the profile, website and accounts belong to you.',
+          },
+          {
+            question: 'Do you also work for businesses in Kempten or Memmingen?',
+            answer: 'Yes. We are based in Kaufbeuren and work with businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone.',
           },
           {
             question: 'How do I know it\'s working?',
