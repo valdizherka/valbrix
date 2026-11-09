@@ -1081,7 +1081,7 @@ export default {
           {
             h2: 'Neu bauen oder die alte Seite verbessern?',
             paragraphs: [
-              'Nicht jeder Betrieb braucht eine neue Website. Oft reichen eine klarere erste Seite, eigene Leistungsseiten und eine schnellere Ladezeit. Das prüfen wir ehrlich, bevor wir Ihnen einen Neubau verkaufen.',
+              'Nicht jeder Betrieb braucht eine neue Website. Oft reichen eine klarere erste Seite, eigene Leistungsseiten und eine schnellere Ladezeit. Das prüfen wir ehrlich, bevor wir Ihnen einen Neubau verkaufen. Mehr dazu bei [Website-Optimierung](/leistungen/website-optimierung).',
               'Wenn Ihre Seite im Grunde passt und nur zu wenig Anfragen bringt, ist unsere [Website- & Landing-Page-Strategie](/leistungen/website-landing-page-strategy) der richtige Weg. Wenn sie veraltet ist, auf dem Handy nicht funktioniert oder Sie gar keine haben, bauen wir neu.',
               'Für einzelne Angebote oder Werbekampagnen reicht manchmal auch ein One-Pager: eine einzige Seite mit allem Wichtigen und einem Formular. Schnell online und gut für [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads).',
             ],
@@ -1145,6 +1145,118 @@ export default {
           {
             question: 'Bauen Sie auch Websites für Betriebe in Kempten oder Memmingen?',
             answer: 'Ja. Wir sitzen in Kaufbeuren und arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon.',
+          },
+        ],
+      },
+      'website-optimierung': {
+        title: 'Website-Check & Optimierung',
+        seoTitle: 'BESTE Website-Optimierung Kaufbeuren | Website-Check, SEO-Check, Ladezeit & Google-Analyse in Ihrer Nähe | Mehr Sichtbarkeit und mehr Anfragen | Valbrix Digital',
+        h1: 'Website-Optimierung Kaufbeuren',
+        metaDescription: 'Website-Optimierung in Kaufbeuren: Wir prüfen Ihre Website wie Google, beheben die Fehler und zeigen Ihnen schwarz auf weiß, was sich verändert hat.',
+        intro: 'Wir machen Website-Optimierung in Kaufbeuren. Wir prüfen die Websites von Betrieben aus Kaufbeuren und dem Ostallgäu so, wie Google sie sieht, beheben die Fehler und zeigen Ihnen danach mit Datum, was sich verändert hat. Ohne neue Website, wenn es die nicht braucht.',
+        includes: [
+          'Website-Check: wie Google Ihre Seite sieht, auf einer Seite zusammengefasst',
+          'Wie viele Ihrer Seiten wirklich bei Google sind',
+          'Titel, Überschriften, Texte, Ladezeit und Handy-Ansicht',
+          'Fehler beheben und vorher und nachher messen',
+        ],
+        whyItMatters: 'Viele Websites in Kaufbeuren sind nicht schlecht, sie sind nur unsichtbar. Ein paar Fehler, die keiner bemerkt, reichen, damit Google eine Seite nicht zeigt. Die gute Nachricht: Diese Fehler lassen sich oft in wenigen Tagen beheben.',
+        sections: [
+          {
+            h2: 'Website-Optimierung in Kaufbeuren: erst prüfen, dann reparieren',
+            paragraphs: [
+              'Sie haben eine Website. Sie sieht ordentlich aus. Aber über Google kommt kaum jemand, und angerufen hat deswegen auch noch keiner. Die naheliegende Idee ist eine neue Website. Oft ist das die teuerste Lösung für ein Problem, das sich günstiger beheben lässt.',
+              'Bevor irgendetwas neu gebaut wird, schauen wir uns an, was Google von Ihrer Seite sieht. Nicht was Sie im Browser sehen, sondern was bei Google ankommt. Da liegen die meisten Fehler.',
+            ],
+          },
+          {
+            h2: 'Was wir beim Website-Check prüfen',
+            paragraphs: [
+              'Bei jedem Website-Check in Kaufbeuren gehen wir dieselbe Liste durch:',
+            ],
+            list: [
+              'Ist Ihre Seite bei Google? Wir zählen, wie viele Ihrer Seiten im Index sind, und prüfen, ob versehentlich etwas gesperrt ist.',
+              'Titel und Überschriften. Steht in jedem Titel, was Sie machen und wo? Hat jede Seite genau eine Hauptüberschrift? Fehlt „Kaufbeuren“, findet Sie keiner, der „in Kaufbeuren“ sucht.',
+              'Sieht Google Ihren Text? Manche Websites zeigen ihren Inhalt erst, wenn JavaScript geladen ist. Für Besucher kein Problem, für Google und KI-Suchen oft schon.',
+              'Genug Inhalt. Eine Leistungsseite mit drei Sätzen sagt Google zu wenig. Wir prüfen, ob jede wichtige Seite erklärt, was Sie machen, für wen und wo.',
+              'Ladezeit und Handy. Wir messen mit dem Google-Test PageSpeed Insights und schauen die Seite auf dem Handy an, so wie Ihre Kunden.',
+              'Name, Adresse und Telefonnummer. Stehen sie auf der Website genau so wie in Ihrem Google-Unternehmensprofil? Abweichungen verwirren Google.',
+              'Strukturierte Daten. Kann Google aus dem Code lesen, dass Sie ein lokaler Betrieb in Kaufbeuren sind, mit Öffnungszeiten und Leistungen?',
+              'Kontakt. Ist die Telefonnummer antippbar, funktioniert das Formular, und wird eine Anfrage gezählt?',
+            ],
+            after: [
+              'Was wir nicht prüfen können, weil uns ein Zugang fehlt, steht im Ergebnis als „nicht geprüft“. Wir füllen keine Lücke mit einer Vermutung.',
+            ],
+          },
+          {
+            h2: 'Was Sie bekommen',
+            paragraphs: [
+              'Kein 40-seitiges PDF, das keiner liest. Sie bekommen eine helle Seite, die man auch auf dem Handy lesen kann. Oben in einem Satz das Wichtigste. Darunter jeder Punkt mit einer Farbe: gut, teilweise, muss repariert werden, nicht geprüft.',
+              'Dazu die fünf wichtigsten Dinge, die als Nächstes passieren sollten, in der richtigen Reihenfolge. Und was jetzt schon gut läuft, damit das keiner kaputt repariert.',
+              'Danach entscheiden Sie: Die Fehler selbst beheben, von Ihrem Webdesigner beheben lassen oder von uns.',
+            ],
+          },
+          {
+            h2: 'Ein echtes Beispiel: unsere eigene Website',
+            paragraphs: [
+              'Am 3. November 2026 haben wir valbrixdigital.com genau so geprüft. Das Ergebnis: Nur 14 von 18 Seiten waren bei Google. Die Leistungsseiten hatten rund 190 Wörter und kein „Kaufbeuren“ im Titel. Jede Seite hat Google zuerst den Titel der Startseite geschickt. Die Antworten in den FAQs waren zugeklappt.',
+              'Am selben Tag haben wir es repariert: neue Titel und Überschriften, eigene Titel für jede Seite schon vor dem JavaScript, mehr Text auf den Leistungsseiten, alle Antworten sichtbar. Danach haben wir die Sitemap in der Search Console neu eingereicht.',
+              'Am 4. November 2026 waren alle 18 von 18 Seiten bei Google. Am 3. November hat die Seite im Google-Test PageSpeed Insights auf dem Handy 98 von 100 Punkten für die Ladezeit bekommen. Das ist kein Kundenergebnis, aber es ist echt, und es zeigt, wie wir vorgehen.',
+            ],
+          },
+          {
+            h2: 'Wie die Optimierung abläuft',
+            paragraphs: [
+              'Nach dem Check geht es so weiter:',
+            ],
+            list: [
+              'Startwert speichern. Seiten im Index, Suchbegriffe, Klicks und Position aus der Google Search Console, mit Datum. Ohne Startwert kann Ihnen später keiner sagen, ob es etwas gebracht hat.',
+              'Die großen Fehler zuerst. Gesperrte Seiten, fehlende Titel, Text, den Google nicht sieht. Das ist oft in wenigen Tagen erledigt.',
+              'Inhalte nachschärfen. Leistungsseiten ausbauen, Orte nennen, Fragen beantworten, die Ihre Kunden wirklich stellen.',
+              'Bei Google einreichen. Sitemap und wichtige Seiten in der Search Console neu anmelden.',
+              'Nachmessen. Nach einigen Wochen vergleichen wir mit dem Startwert. Vorher und nachher, mit Datum.',
+            ],
+          },
+          {
+            h2: 'Website-Optimierung, Webdesign oder SEO?',
+            paragraphs: [
+              'Die Website-Optimierung repariert, was da ist. Wenn Ihre Seite so alt ist, dass sich Reparieren nicht mehr lohnt, ist [Webdesign](/leistungen/webdesign) der bessere Weg. Wenn Google Ihre Seite gut lesen kann, aber zu wenige Besucher anrufen, hilft unsere [Website- & Landing-Page-Strategie](/leistungen/website-landing-page-strategy).',
+              'Und wenn die Seite technisch sauber ist und Sie trotzdem nicht oben stehen, braucht es laufende Arbeit an Inhalten, Google-Profil und Verzeichnissen. Das ist [SEO-Optimierung](/leistungen/seo-optimization). Der Website-Check zeigt Ihnen, welcher Weg für Sie der richtige ist.',
+            ],
+          },
+          {
+            h2: 'Was Website-Optimierung in Kaufbeuren kostet',
+            paragraphs: [
+              'Der Check ist eine überschaubare, einmalige Arbeit. Was die Reparatur kostet, hängt davon ab, was wir finden und mit welchem System Ihre Seite gebaut ist. Den Preis bekommen Sie nach dem kostenlosen Gespräch als feste Zahl.',
+              'Sie sitzen nicht in Kaufbeuren? Den Website-Check machen wir auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und im ganzen [Ostallgäu](/einsatzgebiete). Dafür muss keiner vorbeikommen.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Website-Optimierung in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wo kann ich meine Website optimieren lassen?',
+            answer: 'Bei einer Agentur, die zuerst prüft und dann repariert, und Ihnen vorher und nachher mit Datum zeigt. In Kaufbeuren und dem Ostallgäu machen wir genau das. Das erste Gespräch ist kostenlos.',
+          },
+          {
+            question: 'Wie kann ich die Auffindbarkeit meiner Website verbessern?',
+            answer: 'Die wichtigsten Schritte: In jeden Titel Leistung und Ort schreiben, für jede Leistung eine eigene Seite anlegen, die Seite schnell und handytauglich machen, Name, Adresse und Telefonnummer überall gleich halten und die Seite in der Google Search Console einreichen. Was davon bei Ihnen fehlt, zeigt der Website-Check.',
+          },
+          {
+            question: 'Brauche ich dafür eine neue Website?',
+            answer: 'Meistens nicht. Viele Fehler lassen sich in der bestehenden Seite beheben. Wenn sich Reparieren nicht mehr lohnt, sagen wir Ihnen das ehrlich und warum.',
+          },
+          {
+            question: 'Welche Zugänge brauchen Sie?',
+            answer: 'Für den ersten Check reicht die Adresse Ihrer Website. Für die volle Prüfung brauchen wir Zugang zur Google Search Console. Für die Reparatur Zugang zu Ihrer Website. Alles bleibt auf Ihren Namen.',
+          },
+          {
+            question: 'Wie schnell sehe ich Ergebnisse?',
+            answer: 'Die Fehler sind oft in wenigen Tagen behoben. Bis Google die Änderungen übernimmt, dauert es meist ein paar Tage bis Wochen. Deshalb speichern wir vorher den Startwert und messen danach nach.',
+          },
+          {
+            question: 'Funktioniert das auch mit WordPress, Wix oder Jimdo?',
+            answer: 'Ja, die Prüfung funktioniert mit jedem System. Was sich reparieren lässt, hängt vom System ab. Bei manchen Baukästen sind Titel oder Ladezeit nur begrenzt einstellbar. Das steht dann im Ergebnis.',
           },
         ],
       },

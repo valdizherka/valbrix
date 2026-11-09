@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['seo-optimization', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['seo-optimization', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -37,6 +37,7 @@ const copy = {
       ['Content-Erstellung', 'Fotos, Videos und Texte, die nach Ihnen aussehen.', 'Laufend'],
       ['Lead-Generierung', 'Anfragen, die nicht vom Zufall abhängen.', 'Ein paar Wochen'],
       ['Webdesign', 'Eine neue Website, die gefunden wird und Anfragen bringt.', 'Ein paar Wochen'],
+      ['Website-Check & Optimierung', 'Fehler finden und beheben, damit Google Ihre Seite zeigt.', 'Ein paar Tage bis Wochen'],
       ['Website- & Landing-Page-Strategie', 'Aus Besuchern werden Anrufe.', 'Sofort messbar'],
       ['Analytics & Reporting', 'Wissen, wohin jeder Euro geht.', 'Ab dem ersten Monat'],
     ],
@@ -100,6 +101,7 @@ const copy = {
       ['Content Creation', 'Photos, videos and copy that look like you.', 'Ongoing'],
       ['Lead Generation', "Inquiries that don't depend on luck.", 'A few weeks'],
       ['Web Design', 'A new website that gets found and brings enquiries.', 'A few weeks'],
+      ['Website Check & Optimisation', 'Find and fix the errors so Google shows your site.', 'A few days to weeks'],
       ['Website & Landing Page Strategy', 'Turns visitors into calls.', 'Measurable right away'],
       ['Analytics & Reporting', 'Know where every euro goes.', 'From month one'],
     ],

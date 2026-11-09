@@ -1081,7 +1081,7 @@ export default {
           {
             h2: 'Build new or improve the old site?',
             paragraphs: [
-              'Not every business needs a new website. Often a clearer first page, separate service pages and faster loading are enough. We check that honestly before we sell you a rebuild.',
+              'Not every business needs a new website. Often a clearer first page, separate service pages and faster loading are enough. We check that honestly before we sell you a rebuild. More under [Website Optimisation](/leistungen/website-optimierung).',
               'If your site is basically fine and just brings too few enquiries, our [Website & Landing Page Strategy](/leistungen/website-landing-page-strategy) is the right route. If it\'s outdated, doesn\'t work on mobile or you don\'t have one, we build new.',
               'For single offers or ad campaigns, a one-pager is sometimes enough: one page with everything important and a form. Quick to launch and good for [Google Ads](/leistungen/google-ads) and [Meta Ads](/leistungen/meta-ads).',
             ],
@@ -1145,6 +1145,118 @@ export default {
           {
             question: 'Do you also build websites for businesses in Kempten or Memmingen?',
             answer: 'Yes. We\'re based in Kaufbeuren and work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone.',
+          },
+        ],
+      },
+      'website-optimierung': {
+        title: 'Website Check & Optimisation',
+        seoTitle: 'BEST Website Optimisation Kaufbeuren | Website Check, SEO Check, Loading Speed & Google Analysis Near You | More Visibility and More Enquiries | Valbrix Digital',
+        h1: 'Website Optimisation Kaufbeuren',
+        metaDescription: 'Website optimisation in Kaufbeuren: we check your website the way Google sees it, fix the errors and show you in writing what changed.',
+        intro: 'We do website optimisation in Kaufbeuren. We check the websites of businesses in Kaufbeuren and the Ostallgäu the way Google sees them, fix the errors and then show you, with dates, what changed. Without a new website if you don\'t need one.',
+        includes: [
+          'Website check: how Google sees your site, summed up on one page',
+          'How many of your pages are actually on Google',
+          'Titles, headings, text, loading speed and mobile view',
+          'Fixing the errors and measuring before and after',
+        ],
+        whyItMatters: 'Many websites in Kaufbeuren aren\'t bad, they\'re just invisible. A few errors nobody notices are enough for Google not to show a page. The good news: these errors can often be fixed in a few days.',
+        sections: [
+          {
+            h2: 'Website optimisation in Kaufbeuren: check first, then fix',
+            paragraphs: [
+              'You have a website. It looks fine. But hardly anyone comes from Google, and nobody has called because of it yet. The obvious idea is a new website. Often that\'s the most expensive fix for a problem that can be solved for less.',
+              'Before anything gets rebuilt, we look at what Google sees of your site. Not what you see in your browser, but what reaches Google. That\'s where most errors are.',
+            ],
+          },
+          {
+            h2: 'What we check in the website check',
+            paragraphs: [
+              'For every website check in Kaufbeuren we go through the same list:',
+            ],
+            list: [
+              'Is your site on Google? We count how many of your pages are indexed and check whether anything is blocked by mistake.',
+              'Titles and headings. Does every title say what you do and where? Does every page have exactly one main heading? Without "Kaufbeuren", nobody searching "in Kaufbeuren" finds you.',
+              'Does Google see your text? Some websites only show their content once JavaScript has loaded. No problem for visitors, often a problem for Google and AI search.',
+              'Enough content. A service page with three sentences tells Google too little. We check whether every important page explains what you do, for whom and where.',
+              'Loading speed and mobile. We measure with Google\'s PageSpeed Insights test and look at the site on a phone, the way your customers do.',
+              'Name, address and phone number. Are they on the website exactly as in your Google Business Profile? Differences confuse Google.',
+              'Structured data. Can Google read from the code that you\'re a local business in Kaufbeuren, with opening hours and services?',
+              'Contact. Is the phone number tappable, does the form work, and is an enquiry counted?',
+            ],
+            after: [
+              'Anything we can\'t check because we lack access is marked "not checked" in the result. We don\'t fill gaps with guesses.',
+            ],
+          },
+          {
+            h2: 'What you get',
+            paragraphs: [
+              'Not a 40-page PDF nobody reads. You get one light page you can read on your phone. At the top, the main point in one sentence. Below, every item with a colour: good, partly there, needs fixing, not checked.',
+              'Plus the five most important next steps, in the right order. And what\'s already working, so nobody fixes it into the ground.',
+              'Then you decide: fix the errors yourself, have your web designer fix them, or have us do it.',
+            ],
+          },
+          {
+            h2: 'A real example: our own website',
+            paragraphs: [
+              'On 3 November 2026 we checked valbrixdigital.com exactly like this. The result: only 14 of 18 pages were on Google. The service pages had about 190 words and no "Kaufbeuren" in the title. Every page first sent Google the homepage title. The FAQ answers were collapsed.',
+              'We fixed it the same day: new titles and headings, a separate title for every page before the JavaScript, more text on the service pages, all answers visible. Then we resubmitted the sitemap in Search Console.',
+              'On 4 November 2026 all 18 of 18 pages were on Google. On 3 November the site scored 98 out of 100 for loading speed on mobile in Google\'s PageSpeed Insights test. That isn\'t a client result, but it\'s real, and it shows how we work.',
+            ],
+          },
+          {
+            h2: 'How the optimisation works',
+            paragraphs: [
+              'After the check it goes like this:',
+            ],
+            list: [
+              'Save the baseline. Indexed pages, search terms, clicks and position from Google Search Console, with dates. Without a baseline nobody can tell you later whether it worked.',
+              'Big errors first. Blocked pages, missing titles, text Google can\'t see. Often done in a few days.',
+              'Sharpen the content. Expand service pages, name towns, answer the questions your customers actually ask.',
+              'Submit to Google. Resubmit the sitemap and important pages in Search Console.',
+              'Measure again. After a few weeks we compare with the baseline. Before and after, with dates.',
+            ],
+          },
+          {
+            h2: 'Website optimisation, web design or SEO?',
+            paragraphs: [
+              'Website optimisation fixes what\'s there. If your site is so old that fixing isn\'t worth it, [Web Design](/leistungen/webdesign) is the better route. If Google can read your site well but too few visitors call, our [Website & Landing Page Strategy](/leistungen/website-landing-page-strategy) helps.',
+              'And if the site is technically clean and you\'re still not at the top, it takes ongoing work on content, your Google profile and directories. That\'s [SEO Optimization](/leistungen/seo-optimization). The website check shows you which route is right for you.',
+            ],
+          },
+          {
+            h2: 'What website optimisation in Kaufbeuren costs',
+            paragraphs: [
+              'The check is a manageable, one-off job. What the fixes cost depends on what we find and which system your site is built on. You get the price as a fixed number after the free call.',
+              'Not based in Kaufbeuren? We also do the website check for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete). Nobody needs to come by.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about website optimisation in Kaufbeuren',
+        faq: [
+          {
+            question: 'Where can I get my website optimised?',
+            answer: 'At an agency that checks first, then fixes, and shows you before and after with dates. In Kaufbeuren and the Ostallgäu that\'s exactly what we do. The first call is free.',
+          },
+          {
+            question: 'How can I make my website easier to find?',
+            answer: 'The main steps: put service and town in every title, create a separate page for every service, make the site fast and mobile-friendly, keep name, address and phone number the same everywhere and submit the site in Google Search Console. The website check shows what\'s missing in your case.',
+          },
+          {
+            question: 'Do I need a new website for this?',
+            answer: 'Usually not. Many errors can be fixed in the existing site. If fixing isn\'t worth it anymore, we tell you honestly and why.',
+          },
+          {
+            question: 'What access do you need?',
+            answer: 'For the first check, your website address is enough. For the full check we need access to Google Search Console. For the fixes, access to your website. Everything stays in your name.',
+          },
+          {
+            question: 'How fast will I see results?',
+            answer: 'The errors are often fixed in a few days. Google usually takes a few days to a few weeks to pick up the changes. That\'s why we save the baseline first and measure again afterwards.',
+          },
+          {
+            question: 'Does this work with WordPress, Wix or Jimdo?',
+            answer: 'Yes, the check works with any system. What can be fixed depends on the system. Some site builders only allow limited control over titles or loading speed. If so, it\'s in the result.',
           },
         ],
       },

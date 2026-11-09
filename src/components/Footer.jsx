@@ -11,6 +11,7 @@ const serviceLinkSlugs = [
   'content-creation',
   'lead-generation',
   'webdesign',
+  'website-optimierung',
   'website-landing-page-strategy',
   'analytics-reporting',
 ]

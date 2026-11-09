@@ -61,6 +61,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://valbrixdigital.com/leistungen/website-optimierung</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://valbrixdigital.com/leistungen/website-landing-page-strategy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
