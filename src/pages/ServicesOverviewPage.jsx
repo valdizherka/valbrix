@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'grafikdesign', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'mitarbeitergewinnung', 'brand-strategy', 'grafikdesign', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -35,6 +35,7 @@ const copy = {
       ['Google Ads', 'Anfragen von Leuten, die genau jetzt suchen.', 'Ein paar Tage'],
       ['Meta Ads', 'Auf Facebook und Instagram gesehen werden, bevor jemand sucht.', 'Ein paar Tage'],
       ['Social-Media-Management', 'Vertrauen, bevor der erste Anruf kommt.', 'Laufend'],
+      ['Mitarbeitergewinnung', 'Fachkräfte und Azubis über Facebook und Instagram finden.', 'Ein paar Wochen'],
       ['Markenstrategie', 'Klar sagen, wofür Sie stehen.', 'Einmal machen, wirkt überall'],
       ['Grafikdesign', 'Grafiken für Social Media, Anzeigen und Website, die auf dem Handy wirken.', 'Ein paar Tage'],
       ['Content-Erstellung', 'Fotos, Videos und Texte, die nach Ihnen aussehen.', 'Laufend'],
@@ -102,6 +103,7 @@ const copy = {
       ['Google Ads', 'Inquiries from people searching right now.', 'A few days'],
       ['Meta Ads', 'Get seen on Facebook and Instagram before anyone searches.', 'A few days'],
       ['Social Media Management', 'Trust before the first call comes in.', 'Ongoing'],
+      ['Staff Recruitment', 'Find skilled workers and apprentices via Facebook and Instagram.', 'A few weeks'],
       ['Brand Strategy', 'Say clearly what you stand for.', 'Do it once, works everywhere'],
       ['Graphic Design', 'Graphics for social media, ads and website that work on mobile.', 'A few days'],
       ['Content Creation', 'Photos, videos and copy that look like you.', 'Ongoing'],

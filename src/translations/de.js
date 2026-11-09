@@ -232,7 +232,7 @@ export default {
             list: [
               'Ihre Arbeit sich zeigen lässt und Leute sie gern anschauen.',
               'Sie Stammkunden haben oder haben wollen. Cafés, Friseure, Studios, Läden, Praxen.',
-              'Sie Mitarbeiter oder Azubis in der Region suchen.',
+              'Sie Mitarbeiter oder Azubis in der Region suchen. Mehr dazu bei [Mitarbeitergewinnung](/leistungen/mitarbeitergewinnung).',
             ],
             after: [
               'Es lohnt sich weniger, wenn Ihre Kunden nur im Notfall an Sie denken und dann googeln. Dann ist [SEO](/leistungen/seo-optimization) der bessere Hebel. Sie sitzen außerhalb von Kaufbeuren? Wir kommen auch nach Kempten, Memmingen und ins ganze [Ostallgäu](/einsatzgebiete).',
@@ -1591,6 +1591,106 @@ export default {
           },
         ],
       },
+      'mitarbeitergewinnung': {
+        title: 'Mitarbeitergewinnung',
+        seoTitle: 'BESTE Agentur für Mitarbeitergewinnung Kaufbeuren | Social Recruiting, Azubis & Fachkräfte über Facebook und Instagram in Ihrer Nähe | Bewerbung in 2 Minuten | Valbrix Digital',
+        h1: 'Mitarbeitergewinnung Kaufbeuren',
+        metaDescription: 'Mitarbeitergewinnung in Kaufbeuren über Social Media: Anzeigen auf Facebook und Instagram im Umkreis, Einblicke in Ihren Betrieb, Bewerbung in zwei Minuten.',
+        intro: 'Wir helfen Betrieben in Kaufbeuren und dem Ostallgäu, Mitarbeiter und Azubis über Social Media zu finden. Mit echten Einblicken in Ihren Betrieb, Anzeigen auf Facebook und Instagram im Umkreis und einer einfachen Bewerbungsseite, über die sich Interessierte in zwei Minuten melden.',
+        includes: [
+          'Was Ihren Betrieb als Arbeitgeber besonders macht, klar formuliert',
+          'Fotos und kurze Videos aus Ihrem echten Arbeitsalltag',
+          'Anzeigen auf Facebook und Instagram, gezielt im Umkreis',
+          'Eine Bewerbungsseite fürs Handy, ohne Anschreiben und Lebenslauf-Upload',
+        ],
+        whyItMatters: 'Die meisten guten Fachkräfte suchen gerade gar keinen Job. Sie schauen nicht in Stellenportale. Aber sie scrollen jeden Abend durch Instagram und Facebook. Dort erreichen Sie sie, bevor die Konkurrenz es tut.',
+        sections: [
+          {
+            h2: 'Mitarbeitergewinnung in Kaufbeuren: dort suchen, wo die Leute schon sind',
+            paragraphs: [
+              'Eine Stellenanzeige im Portal erreicht die Leute, die gerade aktiv suchen. Das sind wenige, und um die kämpfen alle. Der Elektriker, der in seinem jetzigen Betrieb einigermaßen zufrieden ist, sieht Ihre Anzeige dort nie.',
+              'Social Recruiting dreht das um. Sie zeigen Ihren Betrieb dort, wo die Leute ohnehin jeden Tag sind: auf Facebook und Instagram, im Umkreis von Kaufbeuren. Nicht mit „Wir suchen dich!“ und einem Stockfoto, sondern mit echten Einblicken: Wie sieht ein Arbeitstag bei Ihnen aus, wer ist im Team, was ist anders als woanders?',
+              'Wer das sieht und denkt „Da würde ich gern arbeiten“, soll sich sofort melden können. Am Handy, in zwei Minuten.',
+            ],
+          },
+          {
+            h2: 'Was ist Social Recruiting?',
+            paragraphs: [
+              'Social Recruiting heißt: Mitarbeiter über soziale Netzwerke gewinnen. Für Betriebe im Allgäu sind das vor allem Facebook und Instagram, für Azubis auch TikTok. Dazu gehören Beiträge, die Ihren Betrieb als Arbeitgeber zeigen, bezahlte Anzeigen, die gezielt Leute in der Region erreichen, und eine Seite, auf der man sich ohne großen Aufwand bewirbt.',
+              'Für Bürojobs in Konzernen gibt es dafür auch LinkedIn. Für Handwerk, Pflege, Gastronomie und Produktion sind Facebook und Instagram in der Regel der bessere Weg, weil die Leute dort privat unterwegs sind.',
+            ],
+          },
+          {
+            h2: 'So gewinnen wir Mitarbeiter für Ihren Betrieb',
+            paragraphs: [
+              'Ein Recruiting-Projekt läuft bei uns in dieser Reihenfolge:',
+            ],
+            list: [
+              'Gespräch. Welche Stelle, welche Leute, welcher Umkreis? Und vor allem: Warum sollte jemand zu Ihnen wechseln? Bessere Arbeitszeiten, ein gutes Team, moderne Maschinen, kurze Wege? Das ist der Kern jeder Anzeige.',
+              'Einblicke sammeln. Wir fotografieren und filmen bei Ihnen: das Team, die Werkstatt, ein typischer Auftrag. Echt, nicht gestellt. Mehr dazu bei [Content-Erstellung](/leistungen/content-creation).',
+              'Bewerbungsseite bauen. Eine Seite fürs Handy mit den wichtigsten Infos zur Stelle und ein paar kurzen Fragen. Kein Anschreiben, kein Lebenslauf-Upload. Name, Telefonnummer, ein paar Klicks, fertig.',
+              'Anzeigen schalten. Auf Facebook und Instagram, gezielt im Umkreis um Ihren Betrieb. In mehreren Varianten, damit sich zeigt, welche am besten ankommt. Mehr dazu bei [Meta Ads](/leistungen/meta-ads).',
+              'Bewerbungen weitergeben. Jede Bewerbung kommt sofort bei Ihnen an, per E-Mail oder Nachricht.',
+              'Messen und nachschärfen. Wir schauen jede Woche, was eine Bewerbung kostet und welche Anzeige am besten läuft. Die schwachen fliegen raus.',
+            ],
+          },
+          {
+            h2: 'Was Sie selbst beitragen',
+            paragraphs: [
+              'Der wichtigste Teil liegt bei Ihnen: schnell zurückrufen. Wer sich am Handy bewirbt, ist heute interessiert. Wenn er erst nach einer Woche etwas hört, hat er sich längst woanders gemeldet. Am besten rufen Sie innerhalb von ein bis zwei Tagen an.',
+              'Dazu ein paar Stunden Zeit für den Drehtag und ein Team, das bereit ist, kurz in die Kamera zu sagen, warum es gern bei Ihnen arbeitet. Das wirkt stärker als jeder Werbetext.',
+            ],
+          },
+          {
+            h2: 'Ihre Stellen auch bei Google',
+            paragraphs: [
+              'Social Media erreicht die Leute, die nicht suchen. Für die, die doch suchen, gehören Ihre Stellen auch auf Ihre Website, sauber aufgebaut, damit Google sie in der Jobsuche zeigen kann. Das bauen wir auf Wunsch mit ein. Siehe [Webdesign](/leistungen/webdesign).',
+              'Und weil viele Bewerber vorher auf Ihr Google-Profil schauen: Echte Fotos vom Team und aktuelle Bewertungen helfen auch hier. Siehe [Google-Unternehmensprofil](/leistungen/google-unternehmensprofil).',
+            ],
+          },
+          {
+            h2: 'Worauf wir rechtlich achten',
+            paragraphs: [
+              'Stellenanzeigen müssen in Deutschland nach dem Allgemeinen Gleichbehandlungsgesetz neutral formuliert sein, zum Beispiel mit (m/w/d), und dürfen niemanden wegen Alter oder Geschlecht ausschließen. Bewerberdaten werden nur für die Bewerbung genutzt und nach einer festen Frist gelöscht. Wir richten die Bewerbungsseite und die Datenschutzhinweise entsprechend ein. Für die rechtliche Prüfung im Einzelfall ist ein Anwalt zuständig.',
+            ],
+          },
+          {
+            h2: 'Was Mitarbeitergewinnung über Social Media kostet',
+            paragraphs: [
+              'Es gibt zwei Posten: unsere Gebühr für Einrichtung, Inhalte und Betreuung, und das Werbebudget, das Sie direkt an Meta zahlen und selbst festlegen. Wie viel Budget sinnvoll ist, hängt von der Stelle, dem Umkreis und der Konkurrenz ab.',
+              'Wie viele Bewerbungen kommen, können wir vorher nicht versprechen. Wir messen aber ab dem ersten Tag, was eine Bewerbung kostet, und sagen Ihnen ehrlich, wenn es sich nicht lohnt. Den Preis bekommen Sie nach dem kostenlosen Gespräch.',
+              'Sie sitzen nicht in Kaufbeuren? Wir arbeiten auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe) und im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Mitarbeitergewinnung in Kaufbeuren',
+        faq: [
+          {
+            question: 'Was kostet Social Media Recruiting?',
+            answer: 'Zwei Posten: unsere Gebühr für Einrichtung und Betreuung, und das Werbebudget, das Sie selbst festlegen und direkt an Meta zahlen. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis für unsere Arbeit.',
+          },
+          {
+            question: 'Funktioniert das auch für Azubis?',
+            answer: 'Ja, oft sogar besonders gut. Junge Leute schauen kaum in Stellenportale, aber täglich auf Instagram und TikTok. Wichtig ist, dass die Inhalte echt sind und nicht peinlich wirken.',
+          },
+          {
+            question: 'Brauche ich dafür eigene Social-Media-Kanäle?',
+            answer: 'Es hilft, ist aber kein Muss. Anzeigen laufen über eine Facebook-Seite. Wenn Sie noch keine haben, richten wir sie ein. Wer sich für Sie interessiert, schaut aber meist kurz auf Ihr Profil, deshalb sollte dort etwas zu sehen sein.',
+          },
+          {
+            question: 'Wie viele Bewerbungen bekomme ich?',
+            answer: 'Das können wir vorher nicht versprechen. Es hängt von der Stelle, dem Umkreis, dem Budget und davon ab, wie attraktiv Ihr Angebot ist. Wir messen ab dem ersten Tag und sagen Ihnen ehrlich, was wir sehen.',
+          },
+          {
+            question: 'Muss ich selbst vor die Kamera?',
+            answer: 'Nein. Oft wirkt es aber stark, wenn der Chef oder ein Teammitglied in ein paar Sätzen erzählt, was den Betrieb ausmacht. Wir helfen dabei, dass es natürlich wirkt.',
+          },
+          {
+            question: 'Wie schnell sehe ich erste Bewerbungen?',
+            answer: 'Wenn Inhalte und Bewerbungsseite stehen, laufen die Anzeigen sofort. Erste Reaktionen sehen Sie meist innerhalb weniger Tage. Ob daraus gute Bewerbungen werden, zeigt sich in den ersten Wochen.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',
@@ -2158,7 +2258,7 @@ export default {
             list: [
               'Ihre Kunden Sie bei Google suchen, wenn sie Sie brauchen. Handwerk, Werkstätten, Praxen, Friseure, Dienstleister.',
               'Sie Pendler und Besucher erreichen wollen, die nur tagsüber in der Stadt sind, zum Beispiel mit Mittagstisch, Einzelhandel oder schnellen Terminen.',
-              'Sie Mitarbeiter oder Azubis in der Region suchen und dabei gegen große Arbeitgeber bestehen müssen.',
+              'Sie [Mitarbeiter oder Azubis](/leistungen/mitarbeitergewinnung) in der Region suchen und dabei gegen große Arbeitgeber bestehen müssen.',
             ],
             after: [
               'Sie sitzen nicht in Marktoberdorf selbst? Schauen Sie bei unseren [Einsatzgebieten](/einsatzgebiete), bei [Kempten](/werbeagentur-kempten) oder bei [Memmingen](/werbeagentur-memmingen).',

@@ -9,6 +9,7 @@ const serviceLinkSlugs = [
   'google-ads',
   'meta-ads',
   'social-media-management',
+  'mitarbeitergewinnung',
   'brand-strategy',
   'grafikdesign',
   'content-creation',

@@ -232,7 +232,7 @@ export default {
             list: [
               'your work can be shown and people like looking at it.',
               'you have regulars or want them. Cafés, hairdressers, studios, shops, practices.',
-              'you are looking for staff or apprentices in the region.',
+              'you are looking for staff or apprentices in the region. More under [Staff Recruitment](/leistungen/mitarbeitergewinnung).',
             ],
             after: [
               'It\'s worth less if customers only think of you in an emergency and then google. Then [SEO](/leistungen/seo-optimization) is the better lever. Based outside Kaufbeuren? We also come to Kempten, Memmingen and the whole [Ostallgäu](/einsatzgebiete).',
@@ -1591,6 +1591,106 @@ export default {
           },
         ],
       },
+      'mitarbeitergewinnung': {
+        title: 'Staff Recruitment',
+        seoTitle: 'BEST Staff Recruitment Agency Kaufbeuren | Social Recruiting, Apprentices & Skilled Workers via Facebook and Instagram Near You | Apply in 2 Minutes | Valbrix Digital',
+        h1: 'Staff Recruitment Kaufbeuren',
+        metaDescription: 'Staff recruitment in Kaufbeuren via social media: Facebook and Instagram ads in your area, real insights into your business, applications in two minutes.',
+        intro: 'We help businesses in Kaufbeuren and the Ostallgäu find staff and apprentices through social media. With real insights into your business, ads on Facebook and Instagram in your area and a simple application page where people can get in touch in two minutes.',
+        includes: [
+          'What makes your business special as an employer, clearly put',
+          'Photos and short videos from your real working day',
+          'Ads on Facebook and Instagram, targeted to your area',
+          'A mobile application page, no cover letter or CV upload',
+        ],
+        whyItMatters: 'Most good skilled workers aren\'t looking for a job right now. They don\'t check job boards. But they scroll through Instagram and Facebook every evening. That\'s where you reach them, before the competition does.',
+        sections: [
+          {
+            h2: 'Staff recruitment in Kaufbeuren: look where people already are',
+            paragraphs: [
+              'A job ad on a portal reaches people who are actively searching. There are few of them, and everyone is fighting for them. The electrician who is reasonably happy in their current job never sees your ad there.',
+              'Social recruiting turns that around. You show your business where people already are every day: on Facebook and Instagram, around Kaufbeuren. Not with "We want you!" and a stock photo, but with real insights: what does a working day look like with you, who\'s on the team, what\'s different from elsewhere?',
+              'Anyone who sees that and thinks "I\'d like to work there" should be able to get in touch right away. On their phone, in two minutes.',
+            ],
+          },
+          {
+            h2: 'What is social recruiting?',
+            paragraphs: [
+              'Social recruiting means winning staff through social networks. For businesses in the Allgäu that\'s mainly Facebook and Instagram, and TikTok for apprentices. It includes posts that show your business as an employer, paid ads that reach people in the region, and a page where applying takes little effort.',
+              'For office jobs in large companies there\'s LinkedIn too. For trades, care, hospitality and production, Facebook and Instagram are usually the better route, because people are there privately.',
+            ],
+          },
+          {
+            h2: 'How we find staff for your business',
+            paragraphs: [
+              'A recruiting project with us follows this order:',
+            ],
+            list: [
+              'Call. Which role, which people, which area? And above all: why should someone switch to you? Better hours, a good team, modern machines, short distances? That\'s the core of every ad.',
+              'Gather insights. We photograph and film at your place: the team, the workshop, a typical job. Real, not staged. More under [Content Creation](/leistungen/content-creation).',
+              'Build the application page. A mobile page with the key facts about the role and a few short questions. No cover letter, no CV upload. Name, phone number, a few taps, done.',
+              'Run the ads. On Facebook and Instagram, targeted around your business. In several variants, so it shows which works best. More under [Meta Ads](/leistungen/meta-ads).',
+              'Pass on applications. Every application reaches you immediately, by email or message.',
+              'Measure and refine. Every week we check what an application costs and which ad performs best. The weak ones go.',
+            ],
+          },
+          {
+            h2: 'What you contribute',
+            paragraphs: [
+              'The most important part is yours: call back quickly. Someone who applies on their phone is interested today. If they hear nothing for a week, they\'ve long applied elsewhere. Ideally call within one or two days.',
+              'Plus a few hours for the filming day and a team willing to say briefly on camera why they like working with you. That\'s stronger than any ad copy.',
+            ],
+          },
+          {
+            h2: 'Your jobs on Google too',
+            paragraphs: [
+              'Social media reaches people who aren\'t searching. For those who are, your jobs also belong on your website, built properly so Google can show them in its job search. We build that in on request. See [Web Design](/leistungen/webdesign).',
+              'And because many applicants check your Google profile first: real team photos and recent reviews help here too. See [Google Business Profile](/leistungen/google-unternehmensprofil).',
+            ],
+          },
+          {
+            h2: 'What we watch out for legally',
+            paragraphs: [
+              'In Germany, job ads must be worded neutrally under the General Equal Treatment Act, for example with (m/f/d), and must not exclude anyone because of age or gender. Applicant data is only used for the application and deleted after a fixed period. We set up the application page and privacy notices accordingly. A lawyer is responsible for legal review in individual cases.',
+            ],
+          },
+          {
+            h2: 'What staff recruitment via social media costs',
+            paragraphs: [
+              'There are two items: our fee for setup, content and management, and the ad budget, which you pay directly to Meta and set yourself. How much budget makes sense depends on the role, the area and the competition.',
+              'We can\'t promise beforehand how many applications will come in. But from day one we measure what an application costs, and we tell you honestly if it isn\'t worth it. You get the price after the free call.',
+              'Not based in Kaufbeuren? We also work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe) and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about staff recruitment in Kaufbeuren',
+        faq: [
+          {
+            question: 'What does social media recruiting cost?',
+            answer: 'Two items: our fee for setup and management, and the ad budget, which you set yourself and pay directly to Meta. After the free call you get a fixed price for our work.',
+          },
+          {
+            question: 'Does this work for apprentices too?',
+            answer: 'Yes, often especially well. Young people hardly look at job boards, but check Instagram and TikTok daily. What matters is that the content is real and not cringeworthy.',
+          },
+          {
+            question: 'Do I need my own social media channels?',
+            answer: 'It helps but isn\'t a must. Ads run through a Facebook page. If you don\'t have one, we set it up. People interested in you usually glance at your profile, though, so there should be something to see.',
+          },
+          {
+            question: 'How many applications will I get?',
+            answer: 'We can\'t promise that beforehand. It depends on the role, the area, the budget and how attractive your offer is. We measure from day one and tell you honestly what we see.',
+          },
+          {
+            question: 'Do I have to be on camera myself?',
+            answer: 'No. But it often works well when the boss or a team member says in a few sentences what makes the business special. We help make it feel natural.',
+          },
+          {
+            question: 'How quickly will I see first applications?',
+            answer: 'Once content and the application page are ready, the ads run immediately. You usually see first responses within a few days. Whether they turn into good applications shows over the first weeks.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',
@@ -2156,7 +2256,7 @@ export default {
             list: [
               'Your customers search for you on Google when they need you. Trades, garages, practices, hairdressers, service providers.',
               'You want to reach commuters and visitors who are only in town during the day, for example with lunch, retail or quick appointments.',
-              'You\'re looking for staff or apprentices in the region and have to compete with large employers.',
+              'You\'re looking for [staff or apprentices](/leistungen/mitarbeitergewinnung) in the region and have to compete with large employers.',
             ],
             after: [
               'Not based in Marktoberdorf itself? See our [service areas](/einsatzgebiete), [Kempten](/werbeagentur-kempten) or [Memmingen](/werbeagentur-memmingen).',
