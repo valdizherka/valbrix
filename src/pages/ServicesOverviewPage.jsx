@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['online-marketing', 'seo-optimization', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -31,6 +31,7 @@ const copy = {
     rows: [
       ['Online Marketing', 'Alles aus einer Hand, in der richtigen Reihenfolge.', 'Je nach Kanal'],
       ['SEO-Optimierung', 'Anfragen über Google, ohne für jeden Klick zu zahlen.', '3 bis 6 Monate'],
+      ['Google-Unternehmensprofil', 'Auf der Google-Karte auftauchen, wenn jemand in der Nähe sucht.', 'Ein paar Wochen'],
       ['Google Ads', 'Anfragen von Leuten, die genau jetzt suchen.', 'Ein paar Tage'],
       ['Meta Ads', 'Auf Facebook und Instagram gesehen werden, bevor jemand sucht.', 'Ein paar Tage'],
       ['Social-Media-Management', 'Vertrauen, bevor der erste Anruf kommt.', 'Laufend'],
@@ -96,6 +97,7 @@ const copy = {
     rows: [
       ['Online Marketing', 'Everything from one source, in the right order.', 'Depends on the channel'],
       ['SEO Optimization', 'Inquiries through Google, without paying for every click.', '3 to 6 months'],
+      ['Google Business Profile', 'Show up on the Google map when someone nearby searches.', 'A few weeks'],
       ['Google Ads', 'Inquiries from people searching right now.', 'A few days'],
       ['Meta Ads', 'Get seen on Facebook and Instagram before anyone searches.', 'A few days'],
       ['Social Media Management', 'Trust before the first call comes in.', 'Ongoing'],

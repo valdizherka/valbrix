@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext'
 const serviceLinkSlugs = [
   'online-marketing',
   'seo-optimization',
+  'google-unternehmensprofil',
   'google-ads',
   'meta-ads',
   'social-media-management',

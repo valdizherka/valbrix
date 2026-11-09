@@ -294,7 +294,7 @@ export default {
               'Messung zuerst. Wir verbinden die Google Search Console und richten das Tracking für Anrufe und Anfragen ein. Dann speichern wir den Startwert mit Datum. Ohne diesen Startwert kann Ihnen später keiner sagen, ob SEO etwas gebracht hat.',
               'Kann Google Ihre Seite lesen? Wir prüfen, wie viele Ihrer Seiten überhaupt bei Google sind, ob versehentlich etwas gesperrt ist und ob Google den Text findet, den Sie geschrieben haben.',
               'Jede Seite, die Geld bringen soll. Titel, Beschreibung, Überschriften, die ersten 100 Wörter, Bilder, Ladezeit, Handy. Jede Leistungsseite sagt klar, was Sie machen und wo.',
-              'Google-Unternehmensprofil. Richtige Kategorien, echte Fotos, Öffnungszeiten, Leistungen und ein fester Ablauf, wie Sie zu mehr Bewertungen kommen.',
+              'Google-Unternehmensprofil. Richtige Kategorien, echte Fotos, Öffnungszeiten, Leistungen und ein fester Ablauf, wie Sie zu mehr Bewertungen kommen. Mehr dazu bei [Google-Unternehmensprofil optimieren](/leistungen/google-unternehmensprofil).',
               'Einträge in Verzeichnissen. Name, Adresse und Telefonnummer überall gleich, zum Beispiel bei Das Örtliche, Cylex, Yelp und Bing Places.',
               'Inhalte, die nur Sie schreiben können. Eine eigene Seite pro Leistung, mit echten Preisen, echten Aufträgen und echten Fotos. Wenn ein Konkurrent seinen Namen einsetzen und Ihren Text benutzen könnte, sagt der Text nichts.',
             ],
@@ -1366,6 +1366,115 @@ export default {
           {
             question: 'Muss ich mich lange binden?',
             answer: 'Nein. Wir arbeiten monatlich kündbar. Alle Konten, Profile und Zugänge laufen auf Ihren Namen. Wenn Sie aufhören, nehmen Sie alles mit.',
+          },
+        ],
+      },
+      'google-unternehmensprofil': {
+        title: 'Google-Unternehmensprofil',
+        seoTitle: 'BESTE Google-Unternehmensprofil Agentur Kaufbeuren | Google My Business optimieren, Google Maps, Bewertungen & Beiträge in Ihrer Nähe | Mehr Anrufe aus der Karte | Valbrix Digital',
+        h1: 'Google-Unternehmensprofil optimieren in Kaufbeuren',
+        metaDescription: 'Google-Unternehmensprofil optimieren in Kaufbeuren: Kategorien, Leistungen, Fotos, Beiträge und Bewertungen, damit Ihr Betrieb auf der Google-Karte gefunden wird.',
+        intro: 'Wir optimieren Google-Unternehmensprofile in Kaufbeuren. Für Betriebe aus Kaufbeuren und dem Ostallgäu bauen wir das Profil vollständig aus, das früher Google My Business hieß: passende Kategorien, alle Leistungen mit Beschreibung, echte Fotos, Beiträge und ein fester Ablauf für Bewertungen. Damit Sie auf der Karte auftauchen, wenn jemand in Ihrer Nähe sucht.',
+        includes: [
+          'Kategorien prüfen und ergänzen, nur solche, die wirklich passen',
+          'Alle Leistungen eintragen, jede mit eigener Beschreibung',
+          'Profil vollständig: Website, Telefon, Buchungslink, Öffnungszeiten, Feiertage',
+          'Wöchentliche Beiträge, echte Fotos und ein Ablauf für Bewertungen',
+        ],
+        whyItMatters: 'Wer in Kaufbeuren nach einem Betrieb sucht, sieht zuerst die Google-Karte mit drei Einträgen. Die meisten rufen dort an und scrollen nie weiter. Ihr Google-Unternehmensprofil entscheidet, ob Sie einer dieser drei sind.',
+        sections: [
+          {
+            h2: 'Das Google-Unternehmensprofil: Ihr wichtigster Eintrag im Internet',
+            paragraphs: [
+              'Ihr Google-Unternehmensprofil ist der Kasten, den Google rechts neben den Suchergebnissen und auf Google Maps zeigt: Name, Bewertungen, Fotos, Öffnungszeiten, Telefonnummer, Route. Für viele Kunden ist das der erste Kontakt mit Ihrem Betrieb, noch vor der Website.',
+              'Das Profil selbst kostet nichts. Trotzdem ist es bei den meisten Betrieben halb leer. Ein paar Fotos, die Adresse, die Telefonnummer, fertig. Google hat dann wenig, womit es Ihren Betrieb einer Suche zuordnen kann.',
+              'Google selbst nennt drei Dinge, nach denen es die Karte sortiert: wie gut ein Eintrag zur Suche passt, wie weit er entfernt ist und wie bekannt der Betrieb ist. Die Entfernung können wir nicht ändern. Bei den anderen beiden ist das Profil der größte Hebel.',
+            ],
+          },
+          {
+            h2: 'Was wir an Ihrem Profil optimieren',
+            paragraphs: [
+              'Bei jedem Google-Unternehmensprofil in Kaufbeuren gehen wir diese Punkte durch:',
+            ],
+            list: [
+              'Name. Der echte Name Ihres Betriebs, ohne angehängte Suchbegriffe. Alles andere verstößt gegen Googles Regeln und kann das Profil sperren.',
+              'Kategorien. Eine Hauptkategorie und mehrere weitere, aber nur solche, die Sie wirklich machen. Wir schauen, welche Kategorien die Betriebe oben auf der Karte nutzen.',
+              'Leistungen. Jede Leistung, die Sie anbieten, als eigener Eintrag mit kurzer Beschreibung. Das gibt Google mehr Wörter, mit denen es Sie Suchanfragen zuordnen kann.',
+              'Vollständiges Profil. Website, Telefonnummer, Öffnungszeiten, Feiertage im Voraus, Buchungs- oder Kontaktlink, passende Merkmale.',
+              'Website-Link. Er führt auf die Seite, die zu Ihrer Hauptleistung und Ihrem Ort passt, mit demselben Namen, derselben Adresse und derselben Telefonnummer.',
+              'Fotos. Echte Fotos von Ihnen, Ihrem Team, Ihrer Arbeit und Ihrem Betrieb. Keine Stockbilder, keine KI-Bilder.',
+              'Beiträge. Jede Woche ein kurzer Beitrag über einen echten Auftrag: was es war, wo, was schwierig war.',
+              'Bewertungen. Ein einfacher Ablauf, wie Sie jeden zufriedenen Kunden um eine ehrliche Bewertung bitten. Und Antworten auf jede Bewertung, auch die kritischen.',
+            ],
+          },
+          {
+            h2: 'Was wir auf der Karte in Kaufbeuren gesehen haben',
+            paragraphs: [
+              'Am 9. November 2026 haben wir uns die Profile der Werbeagenturen angesehen, die Google auf der Karte für „Werbeagentur Kaufbeuren“ zeigt. Bei fünf von ihnen zeigte Google gar keine Leistungen. Bei den anderen waren es zwischen einer und sechzehn.',
+              'Das ist typisch, auch in anderen Branchen. Die meisten Betriebe füllen ihr Profil einmal aus und schauen es nie wieder an. Genau deshalb bringt es so viel, es richtig zu machen. Wer seine Leistungen vollständig einträgt, jede Woche postet und regelmäßig Bewertungen sammelt, hebt sich ab.',
+              'Unser eigenes Profil haben wir am selben Tag auf 33 Leistungen mit Beschreibung gebracht, ausgewählt aus dem, was die Betriebe auf der Karte eintragen, und gekürzt auf das, was wir wirklich anbieten. Ob und wie sich das auf der Karte auswirkt, messen wir in den nächsten Wochen.',
+            ],
+          },
+          {
+            h2: 'Ein Fehler, den fast jeder macht: die Kategorien',
+            paragraphs: [
+              'Die Hauptkategorie ist der wichtigste Einzelpunkt im Profil. Und sie lässt sich leicht falsch setzen. In der deutschen Ansicht heißen manche Kategorien gleich, obwohl es verschiedene sind. Zwei englische Kategorien erscheinen zum Beispiel beide als „Werbeagentur“.',
+              'Uns ist genau das selbst passiert: Beim Speichern war plötzlich die falsche Hauptkategorie gesetzt. Seitdem ändern wir Kategorien nur noch in der englischen Ansicht und prüfen den genauen Namen vor dem Speichern. Klingt nach einer Kleinigkeit, entscheidet aber darüber, bei welchen Suchen Sie überhaupt auftauchen.',
+            ],
+          },
+          {
+            h2: 'So läuft die Optimierung ab',
+            paragraphs: [
+              'Die Arbeit am Profil läuft in dieser Reihenfolge:',
+            ],
+            list: [
+              'Startwert. Wir halten fest, wo Ihr Profil heute auf der Karte steht, wie viele Bewertungen und Fotos Sie haben und was die Betriebe vor Ihnen anders machen. Mit Datum.',
+              'Zugang. Sie geben uns Zugriff auf das Profil. Es bleibt auf Ihren Namen, wir sind nur eingeladen.',
+              'Grundlagen. Kategorien, Leistungen, Beschreibungen, Öffnungszeiten, Website-Link, Buchungslink. Das meiste ist in wenigen Tagen erledigt. Google prüft manche Änderungen, das kann bis zu einem Tag dauern.',
+              'Website passend machen. Name, Adresse und Telefonnummer müssen auf Ihrer Website genau so stehen wie im Profil. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+              'Laufend. Jede Woche ein Beitrag und neue Fotos, Antworten auf Bewertungen, Feiertage im Voraus eintragen.',
+            ],
+          },
+          {
+            h2: 'Was Sie selbst beitragen',
+            paragraphs: [
+              'Zwei Dinge können wir nicht für Sie erledigen. Erstens Bewertungen: Jeder zufriedene Kunde sollte gefragt werden, am besten direkt nach dem Auftrag, mit dem Link zu Ihrem Profil. Gekaufte oder selbst geschriebene Bewertungen machen wir nicht. Sie verstoßen gegen Googles Regeln und können das Profil kosten.',
+              'Zweitens Fotos: Machen Sie bei jedem Auftrag ein paar Bilder mit dem Handy, vorher und nachher, und schicken Sie sie uns. Daraus werden Ihre Beiträge. Mehr zu Fotos und Videos bei [Content-Erstellung](/leistungen/content-creation).',
+            ],
+          },
+          {
+            h2: 'Was die Optimierung Ihres Google-Unternehmensprofils kostet',
+            paragraphs: [
+              'Das Profil selbst ist kostenlos. Unsere Arbeit besteht aus zwei Teilen: der einmaligen Optimierung und, wenn Sie wollen, der laufenden Betreuung mit Beiträgen, Fotos und Antworten. Den Preis bekommen Sie nach dem kostenlosen Gespräch als feste Zahl, monatlich kündbar.',
+              'Sie sitzen nicht in Kaufbeuren? Wir optimieren Google-Unternehmensprofile auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und im ganzen [Ostallgäu](/einsatzgebiete). Dafür muss keiner vorbeikommen.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zum Google-Unternehmensprofil in Kaufbeuren',
+        faq: [
+          {
+            question: 'Was kostet ein Google-Unternehmensprofil?',
+            answer: 'Das Profil selbst ist kostenlos. Sie zahlen nur, wenn Sie jemanden mit der Optimierung und Betreuung beauftragen, oder wenn Sie zusätzlich Anzeigen schalten.',
+          },
+          {
+            question: 'Wie kann ich mein Unternehmensprofil bei Google anpassen?',
+            answer: 'Melden Sie sich mit dem Google-Konto an, mit dem das Profil verwaltet wird, und suchen Sie bei Google nach Ihrem Betriebsnamen. Dann erscheint ein Bereich, in dem Sie das Profil bearbeiten können. Kategorien ändern Sie am besten in der englischen Ansicht, damit Sie nicht versehentlich eine falsche wählen.',
+          },
+          {
+            question: 'Ist Google My Business dasselbe wie das Google-Unternehmensprofil?',
+            answer: 'Ja. Google hat Google My Business umbenannt in Google-Unternehmensprofil. Gemeint ist derselbe Eintrag auf Google und Google Maps.',
+          },
+          {
+            question: 'Wie schnell stehe ich auf der Karte weiter oben?',
+            answer: 'Die Änderungen am Profil sind oft nach ein bis zwei Tagen sichtbar. Bis sich die Position auf der Karte verändert, dauert es meist Wochen, und es hängt stark von Bewertungen und der Konkurrenz vor Ort ab. Deshalb messen wir vorher und nachher.',
+          },
+          {
+            question: 'Ich arbeite von zu Hause. Muss meine Adresse sichtbar sein?',
+            answer: 'Nein. Wenn Sie zu Ihren Kunden fahren und keine Kunden bei sich empfangen, blenden Sie die Adresse aus und geben ein Einzugsgebiet an. Das entspricht Googles Regeln für Betriebe ohne Ladengeschäft.',
+          },
+          {
+            question: 'Was mache ich gegen falsche Einträge oder Fake-Profile in meiner Branche?',
+            answer: 'Wenn ein Eintrag eindeutig nicht echt ist, kann man ihn bei Google melden, mit „Änderung vorschlagen“ und einem Nachweis. Wir prüfen vorher genau, ob es wirklich ein Fake ist, und bereiten die Meldung für Sie vor.',
           },
         ],
       },

@@ -31,6 +31,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://valbrixdigital.com/leistungen/google-unternehmensprofil</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://valbrixdigital.com/leistungen/social-media-management</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

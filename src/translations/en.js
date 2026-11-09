@@ -294,7 +294,7 @@ export default {
               'Measurement first. We connect Google Search Console and set up tracking for calls and enquiries. Then we save a dated baseline. Without that baseline nobody can tell you later whether SEO paid off.',
               'Can Google read your site? We check how many of your pages are in Google at all, whether something is blocked by accident, and whether Google finds the text you wrote.',
               'Every page that should make money. Title, description, headings, the first 100 words, images, speed, mobile. Every service page says clearly what you do and where.',
-              'Google Business Profile. The right categories, real photos, opening hours, services and a fixed routine for getting more reviews.',
+              'Google Business Profile. The right categories, real photos, opening hours, services and a fixed routine for getting more reviews. More under [Google Business Profile optimisation](/leistungen/google-unternehmensprofil).',
               'Directory listings. Name, address and phone number the same everywhere, for example on Das Örtliche, Cylex, Yelp and Bing Places.',
               'Content only you can write. One page per service, with real prices, real jobs and real photos. If a competitor could put in their name and use your text, the text says nothing.',
             ],
@@ -1366,6 +1366,115 @@ export default {
           {
             question: 'Do I have to commit for long?',
             answer: 'No. We work on a monthly basis. All accounts, profiles and access are in your name. If you stop, you take everything with you.',
+          },
+        ],
+      },
+      'google-unternehmensprofil': {
+        title: 'Google Business Profile',
+        seoTitle: 'BEST Google Business Profile Agency Kaufbeuren | Google My Business Optimisation, Google Maps, Reviews & Posts Near You | More Calls From the Map | Valbrix Digital',
+        h1: 'Google Business Profile Optimisation in Kaufbeuren',
+        metaDescription: 'Google Business Profile optimisation in Kaufbeuren: categories, services, photos, posts and reviews, so your business gets found on the Google map.',
+        intro: 'We optimise Google Business Profiles in Kaufbeuren. For businesses in Kaufbeuren and the Ostallgäu we fully build out the profile that used to be called Google My Business: fitting categories, every service with a description, real photos, posts and a fixed routine for reviews. So you show up on the map when someone nearby searches.',
+        includes: [
+          'Check and add categories, only ones that really fit',
+          'List every service, each with its own description',
+          'Complete profile: website, phone, booking link, opening hours, holidays',
+          'Weekly posts, real photos and a routine for reviews',
+        ],
+        whyItMatters: 'When someone in Kaufbeuren looks for a business, they first see the Google map with three entries. Most call one of those and never scroll further. Your Google Business Profile decides whether you\'re one of the three.',
+        sections: [
+          {
+            h2: 'The Google Business Profile: your most important listing online',
+            paragraphs: [
+              'Your Google Business Profile is the box Google shows next to the search results and on Google Maps: name, reviews, photos, opening hours, phone number, directions. For many customers it\'s the first contact with your business, even before the website.',
+              'The profile itself costs nothing. Still, for most businesses it\'s half empty. A few photos, the address, the phone number, done. Google then has little to match your business to a search.',
+              'Google itself names three things it sorts the map by: how well a listing fits the search, how far away it is and how well known the business is. We can\'t change the distance. For the other two, the profile is the biggest lever.',
+            ],
+          },
+          {
+            h2: 'What we optimise on your profile',
+            paragraphs: [
+              'For every Google Business Profile in Kaufbeuren we go through these points:',
+            ],
+            list: [
+              'Name. The real name of your business, without added search terms. Anything else breaks Google\'s rules and can get the profile suspended.',
+              'Categories. One primary category and several more, but only ones you really do. We look at which categories the businesses at the top of the map use.',
+              'Services. Every service you offer as its own entry with a short description. That gives Google more words to match you to searches.',
+              'Complete profile. Website, phone number, opening hours, holidays in advance, booking or contact link, fitting attributes.',
+              'Website link. It leads to the page that matches your main service and your town, with the same name, address and phone number.',
+              'Photos. Real photos of you, your team, your work and your premises. No stock images, no AI images.',
+              'Posts. A short post every week about a real job: what it was, where, what was tricky.',
+              'Reviews. A simple routine for asking every happy customer for an honest review. And replies to every review, including the critical ones.',
+            ],
+          },
+          {
+            h2: 'What we saw on the map in Kaufbeuren',
+            paragraphs: [
+              'On 9 November 2026 we looked at the profiles of the advertising agencies Google shows on the map for "Werbeagentur Kaufbeuren". For five of them Google showed no services at all. The others had between one and sixteen.',
+              'That\'s typical, in other industries too. Most businesses fill in their profile once and never look at it again. That\'s exactly why doing it properly pays off. Whoever lists all their services, posts every week and collects reviews regularly stands out.',
+              'We brought our own profile to 33 services with descriptions the same day, chosen from what the businesses on the map list and cut down to what we really offer. Whether and how that affects the map, we\'ll measure over the coming weeks.',
+            ],
+          },
+          {
+            h2: 'A mistake almost everyone makes: categories',
+            paragraphs: [
+              'The primary category is the single most important point in the profile. And it\'s easy to set wrong. In the German view, some categories have the same name even though they\'re different. Two English categories, for example, both show as "Werbeagentur".',
+              'That happened to us: on saving, the wrong primary category was suddenly set. Since then we only change categories in the English view and check the exact name before saving. Sounds like a detail, but it decides which searches you show up for at all.',
+            ],
+          },
+          {
+            h2: 'How the optimisation works',
+            paragraphs: [
+              'Work on the profile follows this order:',
+            ],
+            list: [
+              'Baseline. We record where your profile stands on the map today, how many reviews and photos you have and what the businesses ahead of you do differently. With dates.',
+              'Access. You give us access to the profile. It stays in your name, we\'re only invited.',
+              'Basics. Categories, services, descriptions, opening hours, website link, booking link. Most of it is done in a few days. Google reviews some changes, which can take up to a day.',
+              'Align the website. Name, address and phone number must appear on your website exactly as in the profile. More under [SEO Optimization](/leistungen/seo-optimization).',
+              'Ongoing. A post and new photos every week, replies to reviews, holidays entered in advance.',
+            ],
+          },
+          {
+            h2: 'What you contribute',
+            paragraphs: [
+              'Two things we can\'t do for you. First, reviews: every happy customer should be asked, ideally right after the job, with the link to your profile. We don\'t do bought or self-written reviews. They break Google\'s rules and can cost you the profile.',
+              'Second, photos: take a few pictures on your phone at every job, before and after, and send them to us. They become your posts. More on photos and videos under [Content Creation](/leistungen/content-creation).',
+            ],
+          },
+          {
+            h2: 'What Google Business Profile optimisation costs',
+            paragraphs: [
+              'The profile itself is free. Our work has two parts: the one-off optimisation and, if you want, ongoing care with posts, photos and replies. You get the price as a fixed number after the free call, cancellable monthly.',
+              'Not based in Kaufbeuren? We also optimise Google Business Profiles for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete). Nobody needs to come by.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about the Google Business Profile in Kaufbeuren',
+        faq: [
+          {
+            question: 'What does a Google Business Profile cost?',
+            answer: 'The profile itself is free. You only pay if you hire someone to optimise and look after it, or if you also run ads.',
+          },
+          {
+            question: 'How can I edit my Business Profile on Google?',
+            answer: 'Sign in with the Google account that manages the profile and search Google for your business name. A panel appears where you can edit the profile. It\'s best to change categories in the English view so you don\'t pick the wrong one by mistake.',
+          },
+          {
+            question: 'Is Google My Business the same as the Google Business Profile?',
+            answer: 'Yes. Google renamed Google My Business to Google Business Profile. It\'s the same listing on Google and Google Maps.',
+          },
+          {
+            question: 'How fast will I move up on the map?',
+            answer: 'Changes to the profile are often visible after one or two days. Moving up on the map usually takes weeks and depends heavily on reviews and local competition. That\'s why we measure before and after.',
+          },
+          {
+            question: 'I work from home. Does my address have to be visible?',
+            answer: 'No. If you travel to your customers and don\'t receive customers yourself, you hide the address and set a service area. That follows Google\'s rules for businesses without a storefront.',
+          },
+          {
+            question: 'What can I do about fake listings in my industry?',
+            answer: 'If a listing is clearly not real, it can be reported to Google via "Suggest an edit" with proof. We check carefully first whether it\'s really fake, and prepare the report for you.',
           },
         ],
       },
