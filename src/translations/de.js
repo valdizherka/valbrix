@@ -265,7 +265,7 @@ export default {
       },
       'seo-optimization': {
         title: 'SEO-Optimierung',
-        seoTitle: 'BESTE SEO-Agentur Kaufbeuren | Lokale SEO, Google-Unternehmensprofil & On-Page-SEO in Ihrer Nähe | Valbrix Digital',
+        seoTitle: 'BESTE SEO-Agentur Kaufbeuren | Suchmaschinenoptimierung, lokale SEO, Google-Unternehmensprofil & On-Page-SEO in Ihrer Nähe | Valbrix Digital',
         h1: 'SEO-Agentur Kaufbeuren',
         metaDescription: 'SEO-Agentur in Kaufbeuren: lokale SEO, Google-Unternehmensprofil und On-Page-SEO. Top 3 in 90 Tagen oder Geld zurück. Kostenloses Strategiegespräch.',
         intro: 'Wir sind eine SEO-Agentur in Kaufbeuren. Wir bringen Betriebe aus Kaufbeuren und dem Ostallgäu bei Google nach oben, in der normalen Suche und auf Google Maps. Wer heute „Elektriker Kaufbeuren“ googelt, ruft einen der ersten drei an. Unser Job: Sie sind einer davon.',
@@ -927,7 +927,7 @@ export default {
       },
       'website-landing-page-strategy': {
         title: 'Website- & Landing-Page-Strategie',
-        seoTitle: 'BESTE Website- & Landing-Page-Agentur Kaufbeuren | Webdesign, Optimierung & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
+        seoTitle: 'BESTE Website- & Landing-Page-Agentur Kaufbeuren | Landing Pages, Conversion-Optimierung & mehr Anfragen in Ihrer Nähe | Valbrix Digital',
         h1: 'Website- & Landing-Page-Agentur Kaufbeuren',
         metaDescription: 'Website- und Landing-Page-Agentur in Kaufbeuren: Wir machen aus Besuchern Anfragen. Webdesign, Ladezeit, klare Buttons. Kostenloses Strategiegespräch.',
         intro: 'Wir sind eine Website- und Landing-Page-Agentur in Kaufbeuren. Wir bauen und verbessern Websites für Betriebe aus Kaufbeuren und dem Ostallgäu, damit mehr Besucher anrufen oder schreiben. Eine schöne Website, die keiner anruft, ist eine teure Visitenkarte.',

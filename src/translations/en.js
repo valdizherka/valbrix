@@ -265,7 +265,7 @@ export default {
       },
       'seo-optimization': {
         title: 'SEO Optimization',
-        seoTitle: 'BEST SEO Agency Kaufbeuren | Local SEO, Google Business Profile & On-Page SEO Near You | Valbrix Digital',
+        seoTitle: 'BEST SEO Agency Kaufbeuren | Search Engine Optimisation, Local SEO, Google Business Profile & On-Page SEO Near You | Valbrix Digital',
         h1: 'SEO Agency Kaufbeuren',
         metaDescription: 'SEO agency in Kaufbeuren: local SEO, Google Business Profile and on-page SEO. Top 3 in 90 days or your money back. Book a free strategy call.',
         intro: 'We are an SEO agency in Kaufbeuren. We get businesses from Kaufbeuren and the Ostallgäu to the top of Google, in the normal results and on Google Maps. Whoever searches "electrician Kaufbeuren" today calls one of the first three. Our job: you are one of them.',
@@ -927,7 +927,7 @@ export default {
       },
       'website-landing-page-strategy': {
         title: 'Website & Landing Page Strategy',
-        seoTitle: 'BEST Website & Landing Page Agency Kaufbeuren | Web Design, Optimisation & More Enquiries Near You | Valbrix Digital',
+        seoTitle: 'BEST Website & Landing Page Agency Kaufbeuren | Landing Pages, Conversion Optimisation & More Enquiries Near You | Valbrix Digital',
         h1: 'Website & Landing Page Agency Kaufbeuren',
         metaDescription: 'Website and landing page agency in Kaufbeuren: we turn visitors into enquiries. Web design, load speed, clear buttons. Book a free strategy call.',
         intro: 'We are a website and landing page agency in Kaufbeuren. We build and improve websites for businesses from Kaufbeuren and the Ostallgäu so that more visitors call or write. A pretty website that nobody calls from is an expensive business card.',
