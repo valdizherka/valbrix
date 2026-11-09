@@ -327,7 +327,7 @@ export default {
               'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Unsere Kunden sitzen aber nicht nur hier. Lokale SEO funktioniert überall gleich, nur die Suchbegriffe ändern sich. In Kempten sucht man „Steuerberater Kempten“, in Memmingen „Autowerkstatt Memmingen“. Google zeigt auf der Karte die Betriebe, die nah dran sind und am besten zur Suche passen.',
               'Für Betriebe in Kempten bauen wir Seiten mit Kempten im Titel und in der Überschrift, tragen das Google-Profil sauber ein und schauen uns die Konkurrenz vor Ort an. Mehr dazu auf der Seite [Werbeagentur Kempten](/werbeagentur-kempten).',
               'In Memmingen ist es genauso. Viele Betriebe dort haben ein Google-Profil, aber kaum Leistungen eingetragen und keine eigene Seite pro Leistung. Das ist die Lücke, die wir zuerst schließen. Alles zu Memmingen finden Sie bei der [Werbeagentur Memmingen](/werbeagentur-memmingen).',
-              'Marktoberdorf, Buchloe, Füssen oder ein Dorf dazwischen? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete). Das Erstgespräch läuft per Video oder Telefon, vor Ort kommen wir, wenn es nötig ist.',
+              '[Marktoberdorf](/werbeagentur-marktoberdorf), Buchloe, Füssen oder ein Dorf dazwischen? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete). Das Erstgespräch läuft per Video oder Telefon, vor Ort kommen wir, wenn es nötig ist.',
             ],
           },
           {
@@ -1144,7 +1144,7 @@ export default {
           },
           {
             question: 'Bauen Sie auch Websites für Betriebe in Kempten oder Memmingen?',
-            answer: 'Ja. Wir sitzen in Kaufbeuren und arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon.',
+            answer: 'Ja. Wir sitzen in Kaufbeuren und arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf) und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon.',
           },
         ],
       },
@@ -1322,7 +1322,7 @@ export default {
           {
             h2: 'Online Marketing für das Ostallgäu und Oberallgäu',
             paragraphs: [
-              'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Wir arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe, Füssen und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon, vor Ort kommen wir, wenn es nötig ist.',
+              'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Wir arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), Füssen und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon, vor Ort kommen wir, wenn es nötig ist.',
               'Lokales Online Marketing funktioniert überall nach denselben Regeln, nur die Suchbegriffe und die Konkurrenz sind andere. In Kempten kämpfen mehr Betriebe um die gleichen Begriffe als in Buchloe. Deshalb schauen wir uns vor dem Start an, wer bei Ihnen vor Ort oben steht und warum.',
             ],
           },
@@ -2103,6 +2103,92 @@ export default {
           },
         ],
         ctaHeading: 'Bereit, in Memmingen gefunden zu werden?',
+      },
+      marktoberdorf: {
+        title: 'Marktoberdorf',
+        label: 'Werbeagentur Marktoberdorf',
+        h1: 'Werbeagentur Marktoberdorf',
+        seoTitle: 'BESTE Werbeagentur Marktoberdorf | SEO, Webdesign, Google Ads & Social Media in Ihrer Nähe | Online Marketing für Betriebe im Ostallgäu | Valbrix Digital',
+        metaDescription: 'Werbeagentur für Unternehmen in Marktoberdorf: lokale SEO, Webdesign, Google Ads und Social Media von Valbrix Digital aus Kaufbeuren. Kostenloses Gespräch.',
+        intro: 'Wir sind eine Werbeagentur für Betriebe in Marktoberdorf. Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren), rund elf Kilometer entfernt. Wir bringen Unternehmen aus Marktoberdorf und den Ortsteilen bei Google nach oben, in der normalen Suche und auf der Karte, mit einem festen Ansprechpartner aus dem Ostallgäu.',
+        sections: [
+          {
+            h2: 'Werbeagentur in Marktoberdorf: die Kreisstadt mitten im Ostallgäu',
+            paragraphs: [
+              'Marktoberdorf ist die Kreisstadt des Ostallgäus, mit rund 19.000 Einwohnern. Hier sitzt die Verwaltung des Landkreises, hier steht mit dem Werk von AGCO Fendt einer der größten Arbeitgeber der Region, und im ehemaligen Schloss arbeitet die Bayerische Musikakademie.',
+              'Für Ihr Geschäft heißt das: Jeden Tag kommen Leute nach Marktoberdorf, die nicht hier wohnen. Pendler ins Werk und ins Gewerbegebiet, Besucher des Landratsamts, Gäste der Musikakademie. Viele davon suchen auf dem Handy, was sie brauchen. Eine Werkstatt, ein Mittagessen, einen Friseur, eine Praxis.',
+              'Dazu kommen die Ortsteile: Thalhofen, Leuterschach, Bertoldshofen, Geisenried, Rieder und Sulzschneid. Wer dort wohnt, sucht oft nicht nach „Marktoberdorf“, sondern nach dem eigenen Ort oder einfach „in der Nähe“. Genau da entscheidet die Google-Karte, wen er findet.',
+            ],
+          },
+          {
+            h2: 'Was wir für Unternehmen in Marktoberdorf konkret machen',
+            paragraphs: [
+              'Dieselbe Reihenfolge wie bei jedem Kunden, angepasst an Marktoberdorf:',
+            ],
+            list: [
+              'Ein vollständiges Google-Unternehmensprofil. Richtige Kategorien, alle Leistungen mit Beschreibung, echte Fotos, Öffnungszeiten auch an Feiertagen. Mehr dazu bei [Google-Unternehmensprofil](/leistungen/google-unternehmensprofil).',
+              'Eine Website, die bei Google gefunden wird. Mit Marktoberdorf im Titel und in der Überschrift, und einer eigenen Seite pro Leistung. Siehe [Webdesign](/leistungen/webdesign) oder, wenn Ihre Seite nur repariert werden muss, [Website-Optimierung](/leistungen/website-optimierung).',
+              'Ortsteile mitdenken. Wenn Sie in Thalhofen oder Leuterschach genauso arbeiten wie in der Stadtmitte, soll Google das wissen. Wir nennen Ihr Einzugsgebiet im Profil und auf der Website.',
+              '[Google Ads](/leistungen/google-ads) mit genau eingestelltem Umkreis, zum Beispiel Marktoberdorf und die Strecke Richtung Kaufbeuren und Füssen.',
+              '[Social Media](/leistungen/social-media-management) und [Meta Ads](/leistungen/meta-ads), wenn Sie Stammkunden in der Stadt aufbauen oder Mitarbeiter suchen.',
+              'Ein Bericht pro Monat, der Anfragen zählt, nicht nur Besucher.',
+            ],
+          },
+          {
+            h2: 'Ein Beispiel aus Marktoberdorf',
+            paragraphs: [
+              'Ein ausgedachtes Beispiel, kein Kunde: Eine Kfz-Werkstatt im Gewerbegebiet in Marktoberdorf hat genug Stammkunden, aber kaum neue. Im Google-Profil steht nur „Autowerkstatt“, keine Leistungen, vier alte Fotos, keine Antworten auf Bewertungen.',
+              'Wir tragen alle Leistungen ein, vom Reifenwechsel bis zur Klimaanlage, jeweils mit kurzer Beschreibung. Wir laden echte Fotos aus der Werkstatt hoch, ergänzen die Öffnungszeiten an Feiertagen und beantworten jede Bewertung. Auf der Website bekommt jede wichtige Leistung eine eigene Seite mit Marktoberdorf im Titel.',
+              'Der Pendler, der morgens „Reifenwechsel Marktoberdorf“ sucht, findet jetzt ein vollständiges Profil und eine Seite, die genau seine Frage beantwortet. Ob das wirkt, messen wir vorher und nachher.',
+            ],
+          },
+          {
+            h2: 'So läuft die Zusammenarbeit mit Betrieben in Marktoberdorf',
+            paragraphs: [
+              'Wir starten mit einem kostenlosen Gespräch per Video oder Telefon. Sie zeigen uns Ihren Betrieb, wir zeigen Ihnen, wo Sie bei Google heute stehen.',
+              'Die laufende Arbeit machen wir remote. Für Fotos, Videos oder ein Treffen kommen wir nach Absprache nach Marktoberdorf. Von Kaufbeuren aus ist das nicht weit, mit dem Auto über die B12 oder mit dem Zug, der jede Stunde fährt. Ein Büro in Marktoberdorf haben wir nicht.',
+              'Monatlich kündbar, ein fester Ansprechpartner.',
+            ],
+          },
+          {
+            h2: 'Für wen sich eine Werbeagentur in Marktoberdorf lohnt',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Ihre Kunden Sie bei Google suchen, wenn sie Sie brauchen. Handwerk, Werkstätten, Praxen, Friseure, Dienstleister.',
+              'Sie Pendler und Besucher erreichen wollen, die nur tagsüber in der Stadt sind, zum Beispiel mit Mittagstisch, Einzelhandel oder schnellen Terminen.',
+              'Sie Mitarbeiter oder Azubis in der Region suchen und dabei gegen große Arbeitgeber bestehen müssen.',
+            ],
+            after: [
+              'Sie sitzen nicht in Marktoberdorf selbst? Schauen Sie bei unseren [Einsatzgebieten](/einsatzgebiete), bei [Kempten](/werbeagentur-kempten) oder bei [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Werbeagentur in Marktoberdorf',
+        faq: [
+          {
+            question: 'Sie sitzen in Kaufbeuren. Kennen Sie sich in Marktoberdorf aus?',
+            answer: 'Marktoberdorf liegt rund elf Kilometer von Kaufbeuren entfernt, beide mitten im Ostallgäu. Bevor wir starten, schauen wir uns genau an, wer in Marktoberdorf für Ihre Suchbegriffe oben auf der Karte steht und warum.',
+          },
+          {
+            question: 'Werden auch meine Kunden in den Ortsteilen erreicht?',
+            answer: 'Ja, wenn wir es richtig einstellen. Wir nennen Thalhofen, Leuterschach und die anderen Ortsteile, in denen Sie arbeiten, in Ihrem Profil und auf Ihrer Website, und stellen Anzeigen auf den passenden Umkreis ein.',
+          },
+          {
+            question: 'Kommen Sie für Termine nach Marktoberdorf?',
+            answer: 'Ja, nach Absprache. Das erste Gespräch läuft per Video oder Telefon.',
+          },
+          {
+            question: 'Gilt die Geld-zurück-Garantie auch in Marktoberdorf?',
+            answer: 'Ja. Sie gilt für ein Haupt-Keyword, das wir vorher schriftlich festlegen, gemessen auf der Karte an Ihrem Standort. Alle Bedingungen stehen in den [FAQ](/faq).',
+          },
+          {
+            question: 'Was kostet das?',
+            answer: 'Das hängt davon ab, was Sie brauchen. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar.',
+          },
+        ],
+        ctaHeading: 'Bereit, in Marktoberdorf gefunden zu werden?',
       },
     },
   },

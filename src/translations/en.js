@@ -327,7 +327,7 @@ export default {
               'We are based in [Kaufbeuren](/marketing-agentur-kaufbeuren). Our clients aren\'t only here. Local SEO works the same everywhere, only the search terms change. In Kempten people search "Steuerberater Kempten", in Memmingen "Autowerkstatt Memmingen". On the map, Google shows the businesses that are close and fit the search best.',
               'For businesses in Kempten we build pages with Kempten in the title and heading, set up the Google profile properly and look at the local competition. More on the [advertising agency Kempten](/werbeagentur-kempten) page.',
               'Memmingen is the same. Many businesses there have a Google profile but hardly any services listed and no page per service. That is the gap we close first. Everything about Memmingen is on the [advertising agency Memmingen](/werbeagentur-memmingen) page.',
-              'Marktoberdorf, Buchloe, Füssen or a village in between? We work across the whole [Ostallgäu](/einsatzgebiete). The first call is by video or phone, and we come on site when it\'s needed.',
+              '[Marktoberdorf](/werbeagentur-marktoberdorf), Buchloe, Füssen or a village in between? We work across the whole [Ostallgäu](/einsatzgebiete). The first call is by video or phone, and we come on site when it\'s needed.',
             ],
           },
           {
@@ -1144,7 +1144,7 @@ export default {
           },
           {
             question: 'Do you also build websites for businesses in Kempten or Memmingen?',
-            answer: 'Yes. We\'re based in Kaufbeuren and work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone.',
+            answer: 'Yes. We\'re based in Kaufbeuren and work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf) and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone.',
           },
         ],
       },
@@ -1322,7 +1322,7 @@ export default {
           {
             h2: 'Online marketing for the Ostallgäu and Oberallgäu',
             paragraphs: [
-              'We\'re based in [Kaufbeuren](/marketing-agentur-kaufbeuren). We work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe, Füssen and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone, and we come on site when needed.',
+              'We\'re based in [Kaufbeuren](/marketing-agentur-kaufbeuren). We work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), Füssen and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone, and we come on site when needed.',
               'Local online marketing follows the same rules everywhere, only the search terms and the competition differ. In Kempten more businesses compete for the same terms than in Buchloe. So before we start, we look at who ranks at the top where you are, and why.',
             ],
           },
@@ -2101,6 +2101,92 @@ export default {
           },
         ],
         ctaHeading: 'Ready to be found in Memmingen?',
+      },
+      marktoberdorf: {
+        title: 'Marktoberdorf',
+        label: 'Advertising Agency Marktoberdorf',
+        h1: 'Advertising Agency Marktoberdorf',
+        seoTitle: 'BEST Advertising Agency Marktoberdorf | SEO, Web Design, Google Ads & Social Media Near You | Online Marketing for Businesses in the Ostallgäu | Valbrix Digital',
+        metaDescription: 'Advertising agency for businesses in Marktoberdorf: local SEO, web design, Google Ads and social media from Valbrix Digital in Kaufbeuren. Free call.',
+        intro: 'We are an advertising agency for businesses in Marktoberdorf. We\'re based in [Kaufbeuren](/marketing-agentur-kaufbeuren), about eleven kilometres away. We get businesses in Marktoberdorf and its districts to the top of Google, in regular search and on the map, with one fixed contact person from the Ostallgäu.',
+        sections: [
+          {
+            h2: 'Advertising agency in Marktoberdorf: the district town in the middle of the Ostallgäu',
+            paragraphs: [
+              'Marktoberdorf is the district town of the Ostallgäu, with about 19,000 inhabitants. The district administration is here, the AGCO Fendt works is one of the biggest employers in the region, and the Bavarian Music Academy works in the former palace.',
+              'For your business that means: every day people come to Marktoberdorf who don\'t live here. Commuters to the works and the business park, visitors to the district office, guests of the music academy. Many of them search on their phone for what they need. A garage, lunch, a hairdresser, a practice.',
+              'Then there are the districts: Thalhofen, Leuterschach, Bertoldshofen, Geisenried, Rieder and Sulzschneid. People living there often don\'t search for "Marktoberdorf" but for their own village or simply "near me". That\'s exactly where the Google map decides whom they find.',
+            ],
+          },
+          {
+            h2: 'What we do for businesses in Marktoberdorf',
+            paragraphs: [
+              'The same order as for every client, adapted to Marktoberdorf:',
+            ],
+            list: [
+              'A complete Google Business Profile. The right categories, every service with a description, real photos, opening hours including holidays. More under [Google Business Profile](/leistungen/google-unternehmensprofil).',
+              'A website that gets found on Google. With Marktoberdorf in the title and heading, and a separate page per service. See [Web Design](/leistungen/webdesign) or, if your site only needs fixing, [Website Optimisation](/leistungen/website-optimierung).',
+              'Thinking of the districts. If you work in Thalhofen or Leuterschach just as in the town centre, Google should know. We name your service area in the profile and on the website.',
+              '[Google Ads](/leistungen/google-ads) with a precisely set radius, for example Marktoberdorf and the route towards Kaufbeuren and Füssen.',
+              '[Social media](/leistungen/social-media-management) and [Meta Ads](/leistungen/meta-ads), if you want to build regular customers in town or are looking for staff.',
+              'One report a month that counts enquiries, not just visitors.',
+            ],
+          },
+          {
+            h2: 'An example from Marktoberdorf',
+            paragraphs: [
+              'A made-up example, not a client: a car garage in the Marktoberdorf business park has enough regulars but hardly any new customers. The Google profile only says "car repair", no services, four old photos, no replies to reviews.',
+              'We list every service, from tyre changes to air conditioning, each with a short description. We upload real photos from the workshop, add holiday opening hours and reply to every review. On the website every important service gets its own page with Marktoberdorf in the title.',
+              'The commuter searching "tyre change Marktoberdorf" in the morning now finds a complete profile and a page that answers exactly their question. Whether it works, we measure before and after.',
+            ],
+          },
+          {
+            h2: 'How we work with businesses in Marktoberdorf',
+            paragraphs: [
+              'We start with a free call by video or phone. You show us your business, we show you where you stand on Google today.',
+              'The ongoing work happens remotely. For photos, videos or a meeting we come to Marktoberdorf by arrangement. From Kaufbeuren it isn\'t far, by car via the B12 or by the hourly train. We don\'t have an office in Marktoberdorf.',
+              'Cancel monthly, one fixed contact person.',
+            ],
+          },
+          {
+            h2: 'Who an advertising agency in Marktoberdorf is worth it for',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'Your customers search for you on Google when they need you. Trades, garages, practices, hairdressers, service providers.',
+              'You want to reach commuters and visitors who are only in town during the day, for example with lunch, retail or quick appointments.',
+              'You\'re looking for staff or apprentices in the region and have to compete with large employers.',
+            ],
+            after: [
+              'Not based in Marktoberdorf itself? See our [service areas](/einsatzgebiete), [Kempten](/werbeagentur-kempten) or [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about an advertising agency in Marktoberdorf',
+        faq: [
+          {
+            question: 'You\'re based in Kaufbeuren. Do you know Marktoberdorf?',
+            answer: 'Marktoberdorf is about eleven kilometres from Kaufbeuren, both in the middle of the Ostallgäu. Before we start, we look closely at who ranks at the top of the map in Marktoberdorf for your search terms, and why.',
+          },
+          {
+            question: 'Will my customers in the districts be reached too?',
+            answer: 'Yes, if we set it up right. We name Thalhofen, Leuterschach and the other districts you work in on your profile and website, and set ads to the right radius.',
+          },
+          {
+            question: 'Do you come to Marktoberdorf for meetings?',
+            answer: 'Yes, by arrangement. The first call is by video or phone.',
+          },
+          {
+            question: 'Does the money-back guarantee apply in Marktoberdorf too?',
+            answer: 'Yes. It applies to one main keyword we agree in writing beforehand, measured on the map at your location. All conditions are in the [FAQ](/faq).',
+          },
+          {
+            question: 'What does it cost?',
+            answer: 'It depends on what you need. After the free call you get a fixed price. Cancel monthly.',
+          },
+        ],
+        ctaHeading: 'Ready to be found in Marktoberdorf?',
       },
     },
   },
