@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['seo-optimization', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['online-marketing', 'seo-optimization', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -29,6 +29,7 @@ const copy = {
     servicesIntro: 'Was wofür gut ist. Und wie lange es dauert, bis Sie etwas merken.',
     th: ['Leistung', 'Wofür', 'Bis Sie es merken'],
     rows: [
+      ['Online Marketing', 'Alles aus einer Hand, in der richtigen Reihenfolge.', 'Je nach Kanal'],
       ['SEO-Optimierung', 'Anfragen über Google, ohne für jeden Klick zu zahlen.', '3 bis 6 Monate'],
       ['Google Ads', 'Anfragen von Leuten, die genau jetzt suchen.', 'Ein paar Tage'],
       ['Meta Ads', 'Auf Facebook und Instagram gesehen werden, bevor jemand sucht.', 'Ein paar Tage'],
@@ -93,6 +94,7 @@ const copy = {
     servicesIntro: 'What each one is good for. And how long until you notice.',
     th: ['Service', 'What for', 'Until you notice'],
     rows: [
+      ['Online Marketing', 'Everything from one source, in the right order.', 'Depends on the channel'],
       ['SEO Optimization', 'Inquiries through Google, without paying for every click.', '3 to 6 months'],
       ['Google Ads', 'Inquiries from people searching right now.', 'A few days'],
       ['Meta Ads', 'Get seen on Facebook and Instagram before anyone searches.', 'A few days'],

@@ -3,6 +3,7 @@ import Logo from './Logo'
 import { useLanguage } from '../context/LanguageContext'
 
 const serviceLinkSlugs = [
+  'online-marketing',
   'seo-optimization',
   'google-ads',
   'meta-ads',

@@ -1260,6 +1260,115 @@ export default {
           },
         ],
       },
+      'online-marketing': {
+        title: 'Online Marketing',
+        seoTitle: 'BESTE Online Marketing Agentur Kaufbeuren | Digitales Marketing, SEO, Google Ads, Social Media & Websites in Ihrer Nähe | Alles aus einer Hand im Allgäu | Valbrix Digital',
+        h1: 'Online Marketing Kaufbeuren',
+        metaDescription: 'Online Marketing in Kaufbeuren: Wir finden mit Ihnen den Kanal, der zuerst Anfragen bringt, und bauen von dort auf. Ein Ansprechpartner. Kostenloses Gespräch.',
+        intro: 'Wir machen Online Marketing in Kaufbeuren. Für Betriebe aus Kaufbeuren, dem Ostallgäu und dem Oberallgäu kümmern wir uns um alles, was Sie online sichtbar macht: Google-Profil, Website, SEO, Anzeigen und Social Media. Mit einem festen Ansprechpartner und in der Reihenfolge, die bei Ihnen am schnellsten Anfragen bringt.',
+        includes: [
+          'Ein Plan, welcher Kanal sich für Ihren Betrieb lohnt und in welcher Reihenfolge',
+          'Google-Unternehmensprofil, Website, SEO, Anzeigen und Social Media aus einer Hand',
+          'Ein fester Ansprechpartner in Kaufbeuren statt fünf Dienstleister',
+          'Ein Bericht pro Monat: was es gekostet hat und was es gebracht hat',
+        ],
+        whyItMatters: 'Die meisten Betriebe machen nicht zu wenig Online Marketing, sondern das Falsche zuerst. Ein Instagram-Account ohne Google-Profil, Anzeigen auf eine Website, die keiner versteht. Die richtige Reihenfolge spart Geld und bringt schneller Anfragen.',
+        sections: [
+          {
+            h2: 'Online Marketing in Kaufbeuren: weniger Kanäle, richtig gemacht',
+            paragraphs: [
+              'Online Marketing klingt nach viel: SEO, Google Ads, Facebook, Instagram, TikTok, Newsletter, Website, Google-Profil. Viele Betriebe in Kaufbeuren probieren von allem ein bisschen und haben am Ende überall eine halbe Baustelle.',
+              'Wir machen es umgekehrt. Erst klären wir, wo Ihre Kunden Sie suchen. Dann machen wir diesen einen Kanal richtig, bevor der nächste dazukommt. Für einen Elektriker ist das fast immer Google. Für ein Café eher Instagram. Für einen Betrieb, der Azubis sucht, Facebook und Instagram mit Anzeigen im Umkreis.',
+            ],
+          },
+          {
+            h2: 'Womit Sie anfangen sollten',
+            paragraphs: [
+              'Unsere Faustregel für Betriebe im Allgäu:',
+            ],
+            list: [
+              'Ihre Kunden suchen aktiv, wenn sie Sie brauchen (Handwerk, Praxis, Werkstatt, Dienstleistung)? Dann zuerst Google: ein vollständiges Google-Unternehmensprofil und eine Website, die bei Google gefunden wird. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+              'Sie brauchen diese Woche Anfragen und nicht erst in drei Monaten? Dann [Google Ads](/leistungen/google-ads) für sofort und SEO parallel für dauerhaft.',
+              'Ihre Arbeit lässt sich zeigen und Leute schauen sie gern an (Café, Friseur, Studio, Laden)? Dann [Social-Media-Management](/leistungen/social-media-management) und gezielte [Meta Ads](/leistungen/meta-ads) in der Region.',
+              'Ihre Website ist veraltet oder fehlt ganz? Dann zuerst die Website, denn alle anderen Kanäle führen dorthin. Siehe [Webdesign](/leistungen/webdesign) oder, wenn sie nur repariert werden muss, [Website-Optimierung](/leistungen/website-optimierung).',
+            ],
+            after: [
+              'Welcher Fall auf Sie zutrifft, klären wir im kostenlosen Gespräch. Wenn ein Kanal sich für Sie nicht lohnt, sagen wir das auch.',
+            ],
+          },
+          {
+            h2: 'Die Reihenfolge, in der wir arbeiten',
+            paragraphs: [
+              'Bei fast jedem Betrieb in Kaufbeuren sieht der Aufbau so aus:',
+            ],
+            list: [
+              'Messen. Search Console verbinden, Anrufe und Formulare zählen, Startwert mit Datum speichern. Ohne das weiß später keiner, was gewirkt hat.',
+              'Fundament. Google-Unternehmensprofil vollständig, Name, Adresse und Telefonnummer überall gleich, eine Website, die auf dem Handy funktioniert.',
+              'Gefunden werden. Eine Seite pro Leistung und pro Ort, Einträge in den wichtigsten Verzeichnissen, echte Bewertungen.',
+              'Beschleunigen. Anzeigen bei Google oder auf Facebook und Instagram, wenn das Fundament steht. Sonst zahlen Sie für Klicks, die nirgends ankommen.',
+              'Vertrauen. Regelmäßige Beiträge auf dem Google-Profil und in Social Media, echte Fotos von Ihrer Arbeit.',
+            ],
+            after: [
+              'Nicht jeder Betrieb braucht alle fünf Schritte gleichzeitig. Aber wer Schritt 4 vor Schritt 2 macht, zahlt fast immer drauf.',
+            ],
+          },
+          {
+            h2: 'Was in einem normalen Monat passiert',
+            paragraphs: [
+              'Wenn das Fundament steht, läuft Online Marketing in einem festen Rhythmus. Jede Woche ein Beitrag auf Ihrem Google-Profil, neue Fotos, Antworten auf Bewertungen. Jeden Monat eine neue Seite oder ein größerer Umbau an Ihrer Website. Bei Anzeigen jede Woche ein Blick auf die Suchbegriffe und das Budget.',
+              'Am Monatsende bekommen Sie einen kurzen Bericht auf einer Seite: was ausgegeben wurde, wie viele Anrufe und Anfragen kamen, was wir geändert haben und was als Nächstes kommt. Was wir nicht messen konnten, steht als „nicht geprüft“ drin. Mehr dazu bei [Analytics & Reporting](/leistungen/analytics-reporting).',
+            ],
+          },
+          {
+            h2: 'Online Marketing für das Ostallgäu und Oberallgäu',
+            paragraphs: [
+              'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Wir arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe, Füssen und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon, vor Ort kommen wir, wenn es nötig ist.',
+              'Lokales Online Marketing funktioniert überall nach denselben Regeln, nur die Suchbegriffe und die Konkurrenz sind andere. In Kempten kämpfen mehr Betriebe um die gleichen Begriffe als in Buchloe. Deshalb schauen wir uns vor dem Start an, wer bei Ihnen vor Ort oben steht und warum.',
+            ],
+          },
+          {
+            h2: 'Ein Ansprechpartner statt fünf Dienstleister',
+            paragraphs: [
+              'Viele Betriebe haben einen Webdesigner für die Website, eine Agentur für Anzeigen, jemanden für Instagram und einen Neffen, der sich ums Google-Profil kümmert. Jeder macht seinen Teil, keiner sieht das Ganze. Und wenn die Anfragen ausbleiben, zeigt jeder auf den anderen.',
+              'Bei uns liegt alles bei einer Person. Die Anzeige führt auf die richtige Seite, die Seite passt zum Google-Profil, und im Bericht steht, welcher Kanal was gebracht hat. Wenn etwas nicht funktioniert, wissen Sie, wen Sie anrufen.',
+            ],
+          },
+          {
+            h2: 'Was Online Marketing in Kaufbeuren kostet',
+            paragraphs: [
+              'Es gibt zwei Posten. Unsere Gebühr für die Arbeit, als feste Monatsgebühr, monatlich kündbar. Und, wenn Sie Anzeigen schalten, das Werbebudget, das Sie direkt an Google oder Meta zahlen und selbst festlegen.',
+              'Wie hoch die Gebühr ist, hängt davon ab, wie viele Kanäle wir betreuen. Ein Betrieb, der nur bei Google gefunden werden will, braucht weniger als einer mit Google, Anzeigen und Social Media. Die Zahl bekommen Sie nach dem kostenlosen Gespräch, schwarz auf weiß.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Online Marketing in Kaufbeuren',
+        faq: [
+          {
+            question: 'Was ist der Unterschied zwischen Online Marketing und digitalem Marketing?',
+            answer: 'Im Alltag keiner. Beides meint alles, was Ihren Betrieb im Internet sichtbar macht: Google, Website, Anzeigen, Social Media, E-Mail. Wichtiger als der Name ist, welcher Kanal bei Ihnen Anfragen bringt.',
+          },
+          {
+            question: 'Welche Betriebe profitieren von Online Marketing?',
+            answer: 'Fast jeder Betrieb, dessen Kunden vorher googeln oder auf Instagram schauen. Handwerk, Praxen, Friseure, Werkstätten, Cafés, Läden und Dienstleister. Weniger lohnt es sich, wenn Sie fast nur über Ausschreibungen oder feste Großkunden arbeiten.',
+          },
+          {
+            question: 'Was kostet Online Marketing pro Monat?',
+            answer: 'Das hängt davon ab, wie viele Kanäle betreut werden und ob Werbebudget dazukommt. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar, ohne lange Bindung.',
+          },
+          {
+            question: 'Kann ich Online Marketing auch selbst machen?',
+            answer: 'Einiges ja. Das Google-Profil ausfüllen, Kunden um Bewertungen bitten, Fotos posten. Was Sie diese Woche selbst erledigen können, steht in unserem [Ratgeber](/ratgeber). Für Website, SEO und Anzeigen lohnt sich meist jemand, der das jeden Tag macht.',
+          },
+          {
+            question: 'Wie schnell bringt Online Marketing Anfragen?',
+            answer: 'Anzeigen in ein paar Tagen. SEO und Google-Profil nach ein paar Monaten. Social Media baut Vertrauen auf und braucht ein paar Monate, bis es wirkt. Deshalb fangen viele Betriebe mit Anzeigen an und bauen den Rest parallel auf.',
+          },
+          {
+            question: 'Muss ich mich lange binden?',
+            answer: 'Nein. Wir arbeiten monatlich kündbar. Alle Konten, Profile und Zugänge laufen auf Ihren Namen. Wenn Sie aufhören, nehmen Sie alles mit.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',

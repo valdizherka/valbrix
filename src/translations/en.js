@@ -1260,6 +1260,115 @@ export default {
           },
         ],
       },
+      'online-marketing': {
+        title: 'Online Marketing',
+        seoTitle: 'BEST Online Marketing Agency Kaufbeuren | Digital Marketing, SEO, Google Ads, Social Media & Websites Near You | Everything From One Source in the Allgäu | Valbrix Digital',
+        h1: 'Online Marketing Kaufbeuren',
+        metaDescription: 'Online marketing in Kaufbeuren: we find the channel that brings you enquiries first and build from there. One contact person. Free call.',
+        intro: 'We do online marketing in Kaufbeuren. For businesses in Kaufbeuren, the Ostallgäu and the Oberallgäu we take care of everything that makes you visible online: Google profile, website, SEO, ads and social media. With one fixed contact person and in the order that brings you enquiries fastest.',
+        includes: [
+          'A plan for which channel is worth it for your business and in what order',
+          'Google Business Profile, website, SEO, ads and social media from one source',
+          'One fixed contact person in Kaufbeuren instead of five providers',
+          'One report a month: what it cost and what it brought',
+        ],
+        whyItMatters: 'Most businesses don\'t do too little online marketing, they do the wrong thing first. An Instagram account without a Google profile, ads pointing to a website nobody understands. The right order saves money and brings enquiries faster.',
+        sections: [
+          {
+            h2: 'Online marketing in Kaufbeuren: fewer channels, done right',
+            paragraphs: [
+              'Online marketing sounds like a lot: SEO, Google Ads, Facebook, Instagram, TikTok, newsletters, website, Google profile. Many businesses in Kaufbeuren try a bit of everything and end up with half-finished work everywhere.',
+              'We do it the other way round. First we find out where your customers look for you. Then we do that one channel properly before the next one is added. For an electrician that\'s almost always Google. For a café it\'s more likely Instagram. For a business looking for apprentices, Facebook and Instagram with ads in the area.',
+            ],
+          },
+          {
+            h2: 'Where you should start',
+            paragraphs: [
+              'Our rule of thumb for businesses in the Allgäu:',
+            ],
+            list: [
+              'Your customers search actively when they need you (trades, practices, garages, services)? Then Google first: a complete Google Business Profile and a website that gets found on Google. More under [SEO Optimization](/leistungen/seo-optimization).',
+              'You need enquiries this week, not in three months? Then [Google Ads](/leistungen/google-ads) for now and SEO alongside for the long run.',
+              'Your work can be shown and people like looking at it (café, hairdresser, studio, shop)? Then [Social Media Management](/leistungen/social-media-management) and targeted [Meta Ads](/leistungen/meta-ads) in the region.',
+              'Your website is outdated or missing? Then the website first, because every other channel leads there. See [Web Design](/leistungen/webdesign) or, if it only needs fixing, [Website Optimisation](/leistungen/website-optimierung).',
+            ],
+            after: [
+              'Which case fits you, we work out in the free call. If a channel isn\'t worth it for you, we say so.',
+            ],
+          },
+          {
+            h2: 'The order we work in',
+            paragraphs: [
+              'For almost every business in Kaufbeuren the build-up looks like this:',
+            ],
+            list: [
+              'Measure. Connect Search Console, count calls and forms, save a dated baseline. Without that, nobody knows later what worked.',
+              'Foundation. A complete Google Business Profile, the same name, address and phone number everywhere, a website that works on mobile.',
+              'Get found. A page per service and per town, listings in the main directories, real reviews.',
+              'Accelerate. Ads on Google or Facebook and Instagram once the foundation is in place. Otherwise you pay for clicks that land nowhere.',
+              'Trust. Regular posts on your Google profile and social media, real photos of your work.',
+            ],
+            after: [
+              'Not every business needs all five steps at once. But whoever does step 4 before step 2 almost always pays extra.',
+            ],
+          },
+          {
+            h2: 'What happens in a normal month',
+            paragraphs: [
+              'Once the foundation is in place, online marketing runs on a fixed rhythm. Every week a post on your Google profile, new photos, replies to reviews. Every month a new page or a bigger change to your website. For ads, a weekly look at search terms and budget.',
+              'At the end of the month you get a short one-page report: what was spent, how many calls and enquiries came in, what we changed and what\'s next. Anything we couldn\'t measure is marked "not checked". More under [Analytics & Reporting](/leistungen/analytics-reporting).',
+            ],
+          },
+          {
+            h2: 'Online marketing for the Ostallgäu and Oberallgäu',
+            paragraphs: [
+              'We\'re based in [Kaufbeuren](/marketing-agentur-kaufbeuren). We work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe, Füssen and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone, and we come on site when needed.',
+              'Local online marketing follows the same rules everywhere, only the search terms and the competition differ. In Kempten more businesses compete for the same terms than in Buchloe. So before we start, we look at who ranks at the top where you are, and why.',
+            ],
+          },
+          {
+            h2: 'One contact person instead of five providers',
+            paragraphs: [
+              'Many businesses have a web designer for the website, an agency for ads, someone for Instagram and a nephew who looks after the Google profile. Everyone does their part, nobody sees the whole. And when enquiries dry up, everyone points at someone else.',
+              'With us, everything sits with one person. The ad leads to the right page, the page matches the Google profile, and the report shows which channel brought what. If something isn\'t working, you know who to call.',
+            ],
+          },
+          {
+            h2: 'What online marketing in Kaufbeuren costs',
+            paragraphs: [
+              'There are two items. Our fee for the work, as a fixed monthly fee, cancellable monthly. And, if you run ads, the ad budget, which you pay directly to Google or Meta and set yourself.',
+              'How high the fee is depends on how many channels we look after. A business that only wants to be found on Google needs less than one with Google, ads and social media. You get the number after the free call, in writing.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about online marketing in Kaufbeuren',
+        faq: [
+          {
+            question: 'What\'s the difference between online marketing and digital marketing?',
+            answer: 'In everyday use, none. Both mean everything that makes your business visible on the internet: Google, website, ads, social media, email. What matters more than the name is which channel brings you enquiries.',
+          },
+          {
+            question: 'Which businesses benefit from online marketing?',
+            answer: 'Almost any business whose customers google first or check Instagram. Trades, practices, hairdressers, garages, cafés, shops and service providers. It\'s worth less if you work almost only through tenders or fixed large clients.',
+          },
+          {
+            question: 'What does online marketing cost per month?',
+            answer: 'It depends on how many channels are looked after and whether ad budget is added. After the free call you get a fixed price. Cancel monthly, no long contract.',
+          },
+          {
+            question: 'Can I do online marketing myself?',
+            answer: 'Some of it, yes. Filling in the Google profile, asking customers for reviews, posting photos. What you can do yourself this week is in our [guide](/ratgeber). For website, SEO and ads, someone who does it every day is usually worth it.',
+          },
+          {
+            question: 'How fast does online marketing bring enquiries?',
+            answer: 'Ads in a few days. SEO and the Google profile after a few months. Social media builds trust and takes a few months to work. That\'s why many businesses start with ads and build the rest alongside.',
+          },
+          {
+            question: 'Do I have to commit for long?',
+            answer: 'No. We work on a monthly basis. All accounts, profiles and access are in your name. If you stop, you take everything with you.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',
