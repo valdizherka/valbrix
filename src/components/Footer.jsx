@@ -10,6 +10,7 @@ const serviceLinkSlugs = [
   'meta-ads',
   'social-media-management',
   'brand-strategy',
+  'grafikdesign',
   'content-creation',
   'lead-generation',
   'webdesign',

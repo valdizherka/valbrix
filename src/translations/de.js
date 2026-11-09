@@ -1478,6 +1478,119 @@ export default {
           },
         ],
       },
+      'grafikdesign': {
+        title: 'Grafikdesign',
+        seoTitle: 'BESTE Grafikdesign Agentur Kaufbeuren | Social-Media-Grafiken, Anzeigenmotive, Logo & Corporate Design in Ihrer Nähe | Gestaltung, die auf dem Handy wirkt | Valbrix Digital',
+        h1: 'Grafikdesign Kaufbeuren',
+        metaDescription: 'Grafikdesign in Kaufbeuren für Ihre Online-Kanäle: Social-Media-Grafiken, Anzeigenmotive und Website-Grafiken. Festpreis statt Stundensatz.',
+        intro: 'Wir machen Grafikdesign in Kaufbeuren. Für Betriebe aus Kaufbeuren und dem Ostallgäu gestalten wir alles, was online gesehen wird: Social-Media-Beiträge, Anzeigenmotive, Grafiken für die Website und das Google-Profil. Einheitlich mit Ihrer Marke und gemacht für den kleinen Bildschirm, auf dem Ihre Kunden schauen.',
+        includes: [
+          'Grafiken für Instagram, Facebook und Ihr Google-Unternehmensprofil',
+          'Anzeigenmotive für Meta Ads und andere Kampagnen',
+          'Website-Grafiken: Titelbilder, Symbole, Banner',
+          'Vorlagen, die Sie selbst weiterverwenden können',
+        ],
+        whyItMatters: 'Online entscheidet ein Bild in einer Sekunde, ob jemand weiterscrollt oder hinschaut. Gute Gestaltung sorgt dafür, dass Ihre Beiträge und Anzeigen auffallen und dass man Ihren Betrieb überall wiedererkennt.',
+        sections: [
+          {
+            h2: 'Grafikdesign in Kaufbeuren: gestaltet für das Handy',
+            paragraphs: [
+              'Die meisten Ihrer Kunden sehen Ihre Grafiken nicht auf einem Plakat, sondern auf dem Handy. Zwischen Nachrichten, Urlaubsfotos und Werbung von hundert anderen Betrieben. Dort haben Sie etwa eine Sekunde, bevor der Daumen weiterwischt.',
+              'Deshalb gestalten wir zuerst für diesen kleinen Bildschirm. Große, klare Schrift. Ein Gedanke pro Bild. Farben, die man sofort mit Ihnen verbindet. Und lieber ein echtes Foto von Ihrer Arbeit als eine aufwendige Illustration.',
+            ],
+          },
+          {
+            h2: 'Was wir für Sie gestalten',
+            paragraphs: [
+              'Unser Schwerpunkt sind Grafiken für Ihre Online-Kanäle:',
+            ],
+            list: [
+              'Social-Media-Beiträge. Einzelbilder, Karussells mit mehreren Seiten und Story-Vorlagen für Instagram und Facebook. Mehr dazu bei [Social-Media-Management](/leistungen/social-media-management).',
+              'Anzeigenmotive. Bilder und Texte für Anzeigen auf Facebook und Instagram, in mehreren Varianten, damit sich zeigt, welche am besten ankommt. Siehe [Meta Ads](/leistungen/meta-ads).',
+              'Grafiken für Ihr Google-Unternehmensprofil. Titelbild, Logo in der richtigen Größe und Grafiken für Ihre wöchentlichen Beiträge. Siehe [Google-Unternehmensprofil](/leistungen/google-unternehmensprofil).',
+              'Website-Grafiken. Titelbilder, Symbole für Ihre Leistungen, Banner für Aktionen. Passend zu [Webdesign](/leistungen/webdesign).',
+              'Vorlagen zum Selbermachen. Wenn Sie zwischendurch selbst posten wollen, bekommen Sie Vorlagen, zum Beispiel in Canva, in die Sie nur noch Foto und Text einsetzen.',
+              'Ein einheitlicher Auftritt. Farben, Schriften und Regeln, wie Ihr Betrieb überall aussieht. Das gehört zur [Markenstrategie](/leistungen/brand-strategy).',
+            ],
+          },
+          {
+            h2: 'Warum Gestaltung im Online Marketing so viel ausmacht',
+            paragraphs: [
+              'Dieselbe Anzeige kann mit einem anderen Bild doppelt so oft angeklickt werden. Oder halb so oft. Das wissen wir vorher nie genau. Deshalb gestalten wir für Anzeigen immer mehrere Varianten und schauen nach ein paar Tagen, welche besser läuft. Die schwache fliegt raus, die starke bekommt das Budget.',
+              'Der zweite Punkt ist Wiedererkennung. Wenn jemand Ihren Beitrag auf Instagram sieht, später Ihr Google-Profil und dann Ihre Website, sollte er jedes Mal sofort merken: Das ist derselbe Betrieb. Gleiche Farben, gleiche Schrift, gleicher Ton. Das schafft Vertrauen, bevor der erste Anruf kommt.',
+            ],
+          },
+          {
+            h2: 'Drei typische Fälle aus dem Allgäu',
+            paragraphs: [
+              'Ein Handwerksbetrieb will auf Instagram zeigen, was er kann. Er braucht eine Vorlage für Vorher-nachher-Bilder, die jede Woche gleich aussieht, damit man seine Beiträge sofort erkennt. Dazu ein Titelbild für das Google-Profil mit Logo und Telefonnummer.',
+              'Ein Café in der Altstadt will mehr Gäste unter der Woche. Es braucht Anzeigenmotive für Facebook und Instagram, die im Umkreis laufen, in drei Varianten: mit Kuchen, mit Frühstück, mit dem Team. Nach einer Woche zeigt sich, welches Motiv die meisten Besucher bringt.',
+              'Ein Betrieb sucht Azubis. Er braucht Grafiken, die junge Leute ansprechen, ohne peinlich zu wirken. Kurze Sätze, echte Fotos aus der Werkstatt, ein klarer Knopf zur Bewerbung.',
+            ],
+          },
+          {
+            h2: 'Echte Fotos statt Stockbilder',
+            paragraphs: [
+              'Die beste Grafik für einen Betrieb aus Kaufbeuren ist oft ein gutes Foto von der eigenen Arbeit. Ein fertiges Bad, ein reparierter Motor, ein neuer Haarschnitt. Das kann keine Bilddatenbank liefern, und Ihre Kunden merken den Unterschied sofort.',
+              'Wir bauen unsere Gestaltung deshalb um Ihre echten Fotos herum. Wenn Sie keine haben, kümmern wir uns darum. Mehr dazu bei [Content-Erstellung](/leistungen/content-creation). KI-Bilder, die Ihre Arbeit vortäuschen, machen wir nicht.',
+            ],
+          },
+          {
+            h2: 'So läuft ein Grafikdesign-Auftrag ab',
+            paragraphs: [
+              'Ob einzelne Grafik oder laufende Betreuung, wir gehen so vor:',
+            ],
+            list: [
+              'Gespräch. Wofür brauchen Sie die Grafiken, wo werden sie gezeigt, wen sollen sie erreichen?',
+              'Bestandsaufnahme. Was gibt es schon: Logo, Farben, Schriften, Fotos? Darauf bauen wir auf, statt alles neu zu erfinden.',
+              'Entwürfe. Sie sehen erste Entwürfe in den Formaten, in denen sie später erscheinen, also zum Beispiel direkt als Instagram-Beitrag auf dem Handy.',
+              'Überarbeitung. Sie sagen, was passt und was nicht. Wir passen an.',
+              'Übergabe. Sie bekommen die fertigen Dateien in allen Formaten, die Sie brauchen, und auf Wunsch Vorlagen zum Weiterverwenden.',
+            ],
+          },
+          {
+            h2: 'Was wir nicht machen',
+            paragraphs: [
+              'Unser Schwerpunkt ist Gestaltung für Online-Kanäle. Fahrzeugbeschriftung, Schilder, Messestände und große Druckaufträge machen wir nicht selbst. Dafür gibt es in Kaufbeuren und im Allgäu Betriebe, die genau darauf spezialisiert sind.',
+              'Wenn Sie für Ihren Druckbetrieb eine Vorlage brauchen, zum Beispiel Ihr Logo in der richtigen Datei, bekommen Sie die natürlich von uns.',
+            ],
+          },
+          {
+            h2: 'Was Grafikdesign in Kaufbeuren kostet',
+            paragraphs: [
+              'Wir arbeiten mit festen Preisen, nicht mit Stundensätzen. Sie wissen vorher, was ein Paket Social-Media-Grafiken oder ein Satz Anzeigenmotive kostet, und es wird am Ende nicht teurer, weil eine Runde länger gedauert hat.',
+              'Den Preis bekommen Sie nach dem kostenlosen Gespräch. Sie sitzen nicht in Kaufbeuren? Wir gestalten auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Grafikdesign in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wie viel kostet ein Grafikdesigner pro Stunde?',
+            answer: 'Das ist sehr unterschiedlich. Wir rechnen bewusst nicht nach Stunden ab, sondern mit festen Preisen pro Auftrag oder Paket. So wissen Sie vorher, was es kostet.',
+          },
+          {
+            question: 'Bekomme ich die Dateien?',
+            answer: 'Ja. Sie bekommen alle fertigen Grafiken in den Formaten, die Sie brauchen. Vorlagen, die wir für Sie anlegen, gehören Ihnen und Sie können sie weiterverwenden.',
+          },
+          {
+            question: 'Brauche ich zuerst ein Logo?',
+            answer: 'Nicht unbedingt. Wenn Sie ein Logo haben, das gut funktioniert, bauen wir darauf auf. Wenn es veraltet ist oder auf dem Handy nicht lesbar, sprechen wir darüber, bevor wir viele Grafiken darum herum bauen.',
+          },
+          {
+            question: 'Kann ich die Grafiken selbst weiter bearbeiten?',
+            answer: 'Ja. Auf Wunsch legen wir Vorlagen an, zum Beispiel in Canva, in die Sie selbst Foto und Text einsetzen können. Das ist praktisch, wenn Sie zwischendurch selbst posten wollen.',
+          },
+          {
+            question: 'Machen Sie auch Flyer oder Fahrzeugbeschriftung?',
+            answer: 'Unser Schwerpunkt ist Gestaltung für Online-Kanäle. Fahrzeugbeschriftung, Schilder und große Druckaufträge machen wir nicht selbst. Ihr Logo und Ihre Farben für den Druckbetrieb bekommen Sie aber von uns.',
+          },
+          {
+            question: 'Wie schnell bekomme ich die ersten Entwürfe?',
+            answer: 'Das hängt vom Umfang ab. Den Zeitplan bekommen Sie nach dem Gespräch, bevor wir anfangen.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',

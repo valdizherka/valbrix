@@ -1478,6 +1478,119 @@ export default {
           },
         ],
       },
+      'grafikdesign': {
+        title: 'Graphic Design',
+        seoTitle: 'BEST Graphic Design Agency Kaufbeuren | Social Media Graphics, Ad Creatives, Logo & Corporate Design Near You | Design That Works on Mobile | Valbrix Digital',
+        h1: 'Graphic Design Kaufbeuren',
+        metaDescription: 'Graphic design in Kaufbeuren for your online channels: social media graphics, ad creatives, website graphics and a consistent look. Fixed price, not hourly.',
+        intro: 'We do graphic design in Kaufbeuren. For businesses in Kaufbeuren and the Ostallgäu we design everything that\'s seen online: social media posts, ad creatives, graphics for your website and Google profile. Consistent with your brand and made for the small screen your customers look at.',
+        includes: [
+          'Graphics for Instagram, Facebook and your Google Business Profile',
+          'Ad creatives for Meta Ads and other campaigns',
+          'Website graphics: header images, icons, banners',
+          'Templates you can reuse yourself',
+        ],
+        whyItMatters: 'Online, an image decides in a second whether someone scrolls on or looks. Good design makes sure your posts and ads stand out and that people recognise your business everywhere.',
+        sections: [
+          {
+            h2: 'Graphic design in Kaufbeuren: designed for mobile',
+            paragraphs: [
+              'Most of your customers don\'t see your graphics on a poster but on their phone. Between messages, holiday photos and ads from a hundred other businesses. You have about a second before the thumb swipes on.',
+              'So we design for that small screen first. Large, clear type. One idea per image. Colours people instantly connect with you. And a real photo of your work rather than an elaborate illustration.',
+            ],
+          },
+          {
+            h2: 'What we design for you',
+            paragraphs: [
+              'Our focus is graphics for your online channels:',
+            ],
+            list: [
+              'Social media posts. Single images, multi-page carousels and story templates for Instagram and Facebook. More under [Social Media Management](/leistungen/social-media-management).',
+              'Ad creatives. Images and text for ads on Facebook and Instagram, in several variants, so it shows which works best. See [Meta Ads](/leistungen/meta-ads).',
+              'Graphics for your Google Business Profile. Cover image, logo in the right size and graphics for your weekly posts. See [Google Business Profile](/leistungen/google-unternehmensprofil).',
+              'Website graphics. Header images, icons for your services, banners for promotions. Matching [Web Design](/leistungen/webdesign).',
+              'Do-it-yourself templates. If you want to post yourself in between, you get templates, for example in Canva, where you only add photo and text.',
+              'A consistent look. Colours, fonts and rules for how your business looks everywhere. That\'s part of [Brand Strategy](/leistungen/brand-strategy).',
+            ],
+          },
+          {
+            h2: 'Why design matters so much in online marketing',
+            paragraphs: [
+              'The same ad can get twice as many clicks with a different image. Or half as many. We never know exactly beforehand. So for ads we always design several variants and check after a few days which performs better. The weak one goes, the strong one gets the budget.',
+              'The second point is recognition. When someone sees your post on Instagram, later your Google profile and then your website, they should notice every time: that\'s the same business. Same colours, same font, same tone. That builds trust before the first call.',
+            ],
+          },
+          {
+            h2: 'Three typical cases from the Allgäu',
+            paragraphs: [
+              'A trades business wants to show on Instagram what it can do. It needs a template for before-and-after images that looks the same every week, so people recognise its posts right away. Plus a cover image for the Google profile with logo and phone number.',
+              'A café in the old town wants more guests during the week. It needs ad creatives for Facebook and Instagram running in the area, in three variants: with cake, with breakfast, with the team. After a week it shows which creative brings the most visitors.',
+              'A business is looking for apprentices. It needs graphics that appeal to young people without being embarrassing. Short sentences, real photos from the workshop, a clear button to apply.',
+            ],
+          },
+          {
+            h2: 'Real photos instead of stock images',
+            paragraphs: [
+              'The best graphic for a business in Kaufbeuren is often a good photo of its own work. A finished bathroom, a repaired engine, a new haircut. No image library can deliver that, and your customers notice the difference right away.',
+              'So we build our design around your real photos. If you don\'t have any, we take care of it. More under [Content Creation](/leistungen/content-creation). We don\'t make AI images that fake your work.',
+            ],
+          },
+          {
+            h2: 'How a graphic design job works',
+            paragraphs: [
+              'Whether a single graphic or ongoing work, we go like this:',
+            ],
+            list: [
+              'Call. What do you need the graphics for, where will they be shown, whom should they reach?',
+              'Inventory. What already exists: logo, colours, fonts, photos? We build on that instead of reinventing everything.',
+              'Drafts. You see first drafts in the formats they\'ll appear in, for example directly as an Instagram post on a phone.',
+              'Revision. You say what works and what doesn\'t. We adjust.',
+              'Handover. You get the finished files in every format you need and, if you like, templates to reuse.',
+            ],
+          },
+          {
+            h2: 'What we don\'t do',
+            paragraphs: [
+              'Our focus is design for online channels. Vehicle lettering, signs, trade fair stands and large print jobs we don\'t do ourselves. There are businesses in Kaufbeuren and the Allgäu that specialise in exactly that.',
+              'If your print shop needs a file from you, for example your logo in the right format, you\'ll of course get it from us.',
+            ],
+          },
+          {
+            h2: 'What graphic design in Kaufbeuren costs',
+            paragraphs: [
+              'We work with fixed prices, not hourly rates. You know beforehand what a set of social media graphics or ad creatives costs, and it won\'t get more expensive because a round took longer.',
+              'You get the price after the free call. Not based in Kaufbeuren? We also design for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about graphic design in Kaufbeuren',
+        faq: [
+          {
+            question: 'How much does a graphic designer cost per hour?',
+            answer: 'It varies a lot. We deliberately don\'t bill by the hour but with fixed prices per job or package. That way you know the cost beforehand.',
+          },
+          {
+            question: 'Do I get the files?',
+            answer: 'Yes. You get all finished graphics in the formats you need. Templates we set up for you belong to you and you can keep using them.',
+          },
+          {
+            question: 'Do I need a logo first?',
+            answer: 'Not necessarily. If you have a logo that works well, we build on it. If it\'s outdated or unreadable on a phone, we talk about that before building lots of graphics around it.',
+          },
+          {
+            question: 'Can I edit the graphics myself?',
+            answer: 'Yes. If you like, we set up templates, for example in Canva, where you can add your own photo and text. Handy if you want to post yourself in between.',
+          },
+          {
+            question: 'Do you also do flyers or vehicle lettering?',
+            answer: 'Our focus is design for online channels. Vehicle lettering, signs and large print jobs we don\'t do ourselves. But you get your logo and colours for the print shop from us.',
+          },
+          {
+            question: 'How quickly will I get first drafts?',
+            answer: 'That depends on the scope. You get the timeline after the call, before we start.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',

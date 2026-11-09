@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'brand-strategy', 'grafikdesign', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -36,6 +36,7 @@ const copy = {
       ['Meta Ads', 'Auf Facebook und Instagram gesehen werden, bevor jemand sucht.', 'Ein paar Tage'],
       ['Social-Media-Management', 'Vertrauen, bevor der erste Anruf kommt.', 'Laufend'],
       ['Markenstrategie', 'Klar sagen, wofür Sie stehen.', 'Einmal machen, wirkt überall'],
+      ['Grafikdesign', 'Grafiken für Social Media, Anzeigen und Website, die auf dem Handy wirken.', 'Ein paar Tage'],
       ['Content-Erstellung', 'Fotos, Videos und Texte, die nach Ihnen aussehen.', 'Laufend'],
       ['Lead-Generierung', 'Anfragen, die nicht vom Zufall abhängen.', 'Ein paar Wochen'],
       ['Webdesign', 'Eine neue Website, die gefunden wird und Anfragen bringt.', 'Ein paar Wochen'],
@@ -102,6 +103,7 @@ const copy = {
       ['Meta Ads', 'Get seen on Facebook and Instagram before anyone searches.', 'A few days'],
       ['Social Media Management', 'Trust before the first call comes in.', 'Ongoing'],
       ['Brand Strategy', 'Say clearly what you stand for.', 'Do it once, works everywhere'],
+      ['Graphic Design', 'Graphics for social media, ads and website that work on mobile.', 'A few days'],
       ['Content Creation', 'Photos, videos and copy that look like you.', 'Ongoing'],
       ['Lead Generation', "Inquiries that don't depend on luck.", 'A few weeks'],
       ['Web Design', 'A new website that gets found and brings enquiries.', 'A few weeks'],
