@@ -1004,7 +1004,7 @@ export default {
         faq: [
           {
             question: 'Does my website have to be rebuilt completely?',
-            answer: 'Usually not. Often a clearer first screen, separate pages per service and faster loading are enough. After the audit we tell you whether a rebuild is worth it.',
+            answer: 'Usually not. Often a clearer first screen, separate pages per service and faster loading are enough. After the audit we tell you whether a rebuild is worth it. If it is, everything about it is under [Web Design](/leistungen/webdesign).',
           },
           {
             question: 'Which system do you work with?',
@@ -1021,6 +1021,130 @@ export default {
           {
             question: 'Do you also take care of the legal notice and privacy policy?',
             answer: 'We make sure the legal notice and privacy policy are on the site and match the tools in use. Legal review of your specific case is a job for a lawyer.',
+          },
+        ],
+      },
+      'webdesign': {
+        title: 'Web Design',
+        seoTitle: 'BEST Web Design Agency Kaufbeuren | Website Creation, Homepage, One-Pager & Web Development Near You | Fast, Mobile & Visible on Google | Valbrix Digital',
+        h1: 'Web Design Kaufbeuren',
+        metaDescription: 'Web design in Kaufbeuren: get a website that loads fast on mobile, gets found on Google and brings enquiries. Free strategy call.',
+        intro: 'We do web design in Kaufbeuren. We build websites for businesses in Kaufbeuren and the Ostallgäu that load fast on mobile, get found on Google and say clearly what you do and where. So visitors turn into calls.',
+        includes: [
+          'New website or homepage, from structure to text',
+          'A separate page for every service and every town',
+          'Built for mobile, fast, with a tappable phone number',
+          'Google basics from day one: titles, headings, structured data',
+        ],
+        whyItMatters: 'Before anyone calls you, they look at your website. Usually on their phone, usually for a few seconds. In that time they decide whether to trust you or call the next business.',
+        sections: [
+          {
+            h2: 'Web design in Kaufbeuren: your website is your first meeting',
+            paragraphs: [
+              'Someone in Kaufbeuren is looking for a business like yours. They find you on Google, tap your website and look. On their phone, in a waiting room, on a lunch break. They can\'t see you or hear you. They only see your page.',
+              'In the first seconds they want to know three things: Do they do what I need? Are they nearby? How do I reach them? If that isn\'t there right away, they\'re gone. Not because your work is bad, but because the page doesn\'t say it.',
+              'So for us, good web design means clear first, not pretty first. It can still be pretty.',
+            ],
+          },
+          {
+            h2: 'What you get from us',
+            paragraphs: [
+              'Every website we build in Kaufbeuren has these basics:',
+            ],
+            list: [
+              'A clear first screen. What you do, where, for whom, and a button to call. No scrolling, on mobile too.',
+              'A separate page for every service. Someone searching "bathroom renovation Kaufbeuren" lands on your bathroom renovation page, not your homepage. That helps your visitors and Google.',
+              'Pages for your towns. If you also work in Kempten, Memmingen or Marktoberdorf, each important town gets its own page with real content.',
+              'Text we write with you. You tell us what you do and what customers ask. We turn it into text that\'s easy to read and works on Google.',
+              'Real photos instead of stock images. Of you, your team and your work. If you don\'t have any, we take care of it, see [Content Creation](/leistungen/content-creation).',
+              'Fast loading. Compressed images, no unnecessary clutter. Slow pages lose visitors before they see anything.',
+              'Name, address and phone number on every page, exactly as in your Google Business Profile.',
+              'Imprint, privacy policy and cookie consent that match the tools on the site.',
+              'Enquiry tracking. Taps on the phone number and submitted forms are counted, so you can see what the site brings.',
+            ],
+          },
+          {
+            h2: 'How a web design project works',
+            paragraphs: [
+              'For every new website we follow the same order:',
+            ],
+            list: [
+              'Free call. What do you do, who are your customers, what should the website achieve? Afterwards you get a fixed price and a timeline.',
+              'Review. We look at your current site, if you have one, and your competitors\' sites in Kaufbeuren. What\'s missing there? That\'s where we start.',
+              'Page plan. Which pages are needed, for which search terms, and how do they connect? We settle that before the design.',
+              'Text and photos. We write, you review. Photos come from you or from us.',
+              'Design, mobile first. That\'s where most of your customers look. Then we adapt everything for desktop.',
+              'Testing and launch. Forms, phone number, loading speed, privacy. The site only goes live when everything works.',
+              'Registering with Google. We submit the site in Google Search Console and check that all pages get indexed.',
+            ],
+          },
+          {
+            h2: 'Build new or improve the old site?',
+            paragraphs: [
+              'Not every business needs a new website. Often a clearer first page, separate service pages and faster loading are enough. We check that honestly before we sell you a rebuild.',
+              'If your site is basically fine and just brings too few enquiries, our [Website & Landing Page Strategy](/leistungen/website-landing-page-strategy) is the right route. If it\'s outdated, doesn\'t work on mobile or you don\'t have one, we build new.',
+              'For single offers or ad campaigns, a one-pager is sometimes enough: one page with everything important and a form. Quick to launch and good for [Google Ads](/leistungen/google-ads) and [Meta Ads](/leistungen/meta-ads).',
+            ],
+          },
+          {
+            h2: 'Web design that gets found on Google',
+            paragraphs: [
+              'A website nobody finds is a business card in a drawer. So we build in the Google basics from the start: titles with service and town, one clear main heading per page, structured data for your business and pages Google can read without detours.',
+              'Our own website is the example. On 3 November 2026 it scored 98 out of 100 for loading speed on mobile in Google\'s PageSpeed Insights test. On 4 November 2026 all 18 of 18 pages were on Google. That isn\'t a client result, but it shows how we build.',
+              'The website is the foundation. Moving up on Google and the map takes ongoing work after that. More under [SEO Optimization](/leistungen/seo-optimization).',
+            ],
+          },
+          {
+            h2: 'What web design in Kaufbeuren costs',
+            paragraphs: [
+              'It mainly depends on how many pages you need. A one-pager is quicker than a website with ten service pages and three town pages. Whether text and photos already exist matters too.',
+              'After the free call you get a fixed price, in writing. No hourly billing that ends up twice as high. The website belongs to you afterwards, with all access.',
+            ],
+          },
+          {
+            h2: 'Who a new website is worth it for. And who it isn\'t.',
+            paragraphs: [
+              'A new website is worth it for you if:',
+            ],
+            list: [
+              'You don\'t have your own website yet, or only a page on a site builder you don\'t like.',
+              'Your site is hard to read on mobile, loads slowly or hasn\'t been touched in years.',
+              'You offer several services, but everything is on one page.',
+            ],
+            after: [
+              'It\'s worth less if your current site works well and just nobody finds it. Then you need visitors first, through [SEO](/leistungen/seo-optimization) or ads. Not based in Kaufbeuren? We also build websites for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about web design in Kaufbeuren',
+        faq: [
+          {
+            question: 'Which system do you build the website with?',
+            answer: 'Whatever suits you. If you want to edit text yourself, we use a system you can handle, for example WordPress. What matters is that the site is fast and Google can read it.',
+          },
+          {
+            question: 'Can I edit the website myself later?',
+            answer: 'Yes, if you want to. After launch we show you how to update text, photos and opening hours yourself. If you\'d rather not touch anything, we handle it.',
+          },
+          {
+            question: 'Who owns the website?',
+            answer: 'You do. Domain, content and access are in your name. If you stop working with us at some point, you take everything with you.',
+          },
+          {
+            question: 'How long until the website is live?',
+            answer: 'A one-pager is often ready in one to two weeks. A full website takes longer, mainly depending on how quickly text and photos are ready. You get the timeline before we start.',
+          },
+          {
+            question: 'Do you also take care of the imprint and privacy policy?',
+            answer: 'We make sure the imprint, privacy policy and cookie consent are on the site and match the tools used. A lawyer is responsible for legal review in individual cases.',
+          },
+          {
+            question: 'How is this different from a website builder?',
+            answer: 'With a builder you do it yourself, with templates a thousand others use too. With us you get a page plan for your search terms, text that fits your business and Google basics that many builder sites lack.',
+          },
+          {
+            question: 'Do you also build websites for businesses in Kempten or Memmingen?',
+            answer: 'Yes. We\'re based in Kaufbeuren and work for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe and the whole [Ostallgäu](/einsatzgebiete). Most of it runs by video and phone.',
           },
         ],
       },

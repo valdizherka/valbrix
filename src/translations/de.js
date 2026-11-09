@@ -1004,7 +1004,7 @@ export default {
         faq: [
           {
             question: 'Muss meine Website komplett neu gebaut werden?',
-            answer: 'Meistens nicht. Oft reichen eine klarere erste Seite, eigene Seiten pro Leistung und eine schnellere Ladezeit. Wir sagen Ihnen nach der Prüfung, ob sich ein Neubau lohnt.',
+            answer: 'Meistens nicht. Oft reichen eine klarere erste Seite, eigene Seiten pro Leistung und eine schnellere Ladezeit. Wir sagen Ihnen nach der Prüfung, ob sich ein Neubau lohnt. Wenn ja, steht alles dazu bei [Webdesign](/leistungen/webdesign).',
           },
           {
             question: 'Mit welchem System arbeiten Sie?',
@@ -1021,6 +1021,130 @@ export default {
           {
             question: 'Kümmern Sie sich auch um Impressum und Datenschutz?',
             answer: 'Wir sorgen dafür, dass Impressum und Datenschutzerklärung auf der Seite sind und zu den eingesetzten Tools passen. Für die rechtliche Prüfung im Einzelfall ist ein Anwalt zuständig.',
+          },
+        ],
+      },
+      'webdesign': {
+        title: 'Webdesign',
+        seoTitle: 'BESTE Webdesign Agentur Kaufbeuren | Website erstellen lassen, Homepage, One-Pager & Webentwicklung in Ihrer Nähe | Schnell, mobil & bei Google sichtbar | Valbrix Digital',
+        h1: 'Webdesign Kaufbeuren',
+        metaDescription: 'Webdesign in Kaufbeuren: Website erstellen lassen, die auf dem Handy schnell lädt, bei Google gefunden wird und Anfragen bringt. Kostenloses Strategiegespräch.',
+        intro: 'Wir machen Webdesign in Kaufbeuren. Wir erstellen Websites für Betriebe aus Kaufbeuren und dem Ostallgäu, die auf dem Handy schnell laden, bei Google gefunden werden und klar sagen, was Sie machen und wo. Damit aus Besuchern Anrufe werden.',
+        includes: [
+          'Neue Website oder Homepage, von der Struktur bis zum Text',
+          'Eine eigene Seite pro Leistung und pro Ort',
+          'Für das Handy gebaut, schnell und mit tippbarer Telefonnummer',
+          'Google-Grundlagen ab Tag eins: Titel, Überschriften, strukturierte Daten',
+        ],
+        whyItMatters: 'Bevor jemand bei Ihnen anruft, schaut er auf Ihre Website. Meist auf dem Handy, meist nur ein paar Sekunden. In dieser Zeit entscheidet er, ob er Ihnen vertraut oder den Nächsten anruft.',
+        sections: [
+          {
+            h2: 'Webdesign in Kaufbeuren: Ihre Website ist Ihr erster Termin',
+            paragraphs: [
+              'Jemand in Kaufbeuren sucht einen Betrieb wie Ihren. Er findet Sie bei Google, tippt auf Ihre Website und schaut. Auf dem Handy, im Wartezimmer, in der Mittagspause. Er sieht Sie nicht, er hört Sie nicht. Er sieht nur Ihre Seite.',
+              'In den ersten Sekunden will er drei Dinge wissen: Machen die das, was ich brauche? Sind die hier in der Nähe? Wie erreiche ich sie? Steht das nicht sofort da, ist er weg. Nicht weil Ihre Arbeit schlecht ist, sondern weil die Seite es nicht sagt.',
+              'Gutes Webdesign heißt für uns deshalb nicht zuerst schön, sondern klar. Schön darf es trotzdem sein.',
+            ],
+          },
+          {
+            h2: 'Was Sie bei uns bekommen',
+            paragraphs: [
+              'Jede Website, die wir in Kaufbeuren bauen, hat diese Grundlagen:',
+            ],
+            list: [
+              'Eine klare erste Bildschirmseite. Was Sie machen, wo, für wen, und ein Knopf zum Anrufen. Ohne Scrollen, auch auf dem Handy.',
+              'Eine eigene Seite pro Leistung. Wer „Badsanierung Kaufbeuren“ sucht, landet auf Ihrer Seite zur Badsanierung, nicht auf der Startseite. Das hilft Ihren Besuchern und Google.',
+              'Seiten für Ihre Orte. Wenn Sie auch in Kempten, Memmingen oder Marktoberdorf arbeiten, bekommt jeder wichtige Ort eine eigene Seite mit echten Inhalten.',
+              'Texte, die wir mit Ihnen schreiben. Sie erzählen uns, was Sie machen und was Kunden fragen. Wir machen daraus Text, der verständlich ist und bei Google funktioniert.',
+              'Echte Fotos statt Stockbilder. Von Ihnen, Ihrem Team und Ihrer Arbeit. Wenn Sie keine haben, kümmern wir uns darum, siehe [Content-Erstellung](/leistungen/content-creation).',
+              'Schnelle Ladezeit. Bilder komprimiert, kein unnötiger Ballast. Langsame Seiten verlieren Besucher, bevor sie etwas sehen.',
+              'Name, Adresse und Telefonnummer auf jeder Seite, genau so wie in Ihrem Google-Unternehmensprofil.',
+              'Impressum, Datenschutzerklärung und Cookie-Einwilligung passend zu den Tools auf der Seite.',
+              'Messung von Anfragen. Klicks auf die Telefonnummer und abgeschickte Formulare werden gezählt, damit Sie sehen, was die Seite bringt.',
+            ],
+          },
+          {
+            h2: 'So läuft ein Webdesign-Projekt ab',
+            paragraphs: [
+              'Bei jeder neuen Website gehen wir in derselben Reihenfolge vor:',
+            ],
+            list: [
+              'Kostenloses Gespräch. Was machen Sie, wer sind Ihre Kunden, was soll die Website bringen? Danach bekommen Sie einen festen Preis und einen Zeitplan.',
+              'Prüfung. Wir schauen uns Ihre jetzige Seite an, falls es eine gibt, und die Seiten Ihrer Konkurrenz in Kaufbeuren. Was fehlt dort? Genau da setzen wir an.',
+              'Seitenplan. Welche Seiten braucht es, für welche Suchbegriffe, und wie hängen sie zusammen? Das legen wir vor dem Design fest.',
+              'Texte und Fotos. Wir schreiben, Sie lesen gegen. Fotos kommen von Ihnen oder von uns.',
+              'Entwurf, zuerst für das Handy. Dort schauen die meisten Ihrer Kunden. Danach passen wir alles für den Computer an.',
+              'Test und Start. Formulare, Telefonnummer, Ladezeit, Datenschutz. Erst wenn alles läuft, geht die Seite online.',
+              'Bei Google anmelden. Wir reichen die Seite in der Google Search Console ein und prüfen, ob alle Seiten im Index landen.',
+            ],
+          },
+          {
+            h2: 'Neu bauen oder die alte Seite verbessern?',
+            paragraphs: [
+              'Nicht jeder Betrieb braucht eine neue Website. Oft reichen eine klarere erste Seite, eigene Leistungsseiten und eine schnellere Ladezeit. Das prüfen wir ehrlich, bevor wir Ihnen einen Neubau verkaufen.',
+              'Wenn Ihre Seite im Grunde passt und nur zu wenig Anfragen bringt, ist unsere [Website- & Landing-Page-Strategie](/leistungen/website-landing-page-strategy) der richtige Weg. Wenn sie veraltet ist, auf dem Handy nicht funktioniert oder Sie gar keine haben, bauen wir neu.',
+              'Für einzelne Angebote oder Werbekampagnen reicht manchmal auch ein One-Pager: eine einzige Seite mit allem Wichtigen und einem Formular. Schnell online und gut für [Google Ads](/leistungen/google-ads) und [Meta Ads](/leistungen/meta-ads).',
+            ],
+          },
+          {
+            h2: 'Webdesign, das bei Google gefunden wird',
+            paragraphs: [
+              'Eine Website, die keiner findet, ist eine Visitenkarte in der Schublade. Deshalb bauen wir die Google-Grundlagen von Anfang an ein: Titel mit Leistung und Ort, eine klare Hauptüberschrift pro Seite, strukturierte Daten für Ihren Betrieb und Seiten, die Google ohne Umwege lesen kann.',
+              'Unsere eigene Website ist das Beispiel. Am 3. November 2026 hat sie im Google-Test PageSpeed Insights auf dem Handy 98 von 100 Punkten für die Ladezeit bekommen. Am 4. November 2026 waren alle 18 von 18 Seiten bei Google. Das ist kein Kundenergebnis, aber es zeigt, wie wir bauen.',
+              'Die Website ist das Fundament. Damit Sie bei Google und auf der Karte nach oben kommen, braucht es danach laufende Arbeit. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+            ],
+          },
+          {
+            h2: 'Was Webdesign in Kaufbeuren kostet',
+            paragraphs: [
+              'Das hängt vor allem davon ab, wie viele Seiten Sie brauchen. Ein One-Pager ist schneller gemacht als eine Website mit zehn Leistungsseiten und drei Ortsseiten. Auch wichtig: ob Texte und Fotos schon da sind.',
+              'Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis, schwarz auf weiß. Keine Stundenabrechnung, die am Ende doppelt so hoch ist. Die Website gehört danach Ihnen, mit allen Zugängen.',
+            ],
+          },
+          {
+            h2: 'Für wen sich eine neue Website lohnt. Und für wen nicht.',
+            paragraphs: [
+              'Eine neue Website lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie noch keine eigene Website haben oder nur eine Seite bei einem Baukasten, die Sie selbst nicht mögen.',
+              'Ihre Seite auf dem Handy schwer zu lesen ist, lange lädt oder seit Jahren nicht angefasst wurde.',
+              'Sie mehrere Leistungen anbieten, aber alles auf einer Seite steht.',
+            ],
+            after: [
+              'Sie lohnt sich weniger, wenn Ihre jetzige Seite gut funktioniert und nur keiner sie findet. Dann brauchen Sie zuerst Besucher, über [SEO](/leistungen/seo-optimization) oder Anzeigen. Sie sitzen nicht in Kaufbeuren? Wir bauen Websites auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen) und im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Webdesign in Kaufbeuren',
+        faq: [
+          {
+            question: 'Mit welchem System bauen Sie die Website?',
+            answer: 'Mit dem, was zu Ihnen passt. Wenn Sie Texte selbst ändern wollen, nehmen wir ein System, das Sie bedienen können, zum Beispiel WordPress. Wichtig ist, dass die Seite schnell ist und Google sie lesen kann.',
+          },
+          {
+            question: 'Kann ich die Website später selbst ändern?',
+            answer: 'Ja, wenn Sie das wollen. Wir zeigen Ihnen nach dem Start, wie Sie Texte, Fotos und Öffnungszeiten selbst anpassen. Wenn Sie lieber nichts anfassen, übernehmen wir das.',
+          },
+          {
+            question: 'Wem gehört die Website?',
+            answer: 'Ihnen. Domain, Inhalte und Zugänge laufen auf Ihren Namen. Wenn Sie irgendwann nicht mehr mit uns arbeiten, nehmen Sie alles mit.',
+          },
+          {
+            question: 'Wie lange dauert es, bis die Website online ist?',
+            answer: 'Ein One-Pager steht oft in ein bis zwei Wochen. Eine ganze Website dauert länger, vor allem je nachdem, wie schnell Texte und Fotos da sind. Den Zeitplan bekommen Sie vor dem Start.',
+          },
+          {
+            question: 'Kümmern Sie sich auch um Impressum und Datenschutz?',
+            answer: 'Wir sorgen dafür, dass Impressum, Datenschutzerklärung und Cookie-Einwilligung auf der Seite sind und zu den eingesetzten Tools passen. Für die rechtliche Prüfung im Einzelfall ist ein Anwalt zuständig.',
+          },
+          {
+            question: 'Was ist der Unterschied zu einem Website-Baukasten?',
+            answer: 'Beim Baukasten bauen Sie selbst, mit Vorlagen, die tausend andere auch nutzen. Bei uns bekommen Sie einen Seitenplan für Ihre Suchbegriffe, Texte, die zu Ihrem Betrieb passen, und Google-Grundlagen, die bei vielen Baukasten-Seiten fehlen.',
+          },
+          {
+            question: 'Bauen Sie auch Websites für Betriebe in Kempten oder Memmingen?',
+            answer: 'Ja. Wir sitzen in Kaufbeuren und arbeiten für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), Marktoberdorf, Buchloe und im ganzen [Ostallgäu](/einsatzgebiete). Das meiste läuft per Video und Telefon.',
           },
         ],
       },
