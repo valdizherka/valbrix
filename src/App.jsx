@@ -30,6 +30,7 @@ function App() {
           <Route path="werbeagentur-kempten" element={<AreaPage slug="kempten" />} />
           <Route path="werbeagentur-memmingen" element={<AreaPage slug="memmingen" />} />
           <Route path="werbeagentur-marktoberdorf" element={<AreaPage slug="marktoberdorf" />} />
+          <Route path="werbeagentur-buchloe" element={<AreaPage slug="buchloe" />} />
           <Route path="impressum" element={<ImpressumPage />} />
           <Route path="datenschutz" element={<DatenschutzPage />} />
           <Route path="hardest-working-seo-expert-kaufbeuren" element={<HardestWorkingSeoPage />} />

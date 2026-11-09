@@ -327,7 +327,7 @@ export default {
               'Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren). Unsere Kunden sitzen aber nicht nur hier. Lokale SEO funktioniert überall gleich, nur die Suchbegriffe ändern sich. In Kempten sucht man „Steuerberater Kempten“, in Memmingen „Autowerkstatt Memmingen“. Google zeigt auf der Karte die Betriebe, die nah dran sind und am besten zur Suche passen.',
               'Für Betriebe in Kempten bauen wir Seiten mit Kempten im Titel und in der Überschrift, tragen das Google-Profil sauber ein und schauen uns die Konkurrenz vor Ort an. Mehr dazu auf der Seite [Werbeagentur Kempten](/werbeagentur-kempten).',
               'In Memmingen ist es genauso. Viele Betriebe dort haben ein Google-Profil, aber kaum Leistungen eingetragen und keine eigene Seite pro Leistung. Das ist die Lücke, die wir zuerst schließen. Alles zu Memmingen finden Sie bei der [Werbeagentur Memmingen](/werbeagentur-memmingen).',
-              '[Marktoberdorf](/werbeagentur-marktoberdorf), Buchloe, Füssen oder ein Dorf dazwischen? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete). Das Erstgespräch läuft per Video oder Telefon, vor Ort kommen wir, wenn es nötig ist.',
+              '[Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe), Füssen oder ein Dorf dazwischen? Wir arbeiten im ganzen [Ostallgäu](/einsatzgebiete). Das Erstgespräch läuft per Video oder Telefon, vor Ort kommen wir, wenn es nötig ist.',
             ],
           },
           {
@@ -2189,6 +2189,99 @@ export default {
           },
         ],
         ctaHeading: 'Bereit, in Marktoberdorf gefunden zu werden?',
+      },
+      buchloe: {
+        title: 'Buchloe',
+        label: 'Werbeagentur Buchloe',
+        h1: 'Werbeagentur Buchloe',
+        seoTitle: 'BESTE Werbeagentur Buchloe | SEO, Webdesign, Google Ads & Social Media in Ihrer Nähe | Online Marketing für Betriebe am Tor zum Allgäu | Valbrix Digital',
+        metaDescription: 'Werbeagentur für Unternehmen in Buchloe: lokale SEO, Webdesign, Google Ads und Social Media von Valbrix Digital aus Kaufbeuren. Kostenloses Gespräch.',
+        intro: 'Wir sind eine Werbeagentur für Betriebe in Buchloe. Unser Sitz ist in [Kaufbeuren](/marketing-agentur-kaufbeuren), an derselben Bahnstrecke Richtung Allgäu. Wir bringen Unternehmen aus Buchloe, Lindenberg und Honsolgen bei Google nach oben, in der normalen Suche und auf der Karte, mit einem festen Ansprechpartner aus der Region.',
+        sections: [
+          {
+            h2: 'Werbeagentur in Buchloe: eine Stadt, die schnell gewachsen ist',
+            paragraphs: [
+              'Buchloe nennt sich selbst Tor zum Allgäu. Die Stadt hat rund 14.000 Einwohner und ist damit die drittgrößte im Ostallgäu, nach Marktoberdorf und Füssen. Der Bahnhof ist ein Knotenpunkt mit Strecken nach München, Augsburg, Lindau und Memmingen, die A96 und die B12 laufen direkt vorbei.',
+              'Genau deshalb ist Buchloe stark gewachsen. Zwischen 1988 und 2018 kamen fast 50 Prozent mehr Einwohner dazu, viele davon, weil München und Augsburg gut erreichbar sind.',
+              'Für Ihr Geschäft heißt das: Ein großer Teil Ihrer möglichen Kunden ist nicht in Buchloe aufgewachsen. Sie kennen den Elektriker von nebenan nicht, haben keinen Friseur, keine Werkstatt und keine Praxis, die ihnen jemand empfohlen hat. Sie googeln. Und sie nehmen, was oben auf der Karte steht.',
+            ],
+          },
+          {
+            h2: 'Was das für Betriebe in Buchloe bedeutet',
+            paragraphs: [
+              'Wer neu in Buchloe ist, sucht zum Beispiel „Zahnarzt Buchloe“, „Friseur in der Nähe“ oder „Heizungsbauer Buchloe“. Dabei konkurriert ein Buchloer Betrieb nicht nur mit den Nachbarn in der Stadt, sondern oft auch mit Anbietern aus Kaufbeuren, Landsberg oder Augsburg, die online besser aufgestellt sind.',
+              'Mundpropaganda funktioniert bei diesen neuen Kunden noch nicht. Ihr Google-Unternehmensprofil, Ihre Bewertungen und Ihre Website übernehmen diese Rolle. Wer dort vollständig und lebendig aussieht, bekommt den Anruf.',
+            ],
+          },
+          {
+            h2: 'Was wir für Unternehmen in Buchloe konkret machen',
+            paragraphs: [
+              'Dieselbe Reihenfolge wie bei jedem Kunden, angepasst an Buchloe:',
+            ],
+            list: [
+              'Ein vollständiges Google-Unternehmensprofil. Richtige Kategorien, alle Leistungen mit Beschreibung, echte Fotos, Öffnungszeiten auch an Feiertagen. Mehr dazu bei [Google-Unternehmensprofil](/leistungen/google-unternehmensprofil).',
+              'Ein fester Ablauf für Bewertungen. Neue Kunden aus Buchloe lesen Bewertungen, bevor sie anrufen. Jeder zufriedene Kunde sollte gefragt werden.',
+              'Eine Website mit Buchloe im Titel und in der Überschrift, und einer eigenen Seite pro Leistung. Siehe [Webdesign](/leistungen/webdesign) oder [Website-Optimierung](/leistungen/website-optimierung).',
+              'Lindenberg und Honsolgen mitdenken. Wenn Sie dort genauso arbeiten wie in Buchloe, nennen wir die Ortsteile im Profil und auf der Website.',
+              '[Google Ads](/leistungen/google-ads) mit genau eingestelltem Umkreis, damit Ihre Anzeige in Buchloe und den Nachbargemeinden erscheint und nicht in München.',
+              'Ein Bericht pro Monat, der Anfragen zählt, nicht nur Besucher.',
+            ],
+          },
+          {
+            h2: 'Ein Beispiel aus Buchloe',
+            paragraphs: [
+              'Ein ausgedachtes Beispiel, kein Kunde: Eine Physiotherapie-Praxis in Buchloe ist bei Stammpatienten voll, aber Neuzugezogene finden sie kaum. Das Google-Profil zeigt veraltete Öffnungszeiten, keine Leistungen und drei Bewertungen von 2021.',
+              'Wir korrigieren die Öffnungszeiten, tragen alle Leistungen mit Beschreibung ein, von Krankengymnastik bis Hausbesuch, und richten einen einfachen Ablauf ein, mit dem die Praxis zufriedene Patienten um eine Bewertung bittet. Auf der Website bekommt jede Leistung eine eigene Seite mit Buchloe im Titel.',
+              'Die Familie, die gerade aus München nach Buchloe gezogen ist und „Physiotherapie Buchloe“ sucht, findet jetzt ein aktuelles Profil mit frischen Bewertungen. Ob das wirkt, messen wir vorher und nachher.',
+            ],
+          },
+          {
+            h2: 'So läuft die Zusammenarbeit mit Betrieben in Buchloe',
+            paragraphs: [
+              'Wir starten mit einem kostenlosen Gespräch per Video oder Telefon. Sie zeigen uns Ihren Betrieb, wir zeigen Ihnen, wo Sie bei Google heute stehen.',
+              'Die laufende Arbeit machen wir remote. Für Fotos, Videos oder ein Treffen kommen wir nach Absprache nach Buchloe, mit dem Auto oder mit dem Zug. Ein Büro in Buchloe haben wir nicht.',
+              'Monatlich kündbar, ein fester Ansprechpartner.',
+            ],
+          },
+          {
+            h2: 'Für wen sich eine Werbeagentur in Buchloe lohnt',
+            paragraphs: [
+              'Es lohnt sich für Sie, wenn:',
+            ],
+            list: [
+              'Sie neue Kunden aus den Neubaugebieten und von Zugezogenen gewinnen wollen, die Sie noch nicht kennen.',
+              'Ihre Kunden Sie bei Google suchen, wenn sie Sie brauchen. Praxen, Handwerk, Friseure, Werkstätten, Dienstleister.',
+              'Sie online gegen Anbieter aus Kaufbeuren, Landsberg oder Augsburg bestehen wollen.',
+            ],
+            after: [
+              'Sie sitzen nicht in Buchloe selbst? Schauen Sie bei unseren [Einsatzgebieten](/einsatzgebiete), bei [Marktoberdorf](/werbeagentur-marktoberdorf) oder bei [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zur Werbeagentur in Buchloe',
+        faq: [
+          {
+            question: 'Meine Kunden kommen über Empfehlungen. Brauche ich trotzdem Google?',
+            answer: 'Empfehlungen sind Gold. Aber wer neu in Buchloe ist, hat noch niemanden, der ihm etwas empfiehlt. Diese Leute suchen bei Google. Und auch wer Sie empfohlen bekommt, schaut meistens noch kurz auf Ihr Profil und Ihre Bewertungen, bevor er anruft.',
+          },
+          {
+            question: 'Werden auch Kunden in Lindenberg und Honsolgen erreicht?',
+            answer: 'Ja, wenn wir es richtig einstellen. Wir nennen die Ortsteile, in denen Sie arbeiten, in Ihrem Profil und auf Ihrer Website, und stellen Anzeigen auf den passenden Umkreis ein.',
+          },
+          {
+            question: 'Kommen Sie für Termine nach Buchloe?',
+            answer: 'Ja, nach Absprache. Das erste Gespräch läuft per Video oder Telefon.',
+          },
+          {
+            question: 'Gilt die Geld-zurück-Garantie auch in Buchloe?',
+            answer: 'Ja. Sie gilt für ein Haupt-Keyword, das wir vorher schriftlich festlegen, gemessen auf der Karte an Ihrem Standort. Alle Bedingungen stehen in den [FAQ](/faq).',
+          },
+          {
+            question: 'Was kostet das?',
+            answer: 'Das hängt davon ab, was Sie brauchen. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis. Monatlich kündbar.',
+          },
+        ],
+        ctaHeading: 'Bereit, in Buchloe gefunden zu werden?',
       },
     },
   },

@@ -327,7 +327,7 @@ export default {
               'We are based in [Kaufbeuren](/marketing-agentur-kaufbeuren). Our clients aren\'t only here. Local SEO works the same everywhere, only the search terms change. In Kempten people search "Steuerberater Kempten", in Memmingen "Autowerkstatt Memmingen". On the map, Google shows the businesses that are close and fit the search best.',
               'For businesses in Kempten we build pages with Kempten in the title and heading, set up the Google profile properly and look at the local competition. More on the [advertising agency Kempten](/werbeagentur-kempten) page.',
               'Memmingen is the same. Many businesses there have a Google profile but hardly any services listed and no page per service. That is the gap we close first. Everything about Memmingen is on the [advertising agency Memmingen](/werbeagentur-memmingen) page.',
-              '[Marktoberdorf](/werbeagentur-marktoberdorf), Buchloe, Füssen or a village in between? We work across the whole [Ostallgäu](/einsatzgebiete). The first call is by video or phone, and we come on site when it\'s needed.',
+              '[Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe), Füssen or a village in between? We work across the whole [Ostallgäu](/einsatzgebiete). The first call is by video or phone, and we come on site when it\'s needed.',
             ],
           },
           {
@@ -2187,6 +2187,99 @@ export default {
           },
         ],
         ctaHeading: 'Ready to be found in Marktoberdorf?',
+      },
+      buchloe: {
+        title: 'Buchloe',
+        label: 'Advertising Agency Buchloe',
+        h1: 'Advertising Agency Buchloe',
+        seoTitle: 'BEST Advertising Agency Buchloe | SEO, Web Design, Google Ads & Social Media Near You | Online Marketing for Businesses at the Gateway to the Allgäu | Valbrix Digital',
+        metaDescription: 'Advertising agency for businesses in Buchloe: local SEO, web design, Google Ads and social media from Valbrix Digital in Kaufbeuren. Free call.',
+        intro: 'We are an advertising agency for businesses in Buchloe. We\'re based in [Kaufbeuren](/marketing-agentur-kaufbeuren), on the same rail line towards the Allgäu. We get businesses in Buchloe, Lindenberg and Honsolgen to the top of Google, in regular search and on the map, with one fixed contact person from the region.',
+        sections: [
+          {
+            h2: 'Advertising agency in Buchloe: a town that grew fast',
+            paragraphs: [
+              'Buchloe calls itself the gateway to the Allgäu. The town has about 14,000 inhabitants, making it the third largest in the Ostallgäu after Marktoberdorf and Füssen. The station is a rail junction with lines to Munich, Augsburg, Lindau and Memmingen, and the A96 and B12 run right past.',
+              'That\'s exactly why Buchloe has grown so much. Between 1988 and 2018 the population grew by almost 50 percent, many because Munich and Augsburg are easy to reach.',
+              'For your business that means: a large share of your potential customers didn\'t grow up in Buchloe. They don\'t know the electrician next door, have no hairdresser, garage or practice someone recommended. They google. And they pick what\'s at the top of the map.',
+            ],
+          },
+          {
+            h2: 'What this means for businesses in Buchloe',
+            paragraphs: [
+              'Someone new to Buchloe searches, for example, "dentist Buchloe", "hairdresser near me" or "heating engineer Buchloe". A Buchloe business then competes not only with neighbours in town, but often with providers from Kaufbeuren, Landsberg or Augsburg that are better set up online.',
+              'Word of mouth doesn\'t work with these new customers yet. Your Google Business Profile, your reviews and your website take on that role. Whoever looks complete and active there gets the call.',
+            ],
+          },
+          {
+            h2: 'What we do for businesses in Buchloe',
+            paragraphs: [
+              'The same order as for every client, adapted to Buchloe:',
+            ],
+            list: [
+              'A complete Google Business Profile. The right categories, every service with a description, real photos, opening hours including holidays. More under [Google Business Profile](/leistungen/google-unternehmensprofil).',
+              'A fixed routine for reviews. New customers in Buchloe read reviews before they call. Every happy customer should be asked.',
+              'A website with Buchloe in the title and heading, and a separate page per service. See [Web Design](/leistungen/webdesign) or [Website Optimisation](/leistungen/website-optimierung).',
+              'Thinking of Lindenberg and Honsolgen. If you work there just as in Buchloe, we name the districts in the profile and on the website.',
+              '[Google Ads](/leistungen/google-ads) with a precisely set radius, so your ad shows in Buchloe and neighbouring villages, not in Munich.',
+              'One report a month that counts enquiries, not just visitors.',
+            ],
+          },
+          {
+            h2: 'An example from Buchloe',
+            paragraphs: [
+              'A made-up example, not a client: a physiotherapy practice in Buchloe is full with regular patients, but newcomers hardly find it. The Google profile shows outdated opening hours, no services and three reviews from 2021.',
+              'We correct the opening hours, list every service with a description, from physiotherapy to home visits, and set up a simple routine for asking happy patients for a review. On the website each service gets its own page with Buchloe in the title.',
+              'The family that just moved from Munich to Buchloe and searches "physiotherapy Buchloe" now finds an up-to-date profile with fresh reviews. Whether it works, we measure before and after.',
+            ],
+          },
+          {
+            h2: 'How we work with businesses in Buchloe',
+            paragraphs: [
+              'We start with a free call by video or phone. You show us your business, we show you where you stand on Google today.',
+              'The ongoing work happens remotely. For photos, videos or a meeting we come to Buchloe by arrangement, by car or by train. We don\'t have an office in Buchloe.',
+              'Cancel monthly, one fixed contact person.',
+            ],
+          },
+          {
+            h2: 'Who an advertising agency in Buchloe is worth it for',
+            paragraphs: [
+              'It\'s worth it for you if:',
+            ],
+            list: [
+              'You want to win new customers from new housing areas and newcomers who don\'t know you yet.',
+              'Your customers search for you on Google when they need you. Practices, trades, hairdressers, garages, service providers.',
+              'You want to hold your own online against providers from Kaufbeuren, Landsberg or Augsburg.',
+            ],
+            after: [
+              'Not based in Buchloe itself? See our [service areas](/einsatzgebiete), [Marktoberdorf](/werbeagentur-marktoberdorf) or [Memmingen](/werbeagentur-memmingen).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about an advertising agency in Buchloe',
+        faq: [
+          {
+            question: 'My customers come through recommendations. Do I still need Google?',
+            answer: 'Recommendations are gold. But someone new to Buchloe has nobody yet to recommend anything. These people search on Google. And even people who were recommended to you usually check your profile and reviews before they call.',
+          },
+          {
+            question: 'Will customers in Lindenberg and Honsolgen be reached too?',
+            answer: 'Yes, if we set it up right. We name the districts you work in on your profile and website, and set ads to the right radius.',
+          },
+          {
+            question: 'Do you come to Buchloe for meetings?',
+            answer: 'Yes, by arrangement. The first call is by video or phone.',
+          },
+          {
+            question: 'Does the money-back guarantee apply in Buchloe too?',
+            answer: 'Yes. It applies to one main keyword we agree in writing beforehand, measured on the map at your location. All conditions are in the [FAQ](/faq).',
+          },
+          {
+            question: 'What does it cost?',
+            answer: 'It depends on what you need. After the free call you get a fixed price. Cancel monthly.',
+          },
+        ],
+        ctaHeading: 'Ready to be found in Buchloe?',
       },
     },
   },
