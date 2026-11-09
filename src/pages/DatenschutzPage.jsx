@@ -91,11 +91,23 @@ function GermanBody() {
 
       <Section title="7. Cookies und lokale Speicherung">
         <p>
-          Diese Website verwendet keine Tracking- oder Werbe-Cookies. Zur Speicherung Ihrer gewählten Sprache (Deutsch/Englisch) nutzen wir den lokalen Speicher Ihres Browsers (localStorage). Diese Speicherung ist technisch notwendig für die Funktion der Sprachumschaltung und bedarf daher keiner gesonderten Einwilligung (§ 25 Abs. 2 TDDDG). Es werden dabei keine Daten an uns oder Dritte übertragen - die Information verbleibt ausschließlich auf Ihrem Gerät.
+          Diese Website verwendet keine Tracking- oder Werbe-Cookies. (Ausnahme: Wenn Sie die Google-Maps-Karte laden, kann Google Cookies setzen, siehe Punkt 8.) Zur Speicherung Ihrer gewählten Sprache (Deutsch/Englisch) nutzen wir den lokalen Speicher Ihres Browsers (localStorage). Diese Speicherung ist technisch notwendig für die Funktion der Sprachumschaltung und bedarf daher keiner gesonderten Einwilligung (§ 25 Abs. 2 TDDDG). Es werden dabei keine Daten an uns oder Dritte übertragen - die Information verbleibt ausschließlich auf Ihrem Gerät.
         </p>
       </Section>
 
-      <Section title="8. Änderung dieser Datenschutzerklärung">
+      <Section title="8. Google Maps">
+        <p>
+          Auf der Seite „Marketing-Agentur Kaufbeuren“ können Sie eine Karte von Google Maps (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) laden, die unser Google-Unternehmensprofil zeigt. Die Karte wird erst geladen, wenn Sie auf „Karte laden“ klicken. Vorher wird keine Verbindung zu Google hergestellt.
+        </p>
+        <p>
+          Nach dem Klick überträgt Ihr Browser Daten an Google, insbesondere Ihre IP-Adresse, Datum und Uhrzeit sowie die aufgerufene Seite. Google kann dabei Cookies setzen und Daten auch in die USA übermitteln. Rechtsgrundlage ist Ihre Einwilligung durch den Klick (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Die Einwilligung gilt nur für den jeweiligen Seitenaufruf; beim nächsten Besuch wird die Karte wieder erst nach einem Klick geladen.
+        </p>
+        <p>
+          Weitere Informationen finden Sie in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 underline">policies.google.com/privacy</a>.
+        </p>
+      </Section>
+
+      <Section title="9. Änderung dieser Datenschutzerklärung">
         <p>
           Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen umzusetzen. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
         </p>
@@ -185,11 +197,23 @@ function EnglishBody() {
 
       <Section title="7. Cookies and local storage">
         <p>
-          This website uses no tracking or advertising cookies. To remember your chosen language (German/English), we use your browser's local storage (localStorage). This is technically necessary for the language switch to work and therefore does not require separate consent (§ 25(2) TDDDG). No data is sent to us or third parties in the process. The information stays on your device only.
+          This website uses no tracking or advertising cookies. (Exception: if you load the Google Maps map, Google may set cookies, see section 8.) To remember your chosen language (German/English), we use your browser's local storage (localStorage). This is technically necessary for the language switch to work and therefore does not require separate consent (§ 25(2) TDDDG). No data is sent to us or third parties in the process. The information stays on your device only.
         </p>
       </Section>
 
-      <Section title="8. Changes to this privacy policy">
+      <Section title="8. Google Maps">
+        <p>
+          On the "Marketing Agency Kaufbeuren" page you can load a Google Maps map (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland) showing our Google Business Profile. The map is only loaded when you click "Load map". Before that, no connection to Google is made.
+        </p>
+        <p>
+          After the click your browser sends data to Google, in particular your IP address, date and time and the page visited. Google may set cookies and also transfer data to the USA. The legal basis is your consent given by the click (Art. 6(1)(a) GDPR, § 25(1) TDDDG). The consent only applies to that page view; on your next visit the map again loads only after a click.
+        </p>
+        <p>
+          More information is in Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 underline">policies.google.com/privacy</a>.
+        </p>
+      </Section>
+
+      <Section title="9. Changes to this privacy policy">
         <p>
           We reserve the right to update this privacy policy so it always meets current legal requirements or reflects changes to our services. The new privacy policy then applies to your next visit.
         </p>

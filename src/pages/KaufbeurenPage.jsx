@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import FAQItem from '../components/FAQItem'
+import MapEmbed from '../components/MapEmbed'
 
 const accentColor = '#b8860a'
 
@@ -383,6 +384,9 @@ export default function KaufbeurenPage() {
           </div>
         </div>
       </section>
+
+      {/* Google Maps, click to load */}
+      <MapEmbed />
 
       {/* FAQ */}
       <section className="relative py-20 overflow-hidden">
