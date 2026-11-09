@@ -12,6 +12,7 @@ const serviceLinkSlugs = [
   'mitarbeitergewinnung',
   'brand-strategy',
   'grafikdesign',
+  'logodesign',
   'content-creation',
   'lead-generation',
   'webdesign',

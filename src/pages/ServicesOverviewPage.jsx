@@ -10,7 +10,7 @@ const L = ({ to, children }) => (
   </Link>
 )
 
-const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'mitarbeitergewinnung', 'brand-strategy', 'grafikdesign', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
+const slugs = ['online-marketing', 'seo-optimization', 'google-unternehmensprofil', 'google-ads', 'meta-ads', 'social-media-management', 'mitarbeitergewinnung', 'brand-strategy', 'grafikdesign', 'logodesign', 'content-creation', 'lead-generation', 'webdesign', 'website-optimierung', 'website-landing-page-strategy', 'analytics-reporting']
 
 const copy = {
   de: {
@@ -38,6 +38,7 @@ const copy = {
       ['Mitarbeitergewinnung', 'Fachkräfte und Azubis über Facebook und Instagram finden.', 'Ein paar Wochen'],
       ['Markenstrategie', 'Klar sagen, wofür Sie stehen.', 'Einmal machen, wirkt überall'],
       ['Grafikdesign', 'Grafiken für Social Media, Anzeigen und Website, die auf dem Handy wirken.', 'Ein paar Tage'],
+      ['Logodesign', 'Ein Logo, das auf dem Handy, im Google-Profil und auf dem Auto funktioniert.', 'Ein paar Wochen'],
       ['Content-Erstellung', 'Fotos, Videos und Texte, die nach Ihnen aussehen.', 'Laufend'],
       ['Lead-Generierung', 'Anfragen, die nicht vom Zufall abhängen.', 'Ein paar Wochen'],
       ['Webdesign', 'Eine neue Website, die gefunden wird und Anfragen bringt.', 'Ein paar Wochen'],
@@ -106,6 +107,7 @@ const copy = {
       ['Staff Recruitment', 'Find skilled workers and apprentices via Facebook and Instagram.', 'A few weeks'],
       ['Brand Strategy', 'Say clearly what you stand for.', 'Do it once, works everywhere'],
       ['Graphic Design', 'Graphics for social media, ads and website that work on mobile.', 'A few days'],
+      ['Logo Design', 'A logo that works on mobile, in your Google profile and on your van.', 'A few weeks'],
       ['Content Creation', 'Photos, videos and copy that look like you.', 'Ongoing'],
       ['Lead Generation', "Inquiries that don't depend on luck.", 'A few weeks'],
       ['Web Design', 'A new website that gets found and brings enquiries.', 'A few weeks'],

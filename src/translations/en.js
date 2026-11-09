@@ -1575,7 +1575,7 @@ export default {
           },
           {
             question: 'Do I need a logo first?',
-            answer: 'Not necessarily. If you have a logo that works well, we build on it. If it\'s outdated or unreadable on a phone, we talk about that before building lots of graphics around it.',
+            answer: 'Not necessarily. If you have a logo that works well, we build on it. If it\'s outdated or unreadable on a phone, we talk about that before building lots of graphics around it. More under [Logo Design](/leistungen/logodesign).',
           },
           {
             question: 'Can I edit the graphics myself?',
@@ -1688,6 +1688,118 @@ export default {
           {
             question: 'How quickly will I see first applications?',
             answer: 'Once content and the application page are ready, the ads run immediately. You usually see first responses within a few days. Whether they turn into good applications shows over the first weeks.',
+          },
+        ],
+      },
+      'logodesign': {
+        title: 'Logo Design',
+        seoTitle: 'BEST Logo Design Agency Kaufbeuren | Logo Creation, Logo Redesign & Brand Mark Near You | Readable on Mobile, in Your Google Profile and on Your Van | Valbrix Digital',
+        h1: 'Logo Design Kaufbeuren',
+        metaDescription: 'Get a logo made in Kaufbeuren that works on mobile, in your Google profile and on the company van. All files for web and print.',
+        intro: 'We do logo design in Kaufbeuren. For businesses in Kaufbeuren and the Ostallgäu we create logos that work everywhere: as a small icon in your Google profile, as a round profile picture on Instagram, on the website and on the company van. You get all files for web and print.',
+        includes: [
+          'New logo or a redesign of your existing one',
+          'Drafts checked at real size: phone, Google profile, Instagram',
+          'Variants: colour, single colour, light and dark, as a symbol',
+          'All files for web and print, with colour values',
+        ],
+        whyItMatters: 'Today your logo appears more often as a tiny image on a phone than large on a sign. If it isn\'t readable there, people don\'t recognise your business. A good logo works at any size.',
+        sections: [
+          {
+            h2: 'Logo design in Kaufbeuren: made for the small screen',
+            paragraphs: [
+              'Logos used to be made for letterheads and signs. Today people first see them as a small round image next to an Instagram post, as an icon in your Google Business Profile or as a tiny icon in the browser tab. Often no bigger than a fingernail.',
+              'Many logos that look good on a sign turn into an unreadable blob there. Fine lines disappear, long wordmarks become unreadable, three colours blur together. So we check every draft first at the size it\'s seen most often.',
+            ],
+          },
+          {
+            h2: 'What makes a good logo',
+            paragraphs: [
+              'Five things we look for in every logo:',
+            ],
+            list: [
+              'Simple. You should be able to sketch it after one look. The simpler, the better it sticks.',
+              'Readable at any size. From the company van to the profile picture on a phone. We check both.',
+              'Works in one colour. For the stamp, the engraving or the black-and-white invoice.',
+              'Fits your business. A carpenter needs a different look than a beauty practice. The logo should show who you are, not what\'s fashionable.',
+              'Distinctive. It shouldn\'t look like the logo of the competitor two streets away. We first look at how other businesses in your trade present themselves in the region.',
+            ],
+          },
+          {
+            h2: 'How your logo is created',
+            paragraphs: [
+              'A logo job with us follows this order:',
+            ],
+            list: [
+              'Call. What do you do, for whom, and what should people think of your business when they see the logo? Are there colours or shapes you like or definitely don\'t want?',
+              'Look around. We see how other businesses in your trade present themselves in the Allgäu, so your logo stands out.',
+              'Drafts. You get drafts shown the way they\'ll be seen later: in the Google profile, as an Instagram image, on the website, on a vehicle.',
+              'Revision. You say what works. We finalise the chosen draft.',
+              'Handover. All files, all variants, the colour values and a short overview of how to use the logo.',
+            ],
+          },
+          {
+            h2: 'What you get',
+            paragraphs: [
+              'After the job you have everything you need for the coming years:',
+            ],
+            list: [
+              'Your logo in several variants: colour, single colour, for light and dark backgrounds, and as a standalone symbol for small spaces.',
+              'Files for the web (for example SVG and PNG) and for print (for example PDF), so your print shop or sign maker can work with them.',
+              'The exact colour values for screen and print.',
+              'The logo in the right sizes for your Google Business Profile, Instagram, Facebook and as the icon in your website\'s browser tab.',
+            ],
+            after: [
+              'The finished logo belongs to you. Whether you also register it as a trademark is best clarified with a lawyer or directly with the German Patent and Trade Mark Office.',
+            ],
+          },
+          {
+            h2: 'A logo has to be readable for Google too',
+            paragraphs: [
+              'We learned that from our own logo. Our wordmark only shows "valbrix". Google read that wordmark as the first text on every page and therefore called our business "valbrix" in the search results instead of "Valbrix Digital".',
+              'On 5 November 2026 we changed the logo so it carries the full name for Google. For visitors it looks exactly the same. We check details like this with your logo too when it\'s built into your website. More under [Web Design](/leistungen/webdesign).',
+            ],
+          },
+          {
+            h2: 'New logo or redesign?',
+            paragraphs: [
+              'Not every old logo has to go. A logo that\'s been on the company vans for 20 years often carries a lot of recognition. Then a careful redesign is better than starting from scratch: a more modern font, clearer lines, a version that also works on a phone.',
+              'If you\'re just starting out or no longer like your logo yourself, we start fresh. The logo is then the starting point for a consistent look. See [Brand Strategy](/leistungen/brand-strategy) and [Graphic Design](/leistungen/grafikdesign).',
+            ],
+          },
+          {
+            h2: 'What it costs to get a logo made',
+            paragraphs: [
+              'We work with a fixed price agreed beforehand. It depends on whether you need a new logo or a redesign and how many variants and files you need. You get the price after the free call.',
+              'Not based in Kaufbeuren? We also design logos for businesses in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe) and the whole [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about logo design in Kaufbeuren',
+        faq: [
+          {
+            question: 'How much does it cost to get a logo made?',
+            answer: 'Online you can find logos for a few euros, and agencies quote very different prices. With us you get a fixed price after the free call, for your logo with all variants and files.',
+          },
+          {
+            question: 'Where can I get a logo made?',
+            answer: 'At an agency or graphic designer who understands your business and checks the logo at every size it will later be shown. In Kaufbeuren and the Ostallgäu that\'s what we do. The first call is free.',
+          },
+          {
+            question: 'Which files do I get?',
+            answer: 'Your logo in all variants as files for web and print, plus the colour values and matching sizes for Google profile, social media and website.',
+          },
+          {
+            question: 'Does the logo belong to me afterwards?',
+            answer: 'Yes. The finished logo belongs to you and you can use it anywhere. Whether to register it as a trademark, clarify with a lawyer or the German Patent and Trade Mark Office.',
+          },
+          {
+            question: 'Can you just redesign my old logo?',
+            answer: 'Yes. If your logo is well known, a redesign is often better than starting over. We make it clearer and fit for phones and the Google profile, without losing recognition.',
+          },
+          {
+            question: 'Do you also handle signs and vehicle lettering?',
+            answer: 'We don\'t do the installation ourselves. But you get the files your sign or lettering business can work with directly.',
           },
         ],
       },

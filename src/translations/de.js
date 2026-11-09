@@ -1575,7 +1575,7 @@ export default {
           },
           {
             question: 'Brauche ich zuerst ein Logo?',
-            answer: 'Nicht unbedingt. Wenn Sie ein Logo haben, das gut funktioniert, bauen wir darauf auf. Wenn es veraltet ist oder auf dem Handy nicht lesbar, sprechen wir darüber, bevor wir viele Grafiken darum herum bauen.',
+            answer: 'Nicht unbedingt. Wenn Sie ein Logo haben, das gut funktioniert, bauen wir darauf auf. Wenn es veraltet ist oder auf dem Handy nicht lesbar, sprechen wir darüber, bevor wir viele Grafiken darum herum bauen. Mehr dazu bei [Logodesign](/leistungen/logodesign).',
           },
           {
             question: 'Kann ich die Grafiken selbst weiter bearbeiten?',
@@ -1688,6 +1688,118 @@ export default {
           {
             question: 'Wie schnell sehe ich erste Bewerbungen?',
             answer: 'Wenn Inhalte und Bewerbungsseite stehen, laufen die Anzeigen sofort. Erste Reaktionen sehen Sie meist innerhalb weniger Tage. Ob daraus gute Bewerbungen werden, zeigt sich in den ersten Wochen.',
+          },
+        ],
+      },
+      'logodesign': {
+        title: 'Logodesign',
+        seoTitle: 'BESTE Logodesign Agentur Kaufbeuren | Logo erstellen lassen, Logo-Redesign & Markenzeichen in Ihrer Nähe | Lesbar auf dem Handy, im Google-Profil und auf dem Auto | Valbrix Digital',
+        h1: 'Logodesign Kaufbeuren',
+        metaDescription: 'Logo erstellen lassen in Kaufbeuren: ein Logo, das auf dem Handy, im Google-Profil und auf dem Firmenwagen funktioniert. Alle Dateien für Web und Druck.',
+        intro: 'Wir machen Logodesign in Kaufbeuren. Für Betriebe aus Kaufbeuren und dem Ostallgäu entwickeln wir Logos, die überall funktionieren: als kleines Symbol im Google-Profil, als rundes Profilbild auf Instagram, auf der Website und auf dem Firmenwagen. Sie bekommen alle Dateien für Web und Druck.',
+        includes: [
+          'Neues Logo oder Überarbeitung Ihres bestehenden Logos',
+          'Entwürfe, geprüft in echter Größe: Handy, Google-Profil, Instagram',
+          'Varianten: farbig, einfarbig, hell und dunkel, als Symbol',
+          'Alle Dateien für Web und Druck, mit Farbwerten',
+        ],
+        whyItMatters: 'Ihr Logo erscheint heute öfter als winziges Bild auf einem Handy als groß auf einem Schild. Wenn es dort nicht lesbar ist, erkennt man Ihren Betrieb nicht wieder. Ein gutes Logo funktioniert in jeder Größe.',
+        sections: [
+          {
+            h2: 'Logodesign in Kaufbeuren: gemacht für den kleinen Bildschirm',
+            paragraphs: [
+              'Früher wurde ein Logo für Briefpapier und Schild gemacht. Heute sieht man es zuerst als kleines rundes Bild neben einem Instagram-Beitrag, als Symbol in Ihrem Google-Unternehmensprofil oder als winziges Icon im Browser-Tab. Oft nur so groß wie ein Fingernagel.',
+              'Viele Logos, die auf dem Schild gut aussehen, werden dort zu einem unleserlichen Fleck. Feine Linien verschwinden, lange Schriftzüge werden unlesbar, drei Farben verschwimmen. Deshalb prüfen wir jeden Entwurf zuerst in der Größe, in der er am häufigsten gesehen wird.',
+            ],
+          },
+          {
+            h2: 'Welche Merkmale ein gutes Logo hat',
+            paragraphs: [
+              'Fünf Dinge, auf die wir bei jedem Logo achten:',
+            ],
+            list: [
+              'Einfach. Man sollte es nach einem Blick nachzeichnen können. Je einfacher, desto besser bleibt es hängen.',
+              'Lesbar in jeder Größe. Vom Firmenwagen bis zum Profilbild auf dem Handy. Wir prüfen beides.',
+              'Funktioniert in einer Farbe. Für den Stempel, die Gravur oder die Rechnung in Schwarz-Weiß.',
+              'Passt zu Ihrem Betrieb. Ein Zimmerer braucht einen anderen Auftritt als eine Kosmetikpraxis. Das Logo soll zeigen, wer Sie sind, nicht was gerade Mode ist.',
+              'Eigenständig. Es soll nicht aussehen wie das Logo des Mitbewerbers zwei Straßen weiter. Wir schauen uns vorher an, wie die anderen Betriebe Ihrer Branche in der Region auftreten.',
+            ],
+          },
+          {
+            h2: 'So entsteht Ihr Logo',
+            paragraphs: [
+              'Ein Logo-Auftrag läuft bei uns in dieser Reihenfolge:',
+            ],
+            list: [
+              'Gespräch. Was machen Sie, für wen, und was soll man über Ihren Betrieb denken, wenn man das Logo sieht? Gibt es Farben oder Formen, die Sie mögen oder auf keinen Fall wollen?',
+              'Umschauen. Wir sehen uns an, wie andere Betriebe Ihrer Branche im Allgäu auftreten, damit Ihr Logo sich abhebt.',
+              'Entwürfe. Sie bekommen Entwürfe, gezeigt so, wie man sie später sieht: im Google-Profil, als Instagram-Bild, auf der Website, auf einem Auto.',
+              'Überarbeitung. Sie sagen, was passt. Wir arbeiten den gewählten Entwurf aus.',
+              'Übergabe. Alle Dateien, alle Varianten, die Farbwerte und eine kurze Übersicht, wie das Logo eingesetzt wird.',
+            ],
+          },
+          {
+            h2: 'Was Sie bekommen',
+            paragraphs: [
+              'Nach dem Auftrag haben Sie alles, was Sie für die nächsten Jahre brauchen:',
+            ],
+            list: [
+              'Ihr Logo in mehreren Varianten: farbig, einfarbig, für helle und für dunkle Hintergründe, und als einzelnes Symbol für kleine Flächen.',
+              'Dateien für das Web (zum Beispiel SVG und PNG) und für den Druck (zum Beispiel PDF), damit Ihre Druckerei oder der Beschrifter damit arbeiten kann.',
+              'Die genauen Farbwerte für Bildschirm und Druck.',
+              'Das Logo in den richtigen Größen für Ihr Google-Unternehmensprofil, Instagram, Facebook und als Symbol im Browser-Tab Ihrer Website.',
+            ],
+            after: [
+              'Das fertige Logo gehört Ihnen. Ob Sie es zusätzlich als Marke anmelden, klären Sie am besten mit einem Anwalt oder direkt beim Deutschen Patent- und Markenamt.',
+            ],
+          },
+          {
+            h2: 'Ein Logo muss auch für Google lesbar sein',
+            paragraphs: [
+              'Das haben wir an unserem eigenen Logo gelernt. Unser Schriftzug zeigt nur „valbrix“. Google hat diesen Schriftzug als ersten Text auf jeder Seite gelesen und unseren Betrieb in den Suchergebnissen deshalb „valbrix“ genannt statt „Valbrix Digital“.',
+              'Am 5. November 2026 haben wir das Logo so geändert, dass es für Google den vollen Namen trägt. Für Besucher sieht es genau gleich aus. Solche Details prüfen wir auch bei Ihrem Logo, wenn es auf Ihrer Website eingebaut wird. Mehr dazu bei [Webdesign](/leistungen/webdesign).',
+            ],
+          },
+          {
+            h2: 'Neues Logo oder Überarbeitung?',
+            paragraphs: [
+              'Nicht jedes alte Logo muss weg. Oft steckt in einem Logo, das seit 20 Jahren auf den Firmenwagen steht, viel Wiedererkennung. Dann ist eine vorsichtige Überarbeitung besser als ein kompletter Neuanfang: Schrift moderner, Linien klarer, eine Version, die auch auf dem Handy funktioniert.',
+              'Wenn Sie gerade gründen oder Ihr Logo selbst nicht mehr mögen, fangen wir neu an. Das Logo ist dann der Startpunkt für einen einheitlichen Auftritt. Siehe [Markenstrategie](/leistungen/brand-strategy) und [Grafikdesign](/leistungen/grafikdesign).',
+            ],
+          },
+          {
+            h2: 'Was es kostet, ein Logo erstellen zu lassen',
+            paragraphs: [
+              'Wir arbeiten mit einem festen Preis, der vorher feststeht. Er hängt davon ab, ob Sie ein neues Logo oder eine Überarbeitung brauchen und wie viele Varianten und Dateien Sie benötigen. Den Preis bekommen Sie nach dem kostenlosen Gespräch.',
+              'Sie sitzen nicht in Kaufbeuren? Wir gestalten Logos auch für Betriebe in [Kempten](/werbeagentur-kempten), [Memmingen](/werbeagentur-memmingen), [Marktoberdorf](/werbeagentur-marktoberdorf), [Buchloe](/werbeagentur-buchloe) und im ganzen [Ostallgäu](/einsatzgebiete).',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu Logodesign in Kaufbeuren',
+        faq: [
+          {
+            question: 'Wie viel kostet es, ein Logo erstellen zu lassen?',
+            answer: 'Online gibt es Logos ab wenigen Euro, Agenturen nennen sehr unterschiedliche Preise. Bei uns bekommen Sie nach dem kostenlosen Gespräch einen festen Preis für Ihr Logo mit allen Varianten und Dateien.',
+          },
+          {
+            question: 'Wo kann ich mir ein Logo erstellen lassen?',
+            answer: 'Bei einer Agentur oder einem Grafikdesigner, der Ihren Betrieb versteht und das Logo in allen Größen prüft, in denen es später gezeigt wird. In Kaufbeuren und dem Ostallgäu machen wir das. Das erste Gespräch ist kostenlos.',
+          },
+          {
+            question: 'Welche Dateien bekomme ich?',
+            answer: 'Ihr Logo in allen Varianten als Dateien für das Web und für den Druck, dazu die Farbwerte und passende Größen für Google-Profil, Social Media und Website.',
+          },
+          {
+            question: 'Gehört das Logo danach mir?',
+            answer: 'Ja. Das fertige Logo gehört Ihnen und Sie können es überall einsetzen. Ob Sie es als Marke anmelden, klären Sie mit einem Anwalt oder beim Deutschen Patent- und Markenamt.',
+          },
+          {
+            question: 'Können Sie mein altes Logo nur überarbeiten?',
+            answer: 'Ja. Wenn Ihr Logo bekannt ist, ist eine Überarbeitung oft besser als ein Neuanfang. Wir machen es klarer und tauglich für Handy und Google-Profil, ohne dass man Sie nicht mehr wiedererkennt.',
+          },
+          {
+            question: 'Kümmern Sie sich auch um Schild und Fahrzeugbeschriftung?',
+            answer: 'Das Anbringen machen wir nicht selbst. Sie bekommen aber die Dateien, mit denen Ihr Schilder- oder Beschriftungsbetrieb direkt arbeiten kann.',
           },
         ],
       },
