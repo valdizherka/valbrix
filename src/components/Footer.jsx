@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext'
 const serviceLinkSlugs = [
   'online-marketing',
   'seo-optimization',
+  'seo-agentur-kempten',
   'google-unternehmensprofil',
   'google-ads',
   'meta-ads',

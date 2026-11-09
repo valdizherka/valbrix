@@ -30,11 +30,15 @@ export default function ServicePage() {
           {service.intro}
         </p>
         <p className="text-gray-500 leading-relaxed mb-12 max-w-2xl">
-          {sp.areaMentionPrefix}{' '}
-          <Link to="/marketing-agentur-kaufbeuren" className="font-semibold hover:underline" style={{ color: '#b8860a' }}>
-            Kaufbeuren
-          </Link>{' '}
-          {sp.areaMentionSuffix}
+          {service.areaMention ? withLinks(service.areaMention) : (
+            <>
+              {sp.areaMentionPrefix}{' '}
+              <Link to="/marketing-agentur-kaufbeuren" className="font-semibold hover:underline" style={{ color: '#b8860a' }}>
+                Kaufbeuren
+              </Link>{' '}
+              {sp.areaMentionSuffix}
+            </>
+          )}
         </p>
 
         <div className="rounded-2xl p-7 md:p-9 mb-8" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>

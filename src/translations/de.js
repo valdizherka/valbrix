@@ -1803,6 +1803,112 @@ export default {
           },
         ],
       },
+      'seo-agentur-kempten': {
+        title: 'SEO in Kempten',
+        seoTitle: 'BESTE SEO-Agentur Kempten | Suchmaschinenoptimierung, lokale SEO & Google Maps in Ihrer Nähe | Mehr Anfragen für Betriebe im Allgäu | Valbrix Digital',
+        h1: 'SEO-Agentur Kempten',
+        areaMention: 'Diese Leistung bieten wir für Unternehmen in [Kempten](/werbeagentur-kempten), im Oberallgäu und im ganzen [Ostallgäu](/einsatzgebiete) an, von unserem Sitz in [Kaufbeuren](/marketing-agentur-kaufbeuren) aus.',
+        metaDescription: 'SEO-Agentur für Kempten: Suchmaschinenoptimierung und lokale SEO, damit Ihr Betrieb bei Google und auf der Karte gefunden wird. Kostenloses Strategiegespräch.',
+        intro: 'Wir machen SEO für Betriebe in Kempten. Unser Sitz ist im nahen Kaufbeuren. Wir sorgen dafür, dass Ihr Betrieb gefunden wird, wenn jemand in Kempten oder im Umland nach Ihrer Leistung sucht. In der normalen Google-Suche und auf der Karte.',
+        includes: [
+          'Prüfung Ihrer Website und Ihres Google-Profils mit Startwert und Datum',
+          'Eine eigene Seite pro Leistung, mit Kempten in Titel und Überschrift',
+          'Google-Unternehmensprofil, Verzeichnisse und Bewertungen',
+          'Ein Bericht pro Monat: wo Sie stehen und was sich bewegt hat',
+        ],
+        whyItMatters: 'Kempten ist die größte Stadt im Allgäu. Für fast jede Leistung gibt es hier mehr Anbieter als in den kleineren Orten ringsum, und alle wollen auf die ersten drei Plätze der Google-Karte. Wer dort nicht steht, bekommt den Anruf nicht.',
+        sections: [
+          {
+            h2: 'SEO in Kempten: das Zentrum für das ganze Allgäu',
+            paragraphs: [
+              'Kempten hat rund 67.600 Einwohner und ist das Zentrum einer Region mit etwa 480.000 Menschen. Wer im Allgäu einen Facharzt, eine Fachwerkstatt oder ein größeres Geschäft sucht, sucht oft gleich in Kempten. Dazu kommen fast 6.000 Studierende der Hochschule Kempten, die neu in der Stadt sind und vieles googeln.',
+              'Das heißt für Ihr SEO: Ihre Kunden kommen nicht nur aus der Stadt. Sie suchen aus Immenstadt, Sonthofen oder Kaufbeuren nach „Kempten“ plus Ihrer Leistung. Ihre Website und Ihr Google-Profil müssen deshalb klar sagen, was Sie machen und dass Sie in Kempten sind.',
+            ],
+          },
+          {
+            h2: 'Was in Kempten bei Google anders ist',
+            paragraphs: [
+              'Die Regeln sind dieselben wie überall: Google sortiert die Karte danach, wie gut ein Betrieb zur Suche passt, wie nah er ist und wie bekannt er ist. In einer größeren Stadt wie Kempten wiegen zwei Dinge aber schwerer.',
+            ],
+            list: [
+              'Mehr Konkurrenz pro Suchbegriff. „Friseur Kempten“ oder „Steuerberater Kempten“ hat mehr Anbieter als in Kaufbeuren. Ein halb ausgefülltes Profil reicht hier nicht.',
+              'Die Entfernung spielt eine größere Rolle. Die Stadt ist größer, Ihre Kunden suchen von verschiedenen Ecken aus. Wer nicht direkt um die Ecke liegt, muss bei Relevanz und Bewertungen umso besser sein.',
+            ],
+            after: [
+              'Die gute Nachricht: Viele Betriebe in Kempten haben ihr Profil einmal ausgefüllt und nie wieder angeschaut. Wer seine Leistungen vollständig einträgt, eine eigene Seite pro Leistung hat und regelmäßig Bewertungen sammelt, hebt sich deutlich ab.',
+            ],
+          },
+          {
+            h2: 'Was wir als SEO-Agentur für Kempten konkret machen',
+            paragraphs: [
+              'Bei Betrieben in Kempten gehen wir in dieser Reihenfolge vor:',
+            ],
+            list: [
+              'Startwert messen. Wo stehen Sie heute bei Google für Ihre wichtigsten Begriffe in Kempten, was zeigt die Search Console, wie viele Bewertungen haben die Betriebe vor Ihnen? Mit Datum.',
+              'Website prüfen und reparieren. Ist jede Seite bei Google, stimmen Titel und Überschriften, sieht Google Ihren Text? Siehe [Website-Optimierung](/leistungen/website-optimierung).',
+              'Eine Seite pro Leistung. Wer „Zahnreinigung Kempten“ sucht, landet auf Ihrer Seite zur Zahnreinigung, nicht auf der Startseite. Jede mit Kempten in Titel und Überschrift.',
+              'Google-Unternehmensprofil ausbauen. Passende Kategorien, alle Leistungen mit Beschreibung, echte Fotos, Beiträge. Siehe [Google-Unternehmensprofil](/leistungen/google-unternehmensprofil).',
+              'Verzeichnisse angleichen. Name, Adresse und Telefonnummer überall gleich, bei Bing, Apple, Gelbe Seiten und den Verzeichnissen, die bei Suchen in Kempten oben stehen.',
+              'Bewertungen. Ein einfacher Ablauf, wie Sie jeden zufriedenen Kunden um eine ehrliche Bewertung bitten.',
+              'Nachmessen. Jeden Monat ein Bericht auf einer Seite: Startwert gegen heute.',
+            ],
+          },
+          {
+            h2: 'Gefunden werden, auch von Googles KI',
+            paragraphs: [
+              'Immer mehr Suchen beantwortet Google mit einer KI-Übersicht ganz oben. Welche Betriebe dort genannt werden, hängt an denselben Grundlagen: ein vollständiges Profil, überall dieselben Angaben und eine Website, die die Fragen Ihrer Kunden beantwortet.',
+              'Bei unserem eigenen Betrieb hat die KI-Übersicht von Google im November 2026 bei der Suche „seo agentur kaufbeuren“ Valbrix Digital als erste von vier Agenturen genannt. Das ist ein Zusammenhang, kein Beweis. Was wir dafür gemacht haben, steht auf der Seite [SEO-Agentur Kaufbeuren in der Google-KI](/seo-agentur-kaufbeuren-google-ki).',
+            ],
+          },
+          {
+            h2: 'Wie lange SEO in Kempten dauert',
+            paragraphs: [
+              'Die ersten Reparaturen an Website und Profil sind oft in wenigen Tagen erledigt. Bis Google sie übernimmt und sich Ihre Position bewegt, vergehen meist Wochen bis Monate. In Kempten, mit mehr Konkurrenz, eher etwas länger als in einer kleineren Stadt.',
+              'Wer schneller Anfragen braucht, startet parallel mit [Google Ads](/leistungen/google-ads). Anzeigen bringen Anfragen in Tagen, SEO baut die Sichtbarkeit auf, die bleibt.',
+            ],
+          },
+          {
+            h2: 'SEO-Agentur oder Werbeagentur in Kempten?',
+            paragraphs: [
+              'Auf dieser Seite geht es nur um SEO, also darum, bei Google gefunden zu werden, ohne für jeden Klick zu zahlen. Wenn Sie in Kempten mehr brauchen, etwa Anzeigen, Social Media oder eine neue Website, finden Sie alles auf der Seite [Werbeagentur Kempten](/werbeagentur-kempten).',
+              'Wie wir SEO allgemein angehen, steht ausführlich bei [SEO-Optimierung](/leistungen/seo-optimization).',
+            ],
+          },
+          {
+            h2: 'Was SEO in Kempten kostet',
+            paragraphs: [
+              'Das hängt davon ab, wie viel an Ihrer Website zu tun ist und wie stark die Konkurrenz in Ihrer Branche in Kempten ist. Nach dem kostenlosen Gespräch bekommen Sie einen festen Preis, monatlich kündbar.',
+            ],
+          },
+        ],
+        faqTitle: 'Fragen zu SEO in Kempten',
+        faq: [
+          {
+            question: 'Warum eine SEO-Agentur aus Kaufbeuren für meinen Betrieb in Kempten?',
+            answer: 'Für Ihr Ranking ist es egal, wo die Agentur sitzt. Google bewertet Ihren Betrieb, Ihren Standort und Ihre Website. Wichtig ist, dass jemand die Arbeit macht, der die Region kennt und für ein Treffen schnell in Kempten ist.',
+          },
+          {
+            question: 'Was kostet eine SEO-Agentur in Kempten im Monat?',
+            answer: 'Das hängt von Ihrer Website und Ihrer Konkurrenz ab. Bei uns bekommen Sie nach dem kostenlosen Gespräch einen festen Monatspreis, monatlich kündbar, ohne lange Bindung.',
+          },
+          {
+            question: 'Kann ich in Kempten auf die ersten drei Plätze der Google-Karte kommen?',
+            answer: 'Ja, wenn Profil, Website und Bewertungen stimmen und Ihr Betrieb nah genug an den Suchenden liegt. Wie schnell, hängt stark von Ihrer Branche ab. Das sagen wir Ihnen nach einem Blick auf die Betriebe, die heute oben stehen.',
+          },
+          {
+            question: 'Gilt die Geld-zurück-Garantie auch in Kempten?',
+            answer: 'Ja. Sie gilt für ein Haupt-Keyword, das wir vorher schriftlich festlegen, gemessen auf der Karte an Ihrem Standort. Alle Bedingungen stehen in den [FAQ](/faq).',
+          },
+          {
+            question: 'Kommen Sie für Termine nach Kempten?',
+            answer: 'Ja, nach Absprache. Das erste Gespräch läuft per Video oder Telefon, die laufende Arbeit remote.',
+          },
+          {
+            question: 'Arbeiten Sie auch für Betriebe im Oberallgäu?',
+            answer: 'Ja. Wir betreuen Betriebe in Kempten, im Oberallgäu und im ganzen [Ostallgäu](/einsatzgebiete). Für SEO spielt es keine Rolle, ob Sie in der Stadt oder auf dem Land sitzen. Die Suchbegriffe ändern sich, die Arbeit bleibt dieselbe.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BESTE Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics in Ihrer Nähe | Valbrix Digital',
@@ -2168,7 +2274,7 @@ export default {
             ],
             list: [
               'Google-Unternehmensprofil in Ordnung bringen. Richtige Kategorie, echte Fotos, Leistungen, Öffnungszeiten und ein fester Ablauf für neue Bewertungen. In Kempten ist das der wichtigste Hebel für die Karte.',
-              'Eine Seite pro Leistung, mit Kempten im Titel und in der Überschrift. Mehr dazu bei [SEO-Optimierung](/leistungen/seo-optimization).',
+              'Eine Seite pro Leistung, mit Kempten im Titel und in der Überschrift. Mehr dazu bei [SEO in Kempten](/leistungen/seo-agentur-kempten).',
               '[Google Ads](/leistungen/google-ads) für Kempten und Umgebung, wenn Sie Anfragen schneller brauchen, als SEO wirken kann.',
               '[Meta Ads](/leistungen/meta-ads) auf Facebook und Instagram, zum Beispiel für Gastronomie, Handel und Aktionen rund um die Allgäuer Festwoche.',
               'Ein Bericht pro Monat, der Anfragen zählt, nicht nur Besucher.',

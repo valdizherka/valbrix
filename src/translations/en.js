@@ -1803,6 +1803,112 @@ export default {
           },
         ],
       },
+      'seo-agentur-kempten': {
+        title: 'SEO in Kempten',
+        seoTitle: 'BEST SEO Agency Kempten | Search Engine Optimisation, Local SEO & Google Maps Near You | More Enquiries for Businesses in the Allgäu | Valbrix Digital',
+        h1: 'SEO Agency Kempten',
+        areaMention: 'We offer this service to businesses in [Kempten](/werbeagentur-kempten), the Oberallgäu and the whole [Ostallgäu](/einsatzgebiete), from our base in [Kaufbeuren](/marketing-agentur-kaufbeuren).',
+        metaDescription: 'SEO agency for Kempten: search engine optimisation and local SEO, so your business gets found on Google and on the map. Free strategy call.',
+        intro: 'We do SEO for businesses in Kempten. We\'re based in nearby Kaufbeuren. We make sure your business gets found when someone in Kempten or the surrounding area searches for your service. In regular Google search and on the map.',
+        includes: [
+          'Review of your website and Google profile, with a dated baseline',
+          'A separate page per service, with Kempten in title and heading',
+          'Google Business Profile, directories and reviews',
+          'One report a month: where you stand and what moved',
+        ],
+        whyItMatters: 'Kempten is the largest town in the Allgäu. For almost every service there are more providers here than in the smaller towns around, and they all want the top three spots on the Google map. If you\'re not there, you don\'t get the call.',
+        sections: [
+          {
+            h2: 'SEO in Kempten: the centre for the whole Allgäu',
+            paragraphs: [
+              'Kempten has about 67,600 inhabitants and is the centre of a region with around 480,000 people. Anyone in the Allgäu looking for a specialist doctor, a specialist garage or a bigger shop often searches in Kempten straight away. Add almost 6,000 students at Kempten University of Applied Sciences who are new in town and google a lot.',
+              'For your SEO that means: your customers don\'t only come from the town. They search from Immenstadt, Sonthofen or Kaufbeuren for "Kempten" plus your service. Your website and Google profile must say clearly what you do and that you\'re in Kempten.',
+            ],
+          },
+          {
+            h2: 'What\'s different on Google in Kempten',
+            paragraphs: [
+              'The rules are the same everywhere: Google sorts the map by how well a business fits the search, how close it is and how well known it is. In a bigger town like Kempten, though, two things weigh more.',
+            ],
+            list: [
+              'More competition per search term. "Hairdresser Kempten" or "tax advisor Kempten" has more providers than in Kaufbeuren. A half-filled profile isn\'t enough here.',
+              'Distance plays a bigger role. The town is bigger, your customers search from different parts of it. If you\'re not right around the corner, you have to be all the better on relevance and reviews.',
+            ],
+            after: [
+              'The good news: many businesses in Kempten filled in their profile once and never looked at it again. Whoever lists all their services, has a page per service and collects reviews regularly stands out clearly.',
+            ],
+          },
+          {
+            h2: 'What we do as an SEO agency for Kempten',
+            paragraphs: [
+              'For businesses in Kempten we go in this order:',
+            ],
+            list: [
+              'Measure the baseline. Where do you stand on Google today for your key terms in Kempten, what does Search Console show, how many reviews do the businesses ahead of you have? With dates.',
+              'Check and fix the website. Is every page on Google, are titles and headings right, does Google see your text? See [Website Optimisation](/leistungen/website-optimierung).',
+              'A page per service. Someone searching "teeth cleaning Kempten" lands on your teeth cleaning page, not the homepage. Each with Kempten in title and heading.',
+              'Build out the Google Business Profile. Fitting categories, every service with a description, real photos, posts. See [Google Business Profile](/leistungen/google-unternehmensprofil).',
+              'Align directories. Name, address and phone number the same everywhere, on Bing, Apple, Gelbe Seiten and the directories that rank for searches in Kempten.',
+              'Reviews. A simple routine for asking every happy customer for an honest review.',
+              'Measure again. A one-page report every month: baseline against today.',
+            ],
+          },
+          {
+            h2: 'Getting found, by Google\'s AI too',
+            paragraphs: [
+              'More and more searches are answered by Google with an AI overview at the top. Which businesses are named there depends on the same basics: a complete profile, the same details everywhere and a website that answers your customers\' questions.',
+              'For our own business, Google\'s AI Overview named Valbrix Digital first of four agencies for the search "seo agentur kaufbeuren" in November 2026. That\'s a correlation, not proof. What we did is on the page [SEO agency Kaufbeuren in Google\'s AI](/seo-agentur-kaufbeuren-google-ki).',
+            ],
+          },
+          {
+            h2: 'How long SEO in Kempten takes',
+            paragraphs: [
+              'The first fixes to website and profile are often done in a few days. Until Google picks them up and your position moves usually takes weeks to months. In Kempten, with more competition, rather a bit longer than in a smaller town.',
+              'If you need enquiries faster, start [Google Ads](/leistungen/google-ads) alongside. Ads bring enquiries in days, SEO builds the visibility that lasts.',
+            ],
+          },
+          {
+            h2: 'SEO agency or advertising agency in Kempten?',
+            paragraphs: [
+              'This page is only about SEO, meaning getting found on Google without paying for every click. If you need more in Kempten, such as ads, social media or a new website, you\'ll find it all on the [Advertising Agency Kempten](/werbeagentur-kempten) page.',
+              'How we approach SEO in general is described in detail under [SEO Optimization](/leistungen/seo-optimization).',
+            ],
+          },
+          {
+            h2: 'What SEO in Kempten costs',
+            paragraphs: [
+              'It depends on how much work your website needs and how strong the competition in your trade is in Kempten. After the free call you get a fixed price, cancellable monthly.',
+            ],
+          },
+        ],
+        faqTitle: 'Questions about SEO in Kempten',
+        faq: [
+          {
+            question: 'Why an SEO agency from Kaufbeuren for my business in Kempten?',
+            answer: 'For your ranking it doesn\'t matter where the agency is based. Google assesses your business, your location and your website. What matters is that someone does the work who knows the region and can be in Kempten quickly for a meeting.',
+          },
+          {
+            question: 'What does an SEO agency in Kempten cost per month?',
+            answer: 'It depends on your website and your competition. With us you get a fixed monthly price after the free call, cancellable monthly, no long contract.',
+          },
+          {
+            question: 'Can I get into the top three on the Google map in Kempten?',
+            answer: 'Yes, if profile, website and reviews are right and your business is close enough to the searcher. How fast depends heavily on your trade. We tell you after a look at the businesses at the top today.',
+          },
+          {
+            question: 'Does the money-back guarantee apply in Kempten too?',
+            answer: 'Yes. It applies to one main keyword we agree in writing beforehand, measured on the map at your location. All conditions are in the [FAQ](/faq).',
+          },
+          {
+            question: 'Do you come to Kempten for meetings?',
+            answer: 'Yes, by arrangement. The first call is by video or phone, the ongoing work remote.',
+          },
+          {
+            question: 'Do you also work for businesses in the Oberallgäu?',
+            answer: 'Yes. We work with businesses in Kempten, the Oberallgäu and the whole [Ostallgäu](/einsatzgebiete). For SEO it makes no difference whether you\'re in town or in the countryside. The search terms change, the work stays the same.',
+          },
+        ],
+      },
       'analytics-reporting': {
         title: 'Analytics & Reporting',
         seoTitle: 'BEST Analytics & Reporting Kaufbeuren | Tracking, Dashboards & Google Analytics Near You | Valbrix Digital',
@@ -2166,7 +2272,7 @@ export default {
             ],
             list: [
               'Get the Google Business Profile right. The right category, real photos, services, opening hours and a fixed routine for new reviews. In Kempten this is the biggest lever for the map.',
-              'One page per service, with Kempten in the title and heading. More under [SEO](/leistungen/seo-optimization).',
+              'One page per service, with Kempten in the title and heading. More under [SEO in Kempten](/leistungen/seo-agentur-kempten).',
               '[Google Ads](/leistungen/google-ads) for Kempten and the area, when you need enquiries faster than SEO can deliver.',
               '[Meta Ads](/leistungen/meta-ads) on Facebook and Instagram, for example for restaurants, shops and promotions around the Allgäuer Festwoche.',
               'One report a month that counts enquiries, not just visitors.',
