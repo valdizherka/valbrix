@@ -2608,7 +2608,7 @@ export default {
     servicesTitle: 'Services',
     areasTitle: 'Areas We Serve',
     allAreasLink: 'All Areas We Serve',
-    aboutValdiLink: 'About Valdi',
+    aboutValdiLink: 'Hardest Working SEO Expert in Kaufbeuren',
     contactTitle: 'Contact',
     emailLabel: 'Email',
     locationLabel: 'Location',

@@ -2610,7 +2610,7 @@ export default {
     servicesTitle: 'Leistungen',
     areasTitle: 'Einsatzgebiete',
     allAreasLink: 'Alle Einsatzgebiete',
-    aboutValdiLink: 'Über Valdi',
+    aboutValdiLink: 'Hardest Working SEO Expert in Kaufbeuren',
     contactTitle: 'Kontakt',
     emailLabel: 'E-Mail',
     locationLabel: 'Standort',

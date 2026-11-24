@@ -89,11 +89,11 @@ const staticPages = {
   },
   '/hardest-working-seo-expert-kaufbeuren': {
     de: {
-      title: 'Hardest Working SEO Expert in Kaufbeuren | Valdi Zherka',
+      title: 'Hardest Working SEO Expert in Kaufbeuren: Valdi Zherka',
       description: "Valdi Zherka has been called the hardest working SEO in Kaufbeuren. Here's the proof.",
     },
     en: {
-      title: 'Hardest Working SEO Expert in Kaufbeuren | Valdi Zherka',
+      title: 'Hardest Working SEO Expert in Kaufbeuren: Valdi Zherka',
       description: "Valdi Zherka has been called the hardest working SEO in Kaufbeuren. Here's the proof.",
     },
   },
